@@ -46,8 +46,7 @@
           </p>
           <p>
             The ontology also includes a <span class="keyword-highlight">pose correction layer</span> for the Base Surya Namaskar
-            followed at IIT BHU. This layer models body parts, posture rules, pose
-            constraints, possible errors, and correction instructions.
+            followed at IIT BHU. This layer models body parts, breathing patterns, safety notes, pose errors, and correction instructions.
           </p>
         </div>
         <img src="images/sn-ontology-view.png" alt="Ontology Visualization" class="expandable-img hero-visual" style="background: #ffffff; width: 100%; border-radius: var(--radius-sm); border: 1px solid #d8e2ee; margin-top: 24px; cursor: pointer;">
@@ -76,12 +75,8 @@
             <p>Represents a body part involved in a pose.</p>
           </div>
           <div class="ontology-card border-blue">
-            <h4>PostureRule</h4>
-            <p>Represents an alignment or posture rule for a pose.</p>
-          </div>
-          <div class="ontology-card border-blue">
-            <h4>PoseConstraint</h4>
-            <p>Represents a pose-specific constraint.</p>
+            <h4>BreathingPattern</h4>
+            <p>Represents the breathing pattern associated with a pose.</p>
           </div>
           <div class="ontology-card border-blue">
             <h4>PoseError</h4>
@@ -95,46 +90,73 @@
 
         <h3>Object Properties</h3>
         <div class="cards-grid">
+
           <div class="ontology-card border-green">
             <h4>hasAsana</h4>
             <p>Links a pose occurrence to the asana performed.</p>
           </div>
+
           <div class="ontology-card border-green">
             <h4>belongsToVariant</h4>
             <p>Links a pose to its Surya Namaskar variant.</p>
           </div>
+
           <div class="ontology-card border-green">
-            <h4>hasNextPose / hasPreviousPose</h4>
-            <p>Links sequential poses to determine ordering.</p>
+            <h4>hasNextPose</h4>
+            <p>Links a pose to the next pose in the sequence.</p>
           </div>
+
           <div class="ontology-card border-green">
-            <h4>repeatsPose / hasInversePose</h4>
-            <p>Links identical or structurally opposite poses respectively.</p>
+            <h4>hasPreviousPose</h4>
+            <p>Links a pose to the previous pose in the sequence.</p>
           </div>
+
+          <div class="ontology-card border-green">
+            <h4>repeatsPose</h4>
+            <p>Links poses that are repeated within a sequence.</p>
+          </div>
+
+          <div class="ontology-card border-green">
+            <h4>hasInversePose</h4>
+            <p>Links poses that are inverse to each other.</p>
+          </div>
+
           <div class="ontology-card border-green">
             <h4>sameAsanaAs</h4>
             <p>Links equivalent or normalized asana identities.</p>
           </div>
+
           <div class="ontology-card border-green">
             <h4>involvesBodyPart</h4>
-            <p>Links a pose to the specific body parts involved.</p>
+            <p>Links a pose to the body parts involved.</p>
           </div>
+
           <div class="ontology-card border-green">
-            <h4>hasRule / hasConstraint</h4>
-            <p>Links poses to explicit technical & postural rules.</p>
+            <h4>hasBreathingPattern</h4>
+            <p>Links a pose to its associated breathing pattern.</p>
+          </div>
+
+          <div class="ontology-card border-green">
+            <h4>hasPossibleError</h4>
+            <p>Links a pose to possible performance errors.</p>
+          </div>
+
+          <div class="ontology-card border-green">
+            <h4>hasCorrection</h4>
+            <p>Links a pose error to its correction instruction.</p>
           </div>
         </div>
-
         <h3>Datatype Properties</h3>
         <div class="cards-grid">
           <div class="ontology-card border-orange">
-            <h4>Attributes</h4>
+            <h4>Pose Attributes</h4>
             <p>poseNumber, hasMantra, hasChakra, hasSupportType, hasLaterality</p>
           </div>
-          <div class="ontology-card border-orange">
-            <h4>Descriptions</h4>
-            <p>ruleDescription, constraintDescription, errorDescription, correctionText</p>
-          </div>
+
+        <div class="ontology-card border-orange">
+          <h4>Error & Correction Descriptions</h4>
+          <p>errorDescription, correctionText, hasSafetyNote</p>
+        </div>
         </div>
       </section>
 
@@ -189,7 +211,7 @@
         <div class="glass-panel variant-panel" style="padding: 24px;">
           <h3 style="margin-top: 0;">Variants Represented</h3>
           <div class="variant-tags">
-            <span class="tag">BaseSN_UsedatIITBHU</span>
+            <span class="tag">BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</span>
             <span class="tag">Variant01_KrishnamacharyaVinyasa</span>
             <span class="tag">Variant02_BiharSchoolOfYoga</span>
             <span class="tag">Variant03_SwamiVivekanandaKendra</span>
@@ -197,41 +219,52 @@
         </div>
       </section>
 
-      <!-- USE CASES -->
-      <section id="usecases" class="tab-section">
-        <h2>Use Cases</h2>
-        
-        <div class="usecase-grid">
-          <div class="usecase-card">
-            <div class="usecase-icon">⚖️</div>
-            <p>Compare <span class="keyword-highlight">Surya Namaskar variants</span> across traditions.</p>
-          </div>
-          <div class="usecase-card">
-            <div class="usecase-icon">🔁</div>
-            <p>Identify repeated poses and inverse pose relationships.</p>
-          </div>
-          <div class="usecase-card">
-            <div class="usecase-icon">🔢</div>
-            <p>Retrieve the ordered sequence of poses in <span class="keyword-highlight">Base Surya Namaskar</span>.</p>
-          </div>
-          <div class="usecase-card">
-            <div class="usecase-icon">🧘</div>
-            <p>Query poses based on standing posture and specific support types.</p>
-          </div>
-          <div class="usecase-card">
-            <div class="usecase-icon">📿</div>
-            <p>Retrieve mantra and chakra metadata associated with <span class="keyword-highlight">Base SN poses</span>.</p>
-          </div>
-          <div class="usecase-card">
-            <div class="usecase-icon">🔗</div>
-            <p>Identify primary asanas shared across multiple variants.</p>
-          </div>
-          <div class="usecase-card">
-            <div class="usecase-icon">🔍</div>
-            <p>Retrieve posture rules, constraints, common errors, and physical corrections.</p>
-          </div>
-        </div>
-      </section>
+     <!-- USE CASES -->
+<section id="usecases" class="tab-section">
+  <h2>Use Cases</h2>
+
+  <div class="usecase-grid">
+    <div class="usecase-card">
+      <div class="usecase-icon">⚖️</div>
+      <p>Compare <span class="keyword-highlight">Surya Namaskar variants</span> across traditions.</p>
+    </div>
+
+    <div class="usecase-card">
+      <div class="usecase-icon">🔁</div>
+      <p>Identify repeated poses and inverse pose relationships.</p>
+    </div>
+
+    <div class="usecase-card">
+      <div class="usecase-icon">🔢</div>
+      <p>Retrieve the ordered sequence of poses in <span class="keyword-highlight">Base Surya Namaskar</span>.</p>
+    </div>
+
+    <div class="usecase-card">
+      <div class="usecase-icon">🧘</div>
+      <p>Query poses based on standing posture and support types.</p>
+    </div>
+
+    <div class="usecase-card">
+      <div class="usecase-icon">📿</div>
+      <p>Retrieve mantra and chakra metadata for <span class="keyword-highlight">Base SN poses</span>.</p>
+    </div>
+
+    <div class="usecase-card">
+      <div class="usecase-icon">🔗</div>
+      <p>Identify primary asanas shared across multiple variants.</p>
+    </div>
+
+    <div class="usecase-card">
+      <div class="usecase-icon">🔍</div>
+      <p>Retrieve pose errors, body parts, breathing patterns, safety notes, and corrections.</p>
+    </div>
+
+    <div class="usecase-card">
+      <div class="usecase-icon">📊</div>
+      <p>Support competency-question based evaluation using SPARQL queries.</p>
+    </div>
+  </div>
+</section>
 
       <!-- COMPETENCY QUESTIONS & SPARQL QUERIES -->
       <section id="sparql" class="tab-section">
