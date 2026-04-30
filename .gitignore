@@ -1,0 +1,9 @@
+js/education-local-config.js
+.DS_Store
+.playwright-mcp/
+playwright-report/
+test-results/
+/education-*.png
+/q8-*.png
+/workspace-*.png
+/sn-info-chatbot/gemini-api-key.png

@@ -1,0 +1,482 @@
+file,subject,property,value,language
+core.owl,core:AdhoMukhaSvanasana,rdfs:label,Adho Mukha Svanasana,en
+core.owl,core:AdhoMukhaSvanasana,rdfs:label,अधोमुख श्वानासन,hi
+core.owl,core:AdhoMukhaSvanasana,rdfs:label,అధో ముఖ శ్వానాసనం,te
+core.owl,core:Ankle,rdfs:label,Ankle,en
+core.owl,core:Ankle,rdfs:label,टखना,hi
+core.owl,core:Ardhachakrasana,rdfs:label,Ardhachakrasana,en
+core.owl,core:Ardhachakrasana,rdfs:label,अर्ध चक्रासन,hi
+core.owl,core:Ardhachakrasana,rdfs:label,అర్ధ చక్రాసనం,te
+core.owl,core:Ardhahalasana,rdfs:label,Ardhahalasana,en
+core.owl,core:Ardhahalasana,rdfs:label,अर्ध हलासन,hi
+core.owl,core:Ardhahalasana,rdfs:label,అర్ధ హలాసనం,te
+core.owl,core:Ardhaustrasana,rdfs:label,Ardhaustrasana,en
+core.owl,core:Ardhaustrasana,rdfs:label,अर्ध उष्ट्रासन,hi
+core.owl,core:Ardhaustrasana,rdfs:label,అర్ధ ఉష్ట్రాసనం,te
+core.owl,core:Arms,rdfs:label,Arms,en
+core.owl,core:Arms,rdfs:label,बाहें,hi
+core.owl,core:Asana,rdfs:label,Asana,en
+core.owl,core:Asana,rdfs:label,आसन,hi
+core.owl,core:Asana,rdfs:label,ఆసనం,te
+core.owl,core:AshtangaNamaskara,rdfs:label,Ashtanga Namaskara,en
+core.owl,core:AshtangaNamaskara,rdfs:label,अष्टांग नमस्कार,hi
+core.owl,core:AshtangaNamaskara,rdfs:label,అష్టాంగ నమస్కారం,te
+core.owl,core:AshwaSanchalanasana,rdfs:label,Ashwa Sanchalanasana,en
+core.owl,core:AshwaSanchalanasana,rdfs:label,अश्व संचलनासन,hi
+core.owl,core:AshwaSanchalanasana,rdfs:label,అశ్వ సంచలనాసనం,te
+core.owl,core:Bhujangasana,rdfs:label,Bhujangasana,en
+core.owl,core:Bhujangasana,rdfs:label,भुजंगासन,hi
+core.owl,core:Bhujangasana,rdfs:label,భుజంగాసనం,te
+core.owl,core:BodyPart,rdfs:label,Body Part,en
+core.owl,core:BodyPart,rdfs:label,शरीर का अंग,hi
+core.owl,core:ChaturangaDandasana,rdfs:label,Chaturanga Dandasana,en
+core.owl,core:ChaturangaDandasana,rdfs:label,चतुरंग दंडासन,hi
+core.owl,core:ChaturangaDandasana,rdfs:label,చతురంగ దండాసనం,te
+core.owl,core:Chest,rdfs:label,Chest,en
+core.owl,core:Chest,rdfs:label,छाती,hi
+core.owl,core:Chin,rdfs:label,Chin,en
+core.owl,core:Chin,rdfs:label,ठोड़ी,hi
+core.owl,core:Core,rdfs:label,Core,en
+core.owl,core:Core,rdfs:label,कोर,hi
+core.owl,core:CorrectionInstruction,rdfs:label,Correction Instruction,en
+core.owl,core:CorrectionInstruction,rdfs:label,सुधार निर्देश,hi
+core.owl,core:DandaSamarpana,rdfs:label,Danda Samarpana,en
+core.owl,core:DandaSamarpana,rdfs:label,दंड समर्पण,hi
+core.owl,core:DandaSamarpana,rdfs:label,దండ సమర్పణ,te
+core.owl,core:Elbow,rdfs:label,Elbow,en
+core.owl,core:Elbow,rdfs:label,कोहनी,hi
+core.owl,core:Feet,rdfs:label,Feet,en
+core.owl,core:Feet,rdfs:label,पैर,hi
+core.owl,core:Hands,rdfs:label,Hands,en
+core.owl,core:Hands,rdfs:label,हाथ,hi
+core.owl,core:HastaUtthanasana,rdfs:label,Hasta Utthanasana,en
+core.owl,core:HastaUtthanasana,rdfs:label,हस्त उत्तानासन,hi
+core.owl,core:HastaUtthanasana,rdfs:label,హస్త ఉత్తానాసనం,te
+core.owl,core:Hip,rdfs:label,Hip,en
+core.owl,core:Hip,rdfs:label,श्रोणि,hi
+core.owl,core:Knee,rdfs:label,Knee,en
+core.owl,core:Knee,rdfs:label,घुटना,hi
+core.owl,core:Legs,rdfs:label,Legs,en
+core.owl,core:Legs,rdfs:label,टांगें,hi
+core.owl,core:Makarasana,rdfs:label,Makarasana,en
+core.owl,core:Makarasana,rdfs:label,मकरासन,hi
+core.owl,core:Makarasana,rdfs:label,మకరాసనం,te
+core.owl,core:Neck,rdfs:label,Neck,en
+core.owl,core:Neck,rdfs:label,गर्दन,hi
+core.owl,core:Padahastasana,rdfs:label,Padahastasana,en
+core.owl,core:Padahastasana,rdfs:label,पादहस्तासन,hi
+core.owl,core:Padahastasana,rdfs:label,పాదహస్తాసనం,te
+core.owl,core:Palms,rdfs:label,Palms,en
+core.owl,core:Palms,rdfs:label,हथेलियाँ,hi
+core.owl,core:Parvatasana,rdfs:label,Parvatasana,en
+core.owl,core:Parvatasana,rdfs:label,पर्वतासन,hi
+core.owl,core:Parvatasana,rdfs:label,పర్వతాసనం,te
+core.owl,core:Pavanamuktasana,rdfs:label,Pavanamuktasana,en
+core.owl,core:Pavanamuktasana,rdfs:label,पवनमुक्तासन,hi
+core.owl,core:Pavanamuktasana,rdfs:label,పవనముక్తాసనం,te
+core.owl,core:Phalakasana,rdfs:label,Phalakasana,en
+core.owl,core:Phalakasana,rdfs:label,फलकासन,hi
+core.owl,core:Phalakasana,rdfs:label,ఫలకాసనం,te
+core.owl,core:Pose,rdfs:label,Pose,en
+core.owl,core:Pose,rdfs:label,क्रमिक मुद्रा,hi
+core.owl,core:PoseError,rdfs:label,Pose Error,en
+core.owl,core:PoseError,rdfs:label,मुद्रा त्रुटि,hi
+core.owl,core:Pranamasana,rdfs:label,Pranamasana,en
+core.owl,core:Pranamasana,rdfs:label,प्रणामासन,hi
+core.owl,core:Pranamasana,rdfs:label,ప్రణామాసనం,te
+core.owl,core:Samasthiti,rdfs:label,Samasthiti,en
+core.owl,core:Samasthiti,rdfs:label,समस्थिति,hi
+core.owl,core:Samasthiti,rdfs:label,సమస్థితి,te
+core.owl,core:Setubandhasana,rdfs:label,Setubandhasana,en
+core.owl,core:Setubandhasana,rdfs:label,सेतुबंधासन,hi
+core.owl,core:Setubandhasana,rdfs:label,సేతు బంధాసనం,te
+core.owl,core:Shalabhasana,rdfs:label,Shalabhasana,en
+core.owl,core:Shalabhasana,rdfs:label,शलभासन,hi
+core.owl,core:Shalabhasana,rdfs:label,శలభాసనం,te
+core.owl,core:Shashankasana,rdfs:label,Shashankasana,en
+core.owl,core:Shashankasana,rdfs:label,शशांकासन,hi
+core.owl,core:Shashankasana,rdfs:label,శశాంకాసనం,te
+core.owl,core:ShashtangaNamaskara,rdfs:label,Shashtanga Namaskara,en
+core.owl,core:ShashtangaNamaskara,rdfs:label,षष्टांग नमस्कार,hi
+core.owl,core:ShashtangaNamaskara,rdfs:label,షష్టాంగ నమస్కారం,te
+core.owl,core:Shavasana,rdfs:label,Shavasana,en
+core.owl,core:Shavasana,rdfs:label,शवासन,hi
+core.owl,core:Shavasana,rdfs:label,శవాసనం,te
+core.owl,core:Shoulder,rdfs:label,Shoulder,en
+core.owl,core:Shoulder,rdfs:label,कंधा,hi
+core.owl,core:Spine,rdfs:label,Spine,en
+core.owl,core:Spine,rdfs:label,रीढ़,hi
+core.owl,core:Tadasana,rdfs:label,Tadasana,en
+core.owl,core:Tadasana,rdfs:label,ताड़ासन,hi
+core.owl,core:Tadasana,rdfs:label,తాడాసనం,te
+core.owl,core:UrdhwaMukhaSvanasana,rdfs:label,Urdhwa Mukha Svanasana,en
+core.owl,core:UrdhwaMukhaSvanasana,rdfs:label,ऊर्ध्वमुख श्वानासन,hi
+core.owl,core:UrdhwaMukhaSvanasana,rdfs:label,ఊర్ధ్వ ముఖ శ్వానాసనం,te
+core.owl,core:Ustrasana,rdfs:label,Ustrasana,en
+core.owl,core:Ustrasana,rdfs:label,उष्ट्रासन,hi
+core.owl,core:Ustrasana,rdfs:label,ఉష్ట్రాసనం,te
+core.owl,core:Utkatasana,rdfs:label,Utkatasana,en
+core.owl,core:Utkatasana,rdfs:label,उत्कटासन,hi
+core.owl,core:Utkatasana,rdfs:label,ఉత్కటాసనం,te
+core.owl,core:Uttanamandukasana,rdfs:label,Uttanamandukasana,en
+core.owl,core:Uttanamandukasana,rdfs:label,उत्तान मंडूकासन,hi
+core.owl,core:Uttanamandukasana,rdfs:label,ఉత్తాన మండూకాసనం,te
+core.owl,core:Uttanapadasana,rdfs:label,Uttanapadasana,en
+core.owl,core:Uttanapadasana,rdfs:label,उत्तानपादासन,hi
+core.owl,core:Uttanapadasana,rdfs:label,ఉత్తాన పాదాసనం,te
+core.owl,core:Uttanasana,rdfs:label,Uttanasana,en
+core.owl,core:Uttanasana,rdfs:label,उत्तानासन,hi
+core.owl,core:Uttanasana,rdfs:label,ఉత్తానాసనం,te
+core.owl,core:Vajrasana,rdfs:label,Vajrasana,en
+core.owl,core:Vajrasana,rdfs:label,वज्रासन,hi
+core.owl,core:Vajrasana,rdfs:label,వజ్రాసనం,te
+core.owl,core:Vakrasana,rdfs:label,Vakrasana,en
+core.owl,core:Vakrasana,rdfs:label,वक्रासन,hi
+core.owl,core:Vakrasana,rdfs:label,వక్రాసనం,te
+core.owl,core:Variant,rdfs:label,Variant,en
+core.owl,core:Variant,rdfs:label,संस्करण,hi
+core.owl,core:Vrksasana,rdfs:label,Vrksasana,en
+core.owl,core:Vrksasana,rdfs:label,वृक्षासन,hi
+core.owl,core:Vrksasana,rdfs:label,వృక్షాసనం,te
+core.owl,core:Wrist,rdfs:label,Wrist,en
+core.owl,core:Wrist,rdfs:label,कलाई,hi
+core.owl,core:belongsToVariant,rdfs:label,belongs to variant,en
+core.owl,core:belongsToVariant,rdfs:label,प्रकार से संबंधित,hi
+core.owl,core:correctionText,rdfs:label,correction text,en
+core.owl,core:correctionText,rdfs:label,सुधार पाठ,hi
+core.owl,core:errorDescription,rdfs:label,error description,en
+core.owl,core:errorDescription,rdfs:label,त्रुटि विवरण,hi
+core.owl,core:hasAlternateName,rdfs:label,has alternate name,en
+core.owl,core:hasAlternateName,rdfs:label,वैकल्पिक नाम है,hi
+core.owl,core:hasAsana,rdfs:label,has asana,en
+core.owl,core:hasAsana,rdfs:label,आसन है,hi
+core.owl,core:hasCYPPage,rdfs:label,has CYP page,en
+core.owl,core:hasCYPPage,rdfs:label,सीवाईपी पृष्ठ संख्या,hi
+core.owl,core:hasChakra,rdfs:label,has chakra,en
+core.owl,core:hasChakra,rdfs:label,चक्र है,hi
+core.owl,core:hasCorrection,rdfs:label,has correction,en
+core.owl,core:hasCorrection,rdfs:label,सुधार है,hi
+core.owl,core:hasInversePose,rdfs:label,has inverse pose,en
+core.owl,core:hasInversePose,rdfs:label,विपरीत मुद्रा है,hi
+core.owl,core:hasLaterality,rdfs:label,has laterality,en
+core.owl,core:hasLaterality,rdfs:label,पक्षीयता है,hi
+core.owl,core:hasMantra,rdfs:label,has mantra,en
+core.owl,core:hasMantra,rdfs:label,मंत्र है,hi
+core.owl,core:hasNextPose,rdfs:label,has next pose,en
+core.owl,core:hasNextPose,rdfs:label,अगली मुद्रा है,hi
+core.owl,core:hasPossibleError,rdfs:label,has possible error,en
+core.owl,core:hasPossibleError,rdfs:label,संभावित त्रुटि है,hi
+core.owl,core:hasPreviousPose,rdfs:label,has previous pose,en
+core.owl,core:hasPreviousPose,rdfs:label,पिछली मुद्रा है,hi
+core.owl,core:hasSupportType,rdfs:label,has support type,en
+core.owl,core:hasSupportType,rdfs:label,आधार प्रकार है,hi
+core.owl,core:involvesBodyPart,rdfs:label,involves body part,en
+core.owl,core:involvesBodyPart,rdfs:label,शरीर का अंग शामिल करता है,hi
+core.owl,core:poseNumber,rdfs:label,pose number,en
+core.owl,core:poseNumber,rdfs:label,मुद्रा संख्या,hi
+core.owl,core:repeatsPose,rdfs:label,repeats pose,en
+core.owl,core:repeatsPose,rdfs:label,मुद्रा को दोहराता है,hi
+core.owl,core:sameAsanaAs,rdfs:label,same asana as,en
+core.owl,core:sameAsanaAs,rdfs:label,समान आसन है,hi
+core.owl,core:BreathingPattern,rdfs:label,Breathing Pattern,en
+core.owl,core:BreathingPattern,rdfs:label,श्वास पैटर्न,hi
+core.owl,core:BreathingPattern,rdfs:label,శ్వాస విధానం,te
+core.owl,core:Inhale,rdfs:label,Inhale,en
+core.owl,core:Inhale,rdfs:label,श्वास लें,hi
+core.owl,core:Inhale,rdfs:label,శ్వాస పీల్చండి,te
+core.owl,core:Exhale,rdfs:label,Exhale,en
+core.owl,core:Exhale,rdfs:label,श्वास छोड़ें,hi
+core.owl,core:Exhale,rdfs:label,శ్వాస వదలండి,te
+core.owl,core:Hold,rdfs:label,Hold,en
+core.owl,core:Hold,rdfs:label,श्वास रोकें,hi
+core.owl,core:Hold,rdfs:label,శ్వాస నిలుపుకోండి,te
+core.owl,core:hasBreathingPattern,rdfs:label,has breathing pattern,en
+core.owl,core:hasBreathingPattern,rdfs:label,श्वास पैटर्न है,hi
+core.owl,core:hasSafetyNote,rdfs:label,has safety note,en
+core.owl,core:hasSafetyNote,rdfs:label,सुरक्षा टिप्पणी है,hi
+core.owl,http://example.org/suryanamaskar/core,rdfs:label,Surya Namaskar Core Ontology,en
+core.owl,http://example.org/suryanamaskar/core,rdfs:label,सूर्य नमस्कार कोर ऑन्टोलॉजी,hi
+base-sn.owl,base:AlignFrontKneeInstruction,rdfs:label,AlignFrontKneeInstruction,en
+base-sn.owl,base:AlignFrontKneeInstruction,rdfs:label,सामने के घुटने को सही स्थिति में रखें,hi
+base-sn.owl,base:AlignPalmsAtChestInstruction,rdfs:label,AlignPalmsAtChestInstruction,en
+base-sn.owl,base:AlignPalmsAtChestInstruction,rdfs:label,हथेलियों को छाती के सामने सही रखें,hi
+base-sn.owl,base:ArmAndToeSupportConstraint,rdfs:label,ArmAndToeSupportConstraint,en
+base-sn.owl,base:ArmAndToeSupportConstraint,rdfs:label,हाथों और पैरों के सहारे शरीर को संभालने की बाध्यता,hi
+base-sn.owl,base:ArmsRaisedOverheadRule,rdfs:label,ArmsRaisedOverheadRule,en
+base-sn.owl,base:ArmsRaisedOverheadRule,rdfs:label,बाहों को सिर के ऊपर उठाकर रखें,hi
+base-sn.owl,base:BackExtensionWithPelvisGroundedConstraint,rdfs:label,BackExtensionWithPelvisGroundedConstraint,en
+base-sn.owl,base:BackExtensionWithPelvisGroundedConstraint,rdfs:label,निचले भाग को स्थिर रखते हुए ऊपर उठने की बाध्यता,hi
+base-sn.owl,base:BackLegExtendedRule,rdfs:label,BackLegExtendedRule,en
+base-sn.owl,base:BackLegExtendedRule,rdfs:label,पीछे का पैर सीधा रखें,hi
+base-sn.owl,base:BalanceWeightEvenlyInstruction,rdfs:label,BalanceWeightEvenlyInstruction,en
+base-sn.owl,base:BalanceWeightEvenlyInstruction,rdfs:label,शरीर का भार दोनों पैरों पर समान रखें,hi
+base-sn.owl,base:BaseSN_Pose01,rdfs:label,BaseSN_Pose01,en
+base-sn.owl,base:BaseSN_Pose01,rdfs:label,मुद्रा ०१,hi
+base-sn.owl,base:BaseSN_Pose02,rdfs:label,BaseSN_Pose02,en
+base-sn.owl,base:BaseSN_Pose02,rdfs:label,मुद्रा ०२,hi
+base-sn.owl,base:BaseSN_Pose03,rdfs:label,BaseSN_Pose03,en
+base-sn.owl,base:BaseSN_Pose03,rdfs:label,मुद्रा ०३,hi
+base-sn.owl,base:BaseSN_Pose04,rdfs:label,BaseSN_Pose04,en
+base-sn.owl,base:BaseSN_Pose04,rdfs:label,मुद्रा ०४,hi
+base-sn.owl,base:BaseSN_Pose05,rdfs:label,BaseSN_Pose05,en
+base-sn.owl,base:BaseSN_Pose05,rdfs:label,मुद्रा ०५,hi
+base-sn.owl,base:BaseSN_Pose06,rdfs:label,BaseSN_Pose06,en
+base-sn.owl,base:BaseSN_Pose06,rdfs:label,मुद्रा ०६,hi
+base-sn.owl,base:BaseSN_Pose07,rdfs:label,BaseSN_Pose07,en
+base-sn.owl,base:BaseSN_Pose07,rdfs:label,मुद्रा ०७,hi
+base-sn.owl,base:BaseSN_Pose08,rdfs:label,BaseSN_Pose08,en
+base-sn.owl,base:BaseSN_Pose08,rdfs:label,मुद्रा ०८,hi
+base-sn.owl,base:BaseSN_Pose09,rdfs:label,BaseSN_Pose09,en
+base-sn.owl,base:BaseSN_Pose09,rdfs:label,मुद्रा ०९,hi
+base-sn.owl,base:BaseSN_Pose10,rdfs:label,BaseSN_Pose10,en
+base-sn.owl,base:BaseSN_Pose10,rdfs:label,मुद्रा १०,hi
+base-sn.owl,base:BaseSN_Pose11,rdfs:label,BaseSN_Pose11,en
+base-sn.owl,base:BaseSN_Pose11,rdfs:label,मुद्रा ११,hi
+base-sn.owl,base:BaseSN_Pose12,rdfs:label,BaseSN_Pose12,en
+base-sn.owl,base:BaseSN_Pose12,rdfs:label,मुद्रा १२,hi
+base-sn.owl,base:BaseSN_SivanandaYogaVedantaCentre,rdfs:label,BaseSN_SivanandaYogaVedantaCentre,en
+base-sn.owl,base:BaseSN_SivanandaYogaVedantaCentre,rdfs:label,सूर्य नमस्कार (शिवानंद योग वेदांत केंद्र),hi
+base-sn.owl,base:BendFromHipsInstruction,rdfs:label,BendFromHipsInstruction,en
+base-sn.owl,base:BendFromHipsInstruction,rdfs:label,कमर से आगे की ओर झुकें,hi
+base-sn.owl,base:BentArmsError,rdfs:label,BentArmsError,en
+base-sn.owl,base:BentArmsError,rdfs:label,मुड़ी हुई बाहों की त्रुटि,hi
+base-sn.owl,base:BodyStraightLineRule,rdfs:label,BodyStraightLineRule,en
+base-sn.owl,base:BodyStraightLineRule,rdfs:label,शरीर को सीधी रेखा में रखें,hi
+base-sn.owl,base:CalmAlignmentRule,rdfs:label,CalmAlignmentRule,en
+base-sn.owl,base:CalmAlignmentRule,rdfs:label,शरीर को शांत और संतुलित रखें,hi
+base-sn.owl,base:CenterBodyInstruction,rdfs:label,CenterBodyInstruction,en
+base-sn.owl,base:CenterBodyInstruction,rdfs:label,शरीर को संतुलित करें,hi
+base-sn.owl,base:ChestLiftedRule,rdfs:label,ChestLiftedRule,en
+base-sn.owl,base:ChestLiftedRule,rdfs:label,छाती उठी हुई रखें,hi
+base-sn.owl,base:ChestNotLoweredError,rdfs:label,ChestNotLoweredError,en
+base-sn.owl,base:ChestNotLoweredError,rdfs:label,छाती को ठीक से नीचे न लाने की त्रुटि,hi
+base-sn.owl,base:ChestOpenRule,rdfs:label,ChestOpenRule,en
+base-sn.owl,base:ChestOpenRule,rdfs:label,छाती खुली रखें,hi
+base-sn.owl,base:CollapsedChestError,rdfs:label,CollapsedChestError,en
+base-sn.owl,base:CollapsedChestError,rdfs:label,धंसी हुई छाती की त्रुटि,hi
+base-sn.owl,base:CollapsedPostureError,rdfs:label,CollapsedPostureError,en
+base-sn.owl,base:CollapsedPostureError,rdfs:label,धंसी हुई शरीर मुद्रा की त्रुटि,hi
+base-sn.owl,base:CompressedLowerBackError,rdfs:label,CompressedLowerBackError,en
+base-sn.owl,base:CompressedLowerBackError,rdfs:label,दबी हुई निचली पीठ की त्रुटि,hi
+base-sn.owl,base:ControlledBackbendRule,rdfs:label,ControlledBackbendRule,en
+base-sn.owl,base:ControlledBackbendRule,rdfs:label,पीछे झुकना नियंत्रित रखें,hi
+base-sn.owl,base:ControlledLoweringRule,rdfs:label,ControlledLoweringRule,en
+base-sn.owl,base:ControlledLoweringRule,rdfs:label,शरीर को धीरे और नियंत्रित तरीके से नीचे लाएँ,hi
+base-sn.owl,base:CoreEngagedRule,rdfs:label,CoreEngagedRule,en
+base-sn.owl,base:CoreEngagedRule,rdfs:label,शरीर को भीतर से सक्रिय रखें,hi
+base-sn.owl,base:DistributeWeightEvenlyInstruction,rdfs:label,DistributeWeightEvenlyInstruction,en
+base-sn.owl,base:DistributeWeightEvenlyInstruction,rdfs:label,भार को समान रूप से फैलाएँ,hi
+base-sn.owl,base:EightPointContactRule,rdfs:label,EightPointContactRule,en
+base-sn.owl,base:EightPointContactRule,rdfs:label,शरीर के आठ बिंदुओं का संपर्क बनाए रखें,hi
+base-sn.owl,base:EightPointSupportConstraint,rdfs:label,EightPointSupportConstraint,en
+base-sn.owl,base:EightPointSupportConstraint,rdfs:label,शरीर के आठ बिंदुओं का सहारा लेने की बाध्यता,hi
+base-sn.owl,base:ElbowsControlledRule,rdfs:label,ElbowsControlledRule,en
+base-sn.owl,base:ElbowsControlledRule,rdfs:label,कोहनियों को नियंत्रित रखें,hi
+base-sn.owl,base:ElbowsFlaredError,rdfs:label,ElbowsFlaredError,en
+base-sn.owl,base:ElbowsFlaredError,rdfs:label,बाहर फैली हुई कोहनियों की त्रुटि,hi
+base-sn.owl,base:ElbowsWideError,rdfs:label,ElbowsWideError,en
+base-sn.owl,base:ElbowsWideError,rdfs:label,बहुत फैली हुई कोहनियों की त्रुटि,hi
+base-sn.owl,base:EngageCoreInstruction,rdfs:label,EngageCoreInstruction,en
+base-sn.owl,base:EngageCoreInstruction,rdfs:label,शरीर को भीतर से सक्रिय करें,hi
+base-sn.owl,base:ExcessiveKneeBendError,rdfs:label,ExcessiveKneeBendError,en
+base-sn.owl,base:ExcessiveKneeBendError,rdfs:label,घुटनों के अत्यधिक मुड़ने की त्रुटि,hi
+base-sn.owl,base:ExtendBackLegInstruction,rdfs:label,ExtendBackLegInstruction,en
+base-sn.owl,base:ExtendBackLegInstruction,rdfs:label,पीछे के पैर को पूरी तरह सीधा रखें,hi
+base-sn.owl,base:ForwardBendConstraint,rdfs:label,ForwardBendConstraint,en
+base-sn.owl,base:ForwardBendConstraint,rdfs:label,नियंत्रित रूप से आगे झुकने की बाध्यता,hi
+base-sn.owl,base:ForwardBendFromHipsRule,rdfs:label,ForwardBendFromHipsRule,en
+base-sn.owl,base:ForwardBendFromHipsRule,rdfs:label,कमर से आगे झुकें,hi
+base-sn.owl,base:FrontKneeAlignedRule,rdfs:label,FrontKneeAlignedRule,en
+base-sn.owl,base:FrontKneeAlignedRule,rdfs:label,सामने का घुटना सही स्थिति में रखें,hi
+base-sn.owl,base:GentleBackbendInstruction,rdfs:label,GentleBackbendInstruction,en
+base-sn.owl,base:GentleBackbendInstruction,rdfs:label,हल्का पीछे झुकें,hi
+base-sn.owl,base:HandsAndFeetSupportConstraint,rdfs:label,HandsAndFeetSupportConstraint,en
+base-sn.owl,base:HandsAndFeetSupportConstraint,rdfs:label,हाथों और पैरों से शरीर को सहारा देने की बाध्यता,hi
+base-sn.owl,base:HeadRelaxedRule,rdfs:label,HeadRelaxedRule,en
+base-sn.owl,base:HeadRelaxedRule,rdfs:label,सिर और गर्दन ढीले रखें,hi
+base-sn.owl,base:HipHingeConstraint,rdfs:label,HipHingeConstraint,en
+base-sn.owl,base:HipHingeConstraint,rdfs:label,कमर से झुकने की बाध्यता,hi
+base-sn.owl,base:HipsDroppedFullyError,rdfs:label,HipsDroppedFullyError,en
+base-sn.owl,base:HipsDroppedFullyError,rdfs:label,शरीर के मध्य भाग को पूरी तरह नीचे गिराने की त्रुटि,hi
+base-sn.owl,base:HipsRaisedRule,rdfs:label,HipsRaisedRule,en
+base-sn.owl,base:HipsRaisedRule,rdfs:label,शरीर को ऊपर उठाकर रखें,hi
+base-sn.owl,base:KeepArmsStraightInstruction,rdfs:label,KeepArmsStraightInstruction,en
+base-sn.owl,base:KeepArmsStraightInstruction,rdfs:label,बाहों को सीधा रखें,hi
+base-sn.owl,base:KeepBodyAlignedInstruction,rdfs:label,KeepBodyAlignedInstruction,en
+base-sn.owl,base:KeepBodyAlignedInstruction,rdfs:label,शरीर को सीध में रखें,hi
+base-sn.owl,base:KeepElbowsCloseInstruction,rdfs:label,KeepElbowsCloseInstruction,en
+base-sn.owl,base:KeepElbowsCloseInstruction,rdfs:label,कोहनियों को शरीर के पास रखें,hi
+base-sn.owl,base:KneeBeyondAnkleError,rdfs:label,KneeBeyondAnkleError,en
+base-sn.owl,base:KneeBeyondAnkleError,rdfs:label,घुटने के टखने से आगे जाने की त्रुटि,hi
+base-sn.owl,base:LengthenSpineInstruction,rdfs:label,LengthenSpineInstruction,en
+base-sn.owl,base:LengthenSpineInstruction,rdfs:label,रीढ़ को लंबा रखें,hi
+base-sn.owl,base:LiftChestForwardInstruction,rdfs:label,LiftChestForwardInstruction,en
+base-sn.owl,base:LiftChestForwardInstruction,rdfs:label,छाती को आगे उठाएँ,hi
+base-sn.owl,base:LiftChestForwardUpwardInstruction,rdfs:label,LiftChestForwardUpwardInstruction,en
+base-sn.owl,base:LiftChestForwardUpwardInstruction,rdfs:label,छाती को आगे और ऊपर उठाएँ,hi
+base-sn.owl,base:LiftChestInstruction,rdfs:label,LiftChestInstruction,en
+base-sn.owl,base:LiftChestInstruction,rdfs:label,छाती उठाएँ,hi
+base-sn.owl,base:LiftUpwardFirstInstruction,rdfs:label,LiftUpwardFirstInstruction,en
+base-sn.owl,base:LiftUpwardFirstInstruction,rdfs:label,"पहले शरीर को ऊपर उठाएँ, फिर पीछे झुकें",hi
+base-sn.owl,base:LowerBackOverarchingError,rdfs:label,LowerBackOverarchingError,en
+base-sn.owl,base:LowerBackOverarchingError,rdfs:label,निचली पीठ के अत्यधिक झुकाव की त्रुटि,hi
+base-sn.owl,base:LowerChestProperlyInstruction,rdfs:label,LowerChestProperlyInstruction,en
+base-sn.owl,base:LowerChestProperlyInstruction,rdfs:label,छाती को सही ढंग से नीचे लाएँ,hi
+base-sn.owl,base:MaintainHipPositionInstruction,rdfs:label,MaintainHipPositionInstruction,en
+base-sn.owl,base:MaintainHipPositionInstruction,rdfs:label,शरीर की स्थिति स्थिर रखें,hi
+base-sn.owl,base:MildSpinalExtensionConstraint,rdfs:label,MildSpinalExtensionConstraint,en
+base-sn.owl,base:MildSpinalExtensionConstraint,rdfs:label,रीढ़ को हल्का पीछे झुकाने की बाध्यता,hi
+base-sn.owl,base:MirroredLungeConstraint,rdfs:label,MirroredLungeConstraint,en
+base-sn.owl,base:MirroredLungeConstraint,rdfs:label,दूसरी तरफ भी वही संतुलन दोहराने की बाध्यता,hi
+base-sn.owl,base:NeckStrainError,rdfs:label,NeckStrainError,en
+base-sn.owl,base:NeckStrainError,rdfs:label,गर्दन में खिंचाव की त्रुटि,hi
+base-sn.owl,base:OneLegLungeSupportConstraint,rdfs:label,OneLegLungeSupportConstraint,en
+base-sn.owl,base:OneLegLungeSupportConstraint,rdfs:label,एक पैर आगे रखकर संतुलन बनाए रखने की बाध्यता,hi
+base-sn.owl,base:OverextensionError,rdfs:label,OverextensionError,en
+base-sn.owl,base:OverextensionError,rdfs:label,अत्यधिक खिंचाव की त्रुटि,hi
+base-sn.owl,base:PalmsMisalignedError,rdfs:label,PalmsMisalignedError,en
+base-sn.owl,base:PalmsMisalignedError,rdfs:label,हथेलियों के गलत संरेखण की त्रुटि,hi
+base-sn.owl,base:PalmsTogetherRule,rdfs:label,PalmsTogetherRule,en
+base-sn.owl,base:PalmsTogetherRule,rdfs:label,हथेलियाँ साथ रखें,hi
+base-sn.owl,base:PoorBalanceError,rdfs:label,PoorBalanceError,en
+base-sn.owl,base:PoorBalanceError,rdfs:label,अस्थिर संतुलन की त्रुटि,hi
+base-sn.owl,base:PushHipsUpwardInstruction,rdfs:label,PushHipsUpwardInstruction,en
+base-sn.owl,base:PushHipsUpwardInstruction,rdfs:label,शरीर को ऊपर उठाएँ,hi
+base-sn.owl,base:RaisedHipsError,rdfs:label,RaisedHipsError,en
+base-sn.owl,base:RaisedHipsError,rdfs:label,शरीर के मध्य भाग के अधिक उठने की त्रुटि,hi
+base-sn.owl,base:RaisedShouldersError,rdfs:label,RaisedShouldersError,en
+base-sn.owl,base:RaisedShouldersError,rdfs:label,कंधों के अधिक उठने की त्रुटि,hi
+base-sn.owl,base:RelaxShouldersInstruction,rdfs:label,RelaxShouldersInstruction,en
+base-sn.owl,base:RelaxShouldersInstruction,rdfs:label,कंधों को ढीला रखें,hi
+base-sn.owl,base:RoundedBackError,rdfs:label,RoundedBackError,en
+base-sn.owl,base:RoundedBackError,rdfs:label,गोल पीठ की त्रुटि,hi
+base-sn.owl,base:RoundedShouldersError,rdfs:label,RoundedShouldersError,en
+base-sn.owl,base:RoundedShouldersError,rdfs:label,गोल कंधों की त्रुटि,hi
+base-sn.owl,base:SaggingHipsError,rdfs:label,SaggingHipsError,en
+base-sn.owl,base:SaggingHipsError,rdfs:label,शरीर के मध्य भाग के नीचे धंसने की त्रुटि,hi
+base-sn.owl,base:ShoulderTensionError,rdfs:label,ShoulderTensionError,en
+base-sn.owl,base:ShoulderTensionError,rdfs:label,कंधों में तनाव की त्रुटि,hi
+base-sn.owl,base:ShouldersRelaxedRule,rdfs:label,ShouldersRelaxedRule,en
+base-sn.owl,base:ShouldersRelaxedRule,rdfs:label,कंधे ढीले रखें,hi
+base-sn.owl,base:SoftenKneesInstruction,rdfs:label,SoftenKneesInstruction,en
+base-sn.owl,base:SoftenKneesInstruction,rdfs:label,घुटनों को हल्का ढीला रखें,hi
+base-sn.owl,base:SpinalExtensionRule,rdfs:label,SpinalExtensionRule,en
+base-sn.owl,base:SpinalExtensionRule,rdfs:label,रीढ़ को नियंत्रित रूप से फैलाएँ,hi
+base-sn.owl,base:SpineElongatedRule,rdfs:label,SpineElongatedRule,en
+base-sn.owl,base:SpineElongatedRule,rdfs:label,रीढ़ लंबी रखें,hi
+base-sn.owl,base:StabilizeLegsInstruction,rdfs:label,StabilizeLegsInstruction,en
+base-sn.owl,base:StabilizeLegsInstruction,rdfs:label,पैरों को स्थिर रखें,hi
+base-sn.owl,base:StableLegSupportConstraint,rdfs:label,StableLegSupportConstraint,en
+base-sn.owl,base:StableLegSupportConstraint,rdfs:label,पैरों से स्थिर सहारा बनाए रखने की बाध्यता,hi
+base-sn.owl,base:StableStandingRule,rdfs:label,StableStandingRule,en
+base-sn.owl,base:StableStandingRule,rdfs:label,स्थिर खड़े रहें,hi
+base-sn.owl,base:SymmetricalEndingConstraint,rdfs:label,SymmetricalEndingConstraint,en
+base-sn.owl,base:SymmetricalEndingConstraint,rdfs:label,अंत में संतुलित स्थिति में खड़े रहने की बाध्यता,hi
+base-sn.owl,base:SymmetricalStandingConstraint,rdfs:label,SymmetricalStandingConstraint,en
+base-sn.owl,base:SymmetricalStandingConstraint,rdfs:label,दोनों पैरों पर संतुलित खड़े रहने की बाध्यता,hi
+base-sn.owl,base:TuckElbowsInstruction,rdfs:label,TuckElbowsInstruction,en
+base-sn.owl,base:TuckElbowsInstruction,rdfs:label,कोहनियों को अंदर रखें,hi
+base-sn.owl,base:UnevenWeightError,rdfs:label,UnevenWeightError,en
+base-sn.owl,base:UnevenWeightError,rdfs:label,असमान भार की त्रुटि,hi
+base-sn.owl,base:UnstableLegsError,rdfs:label,UnstableLegsError,en
+base-sn.owl,base:UnstableLegsError,rdfs:label,अस्थिर पैरों की त्रुटि,hi
+base-sn.owl,base:UprightBackbendConstraint,rdfs:label,UprightBackbendConstraint,en
+base-sn.owl,base:UprightBackbendConstraint,rdfs:label,सीधा रहते हुए हल्का पीछे झुकने की बाध्यता,hi
+base-sn.owl,base:UprightPostureRule,rdfs:label,UprightPostureRule,en
+base-sn.owl,base:UprightPostureRule,rdfs:label,शरीर सीधा रखें,hi
+base-sn.owl,base:WeakBackLegError,rdfs:label,WeakBackLegError,en
+base-sn.owl,base:WeakBackLegError,rdfs:label,पीछे के पैर की कमजोरी की त्रुटि,hi
+base-sn.owl,base:WeightDistributedRule,rdfs:label,WeightDistributedRule,en
+base-sn.owl,base:WeightDistributedRule,rdfs:label,भार समान रूप से रखें,hi
+base-sn.owl,base:WeightOnHeelsOnlyError,rdfs:label,WeightOnHeelsOnlyError,en
+base-sn.owl,base:WeightOnHeelsOnlyError,rdfs:label,केवल एड़ियों पर भार आने की त्रुटि,hi
+base-sn.owl,base:WristOverloadError,rdfs:label,WristOverloadError,en
+base-sn.owl,base:WristOverloadError,rdfs:label,कलाइयों पर अत्यधिक भार की त्रुटि,hi
+base-sn.owl,http://example.org/suryanamaskar/base-sn,rdfs:label,Surya Namaskar Base Sequence Ontology,en
+base-sn.owl,http://example.org/suryanamaskar/base-sn,rdfs:label,सूर्य नमस्कार का आधारभूत अनुक्रम ऑन्टोलॉजी,hi
+variant01.owl,http://example.org/suryanamaskar/variant01,rdfs:label,Surya Namaskar Variant 01 Ontology,en
+variant01.owl,http://example.org/suryanamaskar/variant01,rdfs:label,सूर्य नमस्कार प्रकार ०१ ऑन्टोलॉजी,hi
+variant01.owl,v1:Variant01_KrishnamacharyaVinyasa,rdfs:label,Variant01_KrishnamacharyaVinyasa,en
+variant01.owl,v1:Variant01_KrishnamacharyaVinyasa,rdfs:label,सूर्य नमस्कार (कृष्णमाचार्य विन्यास),hi
+variant01.owl,v1:Variant01_Pose01,rdfs:label,Variant01_Pose01,en
+variant01.owl,v1:Variant01_Pose01,rdfs:label,मुद्रा ०१,hi
+variant01.owl,v1:Variant01_Pose02,rdfs:label,Variant01_Pose02,en
+variant01.owl,v1:Variant01_Pose02,rdfs:label,मुद्रा ०२,hi
+variant01.owl,v1:Variant01_Pose03,rdfs:label,Variant01_Pose03,en
+variant01.owl,v1:Variant01_Pose03,rdfs:label,मुद्रा ०३,hi
+variant01.owl,v1:Variant01_Pose04,rdfs:label,Variant01_Pose04,en
+variant01.owl,v1:Variant01_Pose04,rdfs:label,मुद्रा ०४,hi
+variant01.owl,v1:Variant01_Pose05,rdfs:label,Variant01_Pose05,en
+variant01.owl,v1:Variant01_Pose05,rdfs:label,मुद्रा ०५,hi
+variant01.owl,v1:Variant01_Pose06,rdfs:label,Variant01_Pose06,en
+variant01.owl,v1:Variant01_Pose06,rdfs:label,मुद्रा ०६,hi
+variant01.owl,v1:Variant01_Pose07,rdfs:label,Variant01_Pose07,en
+variant01.owl,v1:Variant01_Pose07,rdfs:label,मुद्रा ०७,hi
+variant01.owl,v1:Variant01_Pose08,rdfs:label,Variant01_Pose08,en
+variant01.owl,v1:Variant01_Pose08,rdfs:label,मुद्रा ०८,hi
+variant01.owl,v1:Variant01_Pose09,rdfs:label,Variant01_Pose09,en
+variant01.owl,v1:Variant01_Pose09,rdfs:label,मुद्रा ०९,hi
+variant01.owl,v1:Variant01_Pose10,rdfs:label,Variant01_Pose10,en
+variant01.owl,v1:Variant01_Pose10,rdfs:label,मुद्रा १०,hi
+variant01.owl,v1:Variant01_Pose11,rdfs:label,Variant01_Pose11,en
+variant01.owl,v1:Variant01_Pose11,rdfs:label,मुद्रा ११,hi
+variant01.owl,v1:Variant01_Pose12,rdfs:label,Variant01_Pose12,en
+variant01.owl,v1:Variant01_Pose12,rdfs:label,मुद्रा १२,hi
+variant01.owl,v1:Variant01_Pose13,rdfs:label,Variant01_Pose13,en
+variant01.owl,v1:Variant01_Pose13,rdfs:label,मुद्रा १३,hi
+variant02.owl,http://example.org/suryanamaskar/variant02,rdfs:label,Surya Namaskar Variant 02 Ontology,en
+variant02.owl,http://example.org/suryanamaskar/variant02,rdfs:label,सूर्य नमस्कार प्रकार ०२ ऑन्टोलॉजी,hi
+variant02.owl,v2:Variant02_BiharSchoolOfYoga,rdfs:label,Variant02_BiharSchoolOfYoga,en
+variant02.owl,v2:Variant02_BiharSchoolOfYoga,rdfs:label,सूर्य नमस्कार (बिहार योग विद्यालय),hi
+variant02.owl,v2:Variant02_Pose01,rdfs:label,Variant02_Pose01,en
+variant02.owl,v2:Variant02_Pose01,rdfs:label,मुद्रा ०१,hi
+variant02.owl,v2:Variant02_Pose02,rdfs:label,Variant02_Pose02,en
+variant02.owl,v2:Variant02_Pose02,rdfs:label,मुद्रा ०२,hi
+variant02.owl,v2:Variant02_Pose03,rdfs:label,Variant02_Pose03,en
+variant02.owl,v2:Variant02_Pose03,rdfs:label,मुद्रा ०३,hi
+variant02.owl,v2:Variant02_Pose04,rdfs:label,Variant02_Pose04,en
+variant02.owl,v2:Variant02_Pose04,rdfs:label,मुद्रा ०४,hi
+variant02.owl,v2:Variant02_Pose05,rdfs:label,Variant02_Pose05,en
+variant02.owl,v2:Variant02_Pose05,rdfs:label,मुद्रा ०५,hi
+variant02.owl,v2:Variant02_Pose06,rdfs:label,Variant02_Pose06,en
+variant02.owl,v2:Variant02_Pose06,rdfs:label,मुद्रा ०६,hi
+variant02.owl,v2:Variant02_Pose07,rdfs:label,Variant02_Pose07,en
+variant02.owl,v2:Variant02_Pose07,rdfs:label,मुद्रा ०७,hi
+variant02.owl,v2:Variant02_Pose08,rdfs:label,Variant02_Pose08,en
+variant02.owl,v2:Variant02_Pose08,rdfs:label,मुद्रा ०८,hi
+variant02.owl,v2:Variant02_Pose09,rdfs:label,Variant02_Pose09,en
+variant02.owl,v2:Variant02_Pose09,rdfs:label,मुद्रा ०९,hi
+variant02.owl,v2:Variant02_Pose10,rdfs:label,Variant02_Pose10,en
+variant02.owl,v2:Variant02_Pose10,rdfs:label,मुद्रा १०,hi
+variant02.owl,v2:Variant02_Pose11,rdfs:label,Variant02_Pose11,en
+variant02.owl,v2:Variant02_Pose11,rdfs:label,मुद्रा ११,hi
+variant02.owl,v2:Variant02_Pose12,rdfs:label,Variant02_Pose12,en
+variant02.owl,v2:Variant02_Pose12,rdfs:label,मुद्रा १२,hi
+variant03.owl,http://example.org/suryanamaskar/variant03,rdfs:label,Surya Namaskar Variant 03 Ontology,en
+variant03.owl,http://example.org/suryanamaskar/variant03,rdfs:label,सूर्य नमस्कार प्रकार ०३ ऑन्टोलॉजी,hi
+variant03.owl,v3:Variant03_Pose01,rdfs:label,Variant03_Pose01,en
+variant03.owl,v3:Variant03_Pose01,rdfs:label,मुद्रा ०१,hi
+variant03.owl,v3:Variant03_Pose02,rdfs:label,Variant03_Pose02,en
+variant03.owl,v3:Variant03_Pose02,rdfs:label,मुद्रा ०२,hi
+variant03.owl,v3:Variant03_Pose03,rdfs:label,Variant03_Pose03,en
+variant03.owl,v3:Variant03_Pose03,rdfs:label,मुद्रा ०३,hi
+variant03.owl,v3:Variant03_Pose04,rdfs:label,Variant03_Pose04,en
+variant03.owl,v3:Variant03_Pose04,rdfs:label,मुद्रा ०४,hi
+variant03.owl,v3:Variant03_Pose05,rdfs:label,Variant03_Pose05,en
+variant03.owl,v3:Variant03_Pose05,rdfs:label,मुद्रा ०५,hi
+variant03.owl,v3:Variant03_Pose06,rdfs:label,Variant03_Pose06,en
+variant03.owl,v3:Variant03_Pose06,rdfs:label,मुद्रा ०६,hi
+variant03.owl,v3:Variant03_Pose07,rdfs:label,Variant03_Pose07,en
+variant03.owl,v3:Variant03_Pose07,rdfs:label,मुद्रा ०७,hi
+variant03.owl,v3:Variant03_Pose08,rdfs:label,Variant03_Pose08,en
+variant03.owl,v3:Variant03_Pose08,rdfs:label,मुद्रा ०८,hi
+variant03.owl,v3:Variant03_Pose09,rdfs:label,Variant03_Pose09,en
+variant03.owl,v3:Variant03_Pose09,rdfs:label,मुद्रा ०९,hi
+variant03.owl,v3:Variant03_Pose10,rdfs:label,Variant03_Pose10,en
+variant03.owl,v3:Variant03_Pose10,rdfs:label,मुद्रा १०,hi
+variant03.owl,v3:Variant03_Pose11,rdfs:label,Variant03_Pose11,en
+variant03.owl,v3:Variant03_Pose11,rdfs:label,मुद्रा ११,hi
+variant03.owl,v3:Variant03_Pose12,rdfs:label,Variant03_Pose12,en
+variant03.owl,v3:Variant03_Pose12,rdfs:label,मुद्रा १२,hi
+variant03.owl,v3:Variant03_SwamiVivekanandaKendra,rdfs:label,Variant03_SwamiVivekanandaKendra,en
+variant03.owl,v3:Variant03_SwamiVivekanandaKendra,rdfs:label,सूर्य नमस्कार (स्वामी विवेकानंद केंद्र),hi

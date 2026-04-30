@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <uri name="http://example.org/suryanamaskar/core" uri="core.owl"/>
+  <uri name="http://example.org/suryanamaskar/base-sn" uri="base-sn.owl"/>
+  <uri name="http://example.org/suryanamaskar/variant01" uri="variant01.owl"/>
+  <uri name="http://example.org/suryanamaskar/variant02" uri="variant02.owl"/>
+  <uri name="http://example.org/suryanamaskar/variant03" uri="variant03.owl"/>
+  <uri name="http://example.org/suryanamaskar/master" uri="master.owl"/>
+</catalog>

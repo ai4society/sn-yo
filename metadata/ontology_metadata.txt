@@ -1,0 +1,38 @@
+Title: Surya Namaskar Ontology
+
+Ontology File: models/combined.owl
+
+Namespace: http://example.org/suryanamaskar#
+
+Format: OWL / RDF/XML
+
+Description:
+This ontology models Surya Namaskar using three core concepts: Asana, Pose, and Variant. An Asana represents the yoga posture, a Pose represents its numbered occurrence within a sequence, and a Variant represents a specific Surya Namaskar tradition. The ontology captures sequence order, repeated and inverse pose relationships, support type, laterality, and associated attributes such as mantra and chakra. It enables structured comparison and semantic querying across multiple Surya Namaskar variants.
+
+Main Classes:
+- Pose
+- Asana
+- Variant
+
+Main Object Properties:
+- hasAsana
+- belongsToVariant
+- hasNextPose
+- hasPreviousPose
+- repeatsPose
+- hasInversePose
+- sameAsanaAs
+
+Main Datatype Properties:
+- poseNumber
+- hasMantra
+- hasChakra
+- hasSupportType
+- hasLaterality
+- hasCYPPage
+- hasAlternateName
+
+Author: Mansi Dodiya
+
+Affiliation: IIT (BHU), Varanasi
+

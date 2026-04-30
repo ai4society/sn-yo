@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:core="http://example.org/suryanamaskar/core#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.org/suryanamaskar/variant01#Variant01_Pose02">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/suryanamaskar/core#Pose"/>
+    <rdfs:label xml:lang="en">Variant01_Pose02</rdfs:label>
+    <rdfs:label xml:lang="hi">मुद्रा ०२</rdfs:label>
+    <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Tadasana"/>
+    <core:hasLaterality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symmetric</core:hasLaterality>
+    <core:hasPreviousPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose01"/>
+    <core:hasNextPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose03"/>
+    <core:belongsToVariant rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_KrishnamacharyaVinyasa"/>
+    <core:hasSupportType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">StandingTwoFeet</core:hasSupportType>
+    <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</core:poseNumber>
+    <core:repeatsPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/suryanamaskar/variant01#Variant01_Pose03">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/suryanamaskar/core#Pose"/>
+    <core:hasNextPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose04"/>
+    <core:hasLaterality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symmetric</core:hasLaterality>
+    <rdfs:label xml:lang="en">Variant01_Pose03</rdfs:label>
+    <rdfs:label xml:lang="hi">मुद्रा ०३</rdfs:label>
+    <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</core:poseNumber>
+    <core:repeatsPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose11"/>
+    <core:belongsToVariant rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_KrishnamacharyaVinyasa"/>
+    <core:hasSupportType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">StandingBentTwoFeet</core:hasSupportType>
+    <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Uttanasana"/>
+    <core:hasPreviousPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose02"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/suryanamaskar/variant01#Variant01_Pose01">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/suryanamaskar/core#Pose"/>
+    <core:hasLaterality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symmetric</core:hasLaterality>
+    <core:belongsToVariant rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_KrishnamacharyaVinyasa"/>
+    <rdfs:label xml:lang="en">Variant01_Pose01</rdfs:label>
+    <rdfs:label xml:lang="hi">मुद्रा ०१</rdfs:label>
+    <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Samasthiti"/>
+    <core:hasSupportType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">StandingTwoFeet</core:hasSupportType>
+    <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</core:poseNumber>
+    <core:hasNextPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose02"/>
+    <core:repeatsPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/suryanamaskar/variant01#Variant01_Pose13">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/suryanamaskar/core#Pose"/>
+    <core:belongsToVariant rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_KrishnamacharyaVinyasa"/>
+    <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</core:poseNumber>
+    <rdfs:label xml:lang="en">Variant01_Pose13</rdfs:label>
+    <rdfs:label xml:lang="hi">मुद्रा १३</rdfs:label>
+    <core:hasLaterality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symmetric</core:hasLaterality>
+    <core:repeatsPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose01"/>
+    <core:hasPreviousPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose12"/>
+    <core:hasSupportType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">StandingTwoFeet</core:hasSupportType>
+    <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Samasthiti"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/suryanamaskar/variant01#Variant01_Pose10">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/suryanamaskar/core#Pose"/>
+    <rdfs:label xml:lang="en">Variant01_Pose10</rdfs:label>
+    <rdfs:label xml:lang="hi">मुद्रा १०</rdfs:label>
+    <core:hasPreviousPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose09"/>
+    <core:repeatsPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose04"/>
+    <core:hasLaterality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symmetric</core:hasLaterality>
+    <core:hasNextPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose11"/>
+    <core:belongsToVariant rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_KrishnamacharyaVinyasa"/>
+    <core:hasSupportType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">StandingTwoFeet</core:hasSupportType>
+    <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Utkatasana"/>
+    <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</core:poseNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/suryanamaskar/variant01#Variant01_Pose11">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/suryanamaskar/core#Pose"/>
+    <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Uttanasana"/>
+    <core:belongsToVariant rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_KrishnamacharyaVinyasa"/>
+    <core:hasNextPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose12"/>
+    <core:hasLaterality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symmetric</core:hasLaterality>
+    <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</core:poseNumber>
+    <core:repeatsPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose03"/>
+    <core:hasSupportType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">StandingBentTwoFeet</core:hasSupportType>
+    <core:hasPreviousPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose10"/>
+    <rdfs:label xml:lang="en">Variant01_Pose11</rdfs:label>
+    <rdfs:label xml:lang="hi">मुद्रा ११</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/suryanamaskar/variant01#Variant01_Pose05">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/suryanamaskar/core#Pose"/>
+    <core:repeatsPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose07"/>
+    <core:hasPreviousPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose04"/>
+    <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#ChaturangaDandasana"/>
+    <core:hasNextPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose06"/>
+    <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</core:poseNumber>
+    <core:hasSupportType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HandsAndFeet</core:hasSupportType>
+    <core:hasLaterality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symmetric</core:hasLaterality>
+    <rdfs:label xml:lang="en">Variant01_Pose05</rdfs:label>
+    <rdfs:label xml:lang="hi">मुद्रा ०५</rdfs:label>
+    <core:belongsToVariant rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_KrishnamacharyaVinyasa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/suryanamaskar/variant01#Variant01_Pose09">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/suryanamaskar/core#Pose"/>
+    <core:belongsToVariant rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_KrishnamacharyaVinyasa"/>
+    <core:hasSupportType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HandsAndFeet</core:hasSupportType>
+    <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</core:poseNumber>
+    <rdfs:label xml:lang="en">Variant01_Pose09</rdfs:label>
+    <rdfs:label xml:lang="hi">मुद्रा ०९</rdfs:label>
+    <core:hasLaterality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symmetric</core:hasLaterality>
+    <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#AdhoMukhaSvanasana"/>
+    <core:hasNextPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose10"/>
+    <core:hasPreviousPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose08"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/suryanamaskar/variant01#Variant01_Pose06">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/suryanamaskar/core#Pose"/>
+    <core:hasNextPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose07"/>
+    <core:hasPreviousPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose05"/>
+    <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#DandaSamarpana"/>
+    <core:hasLaterality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symmetric</core:hasLaterality>
+    <core:belongsToVariant rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_KrishnamacharyaVinyasa"/>
+    <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</core:poseNumber>
+    <rdfs:label xml:lang="en">Variant01_Pose06</rdfs:label>
+    <rdfs:label xml:lang="hi">मुद्रा ०६</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/suryanamaskar/variant01">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="http://example.org/suryanamaskar/core"/>
+    <rdfs:label xml:lang="en">Surya Namaskar Variant 01 Ontology</rdfs:label>
+    <rdfs:label xml:lang="hi">सूर्य नमस्कार प्रकार ०१ ऑन्टोलॉजी</rdfs:label>
+    <dc:title>Surya Namaskar Variant 01 Krishnamacharya Vinyasa Ontology</dc:title>
+    <dc:description>Variant 01 ontology containing the Krishnamacharya Vinyasa variant individual, 13 pose occurrences, and their sequence-specific relations and values.</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/suryanamaskar/variant01#Variant01_Pose08">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/suryanamaskar/core#Pose"/>
+    <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</core:poseNumber>
+    <core:hasLaterality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symmetric</core:hasLaterality>
+    <core:hasPreviousPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose07"/>
+    <core:belongsToVariant rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_KrishnamacharyaVinyasa"/>
+    <core:hasNextPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose09"/>
+    <rdfs:label xml:lang="en">Variant01_Pose08</rdfs:label>
+    <rdfs:label xml:lang="hi">मुद्रा ०८</rdfs:label>
+    <core:hasSupportType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prone</core:hasSupportType>
+    <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#UrdhwaMukhaSvanasana"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/suryanamaskar/variant01#Variant01_Pose04">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/suryanamaskar/core#Pose"/>
+    <rdfs:label xml:lang="en">Variant01_Pose04</rdfs:label>
+    <rdfs:label xml:lang="hi">मुद्रा ०४</rdfs:label>
+    <core:hasNextPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose05"/>
+    <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Utkatasana"/>
+    <core:hasPreviousPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose03"/>
+    <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</core:poseNumber>
+    <core:belongsToVariant rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_KrishnamacharyaVinyasa"/>
+    <core:hasLaterality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symmetric</core:hasLaterality>
+    <core:hasSupportType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">StandingTwoFeet</core:hasSupportType>
+    <core:repeatsPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/suryanamaskar/variant01#Variant01_Pose07">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/suryanamaskar/core#Pose"/>
+    <core:hasNextPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose08"/>
+    <rdfs:label xml:lang="en">Variant01_Pose07</rdfs:label>
+    <rdfs:label xml:lang="hi">मुद्रा ०७</rdfs:label>
+    <core:hasSupportType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HandsAndFeet</core:hasSupportType>
+    <core:hasPreviousPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose06"/>
+    <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</core:poseNumber>
+    <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#ChaturangaDandasana"/>
+    <core:belongsToVariant rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_KrishnamacharyaVinyasa"/>
+    <core:hasLaterality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symmetric</core:hasLaterality>
+    <core:repeatsPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose05"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/suryanamaskar/variant01#Variant01_Pose12">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/suryanamaskar/core#Pose"/>
+    <core:belongsToVariant rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_KrishnamacharyaVinyasa"/>
+    <core:hasLaterality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symmetric</core:hasLaterality>
+    <core:hasNextPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose13"/>
+    <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</core:poseNumber>
+    <core:repeatsPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose02"/>
+    <core:hasSupportType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">StandingTwoFeet</core:hasSupportType>
+    <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Tadasana"/>
+    <core:hasPreviousPose rdf:resource="http://example.org/suryanamaskar/variant01#Variant01_Pose11"/>
+    <rdfs:label xml:lang="en">Variant01_Pose12</rdfs:label>
+    <rdfs:label xml:lang="hi">मुद्रा १२</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/suryanamaskar/variant01#Variant01_KrishnamacharyaVinyasa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://example.org/suryanamaskar/core#Variant"/>
+    <rdfs:comment>13 pose Krishnamacharya Vinyasa Surya Namaskar.</rdfs:comment>
+    <rdfs:label xml:lang="en">Variant01_KrishnamacharyaVinyasa</rdfs:label>
+    <rdfs:label xml:lang="hi">सूर्य नमस्कार (कृष्णमाचार्य विन्यास)</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>
