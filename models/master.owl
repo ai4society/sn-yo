@@ -9,8 +9,8 @@
      xmlns:core="http://example.org/suryanamaskar/core#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://example.org/suryanamaskar/master">
-        <rdfs:comment xml:lang="en">Ontology for modeling Surya Namaskar sequences and correction knowledge.</rdfs:comment>
-        <rdfs:label xml:lang="en">SN-YO Ontology</rdfs:label>
+        <dc:title>SN-YO Ontology</dc:title>
+        <dc:description>Ontology for modeling Surya Namaskar sequences and correction knowledge.</dc:description>
     </owl:Ontology>
     
 
