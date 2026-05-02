@@ -38,11 +38,13 @@ The companion [SN-YE explorer](https://ai4society.github.io/sn-ye/) provides pre
 
 ## Multilingual Labels
 
-SN-YO includes `rdfs:label` values for asanas and breathing-pattern entities in the 22 Indian scheduled languages listed in the Eighth Schedule of the Constitution of India. Language identifiers use web-standard BCP 47 / ISO 639 tags such as `hi`, `te`, `brx`, `doi`, `kok`, `sat`, and `mni`.
+SN-YO includes `rdfs:label` values for asanas and breathing-pattern entities in the 22 Indian scheduled languages listed in the Eighth Schedule of the Constitution of India. Language identifiers use web-standard BCP 47 / ISO 639 tags such as `hi`, `te`, `brx`, `doi`, `kok`, `sat`, and `mni`. The current tags are kept stable so website queries and language selectors continue to work consistently.
 
 The source label table is `models/label_csv and script/SN_YO_labels_combined.csv`; these labels are materialized into `models/modules/core.owl` and the merged `models/master.owl`.
 
-Asana labels preserve the canonical Sanskrit-derived posture names across language scripts, rather than translating them into descriptive pose meanings such as "Cobra Pose" or "Mountain Pose." Breathing-pattern labels, including `BreathingPattern`, `Inhale`, `Exhale`, and `Hold`, use short instruction-style phrases in each language. These labels support ontology querying and display; publication-grade language work should still include native-speaker review.
+For asanas, the labels preserve canonical Sanskrit-derived yoga posture names across language scripts. They are intended as script-adapted display labels for pose names, not as independent descriptive translations such as "Cobra Pose" or "Mountain Pose" in every language. This reflects common yoga usage, where Sanskrit posture names are often retained and adapted to the writing system used by the target language.
+
+Breathing-pattern labels, including `BreathingPattern`, `Inhale`, `Exhale`, and `Hold`, use short language-specific display phrases. These are ordinary language expressions rather than Sanskrit posture names. The current labels are retained for ontology querying, UI display, and future review.
 
 References used for language scope and tagging include the [Government of India Eighth Schedule language list](https://www.education.gov.in/en/cp_languages), [ISO 639 language codes](https://www.iso.org/iso-639-language-code), [BCP 47 language tags](https://developer.mozilla.org/en-US/docs/Glossary/BCP_47_language_tag), and script resources such as the [Devanagari language documentation](https://motaitalic.github.io/devanagari-documentation/languages/bodo/bodo.html).
 
