@@ -12,10 +12,10 @@
         <dc:title>SN-YO Ontology</dc:title>
         <dc:description>Ontology for modeling Surya Namaskar sequences and correction knowledge.</dc:description>
     </owl:Ontology>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation properties
@@ -23,34 +23,34 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://purl.org/dc/elements/1.1/description -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
-    
+
 
 
     <!-- http://purl.org/dc/elements/1.1/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
-    
+
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
-    
+
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Object Properties
@@ -58,7 +58,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#belongsToVariant -->
@@ -69,7 +69,7 @@
         <rdfs:label xml:lang="en">belongs to variant</rdfs:label>
         <rdfs:label xml:lang="hi">प्रकार से संबंधित</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#hasAsana -->
@@ -80,7 +80,7 @@
         <rdfs:label xml:lang="en">has asana</rdfs:label>
         <rdfs:label xml:lang="hi">आसन है</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#hasBreathingPattern -->
@@ -91,7 +91,7 @@
         <rdfs:label xml:lang="en">has breathing pattern</rdfs:label>
         <rdfs:label xml:lang="hi">श्वास पैटर्न है</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#hasCorrection -->
@@ -102,7 +102,7 @@
         <rdfs:label xml:lang="en">has correction</rdfs:label>
         <rdfs:label xml:lang="hi">सुधार है</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#hasInversePose -->
@@ -113,7 +113,7 @@
         <rdfs:label xml:lang="en">has inverse pose</rdfs:label>
         <rdfs:label xml:lang="hi">विपरीत मुद्रा है</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#hasNextPose -->
@@ -125,7 +125,7 @@
         <rdfs:label xml:lang="en">has next pose</rdfs:label>
         <rdfs:label xml:lang="hi">अगली मुद्रा है</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#hasPossibleError -->
@@ -136,7 +136,7 @@
         <rdfs:label xml:lang="en">has possible error</rdfs:label>
         <rdfs:label xml:lang="hi">संभावित त्रुटि है</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#hasPreviousPose -->
@@ -147,7 +147,7 @@
         <rdfs:label xml:lang="en">has previous pose</rdfs:label>
         <rdfs:label xml:lang="hi">पिछली मुद्रा है</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#involvesBodyPart -->
@@ -158,7 +158,7 @@
         <rdfs:label xml:lang="en">involves body part</rdfs:label>
         <rdfs:label xml:lang="hi">शरीर का अंग शामिल करता है</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#repeatsPose -->
@@ -169,7 +169,7 @@
         <rdfs:label xml:lang="en">repeats pose</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा को दोहराता है</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#sameAsanaAs -->
@@ -180,10 +180,10 @@
         <rdfs:label xml:lang="en">same asana as</rdfs:label>
         <rdfs:label xml:lang="hi">समान आसन है</rdfs:label>
     </owl:ObjectProperty>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Data properties
@@ -191,7 +191,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#correctionText -->
@@ -202,7 +202,7 @@
         <rdfs:label xml:lang="en">correction text</rdfs:label>
         <rdfs:label xml:lang="hi">सुधार पाठ</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#errorDescription -->
@@ -213,7 +213,7 @@
         <rdfs:label xml:lang="en">error description</rdfs:label>
         <rdfs:label xml:lang="hi">त्रुटि विवरण</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#hasAlternateName -->
@@ -224,7 +224,7 @@
         <rdfs:label xml:lang="en">has alternate name</rdfs:label>
         <rdfs:label xml:lang="hi">वैकल्पिक नाम है</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#hasCYPPage -->
@@ -235,7 +235,7 @@
         <rdfs:label xml:lang="en">has CYP page</rdfs:label>
         <rdfs:label xml:lang="hi">सीवाईपी पृष्ठ संख्या</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#hasChakra -->
@@ -246,7 +246,7 @@
         <rdfs:label xml:lang="en">has chakra</rdfs:label>
         <rdfs:label xml:lang="hi">चक्र है</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#hasLaterality -->
@@ -257,7 +257,7 @@
         <rdfs:label xml:lang="en">has laterality</rdfs:label>
         <rdfs:label xml:lang="hi">पक्षीयता है</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#hasMantra -->
@@ -268,7 +268,7 @@
         <rdfs:label xml:lang="en">has mantra</rdfs:label>
         <rdfs:label xml:lang="hi">मंत्र है</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#hasSafetyNote -->
@@ -279,7 +279,7 @@
         <rdfs:label xml:lang="en">has safety note</rdfs:label>
         <rdfs:label xml:lang="hi">सुरक्षा टिप्पणी है</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#hasSupportType -->
@@ -290,7 +290,7 @@
         <rdfs:label xml:lang="en">has support type</rdfs:label>
         <rdfs:label xml:lang="hi">आधार प्रकार है</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#poseNumber -->
@@ -301,10 +301,10 @@
         <rdfs:label xml:lang="en">pose number</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा संख्या</rdfs:label>
     </owl:DatatypeProperty>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -312,7 +312,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#Asana -->
@@ -334,8 +334,15 @@
         <rdfs:label xml:lang="mai">आसन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯑꯥꯁꯅ</rdfs:label>
-      </owl:Class>
-    
+
+        <rdfs:label xml:lang="brx">आसन</rdfs:label>
+        <rdfs:label xml:lang="doi">आसन</rdfs:label>
+        <rdfs:label xml:lang="ks">آسن</rdfs:label>
+        <rdfs:label xml:lang="kok">आसन</rdfs:label>
+        <rdfs:label xml:lang="ne">आसन</rdfs:label>
+        <rdfs:label xml:lang="sa">आसन</rdfs:label>
+        <rdfs:label xml:lang="sd">آسن</rdfs:label></owl:Class>
+
 
 
     <!-- http://example.org/suryanamaskar/core#BodyPart -->
@@ -344,7 +351,7 @@
         <rdfs:label xml:lang="en">Body Part</rdfs:label>
         <rdfs:label xml:lang="hi">शरीर का अंग</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#BreathingPattern -->
@@ -366,8 +373,15 @@
         <rdfs:label xml:lang="mai">साँस लेबाक तरीका</rdfs:label>
         <rdfs:label xml:lang="sat">ᱥᱣᱟᱥᱚ ᱯᱚᱤᱴᱚᱨᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯁ꯭ꯋꯥꯁ ꯄꯩꯇꯔ꯭ꯅ</rdfs:label>
-      </owl:Class>
-    
+
+        <rdfs:label xml:lang="brx">श्वास पैटर्न</rdfs:label>
+        <rdfs:label xml:lang="doi">साह लैने दा ढंग</rdfs:label>
+        <rdfs:label xml:lang="ks">سانس ہُند طریقہ</rdfs:label>
+        <rdfs:label xml:lang="kok">श्वास घेवपाची पद्धत</rdfs:label>
+        <rdfs:label xml:lang="ne">श्वासप्रश्वासको ढाँचा</rdfs:label>
+        <rdfs:label xml:lang="sa">श्वसन पद्धतिः</rdfs:label>
+        <rdfs:label xml:lang="sd">ساهه کڻڻ جو طريقو</rdfs:label></owl:Class>
+
 
 
     <!-- http://example.org/suryanamaskar/core#CorrectionInstruction -->
@@ -376,7 +390,7 @@
         <rdfs:label xml:lang="en">Correction Instruction</rdfs:label>
         <rdfs:label xml:lang="hi">सुधार निर्देश</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#Pose -->
@@ -392,7 +406,7 @@
         <rdfs:label xml:lang="en">Pose</rdfs:label>
         <rdfs:label xml:lang="hi">क्रमिक मुद्रा</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#PoseError -->
@@ -407,7 +421,7 @@
         <rdfs:label xml:lang="en">Pose Error</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा त्रुटि</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#Variant -->
@@ -416,10 +430,10 @@
         <rdfs:label xml:lang="en">Variant</rdfs:label>
         <rdfs:label xml:lang="hi">संस्करण</rdfs:label>
     </owl:Class>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Individuals
@@ -427,7 +441,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#AlignFrontKneeInstruction -->
@@ -438,7 +452,7 @@
         <rdfs:label xml:lang="en">AlignFrontKneeInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">सामने के घुटने को सही स्थिति में रखें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#AlignPalmsAtChestInstruction -->
@@ -449,7 +463,7 @@
         <rdfs:label xml:lang="en">AlignPalmsAtChestInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">हथेलियों को छाती के सामने सही रखें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#BalanceWeightEvenlyInstruction -->
@@ -460,7 +474,7 @@
         <rdfs:label xml:lang="en">BalanceWeightEvenlyInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">शरीर का भार दोनों पैरों पर समान रखें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#BaseSN_Pose01 -->
@@ -491,7 +505,7 @@
         <rdfs:label xml:lang="en">BaseSN_Pose01</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०१</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#BaseSN_Pose02 -->
@@ -523,7 +537,7 @@
         <rdfs:label xml:lang="en">BaseSN_Pose02</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०२</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#BaseSN_Pose03 -->
@@ -554,7 +568,7 @@
         <rdfs:label xml:lang="en">BaseSN_Pose03</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०३</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#BaseSN_Pose04 -->
@@ -586,7 +600,7 @@
         <rdfs:label xml:lang="en">BaseSN_Pose04</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०४</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#BaseSN_Pose05 -->
@@ -616,7 +630,7 @@
         <rdfs:label xml:lang="en">BaseSN_Pose05</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०५</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#BaseSN_Pose06 -->
@@ -646,7 +660,7 @@
         <rdfs:label xml:lang="en">BaseSN_Pose06</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०६</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#BaseSN_Pose07 -->
@@ -675,7 +689,7 @@
         <rdfs:label xml:lang="en">BaseSN_Pose07</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०७</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#BaseSN_Pose08 -->
@@ -705,7 +719,7 @@
         <rdfs:label xml:lang="en">BaseSN_Pose08</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०८</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#BaseSN_Pose09 -->
@@ -737,7 +751,7 @@
         <rdfs:label xml:lang="en">BaseSN_Pose09</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०९</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#BaseSN_Pose10 -->
@@ -765,7 +779,7 @@
         <rdfs:label xml:lang="en">BaseSN_Pose10</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा १०</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#BaseSN_Pose11 -->
@@ -793,7 +807,7 @@
         <rdfs:label xml:lang="en">BaseSN_Pose11</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ११</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#BaseSN_Pose12 -->
@@ -820,7 +834,7 @@
         <rdfs:label xml:lang="en">BaseSN_Pose12</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा १२</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU -->
@@ -831,7 +845,7 @@
         <rdfs:label xml:lang="en">BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</rdfs:label>
         <rdfs:label xml:lang="hi">सूर्य नमस्कार (शिवानंद योग वेदांत केंद्र)</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#BendFromHipsInstruction -->
@@ -842,7 +856,7 @@
         <rdfs:label xml:lang="en">BendFromHipsInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">कमर से आगे की ओर झुकें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#BentArmsError -->
@@ -854,7 +868,7 @@
         <rdfs:label xml:lang="en">BentArmsError</rdfs:label>
         <rdfs:label xml:lang="hi">मुड़ी हुई बाहों की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#CenterBodyInstruction -->
@@ -865,7 +879,7 @@
         <rdfs:label xml:lang="en">CenterBodyInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">शरीर को संतुलित करें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#ChestNotLoweredError -->
@@ -877,7 +891,7 @@
         <rdfs:label xml:lang="en">ChestNotLoweredError</rdfs:label>
         <rdfs:label xml:lang="hi">छाती को ठीक से नीचे न लाने की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#CollapsedChestError -->
@@ -891,7 +905,7 @@
         <rdfs:label xml:lang="en">CollapsedChestError</rdfs:label>
         <rdfs:label xml:lang="hi">धंसी हुई छाती की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#CollapsedPostureError -->
@@ -904,7 +918,7 @@
         <rdfs:label xml:lang="en">CollapsedPostureError</rdfs:label>
         <rdfs:label xml:lang="hi">धंसी हुई शरीर मुद्रा की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#CompressedLowerBackError -->
@@ -916,7 +930,7 @@
         <rdfs:label xml:lang="en">CompressedLowerBackError</rdfs:label>
         <rdfs:label xml:lang="hi">दबी हुई निचली पीठ की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#DistributeWeightEvenlyInstruction -->
@@ -927,7 +941,7 @@
         <rdfs:label xml:lang="en">DistributeWeightEvenlyInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">भार को समान रूप से फैलाएँ</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#ElbowsFlaredError -->
@@ -939,7 +953,7 @@
         <rdfs:label xml:lang="en">ElbowsFlaredError</rdfs:label>
         <rdfs:label xml:lang="hi">बाहर फैली हुई कोहनियों की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#ElbowsWideError -->
@@ -951,7 +965,7 @@
         <rdfs:label xml:lang="en">ElbowsWideError</rdfs:label>
         <rdfs:label xml:lang="hi">बहुत फैली हुई कोहनियों की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#EngageCoreInstruction -->
@@ -962,7 +976,7 @@
         <rdfs:label xml:lang="en">EngageCoreInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">शरीर को भीतर से सक्रिय करें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#ExcessiveKneeBendError -->
@@ -974,7 +988,7 @@
         <rdfs:label xml:lang="en">ExcessiveKneeBendError</rdfs:label>
         <rdfs:label xml:lang="hi">घुटनों के अत्यधिक मुड़ने की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#ExtendBackLegInstruction -->
@@ -985,7 +999,7 @@
         <rdfs:label xml:lang="en">ExtendBackLegInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">पीछे के पैर को पूरी तरह सीधा रखें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#GentleBackbendInstruction -->
@@ -996,7 +1010,7 @@
         <rdfs:label xml:lang="en">GentleBackbendInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">हल्का पीछे झुकें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#HipsDroppedFullyError -->
@@ -1008,7 +1022,7 @@
         <rdfs:label xml:lang="en">HipsDroppedFullyError</rdfs:label>
         <rdfs:label xml:lang="hi">शरीर के मध्य भाग को पूरी तरह नीचे गिराने की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#KeepArmsStraightInstruction -->
@@ -1019,7 +1033,7 @@
         <rdfs:label xml:lang="en">KeepArmsStraightInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">बाहों को सीधा रखें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#KeepBodyAlignedInstruction -->
@@ -1030,7 +1044,7 @@
         <rdfs:label xml:lang="en">KeepBodyAlignedInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">शरीर को सीध में रखें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#KeepElbowsCloseInstruction -->
@@ -1041,7 +1055,7 @@
         <rdfs:label xml:lang="en">KeepElbowsCloseInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">कोहनियों को शरीर के पास रखें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#KneeBeyondAnkleError -->
@@ -1053,7 +1067,7 @@
         <rdfs:label xml:lang="en">KneeBeyondAnkleError</rdfs:label>
         <rdfs:label xml:lang="hi">घुटने के टखने से आगे जाने की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#LengthenSpineInstruction -->
@@ -1064,7 +1078,7 @@
         <rdfs:label xml:lang="en">LengthenSpineInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">रीढ़ को लंबा रखें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#LiftChestForwardInstruction -->
@@ -1075,7 +1089,7 @@
         <rdfs:label xml:lang="en">LiftChestForwardInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">छाती को आगे उठाएँ</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#LiftChestForwardUpwardInstruction -->
@@ -1086,7 +1100,7 @@
         <rdfs:label xml:lang="en">LiftChestForwardUpwardInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">छाती को आगे और ऊपर उठाएँ</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#LiftChestInstruction -->
@@ -1097,7 +1111,7 @@
         <rdfs:label xml:lang="en">LiftChestInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">छाती उठाएँ</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#LiftUpwardFirstInstruction -->
@@ -1108,7 +1122,7 @@
         <rdfs:label xml:lang="en">LiftUpwardFirstInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">पहले शरीर को ऊपर उठाएँ, फिर पीछे झुकें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#LowerBackOverarchingError -->
@@ -1122,7 +1136,7 @@
         <rdfs:label xml:lang="en">LowerBackOverarchingError</rdfs:label>
         <rdfs:label xml:lang="hi">निचली पीठ के अत्यधिक झुकाव की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#LowerChestProperlyInstruction -->
@@ -1133,7 +1147,7 @@
         <rdfs:label xml:lang="en">LowerChestProperlyInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">छाती को सही ढंग से नीचे लाएँ</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#MaintainHipPositionInstruction -->
@@ -1144,7 +1158,7 @@
         <rdfs:label xml:lang="en">MaintainHipPositionInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">शरीर की स्थिति स्थिर रखें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#NeckStrainError -->
@@ -1156,7 +1170,7 @@
         <rdfs:label xml:lang="en">NeckStrainError</rdfs:label>
         <rdfs:label xml:lang="hi">गर्दन में खिंचाव की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#OverextensionError -->
@@ -1168,7 +1182,7 @@
         <rdfs:label xml:lang="en">OverextensionError</rdfs:label>
         <rdfs:label xml:lang="hi">अत्यधिक खिंचाव की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#PalmsMisalignedError -->
@@ -1180,7 +1194,7 @@
         <rdfs:label xml:lang="en">PalmsMisalignedError</rdfs:label>
         <rdfs:label xml:lang="hi">हथेलियों के गलत संरेखण की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#PoorBalanceError -->
@@ -1192,7 +1206,7 @@
         <rdfs:label xml:lang="en">PoorBalanceError</rdfs:label>
         <rdfs:label xml:lang="hi">अस्थिर संतुलन की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#PushHipsUpwardInstruction -->
@@ -1203,7 +1217,7 @@
         <rdfs:label xml:lang="en">PushHipsUpwardInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">शरीर को ऊपर उठाएँ</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#RaisedHipsError -->
@@ -1215,7 +1229,7 @@
         <rdfs:label xml:lang="en">RaisedHipsError</rdfs:label>
         <rdfs:label xml:lang="hi">शरीर के मध्य भाग के अधिक उठने की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#RaisedShouldersError -->
@@ -1227,7 +1241,7 @@
         <rdfs:label xml:lang="en">RaisedShouldersError</rdfs:label>
         <rdfs:label xml:lang="hi">कंधों के अधिक उठने की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#RelaxShouldersInstruction -->
@@ -1238,7 +1252,7 @@
         <rdfs:label xml:lang="en">RelaxShouldersInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">कंधों को ढीला रखें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#RoundedBackError -->
@@ -1251,7 +1265,7 @@
         <rdfs:label xml:lang="en">RoundedBackError</rdfs:label>
         <rdfs:label xml:lang="hi">गोल पीठ की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#RoundedShouldersError -->
@@ -1263,7 +1277,7 @@
         <rdfs:label xml:lang="en">RoundedShouldersError</rdfs:label>
         <rdfs:label xml:lang="hi">गोल कंधों की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#SaggingHipsError -->
@@ -1276,7 +1290,7 @@
         <rdfs:label xml:lang="en">SaggingHipsError</rdfs:label>
         <rdfs:label xml:lang="hi">शरीर के मध्य भाग के नीचे धंसने की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#ShoulderTensionError -->
@@ -1288,7 +1302,7 @@
         <rdfs:label xml:lang="en">ShoulderTensionError</rdfs:label>
         <rdfs:label xml:lang="hi">कंधों में तनाव की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#SoftenKneesInstruction -->
@@ -1299,7 +1313,7 @@
         <rdfs:label xml:lang="en">SoftenKneesInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">घुटनों को हल्का ढीला रखें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#StabilizeLegsInstruction -->
@@ -1310,7 +1324,7 @@
         <rdfs:label xml:lang="en">StabilizeLegsInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">पैरों को स्थिर रखें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#TuckElbowsInstruction -->
@@ -1321,7 +1335,7 @@
         <rdfs:label xml:lang="en">TuckElbowsInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">कोहनियों को अंदर रखें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#UnevenWeightError -->
@@ -1333,7 +1347,7 @@
         <rdfs:label xml:lang="en">UnevenWeightError</rdfs:label>
         <rdfs:label xml:lang="hi">असमान भार की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#UnstableLegsError -->
@@ -1345,7 +1359,7 @@
         <rdfs:label xml:lang="en">UnstableLegsError</rdfs:label>
         <rdfs:label xml:lang="hi">अस्थिर पैरों की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#WeakBackLegError -->
@@ -1357,7 +1371,7 @@
         <rdfs:label xml:lang="en">WeakBackLegError</rdfs:label>
         <rdfs:label xml:lang="hi">पीछे के पैर की कमजोरी की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#WeightOnHeelsOnlyError -->
@@ -1369,7 +1383,7 @@
         <rdfs:label xml:lang="en">WeightOnHeelsOnlyError</rdfs:label>
         <rdfs:label xml:lang="hi">केवल एड़ियों पर भार आने की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/base-sn#WristOverloadError -->
@@ -1382,7 +1396,7 @@
         <rdfs:label xml:lang="en">WristOverloadError</rdfs:label>
         <rdfs:label xml:lang="hi">कलाइयों पर अत्यधिक भार की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#AdhoMukhaSvanasana -->
@@ -1408,8 +1422,15 @@
         <rdfs:label xml:lang="mai">अधोमुख श्वानासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱚᱫᱷᱳᱢᱩᱠᱷᱚ ᱥᱣᱟᱱᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯑꯙꯣꯃꯨꯈ ꯁ꯭ꯋꯥꯅꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">अधोमुख श्वानासन</rdfs:label>
+        <rdfs:label xml:lang="doi">अधोमुख श्वानासन</rdfs:label>
+        <rdfs:label xml:lang="ks">ادھومکھ شواناسن</rdfs:label>
+        <rdfs:label xml:lang="kok">अधोमुख श्वानासन</rdfs:label>
+        <rdfs:label xml:lang="ne">अधोमुख श्वानासन</rdfs:label>
+        <rdfs:label xml:lang="sa">अधोमुख श्वानासन</rdfs:label>
+        <rdfs:label xml:lang="sd">ادھومکھ شواناسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Ankle -->
@@ -1419,7 +1440,7 @@
         <rdfs:label xml:lang="en">Ankle</rdfs:label>
         <rdfs:label xml:lang="hi">टखना</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#Ardhachakrasana -->
@@ -1444,8 +1465,15 @@
         <rdfs:label xml:lang="mai">अर्ध चक्रासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱚᱨᱫᱷᱚ ᱪᱚᱠᱨᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯑꯔ꯭ꯙ ꯆꯛꯔꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">अर्ध चक्रासन</rdfs:label>
+        <rdfs:label xml:lang="doi">अर्ध चक्रासन</rdfs:label>
+        <rdfs:label xml:lang="ks">اردھ چکراسن</rdfs:label>
+        <rdfs:label xml:lang="kok">अर्ध चक्रासन</rdfs:label>
+        <rdfs:label xml:lang="ne">अर्ध चक्रासन</rdfs:label>
+        <rdfs:label xml:lang="sa">अर्ध चक्रासन</rdfs:label>
+        <rdfs:label xml:lang="sd">اردھ چکراسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Ardhahalasana -->
@@ -1470,8 +1498,15 @@
         <rdfs:label xml:lang="mai">अर्ध हलासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱚᱨᱫᱷᱚ ᱦᱚᱞᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯑꯔ꯭ꯙ ꯍꯂꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">अर्ध हलासन</rdfs:label>
+        <rdfs:label xml:lang="doi">अर्ध हलासन</rdfs:label>
+        <rdfs:label xml:lang="ks">اردھ ہلاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">अर्ध हलासन</rdfs:label>
+        <rdfs:label xml:lang="ne">अर्ध हलासन</rdfs:label>
+        <rdfs:label xml:lang="sa">अर्ध हलासन</rdfs:label>
+        <rdfs:label xml:lang="sd">اردھ ہلاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Ardhaustrasana -->
@@ -1496,8 +1531,15 @@
         <rdfs:label xml:lang="mai">अर्ध उष्ट्रासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱚᱨᱫᱷᱚ ᱩᱥᱴᱨᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯑꯔ꯭ꯙ ꯎꯁ꯭ꯇ꯭ꯔꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">अर्ध उष्ट्रासन</rdfs:label>
+        <rdfs:label xml:lang="doi">अर्ध उष्ट्रासन</rdfs:label>
+        <rdfs:label xml:lang="ks">اردھ اشٹراسن</rdfs:label>
+        <rdfs:label xml:lang="kok">अर्ध उष्ट्रासन</rdfs:label>
+        <rdfs:label xml:lang="ne">अर्ध उष्ट्रासन</rdfs:label>
+        <rdfs:label xml:lang="sa">अर्ध उष्ट्रासन</rdfs:label>
+        <rdfs:label xml:lang="sd">اردھ اشٹراسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Arms -->
@@ -1507,7 +1549,7 @@
         <rdfs:label xml:lang="en">Arms</rdfs:label>
         <rdfs:label xml:lang="hi">बाहें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#AshtangaNamaskara -->
@@ -1533,8 +1575,15 @@
         <rdfs:label xml:lang="mai">अष्टांग नमस्कार</rdfs:label>
         <rdfs:label xml:lang="sat">ᱚᱥᱴᱟᱝᱜᱚ ᱱᱚᱢᱚᱥᱠᱟᱨᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯑꯁ꯭ꯇꯥꯪꯒ ꯅꯃꯁ꯭ꯀꯥꯔ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">अष्टांग नमस्कार</rdfs:label>
+        <rdfs:label xml:lang="doi">अष्टांग नमस्कार</rdfs:label>
+        <rdfs:label xml:lang="ks">اشٹانگ نمسکار</rdfs:label>
+        <rdfs:label xml:lang="kok">अष्टांग नमस्कार</rdfs:label>
+        <rdfs:label xml:lang="ne">अष्टांग नमस्कार</rdfs:label>
+        <rdfs:label xml:lang="sa">अष्टांग नमस्कार</rdfs:label>
+        <rdfs:label xml:lang="sd">اشٹانگ نمسکار</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#AshwaSanchalanasana -->
@@ -1560,8 +1609,15 @@
         <rdfs:label xml:lang="mai">अश्व संचलनासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱚᱥᱣᱚ ᱥᱚᱝᱪᱚᱞᱚᱱᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯑꯁ꯭ꯋ ꯁꯪꯆꯂꯅꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">अश्व संचलनासन</rdfs:label>
+        <rdfs:label xml:lang="doi">अश्व संचलनासन</rdfs:label>
+        <rdfs:label xml:lang="ks">اشو سنچلناسن</rdfs:label>
+        <rdfs:label xml:lang="kok">अश्व संचलनासन</rdfs:label>
+        <rdfs:label xml:lang="ne">अश्व संचलनासन</rdfs:label>
+        <rdfs:label xml:lang="sa">अश्व संचलनासन</rdfs:label>
+        <rdfs:label xml:lang="sd">اشو سنچلناسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Bhujangasana -->
@@ -1587,8 +1643,15 @@
         <rdfs:label xml:lang="mai">भुजंगासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱵᱷᱩᱡᱚᱝᱜᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯚꯨꯖꯪꯒꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">भुजंगासन</rdfs:label>
+        <rdfs:label xml:lang="doi">भुजंगासन</rdfs:label>
+        <rdfs:label xml:lang="ks">بھجنگاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">भुजंगासन</rdfs:label>
+        <rdfs:label xml:lang="ne">भुजंगासन</rdfs:label>
+        <rdfs:label xml:lang="sa">भुजंगासन</rdfs:label>
+        <rdfs:label xml:lang="sd">بھجنگاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#ChaturangaDandasana -->
@@ -1613,8 +1676,15 @@
         <rdfs:label xml:lang="mai">चतुरंग दंडासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱪᱚᱛᱩᱨᱚᱝᱜᱚ ᱫᱚᱝᱰᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯆꯇꯨꯔꯪꯒ ꯗꯪꯗꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">चतुरंग दंडासन</rdfs:label>
+        <rdfs:label xml:lang="doi">चतुरंग दंडासन</rdfs:label>
+        <rdfs:label xml:lang="ks">چترنگ دنڈاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">चतुरंग दंडासन</rdfs:label>
+        <rdfs:label xml:lang="ne">चतुरंग दंडासन</rdfs:label>
+        <rdfs:label xml:lang="sa">चतुरंग दंडासन</rdfs:label>
+        <rdfs:label xml:lang="sd">چترنگ دنڈاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Chest -->
@@ -1624,7 +1694,7 @@
         <rdfs:label xml:lang="en">Chest</rdfs:label>
         <rdfs:label xml:lang="hi">छाती</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#Chin -->
@@ -1634,7 +1704,7 @@
         <rdfs:label xml:lang="en">Chin</rdfs:label>
         <rdfs:label xml:lang="hi">ठोड़ी</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#Core -->
@@ -1644,7 +1714,7 @@
         <rdfs:label xml:lang="en">Core</rdfs:label>
         <rdfs:label xml:lang="hi">कोर</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#DandaSamarpana -->
@@ -1667,8 +1737,15 @@
         <rdfs:label xml:lang="mai">दंड समर्पण</rdfs:label>
         <rdfs:label xml:lang="sat">ᱫᱚᱝᱰᱚ ᱥᱚᱢᱚᱨᱯᱚᱬᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯗꯪꯗ ꯁꯃꯔ꯭ꯄꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">दंड समर्पण</rdfs:label>
+        <rdfs:label xml:lang="doi">दंड समर्पण</rdfs:label>
+        <rdfs:label xml:lang="ks">دنڈ سمرپن</rdfs:label>
+        <rdfs:label xml:lang="kok">दंड समर्पण</rdfs:label>
+        <rdfs:label xml:lang="ne">दंड समर्पण</rdfs:label>
+        <rdfs:label xml:lang="sa">दंड समर्पण</rdfs:label>
+        <rdfs:label xml:lang="sd">دنڈ سمرپن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Elbow -->
@@ -1678,7 +1755,7 @@
         <rdfs:label xml:lang="en">Elbow</rdfs:label>
         <rdfs:label xml:lang="hi">कोहनी</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#Exhale -->
@@ -1701,8 +1778,15 @@
         <rdfs:label xml:lang="mai">साँस छोड़ू</rdfs:label>
         <rdfs:label xml:lang="sat">ᱥᱣᱟᱥᱚ ᱪᱷᱳᱲᱮᱝ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯁ꯭ꯋꯥꯁ ꯆꯣꯗꯦꯪ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">श्वास छोड़ें</rdfs:label>
+        <rdfs:label xml:lang="doi">साह छोड़ो</rdfs:label>
+        <rdfs:label xml:lang="ks">سانس تراوو</rdfs:label>
+        <rdfs:label xml:lang="kok">श्वास सोडात</rdfs:label>
+        <rdfs:label xml:lang="ne">श्वास छोड्नुहोस्</rdfs:label>
+        <rdfs:label xml:lang="sa">श्वासं मुञ्चतु</rdfs:label>
+        <rdfs:label xml:lang="sd">ساهه ڇڏيو</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Feet -->
@@ -1712,7 +1796,7 @@
         <rdfs:label xml:lang="en">Feet</rdfs:label>
         <rdfs:label xml:lang="hi">पैर</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#Hands -->
@@ -1722,7 +1806,7 @@
         <rdfs:label xml:lang="en">Hands</rdfs:label>
         <rdfs:label xml:lang="hi">हाथ</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#HastaUtthanasana -->
@@ -1749,8 +1833,15 @@
         <rdfs:label xml:lang="mai">हस्त उत्तानासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱦᱚᱥᱛᱚ ᱩᱛᱛᱟᱱᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯍꯁ꯭ꯇ ꯎꯠꯇꯥꯅꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">हस्त उत्तानासन</rdfs:label>
+        <rdfs:label xml:lang="doi">हस्त उत्तानासन</rdfs:label>
+        <rdfs:label xml:lang="ks">ہست اتّاناسن</rdfs:label>
+        <rdfs:label xml:lang="kok">हस्त उत्तानासन</rdfs:label>
+        <rdfs:label xml:lang="ne">हस्त उत्तानासन</rdfs:label>
+        <rdfs:label xml:lang="sa">हस्त उत्तानासन</rdfs:label>
+        <rdfs:label xml:lang="sd">ہست اتّاناسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Hip -->
@@ -1760,7 +1851,7 @@
         <rdfs:label xml:lang="en">Hip</rdfs:label>
         <rdfs:label xml:lang="hi">श्रोणि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#Hold -->
@@ -1783,8 +1874,15 @@
         <rdfs:label xml:lang="mai">साँस रोकू</rdfs:label>
         <rdfs:label xml:lang="sat">ᱥᱣᱟᱥᱚ ᱨᱳᱠᱮᱝ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯁ꯭ꯋꯥꯁ ꯔꯣꯀꯦꯪ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">श्वास रोकें</rdfs:label>
+        <rdfs:label xml:lang="doi">साह रोको</rdfs:label>
+        <rdfs:label xml:lang="ks">سانس رکاوو</rdfs:label>
+        <rdfs:label xml:lang="kok">श्वास रोखात</rdfs:label>
+        <rdfs:label xml:lang="ne">श्वास रोक्नुहोस्</rdfs:label>
+        <rdfs:label xml:lang="sa">श्वासं धारयतु</rdfs:label>
+        <rdfs:label xml:lang="sd">ساهه روڪيو</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Inhale -->
@@ -1807,8 +1905,15 @@
         <rdfs:label xml:lang="mai">साँस लिअ</rdfs:label>
         <rdfs:label xml:lang="sat">ᱥᱣᱟᱥᱚ ᱞᱮᱝ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯁ꯭ꯋꯥꯁ ꯂꯦꯪ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">श्वास लें</rdfs:label>
+        <rdfs:label xml:lang="doi">साह लैओ</rdfs:label>
+        <rdfs:label xml:lang="ks">سانس ہیو</rdfs:label>
+        <rdfs:label xml:lang="kok">श्वास घेयात</rdfs:label>
+        <rdfs:label xml:lang="ne">श्वास लिनुहोस्</rdfs:label>
+        <rdfs:label xml:lang="sa">श्वासं गृह्णातु</rdfs:label>
+        <rdfs:label xml:lang="sd">ساهه کڻو</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Knee -->
@@ -1818,7 +1923,7 @@
         <rdfs:label xml:lang="en">Knee</rdfs:label>
         <rdfs:label xml:lang="hi">घुटना</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#Legs -->
@@ -1828,7 +1933,7 @@
         <rdfs:label xml:lang="en">Legs</rdfs:label>
         <rdfs:label xml:lang="hi">टांगें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#Makarasana -->
@@ -1853,8 +1958,15 @@
         <rdfs:label xml:lang="mai">मकरासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱢᱚᱠᱚᱨᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯃꯀꯔꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">मकरासन</rdfs:label>
+        <rdfs:label xml:lang="doi">मकरासन</rdfs:label>
+        <rdfs:label xml:lang="ks">مکراسن</rdfs:label>
+        <rdfs:label xml:lang="kok">मकरासन</rdfs:label>
+        <rdfs:label xml:lang="ne">मकरासन</rdfs:label>
+        <rdfs:label xml:lang="sa">मकरासन</rdfs:label>
+        <rdfs:label xml:lang="sd">مکراسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Neck -->
@@ -1864,7 +1976,7 @@
         <rdfs:label xml:lang="en">Neck</rdfs:label>
         <rdfs:label xml:lang="hi">गर्दन</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#Padahastasana -->
@@ -1894,8 +2006,15 @@
         <rdfs:label xml:lang="mai">पादहस्तासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱯᱟᱫᱚᱦᱚᱥᱛᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯄꯥꯗꯍꯁ꯭ꯇꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">पादहस्तासन</rdfs:label>
+        <rdfs:label xml:lang="doi">पादहस्तासन</rdfs:label>
+        <rdfs:label xml:lang="ks">پادہستاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">पादहस्तासन</rdfs:label>
+        <rdfs:label xml:lang="ne">पादहस्तासन</rdfs:label>
+        <rdfs:label xml:lang="sa">पादहस्तासन</rdfs:label>
+        <rdfs:label xml:lang="sd">پادہستاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Palms -->
@@ -1905,7 +2024,7 @@
         <rdfs:label xml:lang="en">Palms</rdfs:label>
         <rdfs:label xml:lang="hi">हथेलियाँ</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#Parvatasana -->
@@ -1931,8 +2050,15 @@
         <rdfs:label xml:lang="mai">पर्वतासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱯᱚᱨᱣᱚᱛᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯄꯔ꯭ꯋꯇꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">पर्वतासन</rdfs:label>
+        <rdfs:label xml:lang="doi">पर्वतासन</rdfs:label>
+        <rdfs:label xml:lang="ks">پروتاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">पर्वतासन</rdfs:label>
+        <rdfs:label xml:lang="ne">पर्वतासन</rdfs:label>
+        <rdfs:label xml:lang="sa">पर्वतासन</rdfs:label>
+        <rdfs:label xml:lang="sd">پروتاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Pavanamuktasana -->
@@ -1957,8 +2083,15 @@
         <rdfs:label xml:lang="mai">पवनमुक्तासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱯᱚᱣᱚᱱᱚᱢᱩᱠᱛᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯄꯋꯅꯃꯨꯛꯇꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">पवनमुक्तासन</rdfs:label>
+        <rdfs:label xml:lang="doi">पवनमुक्तासन</rdfs:label>
+        <rdfs:label xml:lang="ks">پونمکتاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">पवनमुक्तासन</rdfs:label>
+        <rdfs:label xml:lang="ne">पवनमुक्तासन</rdfs:label>
+        <rdfs:label xml:lang="sa">पवनमुक्तासन</rdfs:label>
+        <rdfs:label xml:lang="sd">پونمکتاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Phalakasana -->
@@ -1983,8 +2116,15 @@
         <rdfs:label xml:lang="mai">फलकासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱯᱷᱚᱞᱚᱠᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯐꯂꯀꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">फलकासन</rdfs:label>
+        <rdfs:label xml:lang="doi">फलकासन</rdfs:label>
+        <rdfs:label xml:lang="ks">پھلکاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">फलकासन</rdfs:label>
+        <rdfs:label xml:lang="ne">फलकासन</rdfs:label>
+        <rdfs:label xml:lang="sa">फलकासन</rdfs:label>
+        <rdfs:label xml:lang="sd">پھلکاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Pranamasana -->
@@ -2010,8 +2150,15 @@
         <rdfs:label xml:lang="mai">प्रणामासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱯᱨᱚᱬᱟᱢᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯞꯔꯅꯥꯃꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">प्रणामासन</rdfs:label>
+        <rdfs:label xml:lang="doi">प्रणामासन</rdfs:label>
+        <rdfs:label xml:lang="ks">پرناماسن</rdfs:label>
+        <rdfs:label xml:lang="kok">प्रणामासन</rdfs:label>
+        <rdfs:label xml:lang="ne">प्रणामासन</rdfs:label>
+        <rdfs:label xml:lang="sa">प्रणामासन</rdfs:label>
+        <rdfs:label xml:lang="sd">پرناماسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Samasthiti -->
@@ -2035,8 +2182,15 @@
         <rdfs:label xml:lang="mai">समस्थिति</rdfs:label>
         <rdfs:label xml:lang="sat">ᱥᱚᱢᱚᱥᱛᱷᱤᱛᱤ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯁꯃꯁ꯭ꯊꯤꯇꯤ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">समस्थिति</rdfs:label>
+        <rdfs:label xml:lang="doi">समस्थिति</rdfs:label>
+        <rdfs:label xml:lang="ks">سمستھت</rdfs:label>
+        <rdfs:label xml:lang="kok">समस्थिति</rdfs:label>
+        <rdfs:label xml:lang="ne">समस्थिति</rdfs:label>
+        <rdfs:label xml:lang="sa">समस्थिति</rdfs:label>
+        <rdfs:label xml:lang="sd">سمستھت</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Setubandhasana -->
@@ -2061,8 +2215,15 @@
         <rdfs:label xml:lang="mai">सेतुबंधासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱥᱮᱛᱩᱵᱚᱝᱫᱷᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯁꯦꯇꯨꯕꯪꯙꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">सेतुबंधासन</rdfs:label>
+        <rdfs:label xml:lang="doi">सेतुबंधासन</rdfs:label>
+        <rdfs:label xml:lang="ks">سیتبندھاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">सेतुबंधासन</rdfs:label>
+        <rdfs:label xml:lang="ne">सेतुबंधासन</rdfs:label>
+        <rdfs:label xml:lang="sa">सेतुबंधासन</rdfs:label>
+        <rdfs:label xml:lang="sd">سیتبندھاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Shalabhasana -->
@@ -2087,8 +2248,15 @@
         <rdfs:label xml:lang="mai">शलभासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱥᱚᱞᱚᱵᱷᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯁꯂꯚꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">शलभासन</rdfs:label>
+        <rdfs:label xml:lang="doi">शलभासन</rdfs:label>
+        <rdfs:label xml:lang="ks">شلبھاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">शलभासन</rdfs:label>
+        <rdfs:label xml:lang="ne">शलभासन</rdfs:label>
+        <rdfs:label xml:lang="sa">शलभासन</rdfs:label>
+        <rdfs:label xml:lang="sd">شلبھاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Shashankasana -->
@@ -2112,8 +2280,15 @@
         <rdfs:label xml:lang="mai">शशांकासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱥᱚᱥᱟᱝᱠᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯁꯁꯥꯪꯀꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">शशांकासन</rdfs:label>
+        <rdfs:label xml:lang="doi">शशांकासन</rdfs:label>
+        <rdfs:label xml:lang="ks">ششانکاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">शशांकासन</rdfs:label>
+        <rdfs:label xml:lang="ne">शशांकासन</rdfs:label>
+        <rdfs:label xml:lang="sa">शशांकासन</rdfs:label>
+        <rdfs:label xml:lang="sd">ششانکاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#ShashtangaNamaskara -->
@@ -2137,8 +2312,15 @@
         <rdfs:label xml:lang="mai">षष्टांग नमस्कार</rdfs:label>
         <rdfs:label xml:lang="sat">ᱥᱚᱥᱴᱟᱝᱜᱚ ᱱᱚᱢᱚᱥᱠᱟᱨᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯁꯁ꯭ꯇꯥꯪꯒ ꯅꯃꯁ꯭ꯀꯥꯔ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">षष्टांग नमस्कार</rdfs:label>
+        <rdfs:label xml:lang="doi">षष्टांग नमस्कार</rdfs:label>
+        <rdfs:label xml:lang="ks">ششٹانگ نمسکار</rdfs:label>
+        <rdfs:label xml:lang="kok">षष्टांग नमस्कार</rdfs:label>
+        <rdfs:label xml:lang="ne">षष्टांग नमस्कार</rdfs:label>
+        <rdfs:label xml:lang="sa">षष्टांग नमस्कार</rdfs:label>
+        <rdfs:label xml:lang="sd">ششٹانگ نمسکار</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Shavasana -->
@@ -2163,8 +2345,15 @@
         <rdfs:label xml:lang="mai">शवासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱥᱚᱣᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯁꯋꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">शवासन</rdfs:label>
+        <rdfs:label xml:lang="doi">शवासन</rdfs:label>
+        <rdfs:label xml:lang="ks">شواسن</rdfs:label>
+        <rdfs:label xml:lang="kok">शवासन</rdfs:label>
+        <rdfs:label xml:lang="ne">शवासन</rdfs:label>
+        <rdfs:label xml:lang="sa">शवासन</rdfs:label>
+        <rdfs:label xml:lang="sd">شواسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Shoulder -->
@@ -2174,7 +2363,7 @@
         <rdfs:label xml:lang="en">Shoulder</rdfs:label>
         <rdfs:label xml:lang="hi">कंधा</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#Spine -->
@@ -2184,7 +2373,7 @@
         <rdfs:label xml:lang="en">Spine</rdfs:label>
         <rdfs:label xml:lang="hi">रीढ़</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/core#Tadasana -->
@@ -2208,8 +2397,15 @@
         <rdfs:label xml:lang="mai">ताड़ासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱛᱟᱲᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯇꯥꯗꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">ताड़ासन</rdfs:label>
+        <rdfs:label xml:lang="doi">ताड़ासन</rdfs:label>
+        <rdfs:label xml:lang="ks">تاڑاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">ताड़ासन</rdfs:label>
+        <rdfs:label xml:lang="ne">ताड़ासन</rdfs:label>
+        <rdfs:label xml:lang="sa">ताड़ासन</rdfs:label>
+        <rdfs:label xml:lang="sd">تاڑاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#UrdhwaMukhaSvanasana -->
@@ -2233,8 +2429,15 @@
         <rdfs:label xml:lang="mai">ऊर्ध्वमुख श्वानासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱩᱻᱨᱫᱷᱣᱚᱢᱩᱠᱷᱚ ᱥᱣᱟᱱᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯎꯔ꯭ꯙ꯭ꯋꯃꯨꯈ ꯁ꯭ꯋꯥꯅꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">ऊर्ध्वमुख श्वानासन</rdfs:label>
+        <rdfs:label xml:lang="doi">ऊर्ध्वमुख श्वानासन</rdfs:label>
+        <rdfs:label xml:lang="ks">اوردھومکھ شواناسن</rdfs:label>
+        <rdfs:label xml:lang="kok">ऊर्ध्वमुख श्वानासन</rdfs:label>
+        <rdfs:label xml:lang="ne">ऊर्ध्वमुख श्वानासन</rdfs:label>
+        <rdfs:label xml:lang="sa">ऊर्ध्वमुख श्वानासन</rdfs:label>
+        <rdfs:label xml:lang="sd">اوردھومکھ شواناسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Ustrasana -->
@@ -2259,8 +2462,15 @@
         <rdfs:label xml:lang="mai">उष्ट्रासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱩᱥᱴᱨᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯎꯁ꯭ꯇ꯭ꯔꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">उष्ट्रासन</rdfs:label>
+        <rdfs:label xml:lang="doi">उष्ट्रासन</rdfs:label>
+        <rdfs:label xml:lang="ks">اشٹراسن</rdfs:label>
+        <rdfs:label xml:lang="kok">उष्ट्रासन</rdfs:label>
+        <rdfs:label xml:lang="ne">उष्ट्रासन</rdfs:label>
+        <rdfs:label xml:lang="sa">उष्ट्रासन</rdfs:label>
+        <rdfs:label xml:lang="sd">اشٹراسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Utkatasana -->
@@ -2284,8 +2494,15 @@
         <rdfs:label xml:lang="mai">उत्कटासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱩᱛᱠᱚᱴᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯎꯠꯀꯇꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">उत्कटासन</rdfs:label>
+        <rdfs:label xml:lang="doi">उत्कटासन</rdfs:label>
+        <rdfs:label xml:lang="ks">اتکٹاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">उत्कटासन</rdfs:label>
+        <rdfs:label xml:lang="ne">उत्कटासन</rdfs:label>
+        <rdfs:label xml:lang="sa">उत्कटासन</rdfs:label>
+        <rdfs:label xml:lang="sd">اتکٹاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Uttanamandukasana -->
@@ -2310,8 +2527,15 @@
         <rdfs:label xml:lang="mai">उत्तान मंडूकासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱩᱛᱛᱟᱱᱚ ᱢᱚᱝᱰᱩᱻᱠᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯎꯠꯇꯥꯅ ꯃꯪꯗꯨꯀꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">उत्तान मंडूकासन</rdfs:label>
+        <rdfs:label xml:lang="doi">उत्तान मंडूकासन</rdfs:label>
+        <rdfs:label xml:lang="ks">اتّان منڈوکاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">उत्तान मंडूकासन</rdfs:label>
+        <rdfs:label xml:lang="ne">उत्तान मंडूकासन</rdfs:label>
+        <rdfs:label xml:lang="sa">उत्तान मंडूकासन</rdfs:label>
+        <rdfs:label xml:lang="sd">اتّان منڈوکاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Uttanapadasana -->
@@ -2336,8 +2560,15 @@
         <rdfs:label xml:lang="mai">उत्तानपादासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱩᱛᱛᱟᱱᱚᱯᱟᱫᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯎꯠꯇꯥꯅꯄꯥꯗꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">उत्तानपादासन</rdfs:label>
+        <rdfs:label xml:lang="doi">उत्तानपादासन</rdfs:label>
+        <rdfs:label xml:lang="ks">اتّانپاداسن</rdfs:label>
+        <rdfs:label xml:lang="kok">उत्तानपादासन</rdfs:label>
+        <rdfs:label xml:lang="ne">उत्तानपादासन</rdfs:label>
+        <rdfs:label xml:lang="sa">उत्तानपादासन</rdfs:label>
+        <rdfs:label xml:lang="sd">اتّانپاداسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Uttanasana -->
@@ -2362,8 +2593,15 @@
         <rdfs:label xml:lang="mai">उत्तानासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱩᱛᱛᱟᱱᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯎꯠꯇꯥꯅꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">उत्तानासन</rdfs:label>
+        <rdfs:label xml:lang="doi">उत्तानासन</rdfs:label>
+        <rdfs:label xml:lang="ks">اتّاناسن</rdfs:label>
+        <rdfs:label xml:lang="kok">उत्तानासन</rdfs:label>
+        <rdfs:label xml:lang="ne">उत्तानासन</rdfs:label>
+        <rdfs:label xml:lang="sa">उत्तानासन</rdfs:label>
+        <rdfs:label xml:lang="sd">اتّاناسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Vajrasana -->
@@ -2388,8 +2626,15 @@
         <rdfs:label xml:lang="mai">वज्रासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱣᱚᱡᱨᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯋꯖ꯭ꯔꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">वज्रासन</rdfs:label>
+        <rdfs:label xml:lang="doi">वज्रासन</rdfs:label>
+        <rdfs:label xml:lang="ks">وجراسن</rdfs:label>
+        <rdfs:label xml:lang="kok">वज्रासन</rdfs:label>
+        <rdfs:label xml:lang="ne">वज्रासन</rdfs:label>
+        <rdfs:label xml:lang="sa">वज्रासन</rdfs:label>
+        <rdfs:label xml:lang="sd">وجراسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Vakrasana -->
@@ -2414,8 +2659,15 @@
         <rdfs:label xml:lang="mai">वक्रासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱣᱚᱠᱨᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯋꯛꯔꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">वक्रासन</rdfs:label>
+        <rdfs:label xml:lang="doi">वक्रासन</rdfs:label>
+        <rdfs:label xml:lang="ks">وکراسن</rdfs:label>
+        <rdfs:label xml:lang="kok">वक्रासन</rdfs:label>
+        <rdfs:label xml:lang="ne">वक्रासन</rdfs:label>
+        <rdfs:label xml:lang="sa">वक्रासन</rdfs:label>
+        <rdfs:label xml:lang="sd">وکراسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Vrksasana -->
@@ -2440,8 +2692,15 @@
         <rdfs:label xml:lang="mai">वृक्षासन</rdfs:label>
         <rdfs:label xml:lang="sat">ᱣᱨᱩᱠᱥᱟᱥᱚᱱᱚ</rdfs:label>
         <rdfs:label xml:lang="mni">ꯋ꯭ꯔꯨꯛꯁꯥꯁꯅ</rdfs:label>
-      </owl:NamedIndividual>
-    
+
+        <rdfs:label xml:lang="brx">वृक्षासन</rdfs:label>
+        <rdfs:label xml:lang="doi">वृक्षासन</rdfs:label>
+        <rdfs:label xml:lang="ks">ورکشاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">वृक्षासन</rdfs:label>
+        <rdfs:label xml:lang="ne">वृक्षासन</rdfs:label>
+        <rdfs:label xml:lang="sa">वृक्षासन</rdfs:label>
+        <rdfs:label xml:lang="sd">ورکشاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- http://example.org/suryanamaskar/core#Wrist -->
@@ -2451,7 +2710,7 @@
         <rdfs:label xml:lang="en">Wrist</rdfs:label>
         <rdfs:label xml:lang="hi">कलाई</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant01#Variant01_KrishnamacharyaVinyasa -->
@@ -2462,7 +2721,7 @@
         <rdfs:label xml:lang="en">Variant01_KrishnamacharyaVinyasa</rdfs:label>
         <rdfs:label xml:lang="hi">सूर्य नमस्कार (कृष्णमाचार्य विन्यास)</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant01#Variant01_Pose01 -->
@@ -2479,7 +2738,7 @@
         <rdfs:label xml:lang="en">Variant01_Pose01</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०१</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant01#Variant01_Pose02 -->
@@ -2497,7 +2756,7 @@
         <rdfs:label xml:lang="en">Variant01_Pose02</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०२</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant01#Variant01_Pose03 -->
@@ -2515,7 +2774,7 @@
         <rdfs:label xml:lang="en">Variant01_Pose03</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०३</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant01#Variant01_Pose04 -->
@@ -2533,7 +2792,7 @@
         <rdfs:label xml:lang="en">Variant01_Pose04</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०४</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant01#Variant01_Pose05 -->
@@ -2551,7 +2810,7 @@
         <rdfs:label xml:lang="en">Variant01_Pose05</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०५</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant01#Variant01_Pose06 -->
@@ -2567,7 +2826,7 @@
         <rdfs:label xml:lang="en">Variant01_Pose06</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०६</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant01#Variant01_Pose07 -->
@@ -2585,7 +2844,7 @@
         <rdfs:label xml:lang="en">Variant01_Pose07</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०७</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant01#Variant01_Pose08 -->
@@ -2602,7 +2861,7 @@
         <rdfs:label xml:lang="en">Variant01_Pose08</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०८</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant01#Variant01_Pose09 -->
@@ -2619,7 +2878,7 @@
         <rdfs:label xml:lang="en">Variant01_Pose09</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०९</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant01#Variant01_Pose10 -->
@@ -2637,7 +2896,7 @@
         <rdfs:label xml:lang="en">Variant01_Pose10</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा १०</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant01#Variant01_Pose11 -->
@@ -2655,7 +2914,7 @@
         <rdfs:label xml:lang="en">Variant01_Pose11</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ११</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant01#Variant01_Pose12 -->
@@ -2673,7 +2932,7 @@
         <rdfs:label xml:lang="en">Variant01_Pose12</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा १२</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant01#Variant01_Pose13 -->
@@ -2690,7 +2949,7 @@
         <rdfs:label xml:lang="en">Variant01_Pose13</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा १३</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant02#Variant02_BiharSchoolOfYoga -->
@@ -2701,7 +2960,7 @@
         <rdfs:label xml:lang="en">Variant02_BiharSchoolOfYoga</rdfs:label>
         <rdfs:label xml:lang="hi">सूर्य नमस्कार (बिहार योग विद्यालय)</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant02#Variant02_Pose01 -->
@@ -2718,7 +2977,7 @@
         <rdfs:label xml:lang="en">Variant02_Pose01</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०१</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant02#Variant02_Pose02 -->
@@ -2736,7 +2995,7 @@
         <rdfs:label xml:lang="en">Variant02_Pose02</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०२</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant02#Variant02_Pose03 -->
@@ -2754,7 +3013,7 @@
         <rdfs:label xml:lang="en">Variant02_Pose03</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०३</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant02#Variant02_Pose04 -->
@@ -2773,7 +3032,7 @@
         <rdfs:label xml:lang="en">Variant02_Pose04</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०४</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant02#Variant02_Pose05 -->
@@ -2791,7 +3050,7 @@
         <rdfs:label xml:lang="en">Variant02_Pose05</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०५</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant02#Variant02_Pose06 -->
@@ -2808,7 +3067,7 @@
         <rdfs:label xml:lang="en">Variant02_Pose06</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०६</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant02#Variant02_Pose07 -->
@@ -2825,7 +3084,7 @@
         <rdfs:label xml:lang="en">Variant02_Pose07</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०७</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant02#Variant02_Pose08 -->
@@ -2843,7 +3102,7 @@
         <rdfs:label xml:lang="en">Variant02_Pose08</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०८</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant02#Variant02_Pose09 -->
@@ -2862,7 +3121,7 @@
         <rdfs:label xml:lang="en">Variant02_Pose09</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०९</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant02#Variant02_Pose10 -->
@@ -2880,7 +3139,7 @@
         <rdfs:label xml:lang="en">Variant02_Pose10</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा १०</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant02#Variant02_Pose11 -->
@@ -2898,7 +3157,7 @@
         <rdfs:label xml:lang="en">Variant02_Pose11</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ११</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant02#Variant02_Pose12 -->
@@ -2915,7 +3174,7 @@
         <rdfs:label xml:lang="en">Variant02_Pose12</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा १२</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant03#Variant03_Pose01 -->
@@ -2931,7 +3190,7 @@
         <rdfs:label xml:lang="en">Variant03_Pose01</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०१</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant03#Variant03_Pose02 -->
@@ -2949,7 +3208,7 @@
         <rdfs:label xml:lang="en">Variant03_Pose02</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०२</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant03#Variant03_Pose03 -->
@@ -2968,7 +3227,7 @@
         <rdfs:label xml:lang="en">Variant03_Pose03</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०३</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant03#Variant03_Pose04 -->
@@ -2985,7 +3244,7 @@
         <rdfs:label xml:lang="en">Variant03_Pose04</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०४</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant03#Variant03_Pose05 -->
@@ -3003,7 +3262,7 @@
         <rdfs:label xml:lang="en">Variant03_Pose05</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०५</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant03#Variant03_Pose06 -->
@@ -3020,7 +3279,7 @@
         <rdfs:label xml:lang="en">Variant03_Pose06</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०६</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant03#Variant03_Pose07 -->
@@ -3037,7 +3296,7 @@
         <rdfs:label xml:lang="en">Variant03_Pose07</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०७</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant03#Variant03_Pose08 -->
@@ -3054,7 +3313,7 @@
         <rdfs:label xml:lang="en">Variant03_Pose08</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०८</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant03#Variant03_Pose09 -->
@@ -3072,7 +3331,7 @@
         <rdfs:label xml:lang="en">Variant03_Pose09</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०९</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant03#Variant03_Pose10 -->
@@ -3091,7 +3350,7 @@
         <rdfs:label xml:lang="en">Variant03_Pose10</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा १०</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant03#Variant03_Pose11 -->
@@ -3109,7 +3368,7 @@
         <rdfs:label xml:lang="en">Variant03_Pose11</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ११</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant03#Variant03_Pose12 -->
@@ -3125,7 +3384,7 @@
         <rdfs:label xml:lang="en">Variant03_Pose12</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा १२</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://example.org/suryanamaskar/variant03#Variant03_SwamiVivekanandaKendra -->
@@ -3136,10 +3395,10 @@
         <rdfs:label xml:lang="en">Variant03_SwamiVivekanandaKendra</rdfs:label>
         <rdfs:label xml:lang="hi">सूर्य नमस्कार (स्वामी विवेकानंद केंद्र)</rdfs:label>
     </owl:NamedIndividual>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // General axioms
@@ -3160,8 +3419,3 @@
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
-
-
-
-
-
