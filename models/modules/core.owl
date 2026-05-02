@@ -14,6 +14,19 @@
     <rdfs:label xml:lang="en">Pavanamuktasana</rdfs:label>
     <rdfs:label xml:lang="hi">पवनमुक्तासन</rdfs:label>
     <rdfs:label xml:lang="te">పవనముక్తాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">পবনমুক্তাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">पवनमुक्तासन</rdfs:label>
+    <rdfs:label xml:lang="ta">பவனமுக்தாசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">પવનમુક્તાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">پونمکتاسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ಪವನಮುಕ್ತಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ପବନମୁକ୍ତାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">പവനമുക്താസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਪਵਨਮੁਕ੍ਤਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">পৱনমুক্তাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">पवनमुक्तासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱯᱚᱣᱚᱱᱚᱢᱩᱠᱛᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯄꯋꯅꯃꯨꯛꯇꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#Shashankasana">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -22,6 +35,19 @@
     <rdfs:label xml:lang="en">Shashankasana</rdfs:label>
     <rdfs:label xml:lang="hi">शशांकासन</rdfs:label>
     <rdfs:label xml:lang="te">శశాంకాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">শশাঙ্কাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">शशांकासन</rdfs:label>
+    <rdfs:label xml:lang="ta">ஷஷாங்காசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">શશાંકાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">ششانکاسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ಶಶಾಂಕಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ଶଶାଙ୍କାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">ശശാങ്കാസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਸ਼ਸ਼ਾਂਕਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">শশাঙ্কাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">शशांकासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱥᱚᱥᱟᱝᱠᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯁꯁꯥꯪꯀꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#Spine">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -37,6 +63,19 @@
     <rdfs:label xml:lang="en">Ardhachakrasana</rdfs:label>
     <rdfs:label xml:lang="hi">अर्ध चक्रासन</rdfs:label>
     <rdfs:label xml:lang="te">అర్ధ చక్రాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">অর্ধ চক্রাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">अर्ध चक्रासन</rdfs:label>
+    <rdfs:label xml:lang="ta">அர்த சக்ராசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">અર્ધ ચક્રાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">اردھ چکراسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ಅರ್ಧ ಚಕ್ರಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ଅର୍ଧ ଚକ୍ରାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">അർധ ചക്രാസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਅਰ੍ਧ ਚਕ੍ਰਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">অৰ্ধ চক্ৰাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">अर्ध चक्रासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱚᱨᱫᱷᱚ ᱪᱚᱠᱨᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯑꯔ꯭ꯙ ꯆꯛꯔꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#belongsToVariant">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -59,6 +98,19 @@
     <rdfs:label xml:lang="en">Uttanapadasana</rdfs:label>
     <rdfs:label xml:lang="hi">उत्तानपादासन</rdfs:label>
     <rdfs:label xml:lang="te">ఉత్తాన పాదాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">উত্তানপাদাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">उत्तानपादासन</rdfs:label>
+    <rdfs:label xml:lang="ta">உத்தானபாதாசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">ઉત્તાનપાદાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">اتّانپاداسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ಉತ್ತಾನಪಾದಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ଉତ୍ତାନପାଦାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">ഉത്താനപാദാസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਉੱਤਾਨਪਾਦਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">উত্তানপাদাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">उत्तानपादासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱩᱛᱛᱟᱱᱚᱯᱟᱫᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯎꯠꯇꯥꯅꯄꯥꯗꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#hasAlternateName">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
@@ -74,6 +126,19 @@
     <rdfs:label xml:lang="en">Utkatasana</rdfs:label>
     <rdfs:label xml:lang="hi">उत्कटासन</rdfs:label>
     <rdfs:label xml:lang="te">ఉత్కటాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">উৎকটাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">उत्कटासन</rdfs:label>
+    <rdfs:label xml:lang="ta">உத்கடாசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">ઉત્કટાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">اتکٹاسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ಉತ್ಕಟಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ଉତ୍କଟାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">ഉത്കടാസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਉਤ੍ਕਟਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">উৎকটাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">उत्कटासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱩᱛᱠᱚᱴᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯎꯠꯀꯇꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#Ardhaustrasana">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -83,6 +148,19 @@
     <rdfs:label xml:lang="en">Ardhaustrasana</rdfs:label>
     <rdfs:label xml:lang="hi">अर्ध उष्ट्रासन</rdfs:label>
     <rdfs:label xml:lang="te">అర్ధ ఉష్ట్రాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">অর্ধ উষ্ট্রাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">अर्ध उष्ट्रासन</rdfs:label>
+    <rdfs:label xml:lang="ta">அர்த உஷ்ட்ராசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">અર્ધ ઉષ્ટ્રાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">اردھ اشٹراسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ಅರ್ಧ ಉಷ್ಟ್ರಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ଅର୍ଧ ଉଷ୍ଟ୍ରାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">അർധ ഉഷ്ട്രാസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਅਰ੍ਧ ਉਸ਼਼੍ਟ੍ਰਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">অৰ্ধ উষ্ট্ৰাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">अर्ध उष्ट्रासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱚᱨᱫᱷᱚ ᱩᱥᱴᱨᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯑꯔ꯭ꯙ ꯎꯁ꯭ꯇ꯭ꯔꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#Chin">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -99,6 +177,19 @@
     <rdfs:label xml:lang="en">Adho Mukha Svanasana</rdfs:label>
     <rdfs:label xml:lang="hi">अधोमुख श्वानासन</rdfs:label>
     <rdfs:label xml:lang="te">అధో ముఖ శ్వానాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">অধোমুখ শ্বানাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">अधोमुख श्वानासन</rdfs:label>
+    <rdfs:label xml:lang="ta">அதோமுக ஷ்வானாசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">અધોમુખ શ્વાનાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">ادھومکھ شواناسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ಅಧೋಮುಖ ಶ್ವಾನಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ଅଧୋମୁଖ ଶ୍ୱାନାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">അധോമുഖ ശ്വാനാസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਅਧੋਮੁਖ ਸ਼੍ਵਾਨਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">অধোমুখ শ্ৱানাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">अधोमुख श्वानासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱚᱫᱷᱳᱢᱩᱠᱷᱚ ᱥᱣᱟᱱᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯑꯙꯣꯃꯨꯈ ꯁ꯭ꯋꯥꯅꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#Hip">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -115,6 +206,19 @@
     <rdfs:label xml:lang="en">Bhujangasana</rdfs:label>
     <rdfs:label xml:lang="hi">भुजंगासन</rdfs:label>
     <rdfs:label xml:lang="te">భుజంగాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">ভুজঙ্গাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">भुजंगासन</rdfs:label>
+    <rdfs:label xml:lang="ta">புஜங்காசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">ભુજંગાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">بھجنگاسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ಭುಜಂಗಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ଭୁଜଙ୍ଗାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">ഭുജംഗാസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਭੁਜੰਗਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">ভুজঙ্গাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">भुजंगासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱵᱷᱩᱡᱚᱝᱜᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯚꯨꯖꯪꯒꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#Phalakasana">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -124,6 +228,19 @@
     <rdfs:label xml:lang="en">Phalakasana</rdfs:label>
     <rdfs:label xml:lang="hi">फलकासन</rdfs:label>
     <rdfs:label xml:lang="te">ఫలకాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">ফলকাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">फलकासन</rdfs:label>
+    <rdfs:label xml:lang="ta">பலகாசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">ફલકાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">پھلکاسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ಫಲಕಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ଫଲକାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">ഫലകാസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਫਲਕਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">ফলকাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">फलकासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱯᱷᱚᱞᱚᱠᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯐꯂꯀꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N1e583a5942ef4b3bb9ef94f0d3930862">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
@@ -138,6 +255,19 @@
     <rdfs:label xml:lang="en">Urdhwa Mukha Svanasana</rdfs:label>
     <rdfs:label xml:lang="hi">ऊर्ध्वमुख श्वानासन</rdfs:label>
     <rdfs:label xml:lang="te">ఊర్ధ్వ ముఖ శ్వానాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">ঊর্ধ্বমুখ শ্বানাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">ऊर्ध्वमुख श्वानासन</rdfs:label>
+    <rdfs:label xml:lang="ta">ஊர்த்வமுக ஷ்வானாசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">ઊર્ધ્વમુખ શ્વાનાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">اوردھومکھ شواناسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ಊರ್ಧ್ವಮುಖ ಶ್ವಾನಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ଊର୍ଧ୍ୱମୁଖ ଶ୍ୱାନାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">ഊർധ്വമുഖ ശ്വാനാസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਊਰ੍ਧ੍ਵਮੁਖ ਸ਼੍ਵਾਨਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">ঊৰ্ধ্ৱমুখ শ্ৱানাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">ऊर्ध्वमुख श्वानासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱩᱻᱨᱫᱷᱣᱚᱢᱩᱠᱷᱚ ᱥᱣᱟᱱᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯎꯔ꯭ꯙ꯭ꯋꯃꯨꯈ ꯁ꯭ꯋꯥꯅꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N7e33d217ecf249df8eced6be65be5a0e">
     <rdf:first rdf:resource="http://example.org/suryanamaskar/core#Asana"/>
@@ -150,6 +280,19 @@
     <rdfs:label xml:lang="en">Shashtanga Namaskara</rdfs:label>
     <rdfs:label xml:lang="hi">षष्टांग नमस्कार</rdfs:label>
     <rdfs:label xml:lang="te">షష్టాంగ నమస్కారం</rdfs:label>
+    <rdfs:label xml:lang="bn">ষষ্টাঙ্গ নমস্কার</rdfs:label>
+    <rdfs:label xml:lang="mr">षष्टांग नमस्कार</rdfs:label>
+    <rdfs:label xml:lang="ta">ஷஷ்டாங்க நமஸ்காரம்</rdfs:label>
+    <rdfs:label xml:lang="gu">ષષ્ટાંગ નમસ્કાર</rdfs:label>
+    <rdfs:label xml:lang="ur">ششٹانگ نمسکار</rdfs:label>
+    <rdfs:label xml:lang="kn">ಷಷ್ಟಾಂಗ ನಮಸ್ಕಾರ</rdfs:label>
+    <rdfs:label xml:lang="or">ଷଷ୍ଟାଙ୍ଗ ନମସ୍କାର</rdfs:label>
+    <rdfs:label xml:lang="ml">ഷഷ്ടാംഗ നമസ്കാരം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਸ਼਼ਸ਼਼੍ਟਾਂਗ ਨਮਸ੍ਕਾਰ</rdfs:label>
+    <rdfs:label xml:lang="as">ষষ্টাঙ্গ নমস্কাৰ</rdfs:label>
+    <rdfs:label xml:lang="mai">षष्टांग नमस्कार</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱥᱚᱥᱴᱟᱝᱜᱚ ᱱᱚᱢᱚᱥᱠᱟᱨᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯁꯁ꯭ꯇꯥꯪꯒ ꯅꯃꯁ꯭ꯀꯥꯔ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#Wrist">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -164,6 +307,19 @@
     <rdfs:label xml:lang="en">Samasthiti</rdfs:label>
     <rdfs:label xml:lang="hi">समस्थिति</rdfs:label>
     <rdfs:label xml:lang="te">సమస్థితి</rdfs:label>
+    <rdfs:label xml:lang="bn">সমস্থিতি</rdfs:label>
+    <rdfs:label xml:lang="mr">समस्थिति</rdfs:label>
+    <rdfs:label xml:lang="ta">சமஸ்திதி</rdfs:label>
+    <rdfs:label xml:lang="gu">સમસ્થિતિ</rdfs:label>
+    <rdfs:label xml:lang="ur">سمستھت</rdfs:label>
+    <rdfs:label xml:lang="kn">ಸಮಸ್ಥಿತಿ</rdfs:label>
+    <rdfs:label xml:lang="or">ସମସ୍ଥିତି</rdfs:label>
+    <rdfs:label xml:lang="ml">സമസ്ഥിതി</rdfs:label>
+    <rdfs:label xml:lang="pa">ਸਮਸ੍ਥਿਤਿ</rdfs:label>
+    <rdfs:label xml:lang="as">সমস্থিতি</rdfs:label>
+    <rdfs:label xml:lang="mai">समस्थिति</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱥᱚᱢᱚᱥᱛᱷᱤᱛᱤ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯁꯃꯁ꯭ꯊꯤꯇꯤ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N60eceeb2d76f42b997acd03bd827934b">
     <rdf:first rdf:resource="http://example.org/suryanamaskar/core#PoseError"/>
@@ -179,6 +335,19 @@
     <rdfs:label xml:lang="en">Hasta Utthanasana</rdfs:label>
     <rdfs:label xml:lang="hi">हस्त उत्तानासन</rdfs:label>
     <rdfs:label xml:lang="te">హస్త ఉత్తానాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">হস্ত উত্তানাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">हस्त उत्तानासन</rdfs:label>
+    <rdfs:label xml:lang="ta">ஹஸ்த உத்தானாசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">હસ્ત ઉત્તાનાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">ہست اتّاناسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ಹಸ್ತ ಉತ್ತಾನಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ହସ୍ତ ଉତ୍ତାନାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">ഹസ്ത ഉത്താനാസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਹਸ੍ਤ ਉੱਤਾਨਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">হস্ত উত্তানাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">हस्त उत्तानासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱦᱚᱥᱛᱚ ᱩᱛᱛᱟᱱᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯍꯁ꯭ꯇ ꯎꯠꯇꯥꯅꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#Exhale">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -186,6 +355,19 @@
     <rdfs:label xml:lang="en">Exhale</rdfs:label>
     <rdfs:label xml:lang="hi">श्वास छोड़ें</rdfs:label>
     <rdfs:label xml:lang="te">శ్వాస వదలండి</rdfs:label>
+    <rdfs:label xml:lang="bn">শ্বাস ছাড়ুন</rdfs:label>
+    <rdfs:label xml:lang="mr">श्वास सोडा</rdfs:label>
+    <rdfs:label xml:lang="ta">மூச்சை வெளியே விடுங்கள்</rdfs:label>
+    <rdfs:label xml:lang="gu">શ્વાસ છોડો</rdfs:label>
+    <rdfs:label xml:lang="ur">سانس چھوڑیں</rdfs:label>
+    <rdfs:label xml:lang="kn">ಉಸಿರು ಬಿಡಿ</rdfs:label>
+    <rdfs:label xml:lang="or">ଶ୍ୱାସ ଛାଡନ୍ତୁ</rdfs:label>
+    <rdfs:label xml:lang="ml">ശ്വാസം പുറത്തുവിടുക</rdfs:label>
+    <rdfs:label xml:lang="pa">ਸਾਹ ਛੱਡੋ</rdfs:label>
+    <rdfs:label xml:lang="as">শ্বাস এৰক</rdfs:label>
+    <rdfs:label xml:lang="mai">साँस छोड़ू</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱥᱣᱟᱥᱚ ᱪᱷᱳᱲᱮᱝ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯁ꯭ꯋꯥꯁ ꯆꯣꯗꯦꯪ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#Ankle">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -202,6 +384,19 @@
     <rdfs:label xml:lang="en">Pranamasana</rdfs:label>
     <rdfs:label xml:lang="hi">प्रणामासन</rdfs:label>
     <rdfs:label xml:lang="te">ప్రణామాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">প্রণামাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">प्रणामासन</rdfs:label>
+    <rdfs:label xml:lang="ta">ப்ரணாமாசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">પ્રણામાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">پرناماسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ಪ್ರಣಾಮಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ପ୍ରଣାମାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">പ്രണാമാസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਪ੍ਰਣਾਮਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">প্ৰণামাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">प्रणामासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱯᱨᱚᱬᱟᱢᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯞꯔꯅꯥꯃꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#BodyPart">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -214,6 +409,19 @@
     <rdfs:label xml:lang="en">Danda Samarpana</rdfs:label>
     <rdfs:label xml:lang="hi">दंड समर्पण</rdfs:label>
     <rdfs:label xml:lang="te">దండ సమర్పణ</rdfs:label>
+    <rdfs:label xml:lang="bn">দণ্ড সমর্পণ</rdfs:label>
+    <rdfs:label xml:lang="mr">दंड समर्पण</rdfs:label>
+    <rdfs:label xml:lang="ta">தண்ட சமர்ப்பணம்</rdfs:label>
+    <rdfs:label xml:lang="gu">દંડ સમર્પણ</rdfs:label>
+    <rdfs:label xml:lang="ur">دنڈ سمرپن</rdfs:label>
+    <rdfs:label xml:lang="kn">ದಂಡ ಸಮರ್ಪಣ</rdfs:label>
+    <rdfs:label xml:lang="or">ଦଣ୍ଡ ସମର୍ପଣ</rdfs:label>
+    <rdfs:label xml:lang="ml">ദണ്ഡ സമർപ്പണം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਦੰਡ ਸਮਰ੍ਪਣ</rdfs:label>
+    <rdfs:label xml:lang="as">দণ্ড সমৰ্পণ</rdfs:label>
+    <rdfs:label xml:lang="mai">दंड समर्पण</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱫᱚᱝᱰᱚ ᱥᱚᱢᱚᱨᱯᱚᱬᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯗꯪꯗ ꯁꯃꯔ꯭ꯄꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#Uttanamandukasana">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -223,6 +431,19 @@
     <rdfs:label xml:lang="en">Uttanamandukasana</rdfs:label>
     <rdfs:label xml:lang="hi">उत्तान मंडूकासन</rdfs:label>
     <rdfs:label xml:lang="te">ఉత్తాన మండూకాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">উত্তান মণ্ডূকাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">उत्तान मंडूकासन</rdfs:label>
+    <rdfs:label xml:lang="ta">உத்தான மண்டூகாசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">ઉત્તાન મંડૂકાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">اتّان منڈوکاسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ಉತ್ತಾನ ಮಂಡೂಕಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ଉତ୍ତାନ ମଣ୍ଡୂକାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">ഉത്താന മണ്ഡൂകാസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਉੱਤਾਨ ਮੰਡੂਕਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">উত্তান মণ্ডূকাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">उत्तान मंडूकासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱩᱛᱛᱟᱱᱚ ᱢᱚᱝᱰᱩᱻᱠᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯎꯠꯇꯥꯅ ꯃꯪꯗꯨꯀꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#AshtangaNamaskara">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -233,6 +454,19 @@
     <rdfs:label xml:lang="en">Ashtanga Namaskara</rdfs:label>
     <rdfs:label xml:lang="hi">अष्टांग नमस्कार</rdfs:label>
     <rdfs:label xml:lang="te">అష్టాంగ నమస్కారం</rdfs:label>
+    <rdfs:label xml:lang="bn">অষ্টাঙ্গ নমস্কার</rdfs:label>
+    <rdfs:label xml:lang="mr">अष्टांग नमस्कार</rdfs:label>
+    <rdfs:label xml:lang="ta">அஷ்டாங்க நமஸ்காரம்</rdfs:label>
+    <rdfs:label xml:lang="gu">અષ્ટાંગ નમસ્કાર</rdfs:label>
+    <rdfs:label xml:lang="ur">اشٹانگ نمسکار</rdfs:label>
+    <rdfs:label xml:lang="kn">ಅಷ್ಟಾಂಗ ನಮಸ್ಕಾರ</rdfs:label>
+    <rdfs:label xml:lang="or">ଅଷ୍ଟାଙ୍ଗ ନମସ୍କାର</rdfs:label>
+    <rdfs:label xml:lang="ml">അഷ്ടാംഗ നമസ്കാരം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਅਸ਼਼੍ਟਾਂਗ ਨਮਸ੍ਕਾਰ</rdfs:label>
+    <rdfs:label xml:lang="as">অষ্টাঙ্গ নমস্কাৰ</rdfs:label>
+    <rdfs:label xml:lang="mai">अष्टांग नमस्कार</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱚᱥᱴᱟᱝᱜᱚ ᱱᱚᱢᱚᱥᱠᱟᱨᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯑꯁ꯭ꯇꯥꯪꯒ ꯅꯃꯁ꯭ꯀꯥꯔ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#Inhale">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -240,6 +474,19 @@
     <rdfs:label xml:lang="en">Inhale</rdfs:label>
     <rdfs:label xml:lang="hi">श्वास लें</rdfs:label>
     <rdfs:label xml:lang="te">శ్వాస పీల్చండి</rdfs:label>
+    <rdfs:label xml:lang="bn">শ্বাস নিন</rdfs:label>
+    <rdfs:label xml:lang="mr">श्वास घ्या</rdfs:label>
+    <rdfs:label xml:lang="ta">மூச்சை உள்ளிழுங்கள்</rdfs:label>
+    <rdfs:label xml:lang="gu">શ્વાસ લો</rdfs:label>
+    <rdfs:label xml:lang="ur">سانس لیں</rdfs:label>
+    <rdfs:label xml:lang="kn">ಉಸಿರು ತೆಗೆದುಕೊಳ್ಳಿ</rdfs:label>
+    <rdfs:label xml:lang="or">ଶ୍ୱାସ ନିଅନ୍ତୁ</rdfs:label>
+    <rdfs:label xml:lang="ml">ശ്വാസം എടുക്കുക</rdfs:label>
+    <rdfs:label xml:lang="pa">ਸਾਹ ਲਓ</rdfs:label>
+    <rdfs:label xml:lang="as">শ্বাস লওক</rdfs:label>
+    <rdfs:label xml:lang="mai">साँस लिअ</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱥᱣᱟᱥᱚ ᱞᱮᱝ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯁ꯭ꯋꯥꯁ ꯂꯦꯪ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#Ardhahalasana">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -249,6 +496,19 @@
     <rdfs:label xml:lang="en">Ardhahalasana</rdfs:label>
     <rdfs:label xml:lang="hi">अर्ध हलासन</rdfs:label>
     <rdfs:label xml:lang="te">అర్ధ హలాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">অর্ধ হলাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">अर्ध हलासन</rdfs:label>
+    <rdfs:label xml:lang="ta">அர்த ஹலாசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">અર્ધ હલાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">اردھ ہلاسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ಅರ್ಧ ಹಲಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ଅର୍ଧ ହଲାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">അർധ ഹലാസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਅਰ੍ਧ ਹਲਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">অৰ্ধ হলাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">अर्ध हलासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱚᱨᱫᱷᱚ ᱦᱚᱞᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯑꯔ꯭ꯙ ꯍꯂꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#Ustrasana">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -258,6 +518,19 @@
     <rdfs:label xml:lang="en">Ustrasana</rdfs:label>
     <rdfs:label xml:lang="hi">उष्ट्रासन</rdfs:label>
     <rdfs:label xml:lang="te">ఉష్ట్రాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">উষ্ট্রাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">उष्ट्रासन</rdfs:label>
+    <rdfs:label xml:lang="ta">உஷ்ட்ராசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">ઉષ્ટ્રાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">اشٹراسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ಉಷ್ಟ್ರಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ଉଷ୍ଟ୍ରାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">ഉഷ്ട്രാസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਉਸ਼਼੍ਟ੍ਰਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">উষ্ট্ৰাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">उष्ट्रासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱩᱥᱴᱨᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯎꯁ꯭ꯇ꯭ꯔꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#poseNumber">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
@@ -275,6 +548,19 @@
     <rdfs:label xml:lang="en">Ashwa Sanchalanasana</rdfs:label>
     <rdfs:label xml:lang="hi">अश्व संचलनासन</rdfs:label>
     <rdfs:label xml:lang="te">అశ్వ సంచలనాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">অশ্ব সঞ্চলনাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">अश्व संचलनासन</rdfs:label>
+    <rdfs:label xml:lang="ta">அஷ்வ ஸஞ்சலனாசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">અશ્વ સંચલનાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">اشو سنچلناسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ಅಶ್ವ ಸಂಚಲನಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ଅଶ୍ୱ ସଞ୍ଚଲନାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">അശ്വ സഞ്ചലനാസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਅਸ਼੍ਵ ਸੰਚਲਨਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">অশ্ৱ সঞ্চলনাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">अश्व संचलनासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱚᱥᱣᱚ ᱥᱚᱝᱪᱚᱞᱚᱱᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯑꯁ꯭ꯋ ꯁꯪꯆꯂꯅꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#hasBreathingPattern">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -291,6 +577,19 @@
     <rdfs:label xml:lang="en">Setubandhasana</rdfs:label>
     <rdfs:label xml:lang="hi">सेतुबंधासन</rdfs:label>
     <rdfs:label xml:lang="te">సేతు బంధాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">সেতুবন্ধাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">सेतुबंधासन</rdfs:label>
+    <rdfs:label xml:lang="ta">ஸேதுபந்தாசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">સેતુબંધાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">سیتبندھاسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ಸೇತುಬಂಧಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ସେତୁବନ୍ଧାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">സേതുബന്ധാസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਸੇਤੁਬੰਧਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">সেতুবন্ধাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">सेतुबंधासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱥᱮᱛᱩᱵᱚᱝᱫᱷᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯁꯦꯇꯨꯕꯪꯙꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#errorDescription">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
@@ -312,6 +611,19 @@
     <rdfs:label xml:lang="en">Padahastasana</rdfs:label>
     <rdfs:label xml:lang="hi">पादहस्तासन</rdfs:label>
     <rdfs:label xml:lang="te">పాదహస్తాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">পাদহস্তাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">पादहस्तासन</rdfs:label>
+    <rdfs:label xml:lang="ta">பாதஹஸ்தாசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">પાદહસ્તાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">پادہستاسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ಪಾದಹಸ್ತಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ପାଦହସ୍ତାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">പാദഹസ്താസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਪਾਦਹਸ੍ਤਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">পাদহস্তাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">पादहस्तासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱯᱟᱫᱚᱦᱚᱥᱛᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯄꯥꯗꯍꯁ꯭ꯇꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#Feet">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -333,6 +645,19 @@
     <rdfs:label xml:lang="en">Parvatasana</rdfs:label>
     <rdfs:label xml:lang="hi">पर्वतासन</rdfs:label>
     <rdfs:label xml:lang="te">పర్వతాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">পর্বতাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">पर्वतासन</rdfs:label>
+    <rdfs:label xml:lang="ta">பர்வதாசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">પર્વતાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">پروتاسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ಪರ್ವತಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ପର୍ୱତାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">പർവതാസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਪਰ੍ਵਤਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">পৰ্ৱতাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">पर्वतासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱯᱚᱨᱣᱚᱛᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯄꯔ꯭ꯋꯇꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#Legs">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -348,6 +673,19 @@
     <rdfs:label xml:lang="en">Makarasana</rdfs:label>
     <rdfs:label xml:lang="hi">मकरासन</rdfs:label>
     <rdfs:label xml:lang="te">మకరాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">মকরাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">मकरासन</rdfs:label>
+    <rdfs:label xml:lang="ta">மகராசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">મકરાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">مکراسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ಮಕರಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ମକରାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">മകരാസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਮਕਰਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">মকৰাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">मकरासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱢᱚᱠᱚᱨᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯃꯀꯔꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#Core">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -369,6 +707,19 @@
     <rdfs:label xml:lang="en">Tadasana</rdfs:label>
     <rdfs:label xml:lang="hi">ताड़ासन</rdfs:label>
     <rdfs:label xml:lang="te">తాడాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">তাড়াসন</rdfs:label>
+    <rdfs:label xml:lang="mr">ताड़ासन</rdfs:label>
+    <rdfs:label xml:lang="ta">தாஃடாசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">તાડ઼ાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">تاڑاسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ತಾಡ಼ಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ତାଡ଼ାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">താഡാസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਤਾੜਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">তাড়াসন</rdfs:label>
+    <rdfs:label xml:lang="mai">ताड़ासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱛᱟᱲᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯇꯥꯗꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#Elbow">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -391,6 +742,19 @@
     <rdfs:label xml:lang="en">Chaturanga Dandasana</rdfs:label>
     <rdfs:label xml:lang="hi">चतुरंग दंडासन</rdfs:label>
     <rdfs:label xml:lang="te">చతురంగ దండాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">চতুরঙ্গ দণ্ডাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">चतुरंग दंडासन</rdfs:label>
+    <rdfs:label xml:lang="ta">சதுரங்க தண்டாசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">ચતુરંગ દંડાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">چترنگ دنڈاسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ಚತುರಂಗ ದಂಡಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ଚତୁରଙ୍ଗ ଦଣ୍ଡାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">ചതുരംഗ ദണ്ഡാസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਚਤੁਰੰਗ ਦੰਡਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">চতুৰঙ্গ দণ্ডাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">चतुरंग दंडासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱪᱚᱛᱩᱨᱚᱝᱜᱚ ᱫᱚᱝᱰᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯆꯇꯨꯔꯪꯒ ꯗꯪꯗꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/title">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
@@ -410,6 +774,19 @@
     <rdfs:label xml:lang="en">Uttanasana</rdfs:label>
     <rdfs:label xml:lang="hi">उत्तानासन</rdfs:label>
     <rdfs:label xml:lang="te">ఉత్తానాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">উত্তানাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">उत्तानासन</rdfs:label>
+    <rdfs:label xml:lang="ta">உத்தானாசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">ઉત્તાનાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">اتّاناسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ಉತ್ತಾನಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ଉତ୍ତାନାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">ഉത്താനാസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਉੱਤਾਨਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">উত্তানাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">उत्तानासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱩᱛᱛᱟᱱᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯎꯠꯇꯥꯅꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#Variant">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -440,6 +817,19 @@
     <rdfs:label xml:lang="en">Hold</rdfs:label>
     <rdfs:label xml:lang="hi">श्वास रोकें</rdfs:label>
     <rdfs:label xml:lang="te">శ్వాస నిలుపుకోండి</rdfs:label>
+    <rdfs:label xml:lang="bn">শ্বাস ধরে রাখুন</rdfs:label>
+    <rdfs:label xml:lang="mr">श्वास रोखा</rdfs:label>
+    <rdfs:label xml:lang="ta">மூச்சை நிறுத்துங்கள்</rdfs:label>
+    <rdfs:label xml:lang="gu">શ્વાસ રોકો</rdfs:label>
+    <rdfs:label xml:lang="ur">سانس روکیں</rdfs:label>
+    <rdfs:label xml:lang="kn">ಉಸಿರು ಹಿಡಿದುಕೊಳ್ಳಿ</rdfs:label>
+    <rdfs:label xml:lang="or">ଶ୍ୱାସ ରୋକନ୍ତୁ</rdfs:label>
+    <rdfs:label xml:lang="ml">ശ്വാസം പിടിക്കുക</rdfs:label>
+    <rdfs:label xml:lang="pa">ਸਾਹ ਰੋਕੋ</rdfs:label>
+    <rdfs:label xml:lang="as">শ্বাস ধৰি ৰাখক</rdfs:label>
+    <rdfs:label xml:lang="mai">साँस रोकू</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱥᱣᱟᱥᱚ ᱨᱳᱠᱮᱝ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯁ꯭ꯋꯥꯁ ꯔꯣꯀꯦꯪ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#Neck">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -472,6 +862,19 @@
     <rdfs:label xml:lang="en">Vajrasana</rdfs:label>
     <rdfs:label xml:lang="hi">वज्रासन</rdfs:label>
     <rdfs:label xml:lang="te">వజ్రాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">বজ্রাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">वज्रासन</rdfs:label>
+    <rdfs:label xml:lang="ta">வஜ்ராசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">વજ્રાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">وجراسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ವಜ್ರಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ବଜ୍ରାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">വജ്രാസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਵਜ੍ਰਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">ৱজ্ৰাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">वज्रासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱣᱚᱡᱨᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯋꯖ꯭ꯔꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#Shalabhasana">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -481,6 +884,19 @@
     <rdfs:label xml:lang="en">Shalabhasana</rdfs:label>
     <rdfs:label xml:lang="hi">शलभासन</rdfs:label>
     <rdfs:label xml:lang="te">శలభాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">শলভাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">शलभासन</rdfs:label>
+    <rdfs:label xml:lang="ta">ஷலபாசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">શલભાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">شلبھاسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ಶಲಭಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ଶଲଭାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">ശലഭാസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਸ਼ਲਭਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">শলভাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">शलभासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱥᱚᱞᱚᱵᱷᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯁꯂꯚꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#Vakrasana">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -490,6 +906,19 @@
     <rdfs:label xml:lang="en">Vakrasana</rdfs:label>
     <rdfs:label xml:lang="hi">वक्रासन</rdfs:label>
     <rdfs:label xml:lang="te">వక్రాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">বক্রাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">वक्रासन</rdfs:label>
+    <rdfs:label xml:lang="ta">வக்ராசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">વક્રાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">وکراسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ವಕ್ರಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ବକ୍ରାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">വക്രാസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਵਕ੍ਰਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">ৱক্ৰাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">वक्रासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱣᱚᱠᱨᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯋꯛꯔꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#hasChakra">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
@@ -536,6 +965,19 @@
     <rdfs:label xml:lang="en">Shavasana</rdfs:label>
     <rdfs:label xml:lang="hi">शवासन</rdfs:label>
     <rdfs:label xml:lang="te">శవాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">শবাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">शवासन</rdfs:label>
+    <rdfs:label xml:lang="ta">ஷவாசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">શવાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">شواسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ಶವಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ଶବାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">ശവാസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਸ਼ਵਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">শৱাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">शवासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱥᱚᱣᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯁꯋꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#hasInversePose">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -569,6 +1011,19 @@
     <rdfs:label xml:lang="en">Vrksasana</rdfs:label>
     <rdfs:label xml:lang="hi">वृक्षासन</rdfs:label>
     <rdfs:label xml:lang="te">వృక్షాసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">বৃক্ষাসন</rdfs:label>
+    <rdfs:label xml:lang="mr">वृक्षासन</rdfs:label>
+    <rdfs:label xml:lang="ta">வ்ருக்ஷாசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">વૃક્ષાસન</rdfs:label>
+    <rdfs:label xml:lang="ur">ورکشاسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ವೃಕ್ಷಾಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ବୃକ୍ଷାସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">വൃക്ഷാസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਵ੍ਰੁਕ੍ਸ਼਼ਾਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">ৱৃক্ষাসন</rdfs:label>
+    <rdfs:label xml:lang="mai">वृक्षासन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱣᱨᱩᱠᱥᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯋ꯭ꯔꯨꯛꯁꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#sameAsanaAs">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -594,6 +1049,19 @@
     <rdfs:label xml:lang="en">Asana</rdfs:label>
     <rdfs:label xml:lang="hi">आसन</rdfs:label>
     <rdfs:label xml:lang="te">ఆసనం</rdfs:label>
+    <rdfs:label xml:lang="bn">আসন</rdfs:label>
+    <rdfs:label xml:lang="mr">आसन</rdfs:label>
+    <rdfs:label xml:lang="ta">ஆசனம்</rdfs:label>
+    <rdfs:label xml:lang="gu">આસન</rdfs:label>
+    <rdfs:label xml:lang="ur">آسن</rdfs:label>
+    <rdfs:label xml:lang="kn">ಆಸನ</rdfs:label>
+    <rdfs:label xml:lang="or">ଆସନ</rdfs:label>
+    <rdfs:label xml:lang="ml">ആസനം</rdfs:label>
+    <rdfs:label xml:lang="pa">ਆਸਨ</rdfs:label>
+    <rdfs:label xml:lang="as">আসন</rdfs:label>
+    <rdfs:label xml:lang="mai">आसन</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱟᱥᱚᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯑꯥꯁꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N2d21bd810f69483a879dc30b519294f9">
     <rdf:first rdf:resource="http://example.org/suryanamaskar/core#Variant"/>
@@ -617,6 +1085,19 @@
     <rdfs:label xml:lang="en">Breathing Pattern</rdfs:label>
     <rdfs:label xml:lang="hi">श्वास पैटर्न</rdfs:label>
     <rdfs:label xml:lang="te">శ్వాస విధానం</rdfs:label>
+    <rdfs:label xml:lang="bn">শ্বাসের ধরন</rdfs:label>
+    <rdfs:label xml:lang="mr">श्वास पद्धती</rdfs:label>
+    <rdfs:label xml:lang="ta">சுவாச முறை</rdfs:label>
+    <rdfs:label xml:lang="gu">શ્વાસની પદ્ધતિ</rdfs:label>
+    <rdfs:label xml:lang="ur">سانس لینے کا طریقہ</rdfs:label>
+    <rdfs:label xml:lang="kn">ಉಸಿರಾಟದ ವಿಧಾನ</rdfs:label>
+    <rdfs:label xml:lang="or">ଶ୍ୱାସ ପ୍ରକ୍ରିୟା</rdfs:label>
+    <rdfs:label xml:lang="ml">ശ്വാസരീതി</rdfs:label>
+    <rdfs:label xml:lang="pa">ਸਾਹ ਲੈਣ ਦਾ ਢੰਗ</rdfs:label>
+    <rdfs:label xml:lang="as">শ্বাস-প্ৰশ্বাসৰ ধৰণ</rdfs:label>
+    <rdfs:label xml:lang="mai">साँस लेबाक तरीका</rdfs:label>
+    <rdfs:label xml:lang="sat">ᱥᱣᱟᱥᱚ ᱯᱚᱤᱴᱚᱨᱱᱚ</rdfs:label>
+    <rdfs:label xml:lang="mni">ꯁ꯭ꯋꯥꯁ ꯄꯩꯇꯔ꯭ꯅ</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/suryanamaskar/core#repeatsPose">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
