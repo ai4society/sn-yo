@@ -271,10 +271,10 @@
         <h2>Competency Questions & SPARQL Queries</h2>
         <p>Interactive exploration of Competency Questions and their corresponding SPARQL queries. Click to expand and view the evaluated results.</p>
 
-        <!-- C1 -->
+        <!-- CQ1 -->
         <div class="query-block">
           <div class="query-header">
-            <h3>C1: What are the poses in Base Surya Namaskar?</h3>
+            <h3>CQ1: What are the poses in Base Surya Namaskar?</h3>
             <span class="query-icon">▼</span>
           </div>
           <div class="query-content">
@@ -316,10 +316,10 @@ ORDER BY ?pose</code></pre>
           </div>
         </div>
 
-        <!-- C2 -->
+        <!-- CQ2 -->
         <div class="query-block">
           <div class="query-header">
-            <h3>C2: How many poses are in Base Surya Namaskar?</h3>
+            <h3>CQ2: How many poses are in Base Surya Namaskar?</h3>
             <span class="query-icon">▼</span>
           </div>
           <div class="query-content">
@@ -350,10 +350,10 @@ WHERE {
           </div>
         </div>
 
-        <!-- C3 -->
+        <!-- CQ3 -->
         <div class="query-block">
           <div class="query-header">
-            <h3>C3: Which poses are performed standing on two feet in Base Surya Namaskar?</h3>
+            <h3>CQ3: Which poses are performed standing on two feet in Base Surya Namaskar?</h3>
             <span class="query-icon">▼</span>
           </div>
           <div class="query-content">
@@ -388,10 +388,10 @@ ORDER BY ?pose</code></pre>
           </div>
         </div>
 
-        <!-- C4 -->
+        <!-- CQ4 -->
         <div class="query-block">
           <div class="query-header">
-            <h3>C4: Which poses are repeated in Base Surya Namaskar?</h3>
+            <h3>CQ4: Which poses are repeated in Base Surya Namaskar?</h3>
             <span class="query-icon">▼</span>
           </div>
           <div class="query-content">
@@ -430,10 +430,10 @@ ORDER BY ?poseNum</code></pre>
           </div>
         </div>
 
-        <!-- C5 -->
+        <!-- CQ5 -->
         <div class="query-block">
           <div class="query-header">
-            <h3>C5: Which poses have inverse relationships in Base Surya Namaskar?</h3>
+            <h3>CQ5: Which poses have inverse relationships in Base Surya Namaskar?</h3>
             <span class="query-icon">▼</span>
           </div>
           <div class="query-content">
@@ -470,77 +470,11 @@ ORDER BY ?poseNum</code></pre>
           </div>
         </div>
 
-        <!-- C6 -->
-        <div class="query-block">
-          <div class="query-header">
-            <h3>C6: How many variants exist?</h3>
-            <span class="query-icon">▼</span>
-          </div>
-          <div class="query-content">
-            <div class="code-box">
-              <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
-PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
-PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
-PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
-PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
-PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
-SELECT (COUNT(?variant) AS ?count)
-WHERE {
-  ?variant rdf:type core:Variant .
-}</code></pre>
-            </div>
-            <div class="data-box">
-              <h4>Execution Result</h4>
-              <table>
-                <thead><tr><th>?count</th></tr></thead>
-                <tbody>
-                  <tr><td>4</td></tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
 
-        <!-- C7 -->
+        <!-- CQ6 -->
         <div class="query-block">
           <div class="query-header">
-            <h3>C7: What are the different variants represented in the ontology?</h3>
-            <span class="query-icon">▼</span>
-          </div>
-          <div class="query-content">
-            <div class="code-box">
-              <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
-PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
-PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
-PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
-PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
-PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
-SELECT ?variant
-WHERE {
-  ?variant rdf:type core:Variant .
-}</code></pre>
-            </div>
-            <div class="data-box">
-              <h4>Execution Result</h4>
-              <table>
-                <thead><tr><th>?variant</th></tr></thead>
-                <tbody>
-                  <tr><td>BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</td></tr>
-                  <tr><td>Variant01_KrishnamacharyaVinyasa</td></tr>
-                  <tr><td>Variant02_BiharSchoolOfYoga</td></tr>
-                  <tr><td>Variant03_SwamiVivekanandaKendra</td></tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-
-        <!-- C8 -->
-        <div class="query-block">
-          <div class="query-header">
-            <h3>C8: Which asanas are shared across multiple variants?</h3>
+            <h3>CQ6: Which asanas are shared across multiple variants?</h3>
             <span class="query-icon">▼</span>
           </div>
           <div class="query-content">
@@ -582,10 +516,10 @@ ORDER BY DESC(?varCount) ?asana</code></pre>
           </div>
         </div>
 
-        <!-- C9 -->
+        <!-- CQ7 -->
         <div class="query-block">
           <div class="query-header">
-            <h3>C9: What is the sequence order of poses in Base Surya Namaskar?</h3>
+            <h3>CQ7: What is the sequence order of poses in Base Surya Namaskar?</h3>
             <span class="query-icon">▼</span>
           </div>
           <div class="query-content">
@@ -626,10 +560,10 @@ ORDER BY ?pose</code></pre>
           </div>
         </div>
 
-       <!-- C10 -->
+       <!-- CQ8 -->
   <div class="query-block">
           <div class="query-header">
-            <h3>C10: Which common errors can occur in each pose of Base Surya Namaskar, and how can they be corrected?</h3>
+            <h3>CQ8: Which common errors can occur in each pose of Base Surya Namaskar, and how can they be corrected?</h3>
             <span class="query-icon">▼</span>
           </div>
           <div class="query-content">
@@ -744,10 +678,10 @@ ORDER BY ?pose ?error</code></pre>
           </div>
         </div>
 
- <!-- C11 -->
+ <!-- CQ9 -->
         <div class="query-block">
           <div class="query-header">
-            <h3>C11: What are the poses in the Base Surya Namaskar sequence, along with their associated asanas, breathing patterns, and safety notes?</h3>
+            <h3>CQ9: What are the poses in the Base Surya Namaskar sequence, along with their associated asanas, breathing patterns, and safety notes?</h3>
             <span class="query-icon">▼</span>
           </div>
           <div class="query-content">
