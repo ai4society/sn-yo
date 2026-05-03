@@ -200,11 +200,11 @@
         <div class="namespace-list" style="margin-bottom: 24px;">
           <p>Registered Namespaces</p>
           <ul>
-            <li><code>core:</code> http://example.org/suryanamaskar/core#</li>
-            <li><code>base:</code> http://example.org/suryanamaskar/base-sn#</li>
-            <li><code>v1:  </code> http://example.org/suryanamaskar/variant01#</li>
-            <li><code>v2:  </code> http://example.org/suryanamaskar/variant02#</li>
-            <li><code>v3:  </code> http://example.org/suryanamaskar/variant03#</li>
+            <li><code>core:</code> https://ai4society.github.io/sn-yo/core#</li>
+            <li><code>base:</code> https://ai4society.github.io/sn-yo/base-sn#</li>
+            <li><code>v1:  </code> https://ai4society.github.io/sn-yo/variant01#</li>
+            <li><code>v2:  </code> https://ai4society.github.io/sn-yo/variant02#</li>
+            <li><code>v3:  </code> https://ai4society.github.io/sn-yo/variant03#</li>
           </ul>
         </div>
 
@@ -281,11 +281,11 @@
             <div class="code-box">
               <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;http://example.org/suryanamaskar/core#&gt;
-PREFIX base: &lt;http://example.org/suryanamaskar/base-sn#&gt;
-PREFIX v1: &lt;http://example.org/suryanamaskar/variant01#&gt;
-PREFIX v2: &lt;http://example.org/suryanamaskar/variant02#&gt;
-PREFIX v3: &lt;http://example.org/suryanamaskar/variant03#&gt;
+PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
+PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
 SELECT ?pose
 WHERE {
   ?pose rdf:type core:Pose ;
@@ -326,11 +326,11 @@ ORDER BY ?pose</code></pre>
             <div class="code-box">
               <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;http://example.org/suryanamaskar/core#&gt;
-PREFIX base: &lt;http://example.org/suryanamaskar/base-sn#&gt;
-PREFIX v1: &lt;http://example.org/suryanamaskar/variant01#&gt;
-PREFIX v2: &lt;http://example.org/suryanamaskar/variant02#&gt;
-PREFIX v3: &lt;http://example.org/suryanamaskar/variant03#&gt;
+PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
+PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
 
 SELECT (COUNT(?pose) AS ?count)
 WHERE {
@@ -360,11 +360,11 @@ WHERE {
             <div class="code-box">
               <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;http://example.org/suryanamaskar/core#&gt;
-PREFIX base: &lt;http://example.org/suryanamaskar/base-sn#&gt;
-PREFIX v1: &lt;http://example.org/suryanamaskar/variant01#&gt;
-PREFIX v2: &lt;http://example.org/suryanamaskar/variant02#&gt;
-PREFIX v3: &lt;http://example.org/suryanamaskar/variant03#&gt;
+PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
+PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
 SELECT ?pose
 WHERE {
   ?pose rdf:type core:Pose ;
@@ -398,11 +398,11 @@ ORDER BY ?pose</code></pre>
             <div class="code-box">
               <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;http://example.org/suryanamaskar/core#&gt;
-PREFIX base: &lt;http://example.org/suryanamaskar/base-sn#&gt;
-PREFIX v1: &lt;http://example.org/suryanamaskar/variant01#&gt;
-PREFIX v2: &lt;http://example.org/suryanamaskar/variant02#&gt;
-PREFIX v3: &lt;http://example.org/suryanamaskar/variant03#&gt;
+PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
+PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
 SELECT ?pose ?repeatedPose
 WHERE {
   ?pose core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU ;
@@ -440,11 +440,11 @@ ORDER BY ?poseNum</code></pre>
             <div class="code-box">
               <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;http://example.org/suryanamaskar/core#&gt;
-PREFIX base: &lt;http://example.org/suryanamaskar/base-sn#&gt;
-PREFIX v1: &lt;http://example.org/suryanamaskar/variant01#&gt;
-PREFIX v2: &lt;http://example.org/suryanamaskar/variant02#&gt;
-PREFIX v3: &lt;http://example.org/suryanamaskar/variant03#&gt;
+PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
+PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
 
 SELECT ?pose ?inversePose
 WHERE {
@@ -480,11 +480,11 @@ ORDER BY ?poseNum</code></pre>
             <div class="code-box">
               <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;http://example.org/suryanamaskar/core#&gt;
-PREFIX base: &lt;http://example.org/suryanamaskar/base-sn#&gt;
-PREFIX v1: &lt;http://example.org/suryanamaskar/variant01#&gt;
-PREFIX v2: &lt;http://example.org/suryanamaskar/variant02#&gt;
-PREFIX v3: &lt;http://example.org/suryanamaskar/variant03#&gt;
+PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
+PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
 SELECT (COUNT(?variant) AS ?count)
 WHERE {
   ?variant rdf:type core:Variant .
@@ -512,11 +512,11 @@ WHERE {
             <div class="code-box">
               <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;http://example.org/suryanamaskar/core#&gt;
-PREFIX base: &lt;http://example.org/suryanamaskar/base-sn#&gt;
-PREFIX v1: &lt;http://example.org/suryanamaskar/variant01#&gt;
-PREFIX v2: &lt;http://example.org/suryanamaskar/variant02#&gt;
-PREFIX v3: &lt;http://example.org/suryanamaskar/variant03#&gt;
+PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
+PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
 SELECT ?variant
 WHERE {
   ?variant rdf:type core:Variant .
@@ -547,11 +547,11 @@ WHERE {
             <div class="code-box">
               <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;http://example.org/suryanamaskar/core#&gt;
-PREFIX base: &lt;http://example.org/suryanamaskar/base-sn#&gt;
-PREFIX v1: &lt;http://example.org/suryanamaskar/variant01#&gt;
-PREFIX v2: &lt;http://example.org/suryanamaskar/variant02#&gt;
-PREFIX v3: &lt;http://example.org/suryanamaskar/variant03#&gt;
+PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
+PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
 
 SELECT ?asana (COUNT(DISTINCT ?variant) AS ?varCount)
 WHERE {
@@ -592,11 +592,11 @@ ORDER BY DESC(?varCount) ?asana</code></pre>
             <div class="code-box">
               <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;http://example.org/suryanamaskar/core#&gt;
-PREFIX base: &lt;http://example.org/suryanamaskar/base-sn#&gt;
-PREFIX v1: &lt;http://example.org/suryanamaskar/variant01#&gt;
-PREFIX v2: &lt;http://example.org/suryanamaskar/variant02#&gt;
-PREFIX v3: &lt;http://example.org/suryanamaskar/variant03#&gt;
+PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
+PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
 SELECT ?pose ?nextPose
 WHERE {
   ?pose core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU ;
@@ -636,11 +636,11 @@ ORDER BY ?pose</code></pre>
             <div class="code-box">
               <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;http://example.org/suryanamaskar/core#&gt;
-PREFIX base: &lt;http://example.org/suryanamaskar/base-sn#&gt;
-PREFIX v1: &lt;http://example.org/suryanamaskar/variant01#&gt;
-PREFIX v2: &lt;http://example.org/suryanamaskar/variant02#&gt;
-PREFIX v3: &lt;http://example.org/suryanamaskar/variant03#&gt;
+PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
+PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
 
 SELECT ?pose ?asana ?error ?instruction
 WHERE {
@@ -754,11 +754,11 @@ ORDER BY ?pose ?error</code></pre>
             <div class="code-box">
               <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;http://example.org/suryanamaskar/core#&gt;
-PREFIX base: &lt;http://example.org/suryanamaskar/base-sn#&gt;
-PREFIX v1: &lt;http://example.org/suryanamaskar/variant01#&gt;
-PREFIX v2: &lt;http://example.org/suryanamaskar/variant02#&gt;
-PREFIX v3: &lt;http://example.org/suryanamaskar/variant03#&gt;
+PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
+PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
 
 SELECT ?poseNumber ?pose ?asana ?breathing ?safetyNote
 WHERE {
