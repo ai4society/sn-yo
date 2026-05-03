@@ -9,13 +9,13 @@
      xmlns:core="https://ai4society.github.io/sn-yo/core#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="https://ai4society.github.io/sn-yo/master">
-        <dc:description>Ontology for modeling Surya Namaskar sequences and correction knowledge.</dc:description>
         <dc:title>SN-YO Ontology</dc:title>
+        <dc:description>Ontology for modeling Surya Namaskar sequences and correction knowledge.</dc:description>
     </owl:Ontology>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation properties
@@ -23,34 +23,34 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://purl.org/dc/elements/1.1/description -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
-    
+
 
 
     <!-- http://purl.org/dc/elements/1.1/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
-    
+
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
-    
+
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Object Properties
@@ -58,7 +58,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#belongsToVariant -->
@@ -69,7 +69,7 @@
         <rdfs:label xml:lang="en">belongs to variant</rdfs:label>
         <rdfs:label xml:lang="hi">प्रकार से संबंधित</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#hasAsana -->
@@ -80,7 +80,7 @@
         <rdfs:label xml:lang="en">has asana</rdfs:label>
         <rdfs:label xml:lang="hi">आसन है</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#hasBreathingPattern -->
@@ -91,7 +91,7 @@
         <rdfs:label xml:lang="en">has breathing pattern</rdfs:label>
         <rdfs:label xml:lang="hi">श्वास पैटर्न है</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#hasCorrection -->
@@ -102,7 +102,7 @@
         <rdfs:label xml:lang="en">has correction</rdfs:label>
         <rdfs:label xml:lang="hi">सुधार है</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#hasInversePose -->
@@ -113,7 +113,7 @@
         <rdfs:label xml:lang="en">has inverse pose</rdfs:label>
         <rdfs:label xml:lang="hi">विपरीत मुद्रा है</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#hasNextPose -->
@@ -125,7 +125,7 @@
         <rdfs:label xml:lang="en">has next pose</rdfs:label>
         <rdfs:label xml:lang="hi">अगली मुद्रा है</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#hasPossibleError -->
@@ -136,7 +136,7 @@
         <rdfs:label xml:lang="en">has possible error</rdfs:label>
         <rdfs:label xml:lang="hi">संभावित त्रुटि है</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#hasPreviousPose -->
@@ -147,7 +147,7 @@
         <rdfs:label xml:lang="en">has previous pose</rdfs:label>
         <rdfs:label xml:lang="hi">पिछली मुद्रा है</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#involvesBodyPart -->
@@ -158,7 +158,7 @@
         <rdfs:label xml:lang="en">involves body part</rdfs:label>
         <rdfs:label xml:lang="hi">शरीर का अंग शामिल करता है</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#repeatsPose -->
@@ -169,7 +169,7 @@
         <rdfs:label xml:lang="en">repeats pose</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा को दोहराता है</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#sameAsanaAs -->
@@ -180,10 +180,10 @@
         <rdfs:label xml:lang="en">same asana as</rdfs:label>
         <rdfs:label xml:lang="hi">समान आसन है</rdfs:label>
     </owl:ObjectProperty>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Data properties
@@ -191,7 +191,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#correctionText -->
@@ -202,7 +202,7 @@
         <rdfs:label xml:lang="en">correction text</rdfs:label>
         <rdfs:label xml:lang="hi">सुधार पाठ</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#errorDescription -->
@@ -213,7 +213,7 @@
         <rdfs:label xml:lang="en">error description</rdfs:label>
         <rdfs:label xml:lang="hi">त्रुटि विवरण</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#hasAlternateName -->
@@ -224,7 +224,7 @@
         <rdfs:label xml:lang="en">has alternate name</rdfs:label>
         <rdfs:label xml:lang="hi">वैकल्पिक नाम है</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#hasCYPPage -->
@@ -235,7 +235,7 @@
         <rdfs:label xml:lang="en">has CYP page</rdfs:label>
         <rdfs:label xml:lang="hi">सीवाईपी पृष्ठ संख्या</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#hasChakra -->
@@ -246,7 +246,7 @@
         <rdfs:label xml:lang="en">has chakra</rdfs:label>
         <rdfs:label xml:lang="hi">चक्र है</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#hasLaterality -->
@@ -257,7 +257,7 @@
         <rdfs:label xml:lang="en">has laterality</rdfs:label>
         <rdfs:label xml:lang="hi">पक्षीयता है</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#hasMantra -->
@@ -268,7 +268,7 @@
         <rdfs:label xml:lang="en">has mantra</rdfs:label>
         <rdfs:label xml:lang="hi">मंत्र है</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#hasSafetyNote -->
@@ -279,7 +279,7 @@
         <rdfs:label xml:lang="en">has safety note</rdfs:label>
         <rdfs:label xml:lang="hi">सुरक्षा टिप्पणी है</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#hasSupportType -->
@@ -290,7 +290,7 @@
         <rdfs:label xml:lang="en">has support type</rdfs:label>
         <rdfs:label xml:lang="hi">आधार प्रकार है</rdfs:label>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#poseNumber -->
@@ -301,10 +301,10 @@
         <rdfs:label xml:lang="en">pose number</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा संख्या</rdfs:label>
     </owl:DatatypeProperty>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -312,7 +312,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Asana -->
@@ -321,8 +321,28 @@
         <rdfs:label xml:lang="en">Asana</rdfs:label>
         <rdfs:label xml:lang="hi">आसन</rdfs:label>
         <rdfs:label xml:lang="te">ఆసనం</rdfs:label>
-    </owl:Class>
-    
+        <rdfs:label xml:lang="bn">আসন</rdfs:label>
+        <rdfs:label xml:lang="mr">आसन</rdfs:label>
+        <rdfs:label xml:lang="ta">ஆசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">આસન</rdfs:label>
+        <rdfs:label xml:lang="ur">آسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ಆಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ଆସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">ആസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਆਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">আসন</rdfs:label>
+        <rdfs:label xml:lang="mai">आसन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯑꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">आसन</rdfs:label>
+        <rdfs:label xml:lang="doi">आसन</rdfs:label>
+        <rdfs:label xml:lang="ks">آسن</rdfs:label>
+        <rdfs:label xml:lang="kok">आसन</rdfs:label>
+        <rdfs:label xml:lang="ne">आसन</rdfs:label>
+        <rdfs:label xml:lang="sa">आसन</rdfs:label>
+        <rdfs:label xml:lang="sd">آسن</rdfs:label></owl:Class>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#BodyPart -->
@@ -331,7 +351,7 @@
         <rdfs:label xml:lang="en">Body Part</rdfs:label>
         <rdfs:label xml:lang="hi">शरीर का अंग</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#BreathingPattern -->
@@ -340,8 +360,28 @@
         <rdfs:label xml:lang="en">Breathing Pattern</rdfs:label>
         <rdfs:label xml:lang="hi">श्वास पैटर्न</rdfs:label>
         <rdfs:label xml:lang="te">శ్వాస విధానం</rdfs:label>
-    </owl:Class>
-    
+        <rdfs:label xml:lang="bn">শ্বাসের ধরন</rdfs:label>
+        <rdfs:label xml:lang="mr">श्वास पद्धती</rdfs:label>
+        <rdfs:label xml:lang="ta">சுவாச முறை</rdfs:label>
+        <rdfs:label xml:lang="gu">શ્વાસની પદ્ધતિ</rdfs:label>
+        <rdfs:label xml:lang="ur">سانس لینے کا طریقہ</rdfs:label>
+        <rdfs:label xml:lang="kn">ಉಸಿರಾಟದ ವಿಧಾನ</rdfs:label>
+        <rdfs:label xml:lang="or">ଶ୍ୱାସ ପ୍ରକ୍ରିୟା</rdfs:label>
+        <rdfs:label xml:lang="ml">ശ്വാസരീതി</rdfs:label>
+        <rdfs:label xml:lang="pa">ਸਾਹ ਲੈਣ ਦਾ ਢੰਗ</rdfs:label>
+        <rdfs:label xml:lang="as">শ্বাস-প্ৰশ্বাসৰ ধৰণ</rdfs:label>
+        <rdfs:label xml:lang="mai">साँस लेबाक तरीका</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱥᱣᱟᱥᱚ ᱯᱚᱤᱴᱚᱨᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯁ꯭ꯋꯥꯁ ꯄꯩꯇꯔ꯭ꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">श्वास पैटर्न</rdfs:label>
+        <rdfs:label xml:lang="doi">साह लैने दा ढंग</rdfs:label>
+        <rdfs:label xml:lang="ks">سانس ہُند طریقہ</rdfs:label>
+        <rdfs:label xml:lang="kok">श्वास घेवपाची पद्धत</rdfs:label>
+        <rdfs:label xml:lang="ne">श्वासप्रश्वासको ढाँचा</rdfs:label>
+        <rdfs:label xml:lang="sa">श्वसन पद्धतिः</rdfs:label>
+        <rdfs:label xml:lang="sd">ساهه کڻڻ جو طريقو</rdfs:label></owl:Class>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#CorrectionInstruction -->
@@ -350,7 +390,7 @@
         <rdfs:label xml:lang="en">Correction Instruction</rdfs:label>
         <rdfs:label xml:lang="hi">सुधार निर्देश</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Pose -->
@@ -366,7 +406,7 @@
         <rdfs:label xml:lang="en">Pose</rdfs:label>
         <rdfs:label xml:lang="hi">क्रमिक मुद्रा</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#PoseError -->
@@ -381,7 +421,7 @@
         <rdfs:label xml:lang="en">Pose Error</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा त्रुटि</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Variant -->
@@ -390,10 +430,10 @@
         <rdfs:label xml:lang="en">Variant</rdfs:label>
         <rdfs:label xml:lang="hi">संस्करण</rdfs:label>
     </owl:Class>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Individuals
@@ -401,7 +441,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#AlignFrontKneeInstruction -->
@@ -412,7 +452,7 @@
         <rdfs:label xml:lang="en">AlignFrontKneeInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">सामने के घुटने को सही स्थिति में रखें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#AlignPalmsAtChestInstruction -->
@@ -423,7 +463,7 @@
         <rdfs:label xml:lang="en">AlignPalmsAtChestInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">हथेलियों को छाती के सामने सही रखें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#BalanceWeightEvenlyInstruction -->
@@ -434,7 +474,7 @@
         <rdfs:label xml:lang="en">BalanceWeightEvenlyInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">शरीर का भार दोनों पैरों पर समान रखें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose01 -->
@@ -465,7 +505,7 @@
         <rdfs:label xml:lang="en">BaseSN_Pose01</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०१</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose02 -->
@@ -497,7 +537,7 @@
         <rdfs:label xml:lang="en">BaseSN_Pose02</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०२</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose03 -->
@@ -528,7 +568,7 @@
         <rdfs:label xml:lang="en">BaseSN_Pose03</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०३</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose04 -->
@@ -560,7 +600,7 @@
         <rdfs:label xml:lang="en">BaseSN_Pose04</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०४</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose05 -->
@@ -590,7 +630,7 @@
         <rdfs:label xml:lang="en">BaseSN_Pose05</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०५</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose06 -->
@@ -620,7 +660,7 @@
         <rdfs:label xml:lang="en">BaseSN_Pose06</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०६</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose07 -->
@@ -649,7 +689,7 @@
         <rdfs:label xml:lang="en">BaseSN_Pose07</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०७</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose08 -->
@@ -679,7 +719,7 @@
         <rdfs:label xml:lang="en">BaseSN_Pose08</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०८</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose09 -->
@@ -711,7 +751,7 @@
         <rdfs:label xml:lang="en">BaseSN_Pose09</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०९</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose10 -->
@@ -739,7 +779,7 @@
         <rdfs:label xml:lang="en">BaseSN_Pose10</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा १०</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose11 -->
@@ -767,7 +807,7 @@
         <rdfs:label xml:lang="en">BaseSN_Pose11</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ११</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose12 -->
@@ -794,7 +834,7 @@
         <rdfs:label xml:lang="en">BaseSN_Pose12</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा १२</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU -->
@@ -805,7 +845,7 @@
         <rdfs:label xml:lang="en">BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</rdfs:label>
         <rdfs:label xml:lang="hi">सूर्य नमस्कार (शिवानंद योग वेदांत केंद्र)</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#BendFromHipsInstruction -->
@@ -816,7 +856,7 @@
         <rdfs:label xml:lang="en">BendFromHipsInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">कमर से आगे की ओर झुकें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#BentArmsError -->
@@ -828,7 +868,7 @@
         <rdfs:label xml:lang="en">BentArmsError</rdfs:label>
         <rdfs:label xml:lang="hi">मुड़ी हुई बाहों की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#CenterBodyInstruction -->
@@ -839,7 +879,7 @@
         <rdfs:label xml:lang="en">CenterBodyInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">शरीर को संतुलित करें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#ChestNotLoweredError -->
@@ -851,7 +891,7 @@
         <rdfs:label xml:lang="en">ChestNotLoweredError</rdfs:label>
         <rdfs:label xml:lang="hi">छाती को ठीक से नीचे न लाने की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#CollapsedChestError -->
@@ -865,7 +905,7 @@
         <rdfs:label xml:lang="en">CollapsedChestError</rdfs:label>
         <rdfs:label xml:lang="hi">धंसी हुई छाती की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#CollapsedPostureError -->
@@ -878,7 +918,7 @@
         <rdfs:label xml:lang="en">CollapsedPostureError</rdfs:label>
         <rdfs:label xml:lang="hi">धंसी हुई शरीर मुद्रा की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#CompressedLowerBackError -->
@@ -890,7 +930,7 @@
         <rdfs:label xml:lang="en">CompressedLowerBackError</rdfs:label>
         <rdfs:label xml:lang="hi">दबी हुई निचली पीठ की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#DistributeWeightEvenlyInstruction -->
@@ -901,7 +941,7 @@
         <rdfs:label xml:lang="en">DistributeWeightEvenlyInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">भार को समान रूप से फैलाएँ</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#ElbowsFlaredError -->
@@ -913,7 +953,7 @@
         <rdfs:label xml:lang="en">ElbowsFlaredError</rdfs:label>
         <rdfs:label xml:lang="hi">बाहर फैली हुई कोहनियों की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#ElbowsWideError -->
@@ -925,7 +965,7 @@
         <rdfs:label xml:lang="en">ElbowsWideError</rdfs:label>
         <rdfs:label xml:lang="hi">बहुत फैली हुई कोहनियों की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#EngageCoreInstruction -->
@@ -936,7 +976,7 @@
         <rdfs:label xml:lang="en">EngageCoreInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">शरीर को भीतर से सक्रिय करें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#ExcessiveKneeBendError -->
@@ -948,7 +988,7 @@
         <rdfs:label xml:lang="en">ExcessiveKneeBendError</rdfs:label>
         <rdfs:label xml:lang="hi">घुटनों के अत्यधिक मुड़ने की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#ExtendBackLegInstruction -->
@@ -959,7 +999,7 @@
         <rdfs:label xml:lang="en">ExtendBackLegInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">पीछे के पैर को पूरी तरह सीधा रखें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#GentleBackbendInstruction -->
@@ -970,7 +1010,7 @@
         <rdfs:label xml:lang="en">GentleBackbendInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">हल्का पीछे झुकें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#HipsDroppedFullyError -->
@@ -982,7 +1022,7 @@
         <rdfs:label xml:lang="en">HipsDroppedFullyError</rdfs:label>
         <rdfs:label xml:lang="hi">शरीर के मध्य भाग को पूरी तरह नीचे गिराने की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#KeepArmsStraightInstruction -->
@@ -993,7 +1033,7 @@
         <rdfs:label xml:lang="en">KeepArmsStraightInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">बाहों को सीधा रखें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#KeepBodyAlignedInstruction -->
@@ -1004,7 +1044,7 @@
         <rdfs:label xml:lang="en">KeepBodyAlignedInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">शरीर को सीध में रखें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#KeepElbowsCloseInstruction -->
@@ -1015,7 +1055,7 @@
         <rdfs:label xml:lang="en">KeepElbowsCloseInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">कोहनियों को शरीर के पास रखें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#KneeBeyondAnkleError -->
@@ -1027,7 +1067,7 @@
         <rdfs:label xml:lang="en">KneeBeyondAnkleError</rdfs:label>
         <rdfs:label xml:lang="hi">घुटने के टखने से आगे जाने की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#LengthenSpineInstruction -->
@@ -1038,7 +1078,7 @@
         <rdfs:label xml:lang="en">LengthenSpineInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">रीढ़ को लंबा रखें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#LiftChestForwardInstruction -->
@@ -1049,7 +1089,7 @@
         <rdfs:label xml:lang="en">LiftChestForwardInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">छाती को आगे उठाएँ</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#LiftChestForwardUpwardInstruction -->
@@ -1060,7 +1100,7 @@
         <rdfs:label xml:lang="en">LiftChestForwardUpwardInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">छाती को आगे और ऊपर उठाएँ</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#LiftChestInstruction -->
@@ -1071,7 +1111,7 @@
         <rdfs:label xml:lang="en">LiftChestInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">छाती उठाएँ</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#LiftUpwardFirstInstruction -->
@@ -1082,7 +1122,7 @@
         <rdfs:label xml:lang="en">LiftUpwardFirstInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">पहले शरीर को ऊपर उठाएँ, फिर पीछे झुकें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#LowerBackOverarchingError -->
@@ -1096,7 +1136,7 @@
         <rdfs:label xml:lang="en">LowerBackOverarchingError</rdfs:label>
         <rdfs:label xml:lang="hi">निचली पीठ के अत्यधिक झुकाव की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#LowerChestProperlyInstruction -->
@@ -1107,7 +1147,7 @@
         <rdfs:label xml:lang="en">LowerChestProperlyInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">छाती को सही ढंग से नीचे लाएँ</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#MaintainHipPositionInstruction -->
@@ -1118,7 +1158,7 @@
         <rdfs:label xml:lang="en">MaintainHipPositionInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">शरीर की स्थिति स्थिर रखें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#NeckStrainError -->
@@ -1130,7 +1170,7 @@
         <rdfs:label xml:lang="en">NeckStrainError</rdfs:label>
         <rdfs:label xml:lang="hi">गर्दन में खिंचाव की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#OverextensionError -->
@@ -1142,7 +1182,7 @@
         <rdfs:label xml:lang="en">OverextensionError</rdfs:label>
         <rdfs:label xml:lang="hi">अत्यधिक खिंचाव की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#PalmsMisalignedError -->
@@ -1154,7 +1194,7 @@
         <rdfs:label xml:lang="en">PalmsMisalignedError</rdfs:label>
         <rdfs:label xml:lang="hi">हथेलियों के गलत संरेखण की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#PoorBalanceError -->
@@ -1166,7 +1206,7 @@
         <rdfs:label xml:lang="en">PoorBalanceError</rdfs:label>
         <rdfs:label xml:lang="hi">अस्थिर संतुलन की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#PushHipsUpwardInstruction -->
@@ -1177,7 +1217,7 @@
         <rdfs:label xml:lang="en">PushHipsUpwardInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">शरीर को ऊपर उठाएँ</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#RaisedHipsError -->
@@ -1189,7 +1229,7 @@
         <rdfs:label xml:lang="en">RaisedHipsError</rdfs:label>
         <rdfs:label xml:lang="hi">शरीर के मध्य भाग के अधिक उठने की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#RaisedShouldersError -->
@@ -1201,7 +1241,7 @@
         <rdfs:label xml:lang="en">RaisedShouldersError</rdfs:label>
         <rdfs:label xml:lang="hi">कंधों के अधिक उठने की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#RelaxShouldersInstruction -->
@@ -1212,7 +1252,7 @@
         <rdfs:label xml:lang="en">RelaxShouldersInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">कंधों को ढीला रखें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#RoundedBackError -->
@@ -1225,7 +1265,7 @@
         <rdfs:label xml:lang="en">RoundedBackError</rdfs:label>
         <rdfs:label xml:lang="hi">गोल पीठ की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#RoundedShouldersError -->
@@ -1237,7 +1277,7 @@
         <rdfs:label xml:lang="en">RoundedShouldersError</rdfs:label>
         <rdfs:label xml:lang="hi">गोल कंधों की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#SaggingHipsError -->
@@ -1250,7 +1290,7 @@
         <rdfs:label xml:lang="en">SaggingHipsError</rdfs:label>
         <rdfs:label xml:lang="hi">शरीर के मध्य भाग के नीचे धंसने की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#ShoulderTensionError -->
@@ -1262,7 +1302,7 @@
         <rdfs:label xml:lang="en">ShoulderTensionError</rdfs:label>
         <rdfs:label xml:lang="hi">कंधों में तनाव की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#SoftenKneesInstruction -->
@@ -1273,7 +1313,7 @@
         <rdfs:label xml:lang="en">SoftenKneesInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">घुटनों को हल्का ढीला रखें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#StabilizeLegsInstruction -->
@@ -1284,7 +1324,7 @@
         <rdfs:label xml:lang="en">StabilizeLegsInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">पैरों को स्थिर रखें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#TuckElbowsInstruction -->
@@ -1295,7 +1335,7 @@
         <rdfs:label xml:lang="en">TuckElbowsInstruction</rdfs:label>
         <rdfs:label xml:lang="hi">कोहनियों को अंदर रखें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#UnevenWeightError -->
@@ -1307,7 +1347,7 @@
         <rdfs:label xml:lang="en">UnevenWeightError</rdfs:label>
         <rdfs:label xml:lang="hi">असमान भार की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#UnstableLegsError -->
@@ -1319,7 +1359,7 @@
         <rdfs:label xml:lang="en">UnstableLegsError</rdfs:label>
         <rdfs:label xml:lang="hi">अस्थिर पैरों की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#WeakBackLegError -->
@@ -1331,7 +1371,7 @@
         <rdfs:label xml:lang="en">WeakBackLegError</rdfs:label>
         <rdfs:label xml:lang="hi">पीछे के पैर की कमजोरी की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#WeightOnHeelsOnlyError -->
@@ -1343,7 +1383,7 @@
         <rdfs:label xml:lang="en">WeightOnHeelsOnlyError</rdfs:label>
         <rdfs:label xml:lang="hi">केवल एड़ियों पर भार आने की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/base-sn#WristOverloadError -->
@@ -1356,7 +1396,7 @@
         <rdfs:label xml:lang="en">WristOverloadError</rdfs:label>
         <rdfs:label xml:lang="hi">कलाइयों पर अत्यधिक भार की त्रुटि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#AdhoMukhaSvanasana -->
@@ -1369,8 +1409,28 @@
         <rdfs:label xml:lang="en">Adho Mukha Svanasana</rdfs:label>
         <rdfs:label xml:lang="hi">अधोमुख श्वानासन</rdfs:label>
         <rdfs:label xml:lang="te">అధో ముఖ శ్వానాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">অধোমুখ শ্বানাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">अधोमुख श्वानासन</rdfs:label>
+        <rdfs:label xml:lang="ta">அதோமுக ஷ்வானாசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">અધોમુખ શ્વાનાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">ادھومکھ شواناسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ಅಧೋಮುಖ ಶ್ವಾನಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ଅଧୋମୁଖ ଶ୍ୱାନାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">അധോമുഖ ശ്വാനാസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਅਧੋਮੁਖ ਸ਼੍ਵਾਨਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">অধোমুখ শ্ৱানাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">अधोमुख श्वानासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱚᱫᱷᱳᱢᱩᱠᱷᱚ ᱥᱣᱟᱱᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯑꯙꯣꯃꯨꯈ ꯁ꯭ꯋꯥꯅꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">अधोमुख श्वानासन</rdfs:label>
+        <rdfs:label xml:lang="doi">अधोमुख श्वानासन</rdfs:label>
+        <rdfs:label xml:lang="ks">ادھومکھ شواناسن</rdfs:label>
+        <rdfs:label xml:lang="kok">अधोमुख श्वानासन</rdfs:label>
+        <rdfs:label xml:lang="ne">अधोमुख श्वानासन</rdfs:label>
+        <rdfs:label xml:lang="sa">अधोमुख श्वानासन</rdfs:label>
+        <rdfs:label xml:lang="sd">ادھومکھ شواناسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Ankle -->
@@ -1380,7 +1440,7 @@
         <rdfs:label xml:lang="en">Ankle</rdfs:label>
         <rdfs:label xml:lang="hi">टखना</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Ardhachakrasana -->
@@ -1392,8 +1452,28 @@
         <rdfs:label xml:lang="en">Ardhachakrasana</rdfs:label>
         <rdfs:label xml:lang="hi">अर्ध चक्रासन</rdfs:label>
         <rdfs:label xml:lang="te">అర్ధ చక్రాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">অর্ধ চক্রাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">अर्ध चक्रासन</rdfs:label>
+        <rdfs:label xml:lang="ta">அர்த சக்ராசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">અર્ધ ચક્રાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">اردھ چکراسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ಅರ್ಧ ಚಕ್ರಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ଅର୍ଧ ଚକ୍ରାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">അർധ ചക്രാസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਅਰ੍ਧ ਚਕ੍ਰਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">অৰ্ধ চক্ৰাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">अर्ध चक्रासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱚᱨᱫᱷᱚ ᱪᱚᱠᱨᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯑꯔ꯭ꯙ ꯆꯛꯔꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">अर्ध चक्रासन</rdfs:label>
+        <rdfs:label xml:lang="doi">अर्ध चक्रासन</rdfs:label>
+        <rdfs:label xml:lang="ks">اردھ چکراسن</rdfs:label>
+        <rdfs:label xml:lang="kok">अर्ध चक्रासन</rdfs:label>
+        <rdfs:label xml:lang="ne">अर्ध चक्रासन</rdfs:label>
+        <rdfs:label xml:lang="sa">अर्ध चक्रासन</rdfs:label>
+        <rdfs:label xml:lang="sd">اردھ چکراسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Ardhahalasana -->
@@ -1405,8 +1485,28 @@
         <rdfs:label xml:lang="en">Ardhahalasana</rdfs:label>
         <rdfs:label xml:lang="hi">अर्ध हलासन</rdfs:label>
         <rdfs:label xml:lang="te">అర్ధ హలాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">অর্ধ হলাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">अर्ध हलासन</rdfs:label>
+        <rdfs:label xml:lang="ta">அர்த ஹலாசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">અર્ધ હલાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">اردھ ہلاسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ಅರ್ಧ ಹಲಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ଅର୍ଧ ହଲାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">അർധ ഹലാസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਅਰ੍ਧ ਹਲਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">অৰ্ধ হলাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">अर्ध हलासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱚᱨᱫᱷᱚ ᱦᱚᱞᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯑꯔ꯭ꯙ ꯍꯂꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">अर्ध हलासन</rdfs:label>
+        <rdfs:label xml:lang="doi">अर्ध हलासन</rdfs:label>
+        <rdfs:label xml:lang="ks">اردھ ہلاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">अर्ध हलासन</rdfs:label>
+        <rdfs:label xml:lang="ne">अर्ध हलासन</rdfs:label>
+        <rdfs:label xml:lang="sa">अर्ध हलासन</rdfs:label>
+        <rdfs:label xml:lang="sd">اردھ ہلاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Ardhaustrasana -->
@@ -1418,8 +1518,28 @@
         <rdfs:label xml:lang="en">Ardhaustrasana</rdfs:label>
         <rdfs:label xml:lang="hi">अर्ध उष्ट्रासन</rdfs:label>
         <rdfs:label xml:lang="te">అర్ధ ఉష్ట్రాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">অর্ধ উষ্ট্রাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">अर्ध उष्ट्रासन</rdfs:label>
+        <rdfs:label xml:lang="ta">அர்த உஷ்ட்ராசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">અર્ધ ઉષ્ટ્રાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">اردھ اشٹراسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ಅರ್ಧ ಉಷ್ಟ್ರಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ଅର୍ଧ ଉଷ୍ଟ୍ରାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">അർധ ഉഷ്ട്രാസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਅਰ੍ਧ ਉਸ਼਼੍ਟ੍ਰਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">অৰ্ধ উষ্ট্ৰাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">अर्ध उष्ट्रासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱚᱨᱫᱷᱚ ᱩᱥᱴᱨᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯑꯔ꯭ꯙ ꯎꯁ꯭ꯇ꯭ꯔꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">अर्ध उष्ट्रासन</rdfs:label>
+        <rdfs:label xml:lang="doi">अर्ध उष्ट्रासन</rdfs:label>
+        <rdfs:label xml:lang="ks">اردھ اشٹراسن</rdfs:label>
+        <rdfs:label xml:lang="kok">अर्ध उष्ट्रासन</rdfs:label>
+        <rdfs:label xml:lang="ne">अर्ध उष्ट्रासन</rdfs:label>
+        <rdfs:label xml:lang="sa">अर्ध उष्ट्रासन</rdfs:label>
+        <rdfs:label xml:lang="sd">اردھ اشٹراسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Arms -->
@@ -1429,7 +1549,7 @@
         <rdfs:label xml:lang="en">Arms</rdfs:label>
         <rdfs:label xml:lang="hi">बाहें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#AshtangaNamaskara -->
@@ -1442,8 +1562,28 @@
         <rdfs:label xml:lang="en">Ashtanga Namaskara</rdfs:label>
         <rdfs:label xml:lang="hi">अष्टांग नमस्कार</rdfs:label>
         <rdfs:label xml:lang="te">అష్టాంగ నమస్కారం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">অষ্টাঙ্গ নমস্কার</rdfs:label>
+        <rdfs:label xml:lang="mr">अष्टांग नमस्कार</rdfs:label>
+        <rdfs:label xml:lang="ta">அஷ்டாங்க நமஸ்காரம்</rdfs:label>
+        <rdfs:label xml:lang="gu">અષ્ટાંગ નમસ્કાર</rdfs:label>
+        <rdfs:label xml:lang="ur">اشٹانگ نمسکار</rdfs:label>
+        <rdfs:label xml:lang="kn">ಅಷ್ಟಾಂಗ ನಮಸ್ಕಾರ</rdfs:label>
+        <rdfs:label xml:lang="or">ଅଷ୍ଟାଙ୍ଗ ନମସ୍କାର</rdfs:label>
+        <rdfs:label xml:lang="ml">അഷ്ടാംഗ നമസ്കാരം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਅਸ਼਼੍ਟਾਂਗ ਨਮਸ੍ਕਾਰ</rdfs:label>
+        <rdfs:label xml:lang="as">অষ্টাঙ্গ নমস্কাৰ</rdfs:label>
+        <rdfs:label xml:lang="mai">अष्टांग नमस्कार</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱚᱥᱴᱟᱝᱜᱚ ᱱᱚᱢᱚᱥᱠᱟᱨᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯑꯁ꯭ꯇꯥꯪꯒ ꯅꯃꯁ꯭ꯀꯥꯔ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">अष्टांग नमस्कार</rdfs:label>
+        <rdfs:label xml:lang="doi">अष्टांग नमस्कार</rdfs:label>
+        <rdfs:label xml:lang="ks">اشٹانگ نمسکار</rdfs:label>
+        <rdfs:label xml:lang="kok">अष्टांग नमस्कार</rdfs:label>
+        <rdfs:label xml:lang="ne">अष्टांग नमस्कार</rdfs:label>
+        <rdfs:label xml:lang="sa">अष्टांग नमस्कार</rdfs:label>
+        <rdfs:label xml:lang="sd">اشٹانگ نمسکار</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#AshwaSanchalanasana -->
@@ -1456,8 +1596,28 @@
         <rdfs:label xml:lang="en">Ashwa Sanchalanasana</rdfs:label>
         <rdfs:label xml:lang="hi">अश्व संचलनासन</rdfs:label>
         <rdfs:label xml:lang="te">అశ్వ సంచలనాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">অশ্ব সঞ্চলনাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">अश्व संचलनासन</rdfs:label>
+        <rdfs:label xml:lang="ta">அஷ்வ ஸஞ்சலனாசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">અશ્વ સંચલનાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">اشو سنچلناسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ಅಶ್ವ ಸಂಚಲನಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ଅଶ୍ୱ ସଞ୍ଚଲନାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">അശ്വ സഞ്ചലനാസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਅਸ਼੍ਵ ਸੰਚਲਨਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">অশ্ৱ সঞ্চলনাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">अश्व संचलनासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱚᱥᱣᱚ ᱥᱚᱝᱪᱚᱞᱚᱱᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯑꯁ꯭ꯋ ꯁꯪꯆꯂꯅꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">अश्व संचलनासन</rdfs:label>
+        <rdfs:label xml:lang="doi">अश्व संचलनासन</rdfs:label>
+        <rdfs:label xml:lang="ks">اشو سنچلناسن</rdfs:label>
+        <rdfs:label xml:lang="kok">अश्व संचलनासन</rdfs:label>
+        <rdfs:label xml:lang="ne">अश्व संचलनासन</rdfs:label>
+        <rdfs:label xml:lang="sa">अश्व संचलनासन</rdfs:label>
+        <rdfs:label xml:lang="sd">اشو سنچلناسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Bhujangasana -->
@@ -1470,8 +1630,28 @@
         <rdfs:label xml:lang="en">Bhujangasana</rdfs:label>
         <rdfs:label xml:lang="hi">भुजंगासन</rdfs:label>
         <rdfs:label xml:lang="te">భుజంగాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">ভুজঙ্গাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">भुजंगासन</rdfs:label>
+        <rdfs:label xml:lang="ta">புஜங்காசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">ભુજંગાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">بھجنگاسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ಭುಜಂಗಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ଭୁଜଙ୍ଗାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">ഭുജംഗാസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਭੁਜੰਗਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">ভুজঙ্গাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">भुजंगासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱵᱷᱩᱡᱚᱝᱜᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯚꯨꯖꯪꯒꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">भुजंगासन</rdfs:label>
+        <rdfs:label xml:lang="doi">भुजंगासन</rdfs:label>
+        <rdfs:label xml:lang="ks">بھجنگاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">भुजंगासन</rdfs:label>
+        <rdfs:label xml:lang="ne">भुजंगासन</rdfs:label>
+        <rdfs:label xml:lang="sa">भुजंगासन</rdfs:label>
+        <rdfs:label xml:lang="sd">بھجنگاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#ChaturangaDandasana -->
@@ -1483,8 +1663,28 @@
         <rdfs:label xml:lang="en">Chaturanga Dandasana</rdfs:label>
         <rdfs:label xml:lang="hi">चतुरंग दंडासन</rdfs:label>
         <rdfs:label xml:lang="te">చతురంగ దండాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">চতুরঙ্গ দণ্ডাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">चतुरंग दंडासन</rdfs:label>
+        <rdfs:label xml:lang="ta">சதுரங்க தண்டாசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">ચતુરંગ દંડાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">چترنگ دنڈاسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ಚತುರಂಗ ದಂಡಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ଚତୁରଙ୍ଗ ଦଣ୍ଡାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">ചതുരംഗ ദണ്ഡാസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਚਤੁਰੰਗ ਦੰਡਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">চতুৰঙ্গ দণ্ডাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">चतुरंग दंडासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱪᱚᱛᱩᱨᱚᱝᱜᱚ ᱫᱚᱝᱰᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯆꯇꯨꯔꯪꯒ ꯗꯪꯗꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">चतुरंग दंडासन</rdfs:label>
+        <rdfs:label xml:lang="doi">चतुरंग दंडासन</rdfs:label>
+        <rdfs:label xml:lang="ks">چترنگ دنڈاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">चतुरंग दंडासन</rdfs:label>
+        <rdfs:label xml:lang="ne">चतुरंग दंडासन</rdfs:label>
+        <rdfs:label xml:lang="sa">चतुरंग दंडासन</rdfs:label>
+        <rdfs:label xml:lang="sd">چترنگ دنڈاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Chest -->
@@ -1494,7 +1694,7 @@
         <rdfs:label xml:lang="en">Chest</rdfs:label>
         <rdfs:label xml:lang="hi">छाती</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Chin -->
@@ -1504,7 +1704,7 @@
         <rdfs:label xml:lang="en">Chin</rdfs:label>
         <rdfs:label xml:lang="hi">ठोड़ी</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Core -->
@@ -1514,7 +1714,7 @@
         <rdfs:label xml:lang="en">Core</rdfs:label>
         <rdfs:label xml:lang="hi">कोर</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#DandaSamarpana -->
@@ -1524,8 +1724,28 @@
         <rdfs:label xml:lang="en">Danda Samarpana</rdfs:label>
         <rdfs:label xml:lang="hi">दंड समर्पण</rdfs:label>
         <rdfs:label xml:lang="te">దండ సమర్పణ</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">দণ্ড সমর্পণ</rdfs:label>
+        <rdfs:label xml:lang="mr">दंड समर्पण</rdfs:label>
+        <rdfs:label xml:lang="ta">தண்ட சமர்ப்பணம்</rdfs:label>
+        <rdfs:label xml:lang="gu">દંડ સમર્પણ</rdfs:label>
+        <rdfs:label xml:lang="ur">دنڈ سمرپن</rdfs:label>
+        <rdfs:label xml:lang="kn">ದಂಡ ಸಮರ್ಪಣ</rdfs:label>
+        <rdfs:label xml:lang="or">ଦଣ୍ଡ ସମର୍ପଣ</rdfs:label>
+        <rdfs:label xml:lang="ml">ദണ്ഡ സമർപ്പണം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਦੰਡ ਸਮਰ੍ਪਣ</rdfs:label>
+        <rdfs:label xml:lang="as">দণ্ড সমৰ্পণ</rdfs:label>
+        <rdfs:label xml:lang="mai">दंड समर्पण</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱫᱚᱝᱰᱚ ᱥᱚᱢᱚᱨᱯᱚᱬᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯗꯪꯗ ꯁꯃꯔ꯭ꯄꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">दंड समर्पण</rdfs:label>
+        <rdfs:label xml:lang="doi">दंड समर्पण</rdfs:label>
+        <rdfs:label xml:lang="ks">دنڈ سمرپن</rdfs:label>
+        <rdfs:label xml:lang="kok">दंड समर्पण</rdfs:label>
+        <rdfs:label xml:lang="ne">दंड समर्पण</rdfs:label>
+        <rdfs:label xml:lang="sa">दंड समर्पण</rdfs:label>
+        <rdfs:label xml:lang="sd">دنڈ سمرپن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Elbow -->
@@ -1535,7 +1755,7 @@
         <rdfs:label xml:lang="en">Elbow</rdfs:label>
         <rdfs:label xml:lang="hi">कोहनी</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Exhale -->
@@ -1545,8 +1765,28 @@
         <rdfs:label xml:lang="en">Exhale</rdfs:label>
         <rdfs:label xml:lang="hi">श्वास छोड़ें</rdfs:label>
         <rdfs:label xml:lang="te">శ్వాస వదలండి</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">শ্বাস ছাড়ুন</rdfs:label>
+        <rdfs:label xml:lang="mr">श्वास सोडा</rdfs:label>
+        <rdfs:label xml:lang="ta">மூச்சை வெளியே விடுங்கள்</rdfs:label>
+        <rdfs:label xml:lang="gu">શ્વાસ છોડો</rdfs:label>
+        <rdfs:label xml:lang="ur">سانس چھوڑیں</rdfs:label>
+        <rdfs:label xml:lang="kn">ಉಸಿರು ಬಿಡಿ</rdfs:label>
+        <rdfs:label xml:lang="or">ଶ୍ୱାସ ଛାଡନ୍ତୁ</rdfs:label>
+        <rdfs:label xml:lang="ml">ശ്വാസം പുറത്തുവിടുക</rdfs:label>
+        <rdfs:label xml:lang="pa">ਸਾਹ ਛੱਡੋ</rdfs:label>
+        <rdfs:label xml:lang="as">শ্বাস এৰক</rdfs:label>
+        <rdfs:label xml:lang="mai">साँस छोड़ू</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱥᱣᱟᱥᱚ ᱪᱷᱳᱲᱮᱝ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯁ꯭ꯋꯥꯁ ꯆꯣꯗꯦꯪ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">श्वास छोड़ें</rdfs:label>
+        <rdfs:label xml:lang="doi">साह छोड़ो</rdfs:label>
+        <rdfs:label xml:lang="ks">سانس تراوو</rdfs:label>
+        <rdfs:label xml:lang="kok">श्वास सोडात</rdfs:label>
+        <rdfs:label xml:lang="ne">श्वास छोड्नुहोस्</rdfs:label>
+        <rdfs:label xml:lang="sa">श्वासं मुञ्चतु</rdfs:label>
+        <rdfs:label xml:lang="sd">ساهه ڇڏيو</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Feet -->
@@ -1556,7 +1796,7 @@
         <rdfs:label xml:lang="en">Feet</rdfs:label>
         <rdfs:label xml:lang="hi">पैर</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Hands -->
@@ -1566,7 +1806,7 @@
         <rdfs:label xml:lang="en">Hands</rdfs:label>
         <rdfs:label xml:lang="hi">हाथ</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#HastaUtthanasana -->
@@ -1580,8 +1820,28 @@
         <rdfs:label xml:lang="en">Hasta Utthanasana</rdfs:label>
         <rdfs:label xml:lang="hi">हस्त उत्तानासन</rdfs:label>
         <rdfs:label xml:lang="te">హస్త ఉత్తానాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">হস্ত উত্তানাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">हस्त उत्तानासन</rdfs:label>
+        <rdfs:label xml:lang="ta">ஹஸ்த உத்தானாசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">હસ્ત ઉત્તાનાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">ہست اتّاناسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ಹಸ್ತ ಉತ್ತಾನಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ହସ୍ତ ଉତ୍ତାନାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">ഹസ്ത ഉത്താനാസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਹਸ੍ਤ ਉੱਤਾਨਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">হস্ত উত্তানাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">हस्त उत्तानासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱦᱚᱥᱛᱚ ᱩᱛᱛᱟᱱᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯍꯁ꯭ꯇ ꯎꯠꯇꯥꯅꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">हस्त उत्तानासन</rdfs:label>
+        <rdfs:label xml:lang="doi">हस्त उत्तानासन</rdfs:label>
+        <rdfs:label xml:lang="ks">ہست اتّاناسن</rdfs:label>
+        <rdfs:label xml:lang="kok">हस्त उत्तानासन</rdfs:label>
+        <rdfs:label xml:lang="ne">हस्त उत्तानासन</rdfs:label>
+        <rdfs:label xml:lang="sa">हस्त उत्तानासन</rdfs:label>
+        <rdfs:label xml:lang="sd">ہست اتّاناسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Hip -->
@@ -1591,7 +1851,7 @@
         <rdfs:label xml:lang="en">Hip</rdfs:label>
         <rdfs:label xml:lang="hi">श्रोणि</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Hold -->
@@ -1601,8 +1861,28 @@
         <rdfs:label xml:lang="en">Hold</rdfs:label>
         <rdfs:label xml:lang="hi">श्वास रोकें</rdfs:label>
         <rdfs:label xml:lang="te">శ్వాస నిలుపుకోండి</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">শ্বাস ধরে রাখুন</rdfs:label>
+        <rdfs:label xml:lang="mr">श्वास रोखा</rdfs:label>
+        <rdfs:label xml:lang="ta">மூச்சை நிறுத்துங்கள்</rdfs:label>
+        <rdfs:label xml:lang="gu">શ્વાસ રોકો</rdfs:label>
+        <rdfs:label xml:lang="ur">سانس روکیں</rdfs:label>
+        <rdfs:label xml:lang="kn">ಉಸಿರು ಹಿಡಿದುಕೊಳ್ಳಿ</rdfs:label>
+        <rdfs:label xml:lang="or">ଶ୍ୱାସ ରୋକନ୍ତୁ</rdfs:label>
+        <rdfs:label xml:lang="ml">ശ്വാസം പിടിക്കുക</rdfs:label>
+        <rdfs:label xml:lang="pa">ਸਾਹ ਰੋਕੋ</rdfs:label>
+        <rdfs:label xml:lang="as">শ্বাস ধৰি ৰাখক</rdfs:label>
+        <rdfs:label xml:lang="mai">साँस रोकू</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱥᱣᱟᱥᱚ ᱨᱳᱠᱮᱝ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯁ꯭ꯋꯥꯁ ꯔꯣꯀꯦꯪ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">श्वास रोकें</rdfs:label>
+        <rdfs:label xml:lang="doi">साह रोको</rdfs:label>
+        <rdfs:label xml:lang="ks">سانس رکاوو</rdfs:label>
+        <rdfs:label xml:lang="kok">श्वास रोखात</rdfs:label>
+        <rdfs:label xml:lang="ne">श्वास रोक्नुहोस्</rdfs:label>
+        <rdfs:label xml:lang="sa">श्वासं धारयतु</rdfs:label>
+        <rdfs:label xml:lang="sd">ساهه روڪيو</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Inhale -->
@@ -1612,8 +1892,28 @@
         <rdfs:label xml:lang="en">Inhale</rdfs:label>
         <rdfs:label xml:lang="hi">श्वास लें</rdfs:label>
         <rdfs:label xml:lang="te">శ్వాస పీల్చండి</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">শ্বাস নিন</rdfs:label>
+        <rdfs:label xml:lang="mr">श्वास घ्या</rdfs:label>
+        <rdfs:label xml:lang="ta">மூச்சை உள்ளிழுங்கள்</rdfs:label>
+        <rdfs:label xml:lang="gu">શ્વાસ લો</rdfs:label>
+        <rdfs:label xml:lang="ur">سانس لیں</rdfs:label>
+        <rdfs:label xml:lang="kn">ಉಸಿರು ತೆಗೆದುಕೊಳ್ಳಿ</rdfs:label>
+        <rdfs:label xml:lang="or">ଶ୍ୱାସ ନିଅନ୍ତୁ</rdfs:label>
+        <rdfs:label xml:lang="ml">ശ്വാസം എടുക്കുക</rdfs:label>
+        <rdfs:label xml:lang="pa">ਸਾਹ ਲਓ</rdfs:label>
+        <rdfs:label xml:lang="as">শ্বাস লওক</rdfs:label>
+        <rdfs:label xml:lang="mai">साँस लिअ</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱥᱣᱟᱥᱚ ᱞᱮᱝ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯁ꯭ꯋꯥꯁ ꯂꯦꯪ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">श्वास लें</rdfs:label>
+        <rdfs:label xml:lang="doi">साह लैओ</rdfs:label>
+        <rdfs:label xml:lang="ks">سانس ہیو</rdfs:label>
+        <rdfs:label xml:lang="kok">श्वास घेयात</rdfs:label>
+        <rdfs:label xml:lang="ne">श्वास लिनुहोस्</rdfs:label>
+        <rdfs:label xml:lang="sa">श्वासं गृह्णातु</rdfs:label>
+        <rdfs:label xml:lang="sd">ساهه کڻو</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Knee -->
@@ -1623,7 +1923,7 @@
         <rdfs:label xml:lang="en">Knee</rdfs:label>
         <rdfs:label xml:lang="hi">घुटना</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Legs -->
@@ -1633,7 +1933,7 @@
         <rdfs:label xml:lang="en">Legs</rdfs:label>
         <rdfs:label xml:lang="hi">टांगें</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Makarasana -->
@@ -1645,8 +1945,28 @@
         <rdfs:label xml:lang="en">Makarasana</rdfs:label>
         <rdfs:label xml:lang="hi">मकरासन</rdfs:label>
         <rdfs:label xml:lang="te">మకరాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">মকরাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">मकरासन</rdfs:label>
+        <rdfs:label xml:lang="ta">மகராசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">મકરાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">مکراسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ಮಕರಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ମକରାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">മകരാസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਮਕਰਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">মকৰাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">मकरासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱢᱚᱠᱚᱨᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯃꯀꯔꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">मकरासन</rdfs:label>
+        <rdfs:label xml:lang="doi">मकरासन</rdfs:label>
+        <rdfs:label xml:lang="ks">مکراسن</rdfs:label>
+        <rdfs:label xml:lang="kok">मकरासन</rdfs:label>
+        <rdfs:label xml:lang="ne">मकरासन</rdfs:label>
+        <rdfs:label xml:lang="sa">मकरासन</rdfs:label>
+        <rdfs:label xml:lang="sd">مکراسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Neck -->
@@ -1656,7 +1976,7 @@
         <rdfs:label xml:lang="en">Neck</rdfs:label>
         <rdfs:label xml:lang="hi">गर्दन</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Padahastasana -->
@@ -1673,8 +1993,28 @@
         <rdfs:label xml:lang="en">Padahastasana</rdfs:label>
         <rdfs:label xml:lang="hi">पादहस्तासन</rdfs:label>
         <rdfs:label xml:lang="te">పాదహస్తాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">পাদহস্তাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">पादहस्तासन</rdfs:label>
+        <rdfs:label xml:lang="ta">பாதஹஸ்தாசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">પાદહસ્તાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">پادہستاسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ಪಾದಹಸ್ತಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ପାଦହସ୍ତାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">പാദഹസ്താസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਪਾਦਹਸ੍ਤਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">পাদহস্তাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">पादहस्तासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱯᱟᱫᱚᱦᱚᱥᱛᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯄꯥꯗꯍꯁ꯭ꯇꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">पादहस्तासन</rdfs:label>
+        <rdfs:label xml:lang="doi">पादहस्तासन</rdfs:label>
+        <rdfs:label xml:lang="ks">پادہستاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">पादहस्तासन</rdfs:label>
+        <rdfs:label xml:lang="ne">पादहस्तासन</rdfs:label>
+        <rdfs:label xml:lang="sa">पादहस्तासन</rdfs:label>
+        <rdfs:label xml:lang="sd">پادہستاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Palms -->
@@ -1684,7 +2024,7 @@
         <rdfs:label xml:lang="en">Palms</rdfs:label>
         <rdfs:label xml:lang="hi">हथेलियाँ</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Parvatasana -->
@@ -1697,8 +2037,28 @@
         <rdfs:label xml:lang="en">Parvatasana</rdfs:label>
         <rdfs:label xml:lang="hi">पर्वतासन</rdfs:label>
         <rdfs:label xml:lang="te">పర్వతాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">পর্বতাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">पर्वतासन</rdfs:label>
+        <rdfs:label xml:lang="ta">பர்வதாசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">પર્વતાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">پروتاسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ಪರ್ವತಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ପର୍ୱତାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">പർവതാസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਪਰ੍ਵਤਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">পৰ্ৱতাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">पर्वतासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱯᱚᱨᱣᱚᱛᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯄꯔ꯭ꯋꯇꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">पर्वतासन</rdfs:label>
+        <rdfs:label xml:lang="doi">पर्वतासन</rdfs:label>
+        <rdfs:label xml:lang="ks">پروتاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">पर्वतासन</rdfs:label>
+        <rdfs:label xml:lang="ne">पर्वतासन</rdfs:label>
+        <rdfs:label xml:lang="sa">पर्वतासन</rdfs:label>
+        <rdfs:label xml:lang="sd">پروتاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Pavanamuktasana -->
@@ -1710,8 +2070,28 @@
         <rdfs:label xml:lang="en">Pavanamuktasana</rdfs:label>
         <rdfs:label xml:lang="hi">पवनमुक्तासन</rdfs:label>
         <rdfs:label xml:lang="te">పవనముక్తాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">পবনমুক্তাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">पवनमुक्तासन</rdfs:label>
+        <rdfs:label xml:lang="ta">பவனமுக்தாசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">પવનમુક્તાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">پونمکتاسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ಪವನಮುಕ್ತಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ପବନମୁକ୍ତାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">പവനമുക്താസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਪਵਨਮੁਕ੍ਤਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">পৱনমুক্তাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">पवनमुक्तासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱯᱚᱣᱚᱱᱚᱢᱩᱠᱛᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯄꯋꯅꯃꯨꯛꯇꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">पवनमुक्तासन</rdfs:label>
+        <rdfs:label xml:lang="doi">पवनमुक्तासन</rdfs:label>
+        <rdfs:label xml:lang="ks">پونمکتاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">पवनमुक्तासन</rdfs:label>
+        <rdfs:label xml:lang="ne">पवनमुक्तासन</rdfs:label>
+        <rdfs:label xml:lang="sa">पवनमुक्तासन</rdfs:label>
+        <rdfs:label xml:lang="sd">پونمکتاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Phalakasana -->
@@ -1723,8 +2103,28 @@
         <rdfs:label xml:lang="en">Phalakasana</rdfs:label>
         <rdfs:label xml:lang="hi">फलकासन</rdfs:label>
         <rdfs:label xml:lang="te">ఫలకాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">ফলকাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">फलकासन</rdfs:label>
+        <rdfs:label xml:lang="ta">பலகாசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">ફલકાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">پھلکاسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ಫಲಕಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ଫଲକାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">ഫലകാസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਫਲਕਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">ফলকাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">फलकासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱯᱷᱚᱞᱚᱠᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯐꯂꯀꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">फलकासन</rdfs:label>
+        <rdfs:label xml:lang="doi">फलकासन</rdfs:label>
+        <rdfs:label xml:lang="ks">پھلکاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">फलकासन</rdfs:label>
+        <rdfs:label xml:lang="ne">फलकासन</rdfs:label>
+        <rdfs:label xml:lang="sa">फलकासन</rdfs:label>
+        <rdfs:label xml:lang="sd">پھلکاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Pranamasana -->
@@ -1737,8 +2137,28 @@
         <rdfs:label xml:lang="en">Pranamasana</rdfs:label>
         <rdfs:label xml:lang="hi">प्रणामासन</rdfs:label>
         <rdfs:label xml:lang="te">ప్రణామాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">প্রণামাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">प्रणामासन</rdfs:label>
+        <rdfs:label xml:lang="ta">ப்ரணாமாசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">પ્રણામાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">پرناماسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ಪ್ರಣಾಮಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ପ୍ରଣାମାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">പ്രണാമാസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਪ੍ਰਣਾਮਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">প্ৰণামাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">प्रणामासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱯᱨᱚᱬᱟᱢᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯞꯔꯅꯥꯃꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">प्रणामासन</rdfs:label>
+        <rdfs:label xml:lang="doi">प्रणामासन</rdfs:label>
+        <rdfs:label xml:lang="ks">پرناماسن</rdfs:label>
+        <rdfs:label xml:lang="kok">प्रणामासन</rdfs:label>
+        <rdfs:label xml:lang="ne">प्रणामासन</rdfs:label>
+        <rdfs:label xml:lang="sa">प्रणामासन</rdfs:label>
+        <rdfs:label xml:lang="sd">پرناماسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Samasthiti -->
@@ -1749,8 +2169,28 @@
         <rdfs:label xml:lang="en">Samasthiti</rdfs:label>
         <rdfs:label xml:lang="hi">समस्थिति</rdfs:label>
         <rdfs:label xml:lang="te">సమస్థితి</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">সমস্থিতি</rdfs:label>
+        <rdfs:label xml:lang="mr">समस्थिति</rdfs:label>
+        <rdfs:label xml:lang="ta">சமஸ்திதி</rdfs:label>
+        <rdfs:label xml:lang="gu">સમસ્થિતિ</rdfs:label>
+        <rdfs:label xml:lang="ur">سمستھت</rdfs:label>
+        <rdfs:label xml:lang="kn">ಸಮಸ್ಥಿತಿ</rdfs:label>
+        <rdfs:label xml:lang="or">ସମସ୍ଥିତି</rdfs:label>
+        <rdfs:label xml:lang="ml">സമസ്ഥിതി</rdfs:label>
+        <rdfs:label xml:lang="pa">ਸਮਸ੍ਥਿਤਿ</rdfs:label>
+        <rdfs:label xml:lang="as">সমস্থিতি</rdfs:label>
+        <rdfs:label xml:lang="mai">समस्थिति</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱥᱚᱢᱚᱥᱛᱷᱤᱛᱤ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯁꯃꯁ꯭ꯊꯤꯇꯤ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">समस्थिति</rdfs:label>
+        <rdfs:label xml:lang="doi">समस्थिति</rdfs:label>
+        <rdfs:label xml:lang="ks">سمستھت</rdfs:label>
+        <rdfs:label xml:lang="kok">समस्थिति</rdfs:label>
+        <rdfs:label xml:lang="ne">समस्थिति</rdfs:label>
+        <rdfs:label xml:lang="sa">समस्थिति</rdfs:label>
+        <rdfs:label xml:lang="sd">سمستھت</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Setubandhasana -->
@@ -1762,8 +2202,28 @@
         <rdfs:label xml:lang="en">Setubandhasana</rdfs:label>
         <rdfs:label xml:lang="hi">सेतुबंधासन</rdfs:label>
         <rdfs:label xml:lang="te">సేతు బంధాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">সেতুবন্ধাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">सेतुबंधासन</rdfs:label>
+        <rdfs:label xml:lang="ta">ஸேதுபந்தாசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">સેતુબંધાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">سیتبندھاسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ಸೇತುಬಂಧಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ସେତୁବନ୍ଧାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">സേതുബന്ധാസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਸੇਤੁਬੰਧਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">সেতুবন্ধাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">सेतुबंधासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱥᱮᱛᱩᱵᱚᱝᱫᱷᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯁꯦꯇꯨꯕꯪꯙꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">सेतुबंधासन</rdfs:label>
+        <rdfs:label xml:lang="doi">सेतुबंधासन</rdfs:label>
+        <rdfs:label xml:lang="ks">سیتبندھاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">सेतुबंधासन</rdfs:label>
+        <rdfs:label xml:lang="ne">सेतुबंधासन</rdfs:label>
+        <rdfs:label xml:lang="sa">सेतुबंधासन</rdfs:label>
+        <rdfs:label xml:lang="sd">سیتبندھاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Shalabhasana -->
@@ -1775,8 +2235,28 @@
         <rdfs:label xml:lang="en">Shalabhasana</rdfs:label>
         <rdfs:label xml:lang="hi">शलभासन</rdfs:label>
         <rdfs:label xml:lang="te">శలభాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">শলভাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">शलभासन</rdfs:label>
+        <rdfs:label xml:lang="ta">ஷலபாசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">શલભાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">شلبھاسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ಶಲಭಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ଶଲଭାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">ശലഭാസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਸ਼ਲਭਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">শলভাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">शलभासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱥᱚᱞᱚᱵᱷᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯁꯂꯚꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">शलभासन</rdfs:label>
+        <rdfs:label xml:lang="doi">शलभासन</rdfs:label>
+        <rdfs:label xml:lang="ks">شلبھاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">शलभासन</rdfs:label>
+        <rdfs:label xml:lang="ne">शलभासन</rdfs:label>
+        <rdfs:label xml:lang="sa">शलभासन</rdfs:label>
+        <rdfs:label xml:lang="sd">شلبھاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Shashankasana -->
@@ -1787,8 +2267,28 @@
         <rdfs:label xml:lang="en">Shashankasana</rdfs:label>
         <rdfs:label xml:lang="hi">शशांकासन</rdfs:label>
         <rdfs:label xml:lang="te">శశాంకాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">শশাঙ্কাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">शशांकासन</rdfs:label>
+        <rdfs:label xml:lang="ta">ஷஷாங்காசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">શશાંકાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">ششانکاسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ಶಶಾಂಕಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ଶଶାଙ୍କାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">ശശാങ്കാസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਸ਼ਸ਼ਾਂਕਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">শশাঙ্কাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">शशांकासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱥᱚᱥᱟᱝᱠᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯁꯁꯥꯪꯀꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">शशांकासन</rdfs:label>
+        <rdfs:label xml:lang="doi">शशांकासन</rdfs:label>
+        <rdfs:label xml:lang="ks">ششانکاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">शशांकासन</rdfs:label>
+        <rdfs:label xml:lang="ne">शशांकासन</rdfs:label>
+        <rdfs:label xml:lang="sa">शशांकासन</rdfs:label>
+        <rdfs:label xml:lang="sd">ششانکاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#ShashtangaNamaskara -->
@@ -1799,8 +2299,28 @@
         <rdfs:label xml:lang="en">Shashtanga Namaskara</rdfs:label>
         <rdfs:label xml:lang="hi">षष्टांग नमस्कार</rdfs:label>
         <rdfs:label xml:lang="te">షష్టాంగ నమస్కారం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">ষষ্টাঙ্গ নমস্কার</rdfs:label>
+        <rdfs:label xml:lang="mr">षष्टांग नमस्कार</rdfs:label>
+        <rdfs:label xml:lang="ta">ஷஷ்டாங்க நமஸ்காரம்</rdfs:label>
+        <rdfs:label xml:lang="gu">ષષ્ટાંગ નમસ્કાર</rdfs:label>
+        <rdfs:label xml:lang="ur">ششٹانگ نمسکار</rdfs:label>
+        <rdfs:label xml:lang="kn">ಷಷ್ಟಾಂಗ ನಮಸ್ಕಾರ</rdfs:label>
+        <rdfs:label xml:lang="or">ଷଷ୍ଟାଙ୍ଗ ନମସ୍କାର</rdfs:label>
+        <rdfs:label xml:lang="ml">ഷഷ്ടാംഗ നമസ്കാരം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਸ਼਼ਸ਼਼੍ਟਾਂਗ ਨਮਸ੍ਕਾਰ</rdfs:label>
+        <rdfs:label xml:lang="as">ষষ্টাঙ্গ নমস্কাৰ</rdfs:label>
+        <rdfs:label xml:lang="mai">षष्टांग नमस्कार</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱥᱚᱥᱴᱟᱝᱜᱚ ᱱᱚᱢᱚᱥᱠᱟᱨᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯁꯁ꯭ꯇꯥꯪꯒ ꯅꯃꯁ꯭ꯀꯥꯔ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">षष्टांग नमस्कार</rdfs:label>
+        <rdfs:label xml:lang="doi">षष्टांग नमस्कार</rdfs:label>
+        <rdfs:label xml:lang="ks">ششٹانگ نمسکار</rdfs:label>
+        <rdfs:label xml:lang="kok">षष्टांग नमस्कार</rdfs:label>
+        <rdfs:label xml:lang="ne">षष्टांग नमस्कार</rdfs:label>
+        <rdfs:label xml:lang="sa">षष्टांग नमस्कार</rdfs:label>
+        <rdfs:label xml:lang="sd">ششٹانگ نمسکار</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Shavasana -->
@@ -1812,8 +2332,28 @@
         <rdfs:label xml:lang="en">Shavasana</rdfs:label>
         <rdfs:label xml:lang="hi">शवासन</rdfs:label>
         <rdfs:label xml:lang="te">శవాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">শবাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">शवासन</rdfs:label>
+        <rdfs:label xml:lang="ta">ஷவாசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">શવાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">شواسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ಶವಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ଶବାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">ശവാസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਸ਼ਵਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">শৱাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">शवासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱥᱚᱣᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯁꯋꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">शवासन</rdfs:label>
+        <rdfs:label xml:lang="doi">शवासन</rdfs:label>
+        <rdfs:label xml:lang="ks">شواسن</rdfs:label>
+        <rdfs:label xml:lang="kok">शवासन</rdfs:label>
+        <rdfs:label xml:lang="ne">शवासन</rdfs:label>
+        <rdfs:label xml:lang="sa">शवासन</rdfs:label>
+        <rdfs:label xml:lang="sd">شواسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Shoulder -->
@@ -1823,7 +2363,7 @@
         <rdfs:label xml:lang="en">Shoulder</rdfs:label>
         <rdfs:label xml:lang="hi">कंधा</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Spine -->
@@ -1833,7 +2373,7 @@
         <rdfs:label xml:lang="en">Spine</rdfs:label>
         <rdfs:label xml:lang="hi">रीढ़</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Tadasana -->
@@ -1844,8 +2384,28 @@
         <rdfs:label xml:lang="en">Tadasana</rdfs:label>
         <rdfs:label xml:lang="hi">ताड़ासन</rdfs:label>
         <rdfs:label xml:lang="te">తాడాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">তাড়াসন</rdfs:label>
+        <rdfs:label xml:lang="mr">ताड़ासन</rdfs:label>
+        <rdfs:label xml:lang="ta">தாஃடாசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">તાડ઼ાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">تاڑاسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ತಾಡ಼ಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ତାଡ଼ାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">താഡാസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਤਾੜਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">তাড়াসন</rdfs:label>
+        <rdfs:label xml:lang="mai">ताड़ासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱛᱟᱲᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯇꯥꯗꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">ताड़ासन</rdfs:label>
+        <rdfs:label xml:lang="doi">ताड़ासन</rdfs:label>
+        <rdfs:label xml:lang="ks">تاڑاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">ताड़ासन</rdfs:label>
+        <rdfs:label xml:lang="ne">ताड़ासन</rdfs:label>
+        <rdfs:label xml:lang="sa">ताड़ासन</rdfs:label>
+        <rdfs:label xml:lang="sd">تاڑاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#UrdhwaMukhaSvanasana -->
@@ -1856,8 +2416,28 @@
         <rdfs:label xml:lang="en">Urdhwa Mukha Svanasana</rdfs:label>
         <rdfs:label xml:lang="hi">ऊर्ध्वमुख श्वानासन</rdfs:label>
         <rdfs:label xml:lang="te">ఊర్ధ్వ ముఖ శ్వానాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">ঊর্ধ্বমুখ শ্বানাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">ऊर्ध्वमुख श्वानासन</rdfs:label>
+        <rdfs:label xml:lang="ta">ஊர்த்வமுக ஷ்வானாசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">ઊર્ધ્વમુખ શ્વાનાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">اوردھومکھ شواناسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ಊರ್ಧ್ವಮುಖ ಶ್ವಾನಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ଊର୍ଧ୍ୱମୁଖ ଶ୍ୱାନାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">ഊർധ്വമുഖ ശ്വാനാസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਊਰ੍ਧ੍ਵਮੁਖ ਸ਼੍ਵਾਨਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">ঊৰ্ধ্ৱমুখ শ্ৱানাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">ऊर्ध्वमुख श्वानासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱩᱻᱨᱫᱷᱣᱚᱢᱩᱠᱷᱚ ᱥᱣᱟᱱᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯎꯔ꯭ꯙ꯭ꯋꯃꯨꯈ ꯁ꯭ꯋꯥꯅꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">ऊर्ध्वमुख श्वानासन</rdfs:label>
+        <rdfs:label xml:lang="doi">ऊर्ध्वमुख श्वानासन</rdfs:label>
+        <rdfs:label xml:lang="ks">اوردھومکھ شواناسن</rdfs:label>
+        <rdfs:label xml:lang="kok">ऊर्ध्वमुख श्वानासन</rdfs:label>
+        <rdfs:label xml:lang="ne">ऊर्ध्वमुख श्वानासन</rdfs:label>
+        <rdfs:label xml:lang="sa">ऊर्ध्वमुख श्वानासन</rdfs:label>
+        <rdfs:label xml:lang="sd">اوردھومکھ شواناسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Ustrasana -->
@@ -1869,8 +2449,28 @@
         <rdfs:label xml:lang="en">Ustrasana</rdfs:label>
         <rdfs:label xml:lang="hi">उष्ट्रासन</rdfs:label>
         <rdfs:label xml:lang="te">ఉష్ట్రాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">উষ্ট্রাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">उष्ट्रासन</rdfs:label>
+        <rdfs:label xml:lang="ta">உஷ்ட்ராசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">ઉષ્ટ્રાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">اشٹراسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ಉಷ್ಟ್ರಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ଉଷ୍ଟ୍ରାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">ഉഷ്ട്രാസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਉਸ਼਼੍ਟ੍ਰਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">উষ্ট্ৰাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">उष्ट्रासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱩᱥᱴᱨᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯎꯁ꯭ꯇ꯭ꯔꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">उष्ट्रासन</rdfs:label>
+        <rdfs:label xml:lang="doi">उष्ट्रासन</rdfs:label>
+        <rdfs:label xml:lang="ks">اشٹراسن</rdfs:label>
+        <rdfs:label xml:lang="kok">उष्ट्रासन</rdfs:label>
+        <rdfs:label xml:lang="ne">उष्ट्रासन</rdfs:label>
+        <rdfs:label xml:lang="sa">उष्ट्रासन</rdfs:label>
+        <rdfs:label xml:lang="sd">اشٹراسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Utkatasana -->
@@ -1881,8 +2481,28 @@
         <rdfs:label xml:lang="en">Utkatasana</rdfs:label>
         <rdfs:label xml:lang="hi">उत्कटासन</rdfs:label>
         <rdfs:label xml:lang="te">ఉత్కటాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">উৎকটাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">उत्कटासन</rdfs:label>
+        <rdfs:label xml:lang="ta">உத்கடாசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">ઉત્કટાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">اتکٹاسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ಉತ್ಕಟಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ଉତ୍କଟାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">ഉത്കടാസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਉਤ੍ਕਟਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">উৎকটাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">उत्कटासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱩᱛᱠᱚᱴᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯎꯠꯀꯇꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">उत्कटासन</rdfs:label>
+        <rdfs:label xml:lang="doi">उत्कटासन</rdfs:label>
+        <rdfs:label xml:lang="ks">اتکٹاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">उत्कटासन</rdfs:label>
+        <rdfs:label xml:lang="ne">उत्कटासन</rdfs:label>
+        <rdfs:label xml:lang="sa">उत्कटासन</rdfs:label>
+        <rdfs:label xml:lang="sd">اتکٹاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Uttanamandukasana -->
@@ -1894,8 +2514,28 @@
         <rdfs:label xml:lang="en">Uttanamandukasana</rdfs:label>
         <rdfs:label xml:lang="hi">उत्तान मंडूकासन</rdfs:label>
         <rdfs:label xml:lang="te">ఉత్తాన మండూకాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">উত্তান মণ্ডূকাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">उत्तान मंडूकासन</rdfs:label>
+        <rdfs:label xml:lang="ta">உத்தான மண்டூகாசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">ઉત્તાન મંડૂકાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">اتّان منڈوکاسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ಉತ್ತಾನ ಮಂಡೂಕಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ଉତ୍ତାନ ମଣ୍ଡୂକାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">ഉത്താന മണ്ഡൂകാസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਉੱਤਾਨ ਮੰਡੂਕਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">উত্তান মণ্ডূকাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">उत्तान मंडूकासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱩᱛᱛᱟᱱᱚ ᱢᱚᱝᱰᱩᱻᱠᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯎꯠꯇꯥꯅ ꯃꯪꯗꯨꯀꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">उत्तान मंडूकासन</rdfs:label>
+        <rdfs:label xml:lang="doi">उत्तान मंडूकासन</rdfs:label>
+        <rdfs:label xml:lang="ks">اتّان منڈوکاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">उत्तान मंडूकासन</rdfs:label>
+        <rdfs:label xml:lang="ne">उत्तान मंडूकासन</rdfs:label>
+        <rdfs:label xml:lang="sa">उत्तान मंडूकासन</rdfs:label>
+        <rdfs:label xml:lang="sd">اتّان منڈوکاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Uttanapadasana -->
@@ -1907,8 +2547,28 @@
         <rdfs:label xml:lang="en">Uttanapadasana</rdfs:label>
         <rdfs:label xml:lang="hi">उत्तानपादासन</rdfs:label>
         <rdfs:label xml:lang="te">ఉత్తాన పాదాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">উত্তানপাদাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">उत्तानपादासन</rdfs:label>
+        <rdfs:label xml:lang="ta">உத்தானபாதாசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">ઉત્તાનપાદાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">اتّانپاداسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ಉತ್ತಾನಪಾದಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ଉତ୍ତାନପାଦାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">ഉത്താനപാദാസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਉੱਤਾਨਪਾਦਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">উত্তানপাদাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">उत्तानपादासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱩᱛᱛᱟᱱᱚᱯᱟᱫᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯎꯠꯇꯥꯅꯄꯥꯗꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">उत्तानपादासन</rdfs:label>
+        <rdfs:label xml:lang="doi">उत्तानपादासन</rdfs:label>
+        <rdfs:label xml:lang="ks">اتّانپاداسن</rdfs:label>
+        <rdfs:label xml:lang="kok">उत्तानपादासन</rdfs:label>
+        <rdfs:label xml:lang="ne">उत्तानपादासन</rdfs:label>
+        <rdfs:label xml:lang="sa">उत्तानपादासन</rdfs:label>
+        <rdfs:label xml:lang="sd">اتّانپاداسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Uttanasana -->
@@ -1920,8 +2580,28 @@
         <rdfs:label xml:lang="en">Uttanasana</rdfs:label>
         <rdfs:label xml:lang="hi">उत्तानासन</rdfs:label>
         <rdfs:label xml:lang="te">ఉత్తానాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">উত্তানাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">उत्तानासन</rdfs:label>
+        <rdfs:label xml:lang="ta">உத்தானாசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">ઉત્તાનાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">اتّاناسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ಉತ್ತಾನಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ଉତ୍ତାନାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">ഉത്താനാസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਉੱਤਾਨਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">উত্তানাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">उत्तानासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱩᱛᱛᱟᱱᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯎꯠꯇꯥꯅꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">उत्तानासन</rdfs:label>
+        <rdfs:label xml:lang="doi">उत्तानासन</rdfs:label>
+        <rdfs:label xml:lang="ks">اتّاناسن</rdfs:label>
+        <rdfs:label xml:lang="kok">उत्तानासन</rdfs:label>
+        <rdfs:label xml:lang="ne">उत्तानासन</rdfs:label>
+        <rdfs:label xml:lang="sa">उत्तानासन</rdfs:label>
+        <rdfs:label xml:lang="sd">اتّاناسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Vajrasana -->
@@ -1933,8 +2613,28 @@
         <rdfs:label xml:lang="en">Vajrasana</rdfs:label>
         <rdfs:label xml:lang="hi">वज्रासन</rdfs:label>
         <rdfs:label xml:lang="te">వజ్రాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">বজ্রাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">वज्रासन</rdfs:label>
+        <rdfs:label xml:lang="ta">வஜ்ராசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">વજ્રાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">وجراسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ವಜ್ರಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ବଜ୍ରାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">വജ്രാസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਵਜ੍ਰਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">ৱজ্ৰাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">वज्रासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱣᱚᱡᱨᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯋꯖ꯭ꯔꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">वज्रासन</rdfs:label>
+        <rdfs:label xml:lang="doi">वज्रासन</rdfs:label>
+        <rdfs:label xml:lang="ks">وجراسن</rdfs:label>
+        <rdfs:label xml:lang="kok">वज्रासन</rdfs:label>
+        <rdfs:label xml:lang="ne">वज्रासन</rdfs:label>
+        <rdfs:label xml:lang="sa">वज्रासन</rdfs:label>
+        <rdfs:label xml:lang="sd">وجراسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Vakrasana -->
@@ -1946,8 +2646,28 @@
         <rdfs:label xml:lang="en">Vakrasana</rdfs:label>
         <rdfs:label xml:lang="hi">वक्रासन</rdfs:label>
         <rdfs:label xml:lang="te">వక్రాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">বক্রাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">वक्रासन</rdfs:label>
+        <rdfs:label xml:lang="ta">வக்ராசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">વક્રાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">وکراسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ವಕ್ರಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ବକ୍ରାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">വക്രാസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਵਕ੍ਰਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">ৱক্ৰাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">वक्रासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱣᱚᱠᱨᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯋꯛꯔꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">वक्रासन</rdfs:label>
+        <rdfs:label xml:lang="doi">वक्रासन</rdfs:label>
+        <rdfs:label xml:lang="ks">وکراسن</rdfs:label>
+        <rdfs:label xml:lang="kok">वक्रासन</rdfs:label>
+        <rdfs:label xml:lang="ne">वक्रासन</rdfs:label>
+        <rdfs:label xml:lang="sa">वक्रासन</rdfs:label>
+        <rdfs:label xml:lang="sd">وکراسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Vrksasana -->
@@ -1959,8 +2679,28 @@
         <rdfs:label xml:lang="en">Vrksasana</rdfs:label>
         <rdfs:label xml:lang="hi">वृक्षासन</rdfs:label>
         <rdfs:label xml:lang="te">వృక్షాసనం</rdfs:label>
-    </owl:NamedIndividual>
-    
+        <rdfs:label xml:lang="bn">বৃক্ষাসন</rdfs:label>
+        <rdfs:label xml:lang="mr">वृक्षासन</rdfs:label>
+        <rdfs:label xml:lang="ta">வ்ருக்ஷாசனம்</rdfs:label>
+        <rdfs:label xml:lang="gu">વૃક્ષાસન</rdfs:label>
+        <rdfs:label xml:lang="ur">ورکشاسن</rdfs:label>
+        <rdfs:label xml:lang="kn">ವೃಕ್ಷಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="or">ବୃକ୍ଷାସନ</rdfs:label>
+        <rdfs:label xml:lang="ml">വൃക്ഷാസനം</rdfs:label>
+        <rdfs:label xml:lang="pa">ਵ੍ਰੁਕ੍ਸ਼਼ਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="as">ৱৃক্ষাসন</rdfs:label>
+        <rdfs:label xml:lang="mai">वृक्षासन</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱣᱨᱩᱠᱥᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯋ꯭ꯔꯨꯛꯁꯥꯁꯅ</rdfs:label>
+
+        <rdfs:label xml:lang="brx">वृक्षासन</rdfs:label>
+        <rdfs:label xml:lang="doi">वृक्षासन</rdfs:label>
+        <rdfs:label xml:lang="ks">ورکشاسن</rdfs:label>
+        <rdfs:label xml:lang="kok">वृक्षासन</rdfs:label>
+        <rdfs:label xml:lang="ne">वृक्षासन</rdfs:label>
+        <rdfs:label xml:lang="sa">वृक्षासन</rdfs:label>
+        <rdfs:label xml:lang="sd">ورکشاسن</rdfs:label></owl:NamedIndividual>
+
 
 
     <!-- https://ai4society.github.io/sn-yo/core#Wrist -->
@@ -1970,7 +2710,7 @@
         <rdfs:label xml:lang="en">Wrist</rdfs:label>
         <rdfs:label xml:lang="hi">कलाई</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_KrishnamacharyaVinyasa -->
@@ -1981,7 +2721,7 @@
         <rdfs:label xml:lang="en">Variant01_KrishnamacharyaVinyasa</rdfs:label>
         <rdfs:label xml:lang="hi">सूर्य नमस्कार (कृष्णमाचार्य विन्यास)</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_Pose01 -->
@@ -1998,7 +2738,7 @@
         <rdfs:label xml:lang="en">Variant01_Pose01</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०१</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_Pose02 -->
@@ -2016,7 +2756,7 @@
         <rdfs:label xml:lang="en">Variant01_Pose02</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०२</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_Pose03 -->
@@ -2034,7 +2774,7 @@
         <rdfs:label xml:lang="en">Variant01_Pose03</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०३</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_Pose04 -->
@@ -2052,7 +2792,7 @@
         <rdfs:label xml:lang="en">Variant01_Pose04</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०४</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_Pose05 -->
@@ -2070,7 +2810,7 @@
         <rdfs:label xml:lang="en">Variant01_Pose05</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०५</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_Pose06 -->
@@ -2086,7 +2826,7 @@
         <rdfs:label xml:lang="en">Variant01_Pose06</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०६</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_Pose07 -->
@@ -2104,7 +2844,7 @@
         <rdfs:label xml:lang="en">Variant01_Pose07</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०७</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_Pose08 -->
@@ -2121,7 +2861,7 @@
         <rdfs:label xml:lang="en">Variant01_Pose08</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०८</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_Pose09 -->
@@ -2138,7 +2878,7 @@
         <rdfs:label xml:lang="en">Variant01_Pose09</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०९</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_Pose10 -->
@@ -2156,7 +2896,7 @@
         <rdfs:label xml:lang="en">Variant01_Pose10</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा १०</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_Pose11 -->
@@ -2174,7 +2914,7 @@
         <rdfs:label xml:lang="en">Variant01_Pose11</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ११</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_Pose12 -->
@@ -2192,7 +2932,7 @@
         <rdfs:label xml:lang="en">Variant01_Pose12</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा १२</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_Pose13 -->
@@ -2209,7 +2949,7 @@
         <rdfs:label xml:lang="en">Variant01_Pose13</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा १३</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant02#Variant02_BiharSchoolOfYoga -->
@@ -2220,7 +2960,7 @@
         <rdfs:label xml:lang="en">Variant02_BiharSchoolOfYoga</rdfs:label>
         <rdfs:label xml:lang="hi">सूर्य नमस्कार (बिहार योग विद्यालय)</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant02#Variant02_Pose01 -->
@@ -2237,7 +2977,7 @@
         <rdfs:label xml:lang="en">Variant02_Pose01</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०१</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant02#Variant02_Pose02 -->
@@ -2255,7 +2995,7 @@
         <rdfs:label xml:lang="en">Variant02_Pose02</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०२</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant02#Variant02_Pose03 -->
@@ -2273,7 +3013,7 @@
         <rdfs:label xml:lang="en">Variant02_Pose03</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०३</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant02#Variant02_Pose04 -->
@@ -2292,7 +3032,7 @@
         <rdfs:label xml:lang="en">Variant02_Pose04</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०४</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant02#Variant02_Pose05 -->
@@ -2310,7 +3050,7 @@
         <rdfs:label xml:lang="en">Variant02_Pose05</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०५</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant02#Variant02_Pose06 -->
@@ -2327,7 +3067,7 @@
         <rdfs:label xml:lang="en">Variant02_Pose06</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०६</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant02#Variant02_Pose07 -->
@@ -2344,7 +3084,7 @@
         <rdfs:label xml:lang="en">Variant02_Pose07</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०७</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant02#Variant02_Pose08 -->
@@ -2362,7 +3102,7 @@
         <rdfs:label xml:lang="en">Variant02_Pose08</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०८</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant02#Variant02_Pose09 -->
@@ -2381,7 +3121,7 @@
         <rdfs:label xml:lang="en">Variant02_Pose09</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०९</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant02#Variant02_Pose10 -->
@@ -2399,7 +3139,7 @@
         <rdfs:label xml:lang="en">Variant02_Pose10</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा १०</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant02#Variant02_Pose11 -->
@@ -2417,7 +3157,7 @@
         <rdfs:label xml:lang="en">Variant02_Pose11</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ११</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant02#Variant02_Pose12 -->
@@ -2434,7 +3174,7 @@
         <rdfs:label xml:lang="en">Variant02_Pose12</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा १२</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant03#Variant03_Pose01 -->
@@ -2450,7 +3190,7 @@
         <rdfs:label xml:lang="en">Variant03_Pose01</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०१</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant03#Variant03_Pose02 -->
@@ -2468,7 +3208,7 @@
         <rdfs:label xml:lang="en">Variant03_Pose02</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०२</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant03#Variant03_Pose03 -->
@@ -2487,7 +3227,7 @@
         <rdfs:label xml:lang="en">Variant03_Pose03</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०३</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant03#Variant03_Pose04 -->
@@ -2504,7 +3244,7 @@
         <rdfs:label xml:lang="en">Variant03_Pose04</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०४</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant03#Variant03_Pose05 -->
@@ -2522,7 +3262,7 @@
         <rdfs:label xml:lang="en">Variant03_Pose05</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०५</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant03#Variant03_Pose06 -->
@@ -2539,7 +3279,7 @@
         <rdfs:label xml:lang="en">Variant03_Pose06</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०६</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant03#Variant03_Pose07 -->
@@ -2556,7 +3296,7 @@
         <rdfs:label xml:lang="en">Variant03_Pose07</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०७</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant03#Variant03_Pose08 -->
@@ -2573,7 +3313,7 @@
         <rdfs:label xml:lang="en">Variant03_Pose08</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०८</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant03#Variant03_Pose09 -->
@@ -2591,7 +3331,7 @@
         <rdfs:label xml:lang="en">Variant03_Pose09</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ०९</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant03#Variant03_Pose10 -->
@@ -2610,7 +3350,7 @@
         <rdfs:label xml:lang="en">Variant03_Pose10</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा १०</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant03#Variant03_Pose11 -->
@@ -2628,7 +3368,7 @@
         <rdfs:label xml:lang="en">Variant03_Pose11</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा ११</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant03#Variant03_Pose12 -->
@@ -2644,7 +3384,7 @@
         <rdfs:label xml:lang="en">Variant03_Pose12</rdfs:label>
         <rdfs:label xml:lang="hi">मुद्रा १२</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- https://ai4society.github.io/sn-yo/variant03#Variant03_SwamiVivekanandaKendra -->
@@ -2655,10 +3395,10 @@
         <rdfs:label xml:lang="en">Variant03_SwamiVivekanandaKendra</rdfs:label>
         <rdfs:label xml:lang="hi">सूर्य नमस्कार (स्वामी विवेकानंद केंद्र)</rdfs:label>
     </owl:NamedIndividual>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // General axioms
@@ -2679,8 +3419,3 @@
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
-
-
-
-<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
-
