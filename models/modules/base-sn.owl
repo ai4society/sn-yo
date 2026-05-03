@@ -1,0 +1,1317 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.org/suryanamaskar/base-sn#"
+     xml:base="http://example.org/suryanamaskar/base-sn"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:core="https://ai4society.github.io/sn-yo/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://ai4society.github.io/sn-yo/base-sn">
+        <owl:imports rdf:resource="https://ai4society.github.io/sn-yo/core"/>
+        <dc:description>Base SN variant ontology containing Base SN variant individual, pose occurrences, sequence relations, and Base SN-specific correction resources.</dc:description>
+        <dc:title>Surya Namaskar Base Sequence Ontology</dc:title>
+        <rdfs:label xml:lang="en">Surya Namaskar Base Sequence Ontology</rdfs:label>
+        <rdfs:label xml:lang="hi">सूर्य नमस्कार का आधारभूत अनुक्रम ऑन्टोलॉजी</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#belongsToVariant -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#belongsToVariant"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#correctionText -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#correctionText"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#errorDescription -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#errorDescription"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasAsana -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasAsana"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasBreathingPattern -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasBreathingPattern"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasChakra -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasChakra"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasCorrection -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasCorrection"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasInversePose -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasInversePose"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasLaterality -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasLaterality"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasMantra -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasMantra"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasNextPose -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasNextPose"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasPossibleError -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasPossibleError"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasPreviousPose -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasPreviousPose"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasSafetyNote -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasSafetyNote"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasSupportType -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasSupportType"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#involvesBodyPart -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#involvesBodyPart"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#poseNumber -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#poseNumber"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#repeatsPose -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#repeatsPose"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#CorrectionInstruction -->
+
+    <owl:Class rdf:about="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Pose -->
+
+    <owl:Class rdf:about="https://ai4society.github.io/sn-yo/core#Pose"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#PoseError -->
+
+    <owl:Class rdf:about="https://ai4society.github.io/sn-yo/core#PoseError"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Variant -->
+
+    <owl:Class rdf:about="https://ai4society.github.io/sn-yo/core#Variant"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Ankle -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Ankle"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Arms -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Arms"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#AshtangaNamaskara -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#AshtangaNamaskara"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#AshwaSanchalanasana -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#AshwaSanchalanasana"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Bhujangasana -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Bhujangasana"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#ChaturangaDandasana -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#ChaturangaDandasana"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Chest -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Chest"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Chin -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Chin"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Core -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Core"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Elbow -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Elbow"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Exhale -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Exhale"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Feet -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Feet"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Hands -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Hands"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#HastaUtthanasana -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#HastaUtthanasana"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Hip -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Hip"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Hold -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Hold"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Inhale -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Inhale"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Knee -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Knee"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Legs -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Legs"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Neck -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Neck"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Padahastasana -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Padahastasana"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Palms -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Palms"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Parvatasana -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Parvatasana"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Pranamasana -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Pranamasana"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Shoulder -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Shoulder"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Spine -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Spine"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Wrist -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Wrist"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#AlignFrontKneeInstruction -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#AlignFrontKneeInstruction">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+        <rdfs:label xml:lang="en">AlignFrontKneeInstruction</rdfs:label>
+        <rdfs:label xml:lang="hi">सामने के घुटने को सही स्थिति में रखें</rdfs:label>
+        <core:correctionText>Align the front knee above or near the ankle.</core:correctionText>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#AlignPalmsAtChestInstruction -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#AlignPalmsAtChestInstruction">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+        <rdfs:label xml:lang="en">AlignPalmsAtChestInstruction</rdfs:label>
+        <rdfs:label xml:lang="hi">हथेलियों को छाती के सामने सही रखें</rdfs:label>
+        <core:correctionText>Align the palms at the chest.</core:correctionText>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#BalanceWeightEvenlyInstruction -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#BalanceWeightEvenlyInstruction">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+        <rdfs:label xml:lang="en">BalanceWeightEvenlyInstruction</rdfs:label>
+        <rdfs:label xml:lang="hi">शरीर का भार दोनों पैरों पर समान रखें</rdfs:label>
+        <core:correctionText>Balance weight evenly on both feet.</core:correctionText>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose01 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose01">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">BaseSN_Pose01</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०१</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Pranamasana"/>
+        <core:hasBreathingPattern rdf:resource="http://example.org/suryanamaskar/core#Exhale"/>
+        <core:hasChakra>Anahata</core:hasChakra>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasMantra>Om Hraam/Om Mitraya Namah</core:hasMantra>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose02"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#CollapsedChestError"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#PalmsMisalignedError"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#RoundedShouldersError"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#UnevenWeightError"/>
+        <core:hasSafetyNote>Stand upright with balanced weight and avoid locking the knees.</core:hasSafetyNote>
+        <core:hasSupportType>StandingTwoFeet</core:hasSupportType>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Chest"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Feet"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Neck"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Palms"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Shoulder"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Spine"/>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose12"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose02 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose02">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">BaseSN_Pose02</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०२</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#HastaUtthanasana"/>
+        <core:hasBreathingPattern rdf:resource="http://example.org/suryanamaskar/core#Inhale"/>
+        <core:hasChakra>Vishuddhi</core:hasChakra>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasMantra>Om Hreem/Om Ravaye Namah</core:hasMantra>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose03"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BentArmsError"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#LowerBackOverarchingError"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#NeckStrainError"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#RaisedShouldersError"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose01"/>
+        <core:hasSafetyNote>Lift the chest upward with control and avoid compressing the lower back during the backbend.</core:hasSafetyNote>
+        <core:hasSupportType>StandingTwoFeet</core:hasSupportType>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Arms"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Chest"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Hip"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Neck"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Shoulder"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Spine"/>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose11"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose03 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose03">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">BaseSN_Pose03</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०३</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Padahastasana"/>
+        <core:hasBreathingPattern rdf:resource="http://example.org/suryanamaskar/core#Exhale"/>
+        <core:hasChakra>Swadhisthana</core:hasChakra>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasMantra>Om Hroom/Om Suryaya Namah</core:hasMantra>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose04"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#ExcessiveKneeBendError"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#RoundedBackError"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#WeightOnHeelsOnlyError"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose02"/>
+        <core:hasSafetyNote>Avoid deep forward bending in case of back pain or tight hamstrings; keep the knees slightly bent and spine long.</core:hasSafetyNote>
+        <core:hasSupportType>StandingBentTwoFeet</core:hasSupportType>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Ankle"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Feet"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Hip"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Knee"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Neck"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Spine"/>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose10"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose04 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose04">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">BaseSN_Pose04</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०४</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#AshwaSanchalanasana"/>
+        <core:hasBreathingPattern rdf:resource="http://example.org/suryanamaskar/core#Inhale"/>
+        <core:hasChakra>Ajna</core:hasChakra>
+        <core:hasInversePose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose09"/>
+        <core:hasLaterality>Right</core:hasLaterality>
+        <core:hasMantra>Om Hraim/Om Bhanave Namah</core:hasMantra>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose05"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#CollapsedChestError"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#KneeBeyondAnkleError"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#WeakBackLegError"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose03"/>
+        <core:hasSafetyNote>Keep the front knee aligned over the ankle and place the back knee gently on the floor.</core:hasSafetyNote>
+        <core:hasSupportType>OneLegForward</core:hasSupportType>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Ankle"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Chest"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Hands"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Hip"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Knee"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Spine"/>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose05 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose05">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">BaseSN_Pose05</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०५</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#ChaturangaDandasana"/>
+        <core:hasBreathingPattern rdf:resource="http://example.org/suryanamaskar/core#Hold"/>
+        <core:hasChakra>Vishuddhi</core:hasChakra>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasMantra>Om Hraum/Om Khagaya Namah</core:hasMantra>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose06"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#ElbowsFlaredError"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#RaisedHipsError"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#SaggingHipsError"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose04"/>
+        <core:hasSafetyNote>Maintain a straight body line from head to heels and avoid sagging or lifting the hips excessively.</core:hasSafetyNote>
+        <core:hasSupportType>HandsAndFeet</core:hasSupportType>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Core"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Elbow"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Legs"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Shoulder"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Spine"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Wrist"/>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</core:poseNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose06 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose06">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">BaseSN_Pose06</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०६</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#AshtangaNamaskara"/>
+        <core:hasBreathingPattern rdf:resource="http://example.org/suryanamaskar/core#Exhale"/>
+        <core:hasChakra>Manipura</core:hasChakra>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasMantra>Om Hrah/Om Pushne Namah</core:hasMantra>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose07"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#ChestNotLoweredError"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#ElbowsWideError"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#HipsDroppedFullyError"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose05"/>
+        <core:hasSafetyNote>Lower the body gradually with control and distribute weight evenly across the eight contact points.</core:hasSafetyNote>
+        <core:hasSupportType>EightPointSupport</core:hasSupportType>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Chest"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Chin"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Elbow"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Feet"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Hands"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Knee"/>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</core:poseNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose07 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose07">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">BaseSN_Pose07</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०७</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Bhujangasana"/>
+        <core:hasBreathingPattern rdf:resource="http://example.org/suryanamaskar/core#Inhale"/>
+        <core:hasChakra>Swadhisthana</core:hasChakra>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasMantra>Om Hraam/Om Hiranyagarbhaya Namah</core:hasMantra>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose08"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#CompressedLowerBackError"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#OverextensionError"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#ShoulderTensionError"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose06"/>
+        <core:hasSafetyNote>Lift the chest gently without forcing the backbend and keep the shoulders relaxed.</core:hasSafetyNote>
+        <core:hasSupportType>Prone</core:hasSupportType>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Arms"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Chest"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Neck"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Shoulder"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Spine"/>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</core:poseNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose08 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose08">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">BaseSN_Pose08</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०८</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Parvatasana"/>
+        <core:hasBreathingPattern rdf:resource="http://example.org/suryanamaskar/core#Exhale"/>
+        <core:hasChakra>Vishuddhi</core:hasChakra>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasMantra>Om Hreem/Om Marichaye Namah</core:hasMantra>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose09"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#RoundedBackError"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#UnstableLegsError"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#WristOverloadError"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose07"/>
+        <core:hasSafetyNote>Lengthen the spine and avoid rounding the back; press the heels down gently without forcing.</core:hasSafetyNote>
+        <core:hasSupportType>HandsAndFeet</core:hasSupportType>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Ankle"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Arms"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Hip"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Knee"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Shoulder"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Spine"/>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</core:poseNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose09 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose09">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">BaseSN_Pose09</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०९</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#AshwaSanchalanasana"/>
+        <core:hasBreathingPattern rdf:resource="http://example.org/suryanamaskar/core#Inhale"/>
+        <core:hasChakra>Ajna</core:hasChakra>
+        <core:hasInversePose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose04"/>
+        <core:hasLaterality>Left</core:hasLaterality>
+        <core:hasMantra>Om Hroom/Om Adityaya Namah</core:hasMantra>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose10"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#CollapsedChestError"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#KneeBeyondAnkleError"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#WeakBackLegError"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose08"/>
+        <core:hasSafetyNote>Step forward smoothly and ensure proper alignment of the front knee over the ankle.</core:hasSafetyNote>
+        <core:hasSupportType>OneLegForward</core:hasSupportType>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Ankle"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Chest"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Hands"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Hip"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Knee"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Spine"/>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose04"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose10 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose10">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">BaseSN_Pose10</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा १०</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Padahastasana"/>
+        <core:hasBreathingPattern rdf:resource="http://example.org/suryanamaskar/core#Exhale"/>
+        <core:hasChakra>Swadhisthana</core:hasChakra>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasMantra>Om Hraim/Om Savitre Namah</core:hasMantra>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose11"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#ExcessiveKneeBendError"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#RoundedBackError"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose09"/>
+        <core:hasSafetyNote>Move into the forward bend with control and avoid overstretching the hamstrings.</core:hasSafetyNote>
+        <core:hasSupportType>StandingBentTwoFeet</core:hasSupportType>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Feet"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Hip"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Knee"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Spine"/>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose03"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose11 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose11">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">BaseSN_Pose11</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ११</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#HastaUtthanasana"/>
+        <core:hasBreathingPattern rdf:resource="http://example.org/suryanamaskar/core#Inhale"/>
+        <core:hasChakra>Vishuddhi</core:hasChakra>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasMantra>Om Hraum/Om Arkaya Namah</core:hasMantra>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose12"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#CompressedLowerBackError"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#ShoulderTensionError"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose10"/>
+        <core:hasSafetyNote>Rise upward with control and extend the chest without collapsing into the lower back.</core:hasSafetyNote>
+        <core:hasSupportType>StandingTwoFeet</core:hasSupportType>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Arms"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Chest"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Neck"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Spine"/>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose02"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose12 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose12">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">BaseSN_Pose12</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा १२</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Pranamasana"/>
+        <core:hasBreathingPattern rdf:resource="http://example.org/suryanamaskar/core#Exhale"/>
+        <core:hasChakra>Anahata</core:hasChakra>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasMantra>Om Hrah/Om Bhaskaraya Namah</core:hasMantra>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#CollapsedPostureError"/>
+        <core:hasPossibleError rdf:resource="https://ai4society.github.io/sn-yo/base-sn#PoorBalanceError"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose11"/>
+        <core:hasSafetyNote>Return to a steady standing posture and maintain relaxed, even breathing.</core:hasSafetyNote>
+        <core:hasSupportType>StandingTwoFeet</core:hasSupportType>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Chest"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Feet"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Shoulder"/>
+        <core:involvesBodyPart rdf:resource="http://example.org/suryanamaskar/core#Spine"/>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BaseSN_Pose01"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Variant"/>
+        <rdfs:comment>Base 12 pose Surya Namaskar sequence used at IIT BHU, based on the Sivananda Yoga Vedanta Centre tradition.</rdfs:comment>
+        <rdfs:label xml:lang="en">BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</rdfs:label>
+        <rdfs:label xml:lang="hi">सूर्य नमस्कार (शिवानंद योग वेदांत केंद्र)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#BendFromHipsInstruction -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#BendFromHipsInstruction">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+        <rdfs:label xml:lang="en">BendFromHipsInstruction</rdfs:label>
+        <rdfs:label xml:lang="hi">कमर से आगे की ओर झुकें</rdfs:label>
+        <core:correctionText>Bend forward from the hips.</core:correctionText>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#BentArmsError -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#BentArmsError">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">BentArmsError</rdfs:label>
+        <rdfs:label xml:lang="hi">मुड़ी हुई बाहों की त्रुटि</rdfs:label>
+        <core:errorDescription>Arms are not fully extended.</core:errorDescription>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#KeepArmsStraightInstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#CenterBodyInstruction -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#CenterBodyInstruction">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+        <rdfs:label xml:lang="en">CenterBodyInstruction</rdfs:label>
+        <rdfs:label xml:lang="hi">शरीर को संतुलित करें</rdfs:label>
+        <core:correctionText>Center the body and return to neutral alignment.</core:correctionText>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#ChestNotLoweredError -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#ChestNotLoweredError">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">ChestNotLoweredError</rdfs:label>
+        <rdfs:label xml:lang="hi">छाती को ठीक से नीचे न लाने की त्रुटि</rdfs:label>
+        <core:errorDescription>Chest is not lowered correctly.</core:errorDescription>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#LowerChestProperlyInstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#CollapsedChestError -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#CollapsedChestError">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">CollapsedChestError</rdfs:label>
+        <rdfs:label xml:lang="hi">धंसी हुई छाती की त्रुटि</rdfs:label>
+        <core:errorDescription>Chest is collapsed.</core:errorDescription>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#LiftChestForwardInstruction"/>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#LiftChestForwardUpwardInstruction"/>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#LiftChestInstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#CollapsedPostureError -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#CollapsedPostureError">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">CollapsedPostureError</rdfs:label>
+        <rdfs:label xml:lang="hi">धंसी हुई शरीर मुद्रा की त्रुटि</rdfs:label>
+        <core:errorDescription>Overall posture is collapsed.</core:errorDescription>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#CenterBodyInstruction"/>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#LiftChestInstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#CompressedLowerBackError -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#CompressedLowerBackError">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">CompressedLowerBackError</rdfs:label>
+        <rdfs:label xml:lang="hi">दबी हुई निचली पीठ की त्रुटि</rdfs:label>
+        <core:errorDescription>Lower back is compressed.</core:errorDescription>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#LengthenSpineInstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#DistributeWeightEvenlyInstruction -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#DistributeWeightEvenlyInstruction">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+        <rdfs:label xml:lang="en">DistributeWeightEvenlyInstruction</rdfs:label>
+        <rdfs:label xml:lang="hi">भार को समान रूप से फैलाएँ</rdfs:label>
+        <core:correctionText>Distribute weight evenly.</core:correctionText>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#ElbowsFlaredError -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#ElbowsFlaredError">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">ElbowsFlaredError</rdfs:label>
+        <rdfs:label xml:lang="hi">बाहर फैली हुई कोहनियों की त्रुटि</rdfs:label>
+        <core:errorDescription>Elbows are moving outward.</core:errorDescription>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#TuckElbowsInstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#ElbowsWideError -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#ElbowsWideError">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">ElbowsWideError</rdfs:label>
+        <rdfs:label xml:lang="hi">बहुत फैली हुई कोहनियों की त्रुटि</rdfs:label>
+        <core:errorDescription>Elbows are too wide.</core:errorDescription>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#KeepElbowsCloseInstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#EngageCoreInstruction -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#EngageCoreInstruction">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+        <rdfs:label xml:lang="en">EngageCoreInstruction</rdfs:label>
+        <rdfs:label xml:lang="hi">शरीर को भीतर से सक्रिय करें</rdfs:label>
+        <core:correctionText>Engage the core.</core:correctionText>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#ExcessiveKneeBendError -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#ExcessiveKneeBendError">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">ExcessiveKneeBendError</rdfs:label>
+        <rdfs:label xml:lang="hi">घुटनों के अत्यधिक मुड़ने की त्रुटि</rdfs:label>
+        <core:errorDescription>Knees are bent too much.</core:errorDescription>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#SoftenKneesInstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#ExtendBackLegInstruction -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#ExtendBackLegInstruction">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+        <rdfs:label xml:lang="en">ExtendBackLegInstruction</rdfs:label>
+        <rdfs:label xml:lang="hi">पीछे के पैर को पूरी तरह सीधा रखें</rdfs:label>
+        <core:correctionText>Extend the back leg fully.</core:correctionText>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#GentleBackbendInstruction -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#GentleBackbendInstruction">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+        <rdfs:label xml:lang="en">GentleBackbendInstruction</rdfs:label>
+        <rdfs:label xml:lang="hi">हल्का पीछे झुकें</rdfs:label>
+        <core:correctionText>Keep the backbend gentle and controlled.</core:correctionText>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#HipsDroppedFullyError -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#HipsDroppedFullyError">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">HipsDroppedFullyError</rdfs:label>
+        <rdfs:label xml:lang="hi">शरीर के मध्य भाग को पूरी तरह नीचे गिराने की त्रुटि</rdfs:label>
+        <core:errorDescription>Hips are dropped fully to the floor.</core:errorDescription>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#MaintainHipPositionInstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#KeepArmsStraightInstruction -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#KeepArmsStraightInstruction">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+        <rdfs:label xml:lang="en">KeepArmsStraightInstruction</rdfs:label>
+        <rdfs:label xml:lang="hi">बाहों को सीधा रखें</rdfs:label>
+        <core:correctionText>Keep the arms straight.</core:correctionText>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#KeepBodyAlignedInstruction -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#KeepBodyAlignedInstruction">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+        <rdfs:label xml:lang="en">KeepBodyAlignedInstruction</rdfs:label>
+        <rdfs:label xml:lang="hi">शरीर को सीध में रखें</rdfs:label>
+        <core:correctionText>Keep the body aligned in one straight line.</core:correctionText>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#KeepElbowsCloseInstruction -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#KeepElbowsCloseInstruction">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+        <rdfs:label xml:lang="en">KeepElbowsCloseInstruction</rdfs:label>
+        <rdfs:label xml:lang="hi">कोहनियों को शरीर के पास रखें</rdfs:label>
+        <core:correctionText>Keep the elbows close.</core:correctionText>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#KneeBeyondAnkleError -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#KneeBeyondAnkleError">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">KneeBeyondAnkleError</rdfs:label>
+        <rdfs:label xml:lang="hi">घुटने के टखने से आगे जाने की त्रुटि</rdfs:label>
+        <core:errorDescription>Front knee moves too far beyond the ankle.</core:errorDescription>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#AlignFrontKneeInstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#LengthenSpineInstruction -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#LengthenSpineInstruction">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+        <rdfs:label xml:lang="en">LengthenSpineInstruction</rdfs:label>
+        <rdfs:label xml:lang="hi">रीढ़ को लंबा रखें</rdfs:label>
+        <core:correctionText>Lengthen the spine.</core:correctionText>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#LiftChestForwardInstruction -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#LiftChestForwardInstruction">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+        <rdfs:label xml:lang="en">LiftChestForwardInstruction</rdfs:label>
+        <rdfs:label xml:lang="hi">छाती को आगे उठाएँ</rdfs:label>
+        <core:correctionText>Lift the chest forward.</core:correctionText>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#LiftChestForwardUpwardInstruction -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#LiftChestForwardUpwardInstruction">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+        <rdfs:label xml:lang="en">LiftChestForwardUpwardInstruction</rdfs:label>
+        <rdfs:label xml:lang="hi">छाती को आगे और ऊपर उठाएँ</rdfs:label>
+        <core:correctionText>Lift the chest forward and upward.</core:correctionText>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#LiftChestInstruction -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#LiftChestInstruction">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+        <rdfs:label xml:lang="en">LiftChestInstruction</rdfs:label>
+        <rdfs:label xml:lang="hi">छाती उठाएँ</rdfs:label>
+        <core:correctionText>Lift the chest.</core:correctionText>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#LiftUpwardFirstInstruction -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#LiftUpwardFirstInstruction">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+        <rdfs:label xml:lang="en">LiftUpwardFirstInstruction</rdfs:label>
+        <rdfs:label xml:lang="hi">पहले शरीर को ऊपर उठाएँ, फिर पीछे झुकें</rdfs:label>
+        <core:correctionText>Lift upward before entering the backbend.</core:correctionText>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#LowerBackOverarchingError -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#LowerBackOverarchingError">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">LowerBackOverarchingError</rdfs:label>
+        <rdfs:label xml:lang="hi">निचली पीठ के अत्यधिक झुकाव की त्रुटि</rdfs:label>
+        <core:errorDescription>Lower back is bent too much.</core:errorDescription>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#GentleBackbendInstruction"/>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#LengthenSpineInstruction"/>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#LiftUpwardFirstInstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#LowerChestProperlyInstruction -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#LowerChestProperlyInstruction">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+        <rdfs:label xml:lang="en">LowerChestProperlyInstruction</rdfs:label>
+        <rdfs:label xml:lang="hi">छाती को सही ढंग से नीचे लाएँ</rdfs:label>
+        <core:correctionText>Lower the chest properly.</core:correctionText>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#MaintainHipPositionInstruction -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#MaintainHipPositionInstruction">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+        <rdfs:label xml:lang="en">MaintainHipPositionInstruction</rdfs:label>
+        <rdfs:label xml:lang="hi">शरीर की स्थिति स्थिर रखें</rdfs:label>
+        <core:correctionText>Keep the hips slightly raised.</core:correctionText>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#NeckStrainError -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#NeckStrainError">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">NeckStrainError</rdfs:label>
+        <rdfs:label xml:lang="hi">गर्दन में खिंचाव की त्रुटि</rdfs:label>
+        <core:errorDescription>Neck is strained.</core:errorDescription>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#LengthenSpineInstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#OverextensionError -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#OverextensionError">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">OverextensionError</rdfs:label>
+        <rdfs:label xml:lang="hi">अत्यधिक खिंचाव की त्रुटि</rdfs:label>
+        <core:errorDescription>Backbend is forced too much.</core:errorDescription>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#GentleBackbendInstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#PalmsMisalignedError -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#PalmsMisalignedError">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">PalmsMisalignedError</rdfs:label>
+        <rdfs:label xml:lang="hi">हथेलियों के गलत संरेखण की त्रुटि</rdfs:label>
+        <core:errorDescription>Palms are not aligned properly.</core:errorDescription>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#AlignPalmsAtChestInstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#PoorBalanceError -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#PoorBalanceError">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">PoorBalanceError</rdfs:label>
+        <rdfs:label xml:lang="hi">अस्थिर संतुलन की त्रुटि</rdfs:label>
+        <core:errorDescription>Standing balance is unstable.</core:errorDescription>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#CenterBodyInstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#PushHipsUpwardInstruction -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#PushHipsUpwardInstruction">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+        <rdfs:label xml:lang="en">PushHipsUpwardInstruction</rdfs:label>
+        <rdfs:label xml:lang="hi">शरीर को ऊपर उठाएँ</rdfs:label>
+        <core:correctionText>Push the hips upward.</core:correctionText>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#RaisedHipsError -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#RaisedHipsError">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">RaisedHipsError</rdfs:label>
+        <rdfs:label xml:lang="hi">शरीर के मध्य भाग के अधिक उठने की त्रुटि</rdfs:label>
+        <core:errorDescription>Hips are raised too high.</core:errorDescription>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#KeepBodyAlignedInstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#RaisedShouldersError -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#RaisedShouldersError">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">RaisedShouldersError</rdfs:label>
+        <rdfs:label xml:lang="hi">कंधों के अधिक उठने की त्रुटि</rdfs:label>
+        <core:errorDescription>Shoulders are lifted too much.</core:errorDescription>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#RelaxShouldersInstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#RelaxShouldersInstruction -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#RelaxShouldersInstruction">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+        <rdfs:label xml:lang="en">RelaxShouldersInstruction</rdfs:label>
+        <rdfs:label xml:lang="hi">कंधों को ढीला रखें</rdfs:label>
+        <core:correctionText>Relax the shoulders.</core:correctionText>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#RoundedBackError -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#RoundedBackError">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">RoundedBackError</rdfs:label>
+        <rdfs:label xml:lang="hi">गोल पीठ की त्रुटि</rdfs:label>
+        <core:errorDescription>Back is rounded.</core:errorDescription>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BendFromHipsInstruction"/>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#LengthenSpineInstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#RoundedShouldersError -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#RoundedShouldersError">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">RoundedShouldersError</rdfs:label>
+        <rdfs:label xml:lang="hi">गोल कंधों की त्रुटि</rdfs:label>
+        <core:errorDescription>Shoulders are rounded forward.</core:errorDescription>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#RelaxShouldersInstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#SaggingHipsError -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#SaggingHipsError">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">SaggingHipsError</rdfs:label>
+        <rdfs:label xml:lang="hi">शरीर के मध्य भाग के नीचे धंसने की त्रुटि</rdfs:label>
+        <core:errorDescription>Hips are sagging downward.</core:errorDescription>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#EngageCoreInstruction"/>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#KeepBodyAlignedInstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#ShoulderTensionError -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#ShoulderTensionError">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">ShoulderTensionError</rdfs:label>
+        <rdfs:label xml:lang="hi">कंधों में तनाव की त्रुटि</rdfs:label>
+        <core:errorDescription>Shoulders are tense.</core:errorDescription>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#RelaxShouldersInstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#SoftenKneesInstruction -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#SoftenKneesInstruction">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+        <rdfs:label xml:lang="en">SoftenKneesInstruction</rdfs:label>
+        <rdfs:label xml:lang="hi">घुटनों को हल्का ढीला रखें</rdfs:label>
+        <core:correctionText>Soften the knees as needed.</core:correctionText>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#StabilizeLegsInstruction -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#StabilizeLegsInstruction">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+        <rdfs:label xml:lang="en">StabilizeLegsInstruction</rdfs:label>
+        <rdfs:label xml:lang="hi">पैरों को स्थिर रखें</rdfs:label>
+        <core:correctionText>Stabilize and align the legs.</core:correctionText>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#TuckElbowsInstruction -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#TuckElbowsInstruction">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+        <rdfs:label xml:lang="en">TuckElbowsInstruction</rdfs:label>
+        <rdfs:label xml:lang="hi">कोहनियों को अंदर रखें</rdfs:label>
+        <core:correctionText>Keep the elbows close to the body.</core:correctionText>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#UnevenWeightError -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#UnevenWeightError">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">UnevenWeightError</rdfs:label>
+        <rdfs:label xml:lang="hi">असमान भार की त्रुटि</rdfs:label>
+        <core:errorDescription>Weight is not balanced on both feet.</core:errorDescription>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#BalanceWeightEvenlyInstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#UnstableLegsError -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#UnstableLegsError">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">UnstableLegsError</rdfs:label>
+        <rdfs:label xml:lang="hi">अस्थिर पैरों की त्रुटि</rdfs:label>
+        <core:errorDescription>Legs are unstable or poorly aligned.</core:errorDescription>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#StabilizeLegsInstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#WeakBackLegError -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#WeakBackLegError">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">WeakBackLegError</rdfs:label>
+        <rdfs:label xml:lang="hi">पीछे के पैर की कमजोरी की त्रुटि</rdfs:label>
+        <core:errorDescription>Back leg is not extended or engaged properly.</core:errorDescription>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#ExtendBackLegInstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#WeightOnHeelsOnlyError -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#WeightOnHeelsOnlyError">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">WeightOnHeelsOnlyError</rdfs:label>
+        <rdfs:label xml:lang="hi">केवल एड़ियों पर भार आने की त्रुटि</rdfs:label>
+        <core:errorDescription>Weight is shifted to the heels only.</core:errorDescription>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#DistributeWeightEvenlyInstruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/base-sn#WristOverloadError -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/base-sn#WristOverloadError">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">WristOverloadError</rdfs:label>
+        <rdfs:label xml:lang="hi">कलाइयों पर अत्यधिक भार की त्रुटि</rdfs:label>
+        <core:errorDescription>Too much weight is placed on the wrists.</core:errorDescription>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#DistributeWeightEvenlyInstruction"/>
+        <core:hasCorrection rdf:resource="https://ai4society.github.io/sn-yo/base-sn#PushHipsUpwardInstruction"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

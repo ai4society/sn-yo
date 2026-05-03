@@ -1,0 +1,1047 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://ai4society.github.io/sn-yo/core#"
+     xml:base="https://ai4society.github.io/sn-yo/core"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://ai4society.github.io/sn-yo/core">
+        <dc:description>Core ontology for Surya Namaskar variants, containing shared classes, properties, asana individuals, and body-part individuals.</dc:description>
+        <dc:title>Surya Namaskar Core Ontology</dc:title>
+        <rdfs:label xml:lang="en">Surya Namaskar Core Ontology</rdfs:label>
+        <rdfs:label xml:lang="hi">सूर्य नमस्कार कोर ऑन्टोलॉजी</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#belongsToVariant -->
+
+    <owl:ObjectProperty rdf:about="https://ai4society.github.io/sn-yo/core#belongsToVariant">
+        <rdfs:domain rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:range rdf:resource="https://ai4society.github.io/sn-yo/core#Variant"/>
+        <rdfs:label xml:lang="en">belongs to variant</rdfs:label>
+        <rdfs:label xml:lang="hi">प्रकार से संबंधित</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasAsana -->
+
+    <owl:ObjectProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasAsana">
+        <rdfs:domain rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:range rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <rdfs:label xml:lang="en">has asana</rdfs:label>
+        <rdfs:label xml:lang="hi">आसन है</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasBreathingPattern -->
+
+    <owl:ObjectProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasBreathingPattern">
+        <rdfs:domain rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:range rdf:resource="https://ai4society.github.io/sn-yo/core#BreathingPattern"/>
+        <rdfs:label xml:lang="en">has breathing pattern</rdfs:label>
+        <rdfs:label xml:lang="hi">श्वास पैटर्न है</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasCorrection -->
+
+    <owl:ObjectProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasCorrection">
+        <rdfs:domain rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:range rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+        <rdfs:label xml:lang="en">has correction</rdfs:label>
+        <rdfs:label xml:lang="hi">सुधार है</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasInversePose -->
+
+    <owl:ObjectProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasInversePose">
+        <rdfs:domain rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:range rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">has inverse pose</rdfs:label>
+        <rdfs:label xml:lang="hi">विपरीत मुद्रा है</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasNextPose -->
+
+    <owl:ObjectProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasNextPose">
+        <owl:inverseOf rdf:resource="https://ai4society.github.io/sn-yo/core#hasPreviousPose"/>
+        <rdfs:domain rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:range rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">has next pose</rdfs:label>
+        <rdfs:label xml:lang="hi">अगली मुद्रा है</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasPossibleError -->
+
+    <owl:ObjectProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasPossibleError">
+        <rdfs:domain rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:range rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:label xml:lang="en">has possible error</rdfs:label>
+        <rdfs:label xml:lang="hi">संभावित त्रुटि है</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasPreviousPose -->
+
+    <owl:ObjectProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasPreviousPose">
+        <rdfs:domain rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:range rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">has previous pose</rdfs:label>
+        <rdfs:label xml:lang="hi">पिछली मुद्रा है</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#involvesBodyPart -->
+
+    <owl:ObjectProperty rdf:about="https://ai4society.github.io/sn-yo/core#involvesBodyPart">
+        <rdfs:domain rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:range rdf:resource="https://ai4society.github.io/sn-yo/core#BodyPart"/>
+        <rdfs:label xml:lang="en">involves body part</rdfs:label>
+        <rdfs:label xml:lang="hi">शरीर का अंग शामिल करता है</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#repeatsPose -->
+
+    <owl:ObjectProperty rdf:about="https://ai4society.github.io/sn-yo/core#repeatsPose">
+        <rdfs:domain rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:range rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">repeats pose</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा को दोहराता है</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#sameAsanaAs -->
+
+    <owl:ObjectProperty rdf:about="https://ai4society.github.io/sn-yo/core#sameAsanaAs">
+        <rdfs:domain rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <rdfs:range rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <rdfs:label xml:lang="en">same asana as</rdfs:label>
+        <rdfs:label xml:lang="hi">समान आसन है</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#correctionText -->
+
+    <owl:DatatypeProperty rdf:about="https://ai4society.github.io/sn-yo/core#correctionText">
+        <rdfs:domain rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">correction text</rdfs:label>
+        <rdfs:label xml:lang="hi">सुधार पाठ</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#errorDescription -->
+
+    <owl:DatatypeProperty rdf:about="https://ai4society.github.io/sn-yo/core#errorDescription">
+        <rdfs:domain rdf:resource="https://ai4society.github.io/sn-yo/core#PoseError"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">error description</rdfs:label>
+        <rdfs:label xml:lang="hi">त्रुटि विवरण</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasAlternateName -->
+
+    <owl:DatatypeProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasAlternateName">
+        <rdfs:domain rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">has alternate name</rdfs:label>
+        <rdfs:label xml:lang="hi">वैकल्पिक नाम है</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasCYPPage -->
+
+    <owl:DatatypeProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasCYPPage">
+        <rdfs:domain rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">has CYP page</rdfs:label>
+        <rdfs:label xml:lang="hi">सीवाईपी पृष्ठ संख्या</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasChakra -->
+
+    <owl:DatatypeProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasChakra">
+        <rdfs:domain rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">has chakra</rdfs:label>
+        <rdfs:label xml:lang="hi">चक्र है</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasLaterality -->
+
+    <owl:DatatypeProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasLaterality">
+        <rdfs:domain rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">has laterality</rdfs:label>
+        <rdfs:label xml:lang="hi">पक्षीयता है</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasMantra -->
+
+    <owl:DatatypeProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasMantra">
+        <rdfs:domain rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">has mantra</rdfs:label>
+        <rdfs:label xml:lang="hi">मंत्र है</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasSafetyNote -->
+
+    <owl:DatatypeProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasSafetyNote">
+        <rdfs:domain rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">has safety note</rdfs:label>
+        <rdfs:label xml:lang="hi">सुरक्षा टिप्पणी है</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasSupportType -->
+
+    <owl:DatatypeProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasSupportType">
+        <rdfs:domain rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">has support type</rdfs:label>
+        <rdfs:label xml:lang="hi">आधार प्रकार है</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#poseNumber -->
+
+    <owl:DatatypeProperty rdf:about="https://ai4society.github.io/sn-yo/core#poseNumber">
+        <rdfs:domain rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">pose number</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा संख्या</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Asana -->
+
+    <owl:Class rdf:about="https://ai4society.github.io/sn-yo/core#Asana">
+        <rdfs:label xml:lang="en">Asana</rdfs:label>
+        <rdfs:label xml:lang="hi">आसन</rdfs:label>
+        <rdfs:label xml:lang="te">ఆసనం</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#BodyPart -->
+
+    <owl:Class rdf:about="https://ai4society.github.io/sn-yo/core#BodyPart">
+        <rdfs:label xml:lang="en">Body Part</rdfs:label>
+        <rdfs:label xml:lang="hi">शरीर का अंग</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#BreathingPattern -->
+
+    <owl:Class rdf:about="https://ai4society.github.io/sn-yo/core#BreathingPattern">
+        <rdfs:label xml:lang="en">Breathing Pattern</rdfs:label>
+        <rdfs:label xml:lang="hi">श्वास पैटर्न</rdfs:label>
+        <rdfs:label xml:lang="te">శ్వాస విధానం</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#CorrectionInstruction -->
+
+    <owl:Class rdf:about="https://ai4society.github.io/sn-yo/core#CorrectionInstruction">
+        <rdfs:label xml:lang="en">Correction Instruction</rdfs:label>
+        <rdfs:label xml:lang="hi">सुधार निर्देश</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Pose -->
+
+    <owl:Class rdf:about="https://ai4society.github.io/sn-yo/core#Pose">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ai4society.github.io/sn-yo/core#hasAsana"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Pose</rdfs:label>
+        <rdfs:label xml:lang="hi">क्रमिक मुद्रा</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#PoseError -->
+
+    <owl:Class rdf:about="https://ai4society.github.io/sn-yo/core#PoseError">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://ai4society.github.io/sn-yo/core#hasCorrection"/>
+                <owl:someValuesFrom rdf:resource="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Pose Error</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा त्रुटि</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Variant -->
+
+    <owl:Class rdf:about="https://ai4society.github.io/sn-yo/core#Variant">
+        <rdfs:label xml:lang="en">Variant</rdfs:label>
+        <rdfs:label xml:lang="hi">संस्करण</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#AdhoMukhaSvanasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#AdhoMukhaSvanasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <sameAsanaAs rdf:resource="https://ai4society.github.io/sn-yo/core#Parvatasana"/>
+        <hasAlternateName>Adho mukha svanasana</hasAlternateName>
+        <hasAlternateName>Adhomukha swanasana</hasAlternateName>
+        <rdfs:label xml:lang="en">Adho Mukha Svanasana</rdfs:label>
+        <rdfs:label xml:lang="hi">अधोमुख श्वानासन</rdfs:label>
+        <rdfs:label xml:lang="te">అధో ముఖ శ్వానాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Ankle -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Ankle">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#BodyPart"/>
+        <rdfs:label xml:lang="en">Ankle</rdfs:label>
+        <rdfs:label xml:lang="hi">टखना</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Ardhachakrasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Ardhachakrasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <hasAlternateName>Half Wheel Pose</hasAlternateName>
+        <hasCYPPage>23</hasCYPPage>
+        <rdfs:label xml:lang="en">Ardhachakrasana</rdfs:label>
+        <rdfs:label xml:lang="hi">अर्ध चक्रासन</rdfs:label>
+        <rdfs:label xml:lang="te">అర్ధ చక్రాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Ardhahalasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Ardhahalasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <hasAlternateName>Half Plough Pose</hasAlternateName>
+        <hasCYPPage>37</hasCYPPage>
+        <rdfs:label xml:lang="en">Ardhahalasana</rdfs:label>
+        <rdfs:label xml:lang="hi">अर्ध हलासन</rdfs:label>
+        <rdfs:label xml:lang="te">అర్ధ హలాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Ardhaustrasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Ardhaustrasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <hasAlternateName>Half Camel Pose</hasAlternateName>
+        <hasCYPPage>27</hasCYPPage>
+        <rdfs:label xml:lang="en">Ardhaustrasana</rdfs:label>
+        <rdfs:label xml:lang="hi">अर्ध उष्ट्रासन</rdfs:label>
+        <rdfs:label xml:lang="te">అర్ధ ఉష్ట్రాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Arms -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Arms">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#BodyPart"/>
+        <rdfs:label xml:lang="en">Arms</rdfs:label>
+        <rdfs:label xml:lang="hi">बाहें</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#AshtangaNamaskara -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#AshtangaNamaskara">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <hasAlternateName>Ashtanga namaskara</hasAlternateName>
+        <hasAlternateName>Salute with eight parts or points</hasAlternateName>
+        <hasCYPPage>34</hasCYPPage>
+        <rdfs:label xml:lang="en">Ashtanga Namaskara</rdfs:label>
+        <rdfs:label xml:lang="hi">अष्टांग नमस्कार</rdfs:label>
+        <rdfs:label xml:lang="te">అష్టాంగ నమస్కారం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#AshwaSanchalanasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#AshwaSanchalanasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <hasAlternateName>Ashwa Sanchalan-asana</hasAlternateName>
+        <hasAlternateName>Ashwasanchalanasana</hasAlternateName>
+        <hasAlternateName>Equestrian pose</hasAlternateName>
+        <rdfs:label xml:lang="en">Ashwa Sanchalanasana</rdfs:label>
+        <rdfs:label xml:lang="hi">अश्व संचलनासन</rdfs:label>
+        <rdfs:label xml:lang="te">అశ్వ సంచలనాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Bhujangasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Bhujangasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <hasAlternateName>Bhujang-asana</hasAlternateName>
+        <hasAlternateName>Cobra pose</hasAlternateName>
+        <hasCYPPage>33</hasCYPPage>
+        <rdfs:label xml:lang="en">Bhujangasana</rdfs:label>
+        <rdfs:label xml:lang="hi">भुजंगासन</rdfs:label>
+        <rdfs:label xml:lang="te">భుజంగాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#ChaturangaDandasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#ChaturangaDandasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <sameAsanaAs rdf:resource="https://ai4society.github.io/sn-yo/core#Phalakasana"/>
+        <hasAlternateName>Chaturanga Dandasan</hasAlternateName>
+        <rdfs:label xml:lang="en">Chaturanga Dandasana</rdfs:label>
+        <rdfs:label xml:lang="hi">चतुरंग दंडासन</rdfs:label>
+        <rdfs:label xml:lang="te">చతురంగ దండాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Chest -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Chest">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#BodyPart"/>
+        <rdfs:label xml:lang="en">Chest</rdfs:label>
+        <rdfs:label xml:lang="hi">छाती</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Chin -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Chin">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#BodyPart"/>
+        <rdfs:label xml:lang="en">Chin</rdfs:label>
+        <rdfs:label xml:lang="hi">ठोड़ी</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Core -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Core">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#BodyPart"/>
+        <rdfs:label xml:lang="en">Core</rdfs:label>
+        <rdfs:label xml:lang="hi">कोर</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#DandaSamarpana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#DandaSamarpana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <rdfs:label xml:lang="en">Danda Samarpana</rdfs:label>
+        <rdfs:label xml:lang="hi">दंड समर्पण</rdfs:label>
+        <rdfs:label xml:lang="te">దండ సమర్పణ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Elbow -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Elbow">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#BodyPart"/>
+        <rdfs:label xml:lang="en">Elbow</rdfs:label>
+        <rdfs:label xml:lang="hi">कोहनी</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Exhale -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Exhale">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#BreathingPattern"/>
+        <rdfs:label xml:lang="en">Exhale</rdfs:label>
+        <rdfs:label xml:lang="hi">श्वास छोड़ें</rdfs:label>
+        <rdfs:label xml:lang="te">శ్వాస వదలండి</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Feet -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Feet">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#BodyPart"/>
+        <rdfs:label xml:lang="en">Feet</rdfs:label>
+        <rdfs:label xml:lang="hi">पैर</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Hands -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Hands">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#BodyPart"/>
+        <rdfs:label xml:lang="en">Hands</rdfs:label>
+        <rdfs:label xml:lang="hi">हाथ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#HastaUtthanasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#HastaUtthanasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <hasAlternateName>Hasta Utthan-asana</hasAlternateName>
+        <hasAlternateName>Hastha uthanasana</hasAlternateName>
+        <hasAlternateName>Raised arms pose</hasAlternateName>
+        <hasCYPPage>23</hasCYPPage>
+        <rdfs:label xml:lang="en">Hasta Utthanasana</rdfs:label>
+        <rdfs:label xml:lang="hi">हस्त उत्तानासन</rdfs:label>
+        <rdfs:label xml:lang="te">హస్త ఉత్తానాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Hip -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Hip">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#BodyPart"/>
+        <rdfs:label xml:lang="en">Hip</rdfs:label>
+        <rdfs:label xml:lang="hi">श्रोणि</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Hold -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Hold">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#BreathingPattern"/>
+        <rdfs:label xml:lang="en">Hold</rdfs:label>
+        <rdfs:label xml:lang="hi">श्वास रोकें</rdfs:label>
+        <rdfs:label xml:lang="te">శ్వాస నిలుపుకోండి</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Inhale -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Inhale">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#BreathingPattern"/>
+        <rdfs:label xml:lang="en">Inhale</rdfs:label>
+        <rdfs:label xml:lang="hi">श्वास लें</rdfs:label>
+        <rdfs:label xml:lang="te">శ్వాస పీల్చండి</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Knee -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Knee">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#BodyPart"/>
+        <rdfs:label xml:lang="en">Knee</rdfs:label>
+        <rdfs:label xml:lang="hi">घुटना</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Legs -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Legs">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#BodyPart"/>
+        <rdfs:label xml:lang="en">Legs</rdfs:label>
+        <rdfs:label xml:lang="hi">टांगें</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Makarasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Makarasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <hasAlternateName>Crocodile Pose</hasAlternateName>
+        <hasCYPPage>32</hasCYPPage>
+        <rdfs:label xml:lang="en">Makarasana</rdfs:label>
+        <rdfs:label xml:lang="hi">मकरासन</rdfs:label>
+        <rdfs:label xml:lang="te">మకరాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Neck -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Neck">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#BodyPart"/>
+        <rdfs:label xml:lang="en">Neck</rdfs:label>
+        <rdfs:label xml:lang="hi">गर्दन</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Padahastasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Padahastasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <sameAsanaAs rdf:resource="https://ai4society.github.io/sn-yo/core#Uttanasana"/>
+        <hasAlternateName>Hand to foot pose</hasAlternateName>
+        <hasAlternateName>Pada hastasana</hasAlternateName>
+        <hasAlternateName>Padahast-asana</hasAlternateName>
+        <hasAlternateName>Padahasta-sana</hasAlternateName>
+        <hasAlternateName>Padahathasana</hasAlternateName>
+        <hasCYPPage>22</hasCYPPage>
+        <rdfs:label xml:lang="en">Padahastasana</rdfs:label>
+        <rdfs:label xml:lang="hi">पादहस्तासन</rdfs:label>
+        <rdfs:label xml:lang="te">పాదహస్తాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Palms -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Palms">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#BodyPart"/>
+        <rdfs:label xml:lang="en">Palms</rdfs:label>
+        <rdfs:label xml:lang="hi">हथेलियाँ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Parvatasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Parvatasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <sameAsanaAs rdf:resource="https://ai4society.github.io/sn-yo/core#AdhoMukhaSvanasana"/>
+        <hasAlternateName>Mountain pose</hasAlternateName>
+        <hasAlternateName>Parvat-asana</hasAlternateName>
+        <rdfs:label xml:lang="en">Parvatasana</rdfs:label>
+        <rdfs:label xml:lang="hi">पर्वतासन</rdfs:label>
+        <rdfs:label xml:lang="te">పర్వతాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Pavanamuktasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Pavanamuktasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <hasAlternateName>Wind Releasing Pose</hasAlternateName>
+        <hasCYPPage>38</hasCYPPage>
+        <rdfs:label xml:lang="en">Pavanamuktasana</rdfs:label>
+        <rdfs:label xml:lang="hi">पवनमुक्तासन</rdfs:label>
+        <rdfs:label xml:lang="te">పవనముక్తాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Phalakasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Phalakasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <sameAsanaAs rdf:resource="https://ai4society.github.io/sn-yo/core#ChaturangaDandasana"/>
+        <hasAlternateName>Plank pose</hasAlternateName>
+        <rdfs:label xml:lang="en">Phalakasana</rdfs:label>
+        <rdfs:label xml:lang="hi">फलकासन</rdfs:label>
+        <rdfs:label xml:lang="te">ఫలకాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Pranamasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Pranamasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <hasAlternateName>Pranam-asana</hasAlternateName>
+        <hasAlternateName>Prayer pose</hasAlternateName>
+        <hasCYPPage>20</hasCYPPage>
+        <rdfs:label xml:lang="en">Pranamasana</rdfs:label>
+        <rdfs:label xml:lang="hi">प्रणामासन</rdfs:label>
+        <rdfs:label xml:lang="te">ప్రణామాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Samasthiti -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Samasthiti">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <hasCYPPage>20</hasCYPPage>
+        <rdfs:label xml:lang="en">Samasthiti</rdfs:label>
+        <rdfs:label xml:lang="hi">समस्थिति</rdfs:label>
+        <rdfs:label xml:lang="te">సమస్థితి</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Setubandhasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Setubandhasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <hasAlternateName>Bridge Pose</hasAlternateName>
+        <hasCYPPage>35</hasCYPPage>
+        <rdfs:label xml:lang="en">Setubandhasana</rdfs:label>
+        <rdfs:label xml:lang="hi">सेतुबंधासन</rdfs:label>
+        <rdfs:label xml:lang="te">సేతు బంధాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Shalabhasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Shalabhasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <hasAlternateName>Locust Pose</hasAlternateName>
+        <hasCYPPage>34</hasCYPPage>
+        <rdfs:label xml:lang="en">Shalabhasana</rdfs:label>
+        <rdfs:label xml:lang="hi">शलभासन</rdfs:label>
+        <rdfs:label xml:lang="te">శలభాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Shashankasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Shashankasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <hasCYPPage>29</hasCYPPage>
+        <rdfs:label xml:lang="en">Shashankasana</rdfs:label>
+        <rdfs:label xml:lang="hi">शशांकासन</rdfs:label>
+        <rdfs:label xml:lang="te">శశాంకాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#ShashtangaNamaskara -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#ShashtangaNamaskara">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <hasAlternateName>Shashtanga namaskara</hasAlternateName>
+        <rdfs:label xml:lang="en">Shashtanga Namaskara</rdfs:label>
+        <rdfs:label xml:lang="hi">षष्टांग नमस्कार</rdfs:label>
+        <rdfs:label xml:lang="te">షష్టాంగ నమస్కారం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Shavasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Shavasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <hasAlternateName>Corpse Pose</hasAlternateName>
+        <hasCYPPage>39</hasCYPPage>
+        <rdfs:label xml:lang="en">Shavasana</rdfs:label>
+        <rdfs:label xml:lang="hi">शवासन</rdfs:label>
+        <rdfs:label xml:lang="te">శవాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Shoulder -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Shoulder">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#BodyPart"/>
+        <rdfs:label xml:lang="en">Shoulder</rdfs:label>
+        <rdfs:label xml:lang="hi">कंधा</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Spine -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Spine">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#BodyPart"/>
+        <rdfs:label xml:lang="en">Spine</rdfs:label>
+        <rdfs:label xml:lang="hi">रीढ़</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Tadasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Tadasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <hasCYPPage>20</hasCYPPage>
+        <rdfs:label xml:lang="en">Tadasana</rdfs:label>
+        <rdfs:label xml:lang="hi">ताड़ासन</rdfs:label>
+        <rdfs:label xml:lang="te">తాడాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#UrdhwaMukhaSvanasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#UrdhwaMukhaSvanasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <hasCYPPage>33</hasCYPPage>
+        <rdfs:label xml:lang="en">Urdhwa Mukha Svanasana</rdfs:label>
+        <rdfs:label xml:lang="hi">ऊर्ध्वमुख श्वानासन</rdfs:label>
+        <rdfs:label xml:lang="te">ఊర్ధ్వ ముఖ శ్వానాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Ustrasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Ustrasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <hasAlternateName>Camel Pose</hasAlternateName>
+        <hasCYPPage>28</hasCYPPage>
+        <rdfs:label xml:lang="en">Ustrasana</rdfs:label>
+        <rdfs:label xml:lang="hi">उष्ट्रासन</rdfs:label>
+        <rdfs:label xml:lang="te">ఉష్ట్రాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Utkatasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Utkatasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <hasAlternateName>Hip stretch pose</hasAlternateName>
+        <rdfs:label xml:lang="en">Utkatasana</rdfs:label>
+        <rdfs:label xml:lang="hi">उत्कटासन</rdfs:label>
+        <rdfs:label xml:lang="te">ఉత్కటాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Uttanamandukasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Uttanamandukasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <hasAlternateName>Stretched-up Frog Pose</hasAlternateName>
+        <hasCYPPage>30</hasCYPPage>
+        <rdfs:label xml:lang="en">Uttanamandukasana</rdfs:label>
+        <rdfs:label xml:lang="hi">उत्तान मंडूकासन</rdfs:label>
+        <rdfs:label xml:lang="te">ఉత్తాన మండూకాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Uttanapadasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Uttanapadasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <hasAlternateName>Raised Feet Pose</hasAlternateName>
+        <hasCYPPage>36</hasCYPPage>
+        <rdfs:label xml:lang="en">Uttanapadasana</rdfs:label>
+        <rdfs:label xml:lang="hi">उत्तानपादासन</rdfs:label>
+        <rdfs:label xml:lang="te">ఉత్తాన పాదాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Uttanasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Uttanasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <sameAsanaAs rdf:resource="https://ai4society.github.io/sn-yo/core#Padahastasana"/>
+        <hasCYPPage>22</hasCYPPage>
+        <rdfs:label xml:lang="en">Uttanasana</rdfs:label>
+        <rdfs:label xml:lang="hi">उत्तानासन</rdfs:label>
+        <rdfs:label xml:lang="te">ఉత్తానాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Vajrasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Vajrasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <hasAlternateName>Thunderbolt Pose</hasAlternateName>
+        <hasCYPPage>26</hasCYPPage>
+        <rdfs:label xml:lang="en">Vajrasana</rdfs:label>
+        <rdfs:label xml:lang="hi">वज्रासन</rdfs:label>
+        <rdfs:label xml:lang="te">వజ్రాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Vakrasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Vakrasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <hasAlternateName>Spinal Twist Pose</hasAlternateName>
+        <hasCYPPage>31</hasCYPPage>
+        <rdfs:label xml:lang="en">Vakrasana</rdfs:label>
+        <rdfs:label xml:lang="hi">वक्रासन</rdfs:label>
+        <rdfs:label xml:lang="te">వక్రాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Vrksasana -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Vrksasana">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Asana"/>
+        <hasAlternateName>Tree Pose</hasAlternateName>
+        <hasCYPPage>21</hasCYPPage>
+        <rdfs:label xml:lang="en">Vrksasana</rdfs:label>
+        <rdfs:label xml:lang="hi">वृक्षासन</rdfs:label>
+        <rdfs:label xml:lang="te">వృక్షాసనం</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Wrist -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/core#Wrist">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#BodyPart"/>
+        <rdfs:label xml:lang="en">Wrist</rdfs:label>
+        <rdfs:label xml:lang="hi">कलाई</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://ai4society.github.io/sn-yo/core#Asana"/>
+            <rdf:Description rdf:about="https://ai4society.github.io/sn-yo/core#BodyPart"/>
+            <rdf:Description rdf:about="https://ai4society.github.io/sn-yo/core#BreathingPattern"/>
+            <rdf:Description rdf:about="https://ai4society.github.io/sn-yo/core#CorrectionInstruction"/>
+            <rdf:Description rdf:about="https://ai4society.github.io/sn-yo/core#Pose"/>
+            <rdf:Description rdf:about="https://ai4society.github.io/sn-yo/core#PoseError"/>
+            <rdf:Description rdf:about="https://ai4society.github.io/sn-yo/core#Variant"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

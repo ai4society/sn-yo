@@ -1,0 +1,415 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://ai4society.github.io/sn-yo/variant01#"
+     xml:base="https://ai4society.github.io/sn-yo/variant01"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:core="https://ai4society.github.io/sn-yo/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://ai4society.github.io/sn-yo/variant01">
+        <owl:imports rdf:resource="https://ai4society.github.io/sn-yo/core"/>
+        <dc:description>Variant 01 ontology containing the Krishnamacharya Vinyasa variant individual, 13 pose occurrences, and their sequence-specific relations and values.</dc:description>
+        <dc:title>Surya Namaskar Variant 01 Krishnamacharya Vinyasa Ontology</dc:title>
+        <rdfs:label xml:lang="en">Surya Namaskar Variant 01 Ontology</rdfs:label>
+        <rdfs:label xml:lang="hi">सूर्य नमस्कार प्रकार ०१ ऑन्टोलॉजी</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#belongsToVariant -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#belongsToVariant"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasAsana -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasAsana"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasLaterality -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasLaterality"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasNextPose -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasNextPose"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasPreviousPose -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasPreviousPose"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasSupportType -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasSupportType"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#poseNumber -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#poseNumber"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#repeatsPose -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#repeatsPose"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Pose -->
+
+    <owl:Class rdf:about="https://ai4society.github.io/sn-yo/core#Pose"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#Variant -->
+
+    <owl:Class rdf:about="https://ai4society.github.io/sn-yo/core#Variant"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#AdhoMukhaSvanasana -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#AdhoMukhaSvanasana"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#ChaturangaDandasana -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#ChaturangaDandasana"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#DandaSamarpana -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#DandaSamarpana"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Samasthiti -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Samasthiti"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Tadasana -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Tadasana"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#UrdhwaMukhaSvanasana -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#UrdhwaMukhaSvanasana"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Utkatasana -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Utkatasana"/>
+    
+
+
+    <!-- http://example.org/suryanamaskar/core#Uttanasana -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/suryanamaskar/core#Uttanasana"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_KrishnamacharyaVinyasa -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant01#Variant01_KrishnamacharyaVinyasa">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Variant"/>
+        <rdfs:comment>13 pose Krishnamacharya Vinyasa Surya Namaskar.</rdfs:comment>
+        <rdfs:label xml:lang="en">Variant01_KrishnamacharyaVinyasa</rdfs:label>
+        <rdfs:label xml:lang="hi">सूर्य नमस्कार (कृष्णमाचार्य विन्यास)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_Pose01 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose01">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">Variant01_Pose01</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०१</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_KrishnamacharyaVinyasa"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Samasthiti"/>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose02"/>
+        <core:hasSupportType>StandingTwoFeet</core:hasSupportType>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose13"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_Pose02 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose02">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">Variant01_Pose02</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०२</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_KrishnamacharyaVinyasa"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Tadasana"/>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose03"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose01"/>
+        <core:hasSupportType>StandingTwoFeet</core:hasSupportType>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose12"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_Pose03 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose03">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">Variant01_Pose03</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०३</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_KrishnamacharyaVinyasa"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Uttanasana"/>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose04"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose02"/>
+        <core:hasSupportType>StandingBentTwoFeet</core:hasSupportType>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose11"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_Pose04 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose04">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">Variant01_Pose04</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०४</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_KrishnamacharyaVinyasa"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Utkatasana"/>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose05"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose03"/>
+        <core:hasSupportType>StandingTwoFeet</core:hasSupportType>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose10"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_Pose05 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose05">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">Variant01_Pose05</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०५</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_KrishnamacharyaVinyasa"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#ChaturangaDandasana"/>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose06"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose04"/>
+        <core:hasSupportType>HandsAndFeet</core:hasSupportType>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose07"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_Pose06 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose06">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">Variant01_Pose06</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०६</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_KrishnamacharyaVinyasa"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#DandaSamarpana"/>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose07"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose05"/>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</core:poseNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_Pose07 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose07">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">Variant01_Pose07</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०७</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_KrishnamacharyaVinyasa"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#ChaturangaDandasana"/>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose08"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose06"/>
+        <core:hasSupportType>HandsAndFeet</core:hasSupportType>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose05"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_Pose08 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose08">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">Variant01_Pose08</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०८</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_KrishnamacharyaVinyasa"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#UrdhwaMukhaSvanasana"/>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose09"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose07"/>
+        <core:hasSupportType>Prone</core:hasSupportType>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</core:poseNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_Pose09 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose09">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">Variant01_Pose09</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०९</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_KrishnamacharyaVinyasa"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#AdhoMukhaSvanasana"/>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose10"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose08"/>
+        <core:hasSupportType>HandsAndFeet</core:hasSupportType>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</core:poseNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_Pose10 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose10">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">Variant01_Pose10</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा १०</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_KrishnamacharyaVinyasa"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Utkatasana"/>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose11"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose09"/>
+        <core:hasSupportType>StandingTwoFeet</core:hasSupportType>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose04"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_Pose11 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose11">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">Variant01_Pose11</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ११</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_KrishnamacharyaVinyasa"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Uttanasana"/>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose12"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose10"/>
+        <core:hasSupportType>StandingBentTwoFeet</core:hasSupportType>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose03"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_Pose12 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose12">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">Variant01_Pose12</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा १२</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_KrishnamacharyaVinyasa"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Tadasana"/>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose13"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose11"/>
+        <core:hasSupportType>StandingTwoFeet</core:hasSupportType>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose02"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant01#Variant01_Pose13 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose13">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">Variant01_Pose13</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा १३</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_KrishnamacharyaVinyasa"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Samasthiti"/>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose12"/>
+        <core:hasSupportType>StandingTwoFeet</core:hasSupportType>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/variant01#Variant01_Pose01"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

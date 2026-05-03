@@ -1,0 +1,324 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.org/suryanamaskar/variant02#"
+     xml:base="http://example.org/suryanamaskar/variant02"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:core="https://ai4society.github.io/sn-yo/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://ai4society.github.io/sn-yo/variant02">
+        <owl:imports rdf:resource="https://ai4society.github.io/sn-yo/core"/>
+        <dc:description>Variant 02-specific individuals and assertions extracted from the original combined Surya Namaskar ontology; imports the shared core ontology.</dc:description>
+        <dc:title>Variant 02 Bihar School of Yoga Ontology</dc:title>
+        <rdfs:label xml:lang="en">Surya Namaskar Variant 02 Ontology</rdfs:label>
+        <rdfs:label xml:lang="hi">सूर्य नमस्कार प्रकार ०२ ऑन्टोलॉजी</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#belongsToVariant -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#belongsToVariant"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasAsana -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasAsana"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasInversePose -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasInversePose"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasLaterality -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasLaterality"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasNextPose -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasNextPose"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasPreviousPose -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasPreviousPose"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#hasSupportType -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#hasSupportType"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#poseNumber -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#poseNumber"/>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/core#repeatsPose -->
+
+    <owl:AnnotationProperty rdf:about="https://ai4society.github.io/sn-yo/core#repeatsPose"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant02#Variant02_BiharSchoolOfYoga -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant02#Variant02_BiharSchoolOfYoga">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Variant"/>
+        <rdfs:comment>12 pose Bihar School of Yoga Surya Namaskar.</rdfs:comment>
+        <rdfs:label xml:lang="en">Variant02_BiharSchoolOfYoga</rdfs:label>
+        <rdfs:label xml:lang="hi">सूर्य नमस्कार (बिहार योग विद्यालय)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant02#Variant02_Pose01 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose01">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">Variant02_Pose01</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०१</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_BiharSchoolOfYoga"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Pranamasana"/>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose02"/>
+        <core:hasSupportType>StandingTwoFeet</core:hasSupportType>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose12"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant02#Variant02_Pose02 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose02">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">Variant02_Pose02</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०२</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_BiharSchoolOfYoga"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#HastaUtthanasana"/>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose03"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose01"/>
+        <core:hasSupportType>StandingTwoFeet</core:hasSupportType>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose11"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant02#Variant02_Pose03 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose03">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">Variant02_Pose03</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०३</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_BiharSchoolOfYoga"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Padahastasana"/>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose04"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose02"/>
+        <core:hasSupportType>StandingBentTwoFeet</core:hasSupportType>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose10"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant02#Variant02_Pose04 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose04">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">Variant02_Pose04</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०४</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_BiharSchoolOfYoga"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#AshwaSanchalanasana"/>
+        <core:hasInversePose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose09"/>
+        <core:hasLaterality>Right</core:hasLaterality>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose05"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose03"/>
+        <core:hasSupportType>OneLegForward</core:hasSupportType>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose09"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant02#Variant02_Pose05 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose05">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">Variant02_Pose05</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०५</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_BiharSchoolOfYoga"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Parvatasana"/>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose06"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose04"/>
+        <core:hasSupportType>HandsAndFeet</core:hasSupportType>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose08"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant02#Variant02_Pose06 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose06">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">Variant02_Pose06</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०६</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_BiharSchoolOfYoga"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#AshtangaNamaskara"/>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose07"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose05"/>
+        <core:hasSupportType>EightPointSupport</core:hasSupportType>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</core:poseNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant02#Variant02_Pose07 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose07">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">Variant02_Pose07</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०७</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_BiharSchoolOfYoga"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Bhujangasana"/>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose08"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose06"/>
+        <core:hasSupportType>Prone</core:hasSupportType>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</core:poseNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant02#Variant02_Pose08 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose08">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">Variant02_Pose08</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०८</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_BiharSchoolOfYoga"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Parvatasana"/>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose09"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose07"/>
+        <core:hasSupportType>HandsAndFeet</core:hasSupportType>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose05"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant02#Variant02_Pose09 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose09">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">Variant02_Pose09</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ०९</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_BiharSchoolOfYoga"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#AshwaSanchalanasana"/>
+        <core:hasInversePose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose04"/>
+        <core:hasLaterality>Left</core:hasLaterality>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose10"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose08"/>
+        <core:hasSupportType>OneLegForward</core:hasSupportType>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose04"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant02#Variant02_Pose10 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose10">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">Variant02_Pose10</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा १०</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_BiharSchoolOfYoga"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Padahastasana"/>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose11"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose09"/>
+        <core:hasSupportType>StandingBentTwoFeet</core:hasSupportType>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose03"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant02#Variant02_Pose11 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose11">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">Variant02_Pose11</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा ११</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_BiharSchoolOfYoga"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#HastaUtthanasana"/>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasNextPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose12"/>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose10"/>
+        <core:hasSupportType>StandingTwoFeet</core:hasSupportType>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose02"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://ai4society.github.io/sn-yo/variant02#Variant02_Pose12 -->
+
+    <owl:NamedIndividual rdf:about="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose12">
+        <rdf:type rdf:resource="https://ai4society.github.io/sn-yo/core#Pose"/>
+        <rdfs:label xml:lang="en">Variant02_Pose12</rdfs:label>
+        <rdfs:label xml:lang="hi">मुद्रा १२</rdfs:label>
+        <core:belongsToVariant rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_BiharSchoolOfYoga"/>
+        <core:hasAsana rdf:resource="http://example.org/suryanamaskar/core#Pranamasana"/>
+        <core:hasLaterality>Symmetric</core:hasLaterality>
+        <core:hasPreviousPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose11"/>
+        <core:hasSupportType>StandingTwoFeet</core:hasSupportType>
+        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</core:poseNumber>
+        <core:repeatsPose rdf:resource="https://ai4society.github.io/sn-yo/variant02#Variant02_Pose01"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
