@@ -809,6 +809,221 @@ ORDER BY ?poseNumber
           </div>
         </div>
 
+        <!-- CQ10 -->
+<div class="query-block">
+  <div class="query-header">
+    <h3>CQ10: Do the same asanas appear at different pose numbers in different Surya Namaskar variants?</h3>
+    <span class="query-icon">▼</span>
+  </div>
+  <div class="query-content">
+    <div class="code-box">
+      <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
+PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
+
+SELECT ?asana ?variant
+       (GROUP_CONCAT(DISTINCT STR(?poseNumber); separator=", ") AS ?poseNumbers)
+WHERE {
+  ?pose rdf:type core:Pose ;
+        core:hasAsana ?asana ;
+        core:belongsToVariant ?variant ;
+        core:poseNumber ?poseNumber .
+}
+GROUP BY ?asana ?variant
+ORDER BY ?asana ?variant</code></pre>
+    </div>
+
+    <div class="data-box">
+      <h4>Execution Result</h4>
+      <table>
+        <thead>
+          <tr>
+            <th>?asana</th>
+            <th>?variant</th>
+            <th>?poseNumbers</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Adho Mukha Svanasana</td><td>Variant01_KrishnamacharyaVinyasa</td><td>9</td></tr>
+          <tr><td>Ashtanga Namaskara</td><td>BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</td><td>6</td></tr>
+          <tr><td>Ashtanga Namaskara</td><td>Variant02_BiharSchoolOfYoga</td><td>6</td></tr>
+          <tr><td>Ashwa Sanchalanasana</td><td>BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</td><td>9, 4</td></tr>
+          <tr><td>Ashwa Sanchalanasana</td><td>Variant02_BiharSchoolOfYoga</td><td>4, 9</td></tr>
+          <tr><td>Ashwa Sanchalanasana</td><td>Variant03_SwamiVivekanandaKendra</td><td>3, 10</td></tr>
+          <tr><td>Bhujangasana</td><td>BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</td><td>7</td></tr>
+          <tr><td>Bhujangasana</td><td>Variant02_BiharSchoolOfYoga</td><td>7</td></tr>
+          <tr><td>Bhujangasana</td><td>Variant03_SwamiVivekanandaKendra</td><td>7</td></tr>
+          <tr><td>Chaturanga Dandasana</td><td>BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</td><td>5</td></tr>
+          <tr><td>Chaturanga Dandasana</td><td>Variant01_KrishnamacharyaVinyasa</td><td>5, 7</td></tr>
+          <tr><td>Danda Samarpana</td><td>Variant01_KrishnamacharyaVinyasa</td><td>6</td></tr>
+          <tr><td>Hasta Utthanasana</td><td>BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</td><td>2, 11</td></tr>
+          <tr><td>Hasta Utthanasana</td><td>Variant02_BiharSchoolOfYoga</td><td>2, 11</td></tr>
+          <tr><td>Hasta Utthanasana</td><td>Variant03_SwamiVivekanandaKendra</td><td>1</td></tr>
+          <tr><td>Padahastasana</td><td>BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</td><td>10, 3</td></tr>
+          <tr><td>Padahastasana</td><td>Variant02_BiharSchoolOfYoga</td><td>10, 3</td></tr>
+          <tr><td>Padahastasana</td><td>Variant03_SwamiVivekanandaKendra</td><td>2, 11</td></tr>
+          <tr><td>Parvatasana</td><td>BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</td><td>8</td></tr>
+          <tr><td>Parvatasana</td><td>Variant02_BiharSchoolOfYoga</td><td>8, 5</td></tr>
+          <tr><td>Parvatasana</td><td>Variant03_SwamiVivekanandaKendra</td><td>8</td></tr>
+          <tr><td>Phalakasana</td><td>Variant03_SwamiVivekanandaKendra</td><td>4</td></tr>
+          <tr><td>Pranamasana</td><td>BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</td><td>1, 12</td></tr>
+          <tr><td>Pranamasana</td><td>Variant02_BiharSchoolOfYoga</td><td>1, 12</td></tr>
+          <tr><td>Pranamasana</td><td>Variant03_SwamiVivekanandaKendra</td><td>12</td></tr>
+          <tr><td>Samasthiti</td><td>Variant01_KrishnamacharyaVinyasa</td><td>1, 13</td></tr>
+          <tr><td>Shashankasana</td><td>Variant03_SwamiVivekanandaKendra</td><td>9, 5</td></tr>
+          <tr><td>Shashtanga Namaskara</td><td>Variant03_SwamiVivekanandaKendra</td><td>6</td></tr>
+          <tr><td>Tadasana</td><td>Variant01_KrishnamacharyaVinyasa</td><td>2, 12</td></tr>
+          <tr><td>Urdhva Mukha Svanasana</td><td>Variant01_KrishnamacharyaVinyasa</td><td>8</td></tr>
+          <tr><td>Utkatasana</td><td>Variant01_KrishnamacharyaVinyasa</td><td>10, 4</td></tr>
+          <tr><td>Uttanasana</td><td>Variant01_KrishnamacharyaVinyasa</td><td>3, 11</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+        <!-- CQ11 -->
+<div class="query-block">
+  <div class="query-header">
+    <h3>CQ11: How do Surya Namaskar variants differ in terms of pose composition?</h3>
+    <span class="query-icon">▼</span>
+  </div>
+
+  <div class="query-content">
+    <div class="code-box">
+      <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
+PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
+
+SELECT ?variant
+       (COUNT(DISTINCT ?pose) AS ?poseCount)
+       (COUNT(DISTINCT ?asana) AS ?distinctAsanaCount)
+       (GROUP_CONCAT(DISTINCT STR(?asana); separator=", ") AS ?asanas)
+WHERE {
+  ?variant rdf:type core:Variant .
+
+  OPTIONAL {
+    ?pose rdf:type core:Pose ;
+          core:belongsToVariant ?variant ;
+          core:hasAsana ?asana .
+  }
+}
+GROUP BY ?variant
+ORDER BY ?variant</code></pre>
+    </div>
+
+    <div class="data-box">
+      <h4>Execution Result</h4>
+      <table>
+        <thead>
+          <tr>
+            <th>?variant</th>
+            <th>?poseCount</th>
+            <th>?distinctAsanaCount</th>
+            <th>?asanas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</td>
+            <td>12</td>
+            <td>8</td>
+            <td>Padahastasana, Bhujangasana, Pranamasana, AshwaSanchalanasana, Parvatasana, ChaturangaDandasana, HastaUtthanasana, AshtangaNamaskara</td>
+          </tr>
+          <tr>
+            <td>Variant01_KrishnamacharyaVinyasa</td>
+            <td>13</td>
+            <td>8</td>
+            <td>Uttanasana, DandaSamarpana, Tadasana, Utkatasana, AdhoMukhaSvanasana, Samasthiti, ChaturangaDandasana, UrdhwaMukhaSvanasana</td>
+          </tr>
+          <tr>
+            <td>Variant02_BiharSchoolOfYoga</td>
+            <td>12</td>
+            <td>7</td>
+            <td>Parvatasana, AshwaSanchalanasana, Pranamasana, AshtangaNamaskara, HastaUtthanasana, Padahastasana, Bhujangasana</td>
+          </tr>
+          <tr>
+            <td>Variant03_SwamiVivekanandaKendra</td>
+            <td>12</td>
+            <td>9</td>
+            <td>Pranamasana, Phalakasana, Bhujangasana, AshwaSanchalanasana, ShashtangaNamaskara, Padahastasana, Shashankasana, HastaUtthanasana, Parvatasana</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+        <!-- CQ12 -->
+<div class="query-block">
+  <div class="query-header">
+    <h3>CQ12: Which body parts are most frequently involved across poses in the Base Surya Namaskar sequence?</h3>
+    <span class="query-icon">▼</span>
+  </div>
+
+  <div class="query-content">
+    <div class="code-box">
+      <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
+PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
+
+SELECT ?bodyPart
+       (COUNT(DISTINCT ?pose) AS ?poseCount)
+       (GROUP_CONCAT(DISTINCT STR(?pose); separator=", ") AS ?poses)
+WHERE {
+  ?pose rdf:type core:Pose ;
+        core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU ;
+        core:involvesBodyPart ?bodyPart .
+}
+GROUP BY ?bodyPart
+ORDER BY DESC(?poseCount) ?bodyPart</code></pre>
+    </div>
+
+    <div class="data-box">
+      <h4>Execution Result</h4>
+      <table>
+        <thead>
+          <tr>
+            <th>?bodyPart</th>
+            <th>?poseCount</th>
+            <th>?poses</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Spine</td><td>11</td><td>BaseSN_Pose03, BaseSN_Pose07, BaseSN_Pose12, BaseSN_Pose04, BaseSN_Pose08, BaseSN_Pose01, BaseSN_Pose05, BaseSN_Pose09, BaseSN_Pose10, BaseSN_Pose02, BaseSN_Pose11</td></tr>
+          <tr><td>Chest</td><td>8</td><td>BaseSN_Pose07, BaseSN_Pose12, BaseSN_Pose04, BaseSN_Pose01, BaseSN_Pose09, BaseSN_Pose02, BaseSN_Pose06, BaseSN_Pose11</td></tr>
+          <tr><td>Hip</td><td>6</td><td>BaseSN_Pose03, BaseSN_Pose04, BaseSN_Pose08, BaseSN_Pose09, BaseSN_Pose10, BaseSN_Pose02</td></tr>
+          <tr><td>Knee</td><td>6</td><td>BaseSN_Pose03, BaseSN_Pose04, BaseSN_Pose08, BaseSN_Pose09, BaseSN_Pose10, BaseSN_Pose06</td></tr>
+          <tr><td>Shoulder</td><td>6</td><td>BaseSN_Pose07, BaseSN_Pose12, BaseSN_Pose08, BaseSN_Pose01, BaseSN_Pose05, BaseSN_Pose02</td></tr>
+          <tr><td>Feet</td><td>5</td><td>BaseSN_Pose03, BaseSN_Pose12, BaseSN_Pose01, BaseSN_Pose10, BaseSN_Pose06</td></tr>
+          <tr><td>Neck</td><td>5</td><td>BaseSN_Pose03, BaseSN_Pose07, BaseSN_Pose01, BaseSN_Pose02, BaseSN_Pose11</td></tr>
+          <tr><td>Ankle</td><td>4</td><td>BaseSN_Pose03, BaseSN_Pose04, BaseSN_Pose08, BaseSN_Pose09</td></tr>
+          <tr><td>Arms</td><td>4</td><td>BaseSN_Pose07, BaseSN_Pose08, BaseSN_Pose02, BaseSN_Pose11</td></tr>
+          <tr><td>Hands</td><td>3</td><td>BaseSN_Pose04, BaseSN_Pose09, BaseSN_Pose06</td></tr>
+          <tr><td>Elbow</td><td>2</td><td>BaseSN_Pose05, BaseSN_Pose06</td></tr>
+          <tr><td>Chin</td><td>1</td><td>BaseSN_Pose06</td></tr>
+          <tr><td>Core</td><td>1</td><td>BaseSN_Pose05</td></tr>
+          <tr><td>Legs</td><td>1</td><td>BaseSN_Pose05</td></tr>
+          <tr><td>Palms</td><td>1</td><td>BaseSN_Pose01</td></tr>
+          <tr><td>Wrist</td><td>1</td><td>BaseSN_Pose05</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
       </section>
 
 
