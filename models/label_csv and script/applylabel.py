@@ -12,11 +12,11 @@ FILES = {
 CSV_FILE = "SN_YO_labels_combined.csv"
 
 PREFIXES = {
-    "core": "http://example.org/suryanamaskar/core#",
-    "base": "http://example.org/suryanamaskar/base-sn#",
-    "v1": "http://example.org/suryanamaskar/variant01#",
-    "v2": "http://example.org/suryanamaskar/variant02#",
-    "v3": "http://example.org/suryanamaskar/variant03#",
+    "core": "https://ai4society.github.io/sn-yo/core#",
+    "base": "https://ai4society.github.io/sn-yo/base-sn#",
+    "v1": "https://ai4society.github.io/sn-yo/variant01#",
+    "v2": "https://ai4society.github.io/sn-yo/variant02#",
+    "v3": "https://ai4society.github.io/sn-yo/variant03#",
 }
 
 def expand(subject):
