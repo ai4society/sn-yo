@@ -1024,6 +1024,204 @@ ORDER BY DESC(?poseCount) ?bodyPart</code></pre>
   </div>
 </div>
 
+        <!-- CQ13 -->
+<div class="query-block">
+  <div class="query-header">
+    <h3>CQ13: How are poses grouped by chakra, along with their associated asanas, in the Base Surya Namaskar sequence?</h3>
+    <span class="query-icon">▼</span>
+  </div>
+
+  <div class="query-content">
+    <div class="code-box">
+      <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
+PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
+
+SELECT ?chakra
+       (COUNT(DISTINCT ?pose) AS ?poseCount)
+       (GROUP_CONCAT(DISTINCT STR(?pose); separator=", ") AS ?poses)
+       (GROUP_CONCAT(DISTINCT STR(?asana); separator=", ") AS ?asanas)
+WHERE {
+  ?pose rdf:type core:Pose ;
+        core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU ;
+        core:hasChakra ?chakra ;
+        core:hasAsana ?asana .
+}
+GROUP BY ?chakra
+ORDER BY ?chakra</code></pre>
+    </div>
+
+    <div class="data-box">
+      <h4>Execution Result</h4>
+      <table>
+        <thead>
+          <tr>
+            <th>?chakra</th>
+            <th>?poseCount</th>
+            <th>?poses</th>
+            <th>?asanas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ajna</td>
+            <td>2</td>
+            <td>BaseSN_Pose04, BaseSN_Pose09</td>
+            <td>AshwaSanchalanasana</td>
+          </tr>
+          <tr>
+            <td>Anahata</td>
+            <td>2</td>
+            <td>BaseSN_Pose12, BaseSN_Pose01</td>
+            <td>Pranamasana</td>
+          </tr>
+          <tr>
+            <td>Manipura</td>
+            <td>1</td>
+            <td>BaseSN_Pose06</td>
+            <td>AshtangaNamaskara</td>
+          </tr>
+          <tr>
+            <td>Swadhisthana</td>
+            <td>3</td>
+            <td>BaseSN_Pose03, BaseSN_Pose07, BaseSN_Pose10</td>
+            <td>Padahastasana, Bhujangasana</td>
+          </tr>
+          <tr>
+            <td>Vishuddhi</td>
+            <td>4</td>
+            <td>BaseSN_Pose08, BaseSN_Pose05, BaseSN_Pose02, BaseSN_Pose11</td>
+            <td>Parvatasana, ChaturangaDandasana, HastaUtthanasana</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+        <!-- CQ14 -->
+<div class="query-block">
+  <div class="query-header">
+    <h3>CQ14: What are the poses in the Base Surya Namaskar sequence along with their associated asanas and mantra values?</h3>
+    <span class="query-icon">▼</span>
+  </div>
+
+  <div class="query-content">
+    <div class="code-box">
+      <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
+PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
+
+SELECT ?pose ?poseNumber ?asana ?mantra
+WHERE {
+  ?pose rdf:type core:Pose ;
+        core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU ;
+        core:poseNumber ?poseNumber ;
+        core:hasAsana ?asana ;
+        core:hasMantra ?mantra .
+}
+ORDER BY ?poseNumber</code></pre>
+    </div>
+
+    <div class="data-box">
+      <h4>Execution Result</h4>
+      <table>
+        <thead>
+          <tr>
+            <th>?pose</th>
+            <th>?poseNumber</th>
+            <th>?asana</th>
+            <th>?mantra</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>BaseSN_Pose01</td><td>1</td><td>Pranamasana</td><td>Om Hraam/Om Mitraya Namah</td></tr>
+          <tr><td>BaseSN_Pose02</td><td>2</td><td>HastaUtthanasana</td><td>Om Hreem/Om Ravaye Namah</td></tr>
+          <tr><td>BaseSN_Pose03</td><td>3</td><td>Padahastasana</td><td>Om Hroom/Om Suryaya Namah</td></tr>
+          <tr><td>BaseSN_Pose04</td><td>4</td><td>AshwaSanchalanasana</td><td>Om Hraim/Om Bhanave Namah</td></tr>
+          <tr><td>BaseSN_Pose05</td><td>5</td><td>ChaturangaDandasana</td><td>Om Hraum/Om Khagaya Namah</td></tr>
+          <tr><td>BaseSN_Pose06</td><td>6</td><td>AshtangaNamaskara</td><td>Om Hrah/Om Pushne Namah</td></tr>
+          <tr><td>BaseSN_Pose07</td><td>7</td><td>Bhujangasana</td><td>Om Hraam/Om Hiranyagarbhaya Namah</td></tr>
+          <tr><td>BaseSN_Pose08</td><td>8</td><td>Parvatasana</td><td>Om Hreem/Om Marichaye Namah</td></tr>
+          <tr><td>BaseSN_Pose09</td><td>9</td><td>AshwaSanchalanasana</td><td>Om Hroom/Om Adityaya Namah</td></tr>
+          <tr><td>BaseSN_Pose10</td><td>10</td><td>Padahastasana</td><td>Om Hraim/Om Savitre Namah</td></tr>
+          <tr><td>BaseSN_Pose11</td><td>11</td><td>HastaUtthanasana</td><td>Om Hraum/Om Arkaya Namah</td></tr>
+          <tr><td>BaseSN_Pose12</td><td>12</td><td>Pranamasana</td><td>Om Hrah/Om Bhaskaraya Namah</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+        <!-- CQ15 -->
+<div class="query-block">
+  <div class="query-header">
+    <h3>CQ15: Which asanas are unique to each Surya Namaskar variant?</h3>
+    <span class="query-icon">▼</span>
+  </div>
+
+  <div class="query-content">
+    <div class="code-box">
+      <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
+PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
+
+SELECT DISTINCT ?variant ?asana
+WHERE {
+  ?variant rdf:type core:Variant .
+
+  ?pose rdf:type core:Pose ;
+        core:belongsToVariant ?variant ;
+        core:hasAsana ?asana .
+
+  FILTER NOT EXISTS {
+    ?otherVariant rdf:type core:Variant .
+    FILTER(?otherVariant != ?variant)
+
+    ?otherPose rdf:type core:Pose ;
+               core:belongsToVariant ?otherVariant ;
+               core:hasAsana ?asana .
+  }
+}
+ORDER BY ?variant ?asana</code></pre>
+    </div>
+
+    <div class="data-box">
+      <h4>Execution Result</h4>
+      <table>
+        <thead>
+          <tr>
+            <th>?variant</th>
+            <th>?asana</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Variant01_KrishnamacharyaVinyasa</td><td>AdhoMukhaSvanasana</td></tr>
+          <tr><td>Variant01_KrishnamacharyaVinyasa</td><td>DandaSamarpana</td></tr>
+          <tr><td>Variant01_KrishnamacharyaVinyasa</td><td>Samasthiti</td></tr>
+          <tr><td>Variant01_KrishnamacharyaVinyasa</td><td>Tadasana</td></tr>
+          <tr><td>Variant01_KrishnamacharyaVinyasa</td><td>UrdhwaMukhaSvanasana</td></tr>
+          <tr><td>Variant01_KrishnamacharyaVinyasa</td><td>Utkatasana</td></tr>
+          <tr><td>Variant01_KrishnamacharyaVinyasa</td><td>Uttanasana</td></tr>
+          <tr><td>Variant03_SwamiVivekanandaKendra</td><td>Phalakasana</td></tr>
+          <tr><td>Variant03_SwamiVivekanandaKendra</td><td>Shashankasana</td></tr>
+          <tr><td>Variant03_SwamiVivekanandaKendra</td><td>ShashtangaNamaskara</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
       </section>
 
 
