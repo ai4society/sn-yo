@@ -10,6 +10,19 @@ SN-YO is a Semantic Web ontology for representing Surya Namaskar (Sun Salutation
 
 The ontology is designed to support queryable yoga knowledge, comparative study of Surya Namaskar traditions, and downstream tools such as educational explorers, reasoning systems, and ontology-grounded coaching interfaces.
 
+## Canonical PURLs
+
+Use the PURL identifiers below when referring to SN-YO ontology resources from documentation, SPARQL queries, imports, and external tools. The `core` module is the main ontology vocabulary and should be used first when referring to SN-YO classes and properties.
+
+| Ontology file | PURL URI |
+| --- | --- |
+| Core ontology module | [`https://purl.org/ai4s/yoga/sn-yo/core`](https://purl.org/ai4s/yoga/sn-yo/core) |
+| Merged ontology / full graph | [`https://purl.org/ai4s/yoga/sn-yo/ontology`](https://purl.org/ai4s/yoga/sn-yo/ontology) |
+| Base Surya Namaskar sequence | [`https://purl.org/ai4s/yoga/sn-yo/base-sn`](https://purl.org/ai4s/yoga/sn-yo/base-sn) |
+| Variant 01 | [`https://purl.org/ai4s/yoga/sn-yo/variant01`](https://purl.org/ai4s/yoga/sn-yo/variant01) |
+| Variant 02 | [`https://purl.org/ai4s/yoga/sn-yo/variant02`](https://purl.org/ai4s/yoga/sn-yo/variant02) |
+| Variant 03 | [`https://purl.org/ai4s/yoga/sn-yo/variant03`](https://purl.org/ai4s/yoga/sn-yo/variant03) |
+
 ## Highlights
 
 - Separates an `Asana` from a numbered `Pose` occurrence in a sequence.
