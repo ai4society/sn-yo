@@ -1,8 +1,9 @@
 Title: Surya Namaskar Ontology
 
-Ontology File: models/combined.owl
+Ontology File: models/master.owl
 
-Namespace: http://example.org/suryanamaskar#
+Namespace: https://purl.org/ai4s/yoga/sn-yo/ontology#
+Canonical PURL: https://purl.org/ai4s/yoga/sn-yo/ontology
 
 Format: OWL / RDF/XML
 

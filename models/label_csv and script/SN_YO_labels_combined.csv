@@ -934,8 +934,8 @@ core.owl,core:hasBreathingPattern,rdfs:label,has breathing pattern,en
 core.owl,core:hasBreathingPattern,rdfs:label,श्वास पैटर्न है,hi
 core.owl,core:hasSafetyNote,rdfs:label,has safety note,en
 core.owl,core:hasSafetyNote,rdfs:label,सुरक्षा टिप्पणी है,hi
-core.owl,http://example.org/suryanamaskar/core,rdfs:label,Surya Namaskar Core Ontology,en
-core.owl,http://example.org/suryanamaskar/core,rdfs:label,सूर्य नमस्कार कोर ऑन्टोलॉजी,hi
+core.owl,https://purl.org/ai4s/yoga/sn-yo/core,rdfs:label,Surya Namaskar Core Ontology,en
+core.owl,https://purl.org/ai4s/yoga/sn-yo/core,rdfs:label,सूर्य नमस्कार कोर ऑन्टोलॉजी,hi
 base-sn.owl,base:AlignFrontKneeInstruction,rdfs:label,AlignFrontKneeInstruction,en
 base-sn.owl,base:AlignFrontKneeInstruction,rdfs:label,सामने के घुटने को सही स्थिति में रखें,hi
 base-sn.owl,base:AlignPalmsAtChestInstruction,rdfs:label,AlignPalmsAtChestInstruction,en
@@ -1132,10 +1132,10 @@ base-sn.owl,base:WeightOnHeelsOnlyError,rdfs:label,WeightOnHeelsOnlyError,en
 base-sn.owl,base:WeightOnHeelsOnlyError,rdfs:label,केवल एड़ियों पर भार आने की त्रुटि,hi
 base-sn.owl,base:WristOverloadError,rdfs:label,WristOverloadError,en
 base-sn.owl,base:WristOverloadError,rdfs:label,कलाइयों पर अत्यधिक भार की त्रुटि,hi
-base-sn.owl,http://example.org/suryanamaskar/base-sn,rdfs:label,Surya Namaskar Base Sequence Ontology,en
-base-sn.owl,http://example.org/suryanamaskar/base-sn,rdfs:label,सूर्य नमस्कार का आधारभूत अनुक्रम ऑन्टोलॉजी,hi
-variant01.owl,http://example.org/suryanamaskar/variant01,rdfs:label,Surya Namaskar Variant 01 Ontology,en
-variant01.owl,http://example.org/suryanamaskar/variant01,rdfs:label,सूर्य नमस्कार प्रकार ०१ ऑन्टोलॉजी,hi
+base-sn.owl,https://purl.org/ai4s/yoga/sn-yo/base-sn,rdfs:label,Surya Namaskar Base Sequence Ontology,en
+base-sn.owl,https://purl.org/ai4s/yoga/sn-yo/base-sn,rdfs:label,सूर्य नमस्कार का आधारभूत अनुक्रम ऑन्टोलॉजी,hi
+variant01.owl,https://purl.org/ai4s/yoga/sn-yo/variant01,rdfs:label,Surya Namaskar Variant 01 Ontology,en
+variant01.owl,https://purl.org/ai4s/yoga/sn-yo/variant01,rdfs:label,सूर्य नमस्कार प्रकार ०१ ऑन्टोलॉजी,hi
 variant01.owl,v1:Variant01_KrishnamacharyaVinyasa,rdfs:label,Variant01_KrishnamacharyaVinyasa,en
 variant01.owl,v1:Variant01_KrishnamacharyaVinyasa,rdfs:label,सूर्य नमस्कार (कृष्णमाचार्य विन्यास),hi
 variant01.owl,v1:Variant01_Pose01,rdfs:label,Variant01_Pose01,en
@@ -1164,8 +1164,8 @@ variant01.owl,v1:Variant01_Pose12,rdfs:label,Variant01_Pose12,en
 variant01.owl,v1:Variant01_Pose12,rdfs:label,मुद्रा १२,hi
 variant01.owl,v1:Variant01_Pose13,rdfs:label,Variant01_Pose13,en
 variant01.owl,v1:Variant01_Pose13,rdfs:label,मुद्रा १३,hi
-variant02.owl,http://example.org/suryanamaskar/variant02,rdfs:label,Surya Namaskar Variant 02 Ontology,en
-variant02.owl,http://example.org/suryanamaskar/variant02,rdfs:label,सूर्य नमस्कार प्रकार ०२ ऑन्टोलॉजी,hi
+variant02.owl,https://purl.org/ai4s/yoga/sn-yo/variant02,rdfs:label,Surya Namaskar Variant 02 Ontology,en
+variant02.owl,https://purl.org/ai4s/yoga/sn-yo/variant02,rdfs:label,सूर्य नमस्कार प्रकार ०२ ऑन्टोलॉजी,hi
 variant02.owl,v2:Variant02_BiharSchoolOfYoga,rdfs:label,Variant02_BiharSchoolOfYoga,en
 variant02.owl,v2:Variant02_BiharSchoolOfYoga,rdfs:label,सूर्य नमस्कार (बिहार योग विद्यालय),hi
 variant02.owl,v2:Variant02_Pose01,rdfs:label,Variant02_Pose01,en
@@ -1192,8 +1192,8 @@ variant02.owl,v2:Variant02_Pose11,rdfs:label,Variant02_Pose11,en
 variant02.owl,v2:Variant02_Pose11,rdfs:label,मुद्रा ११,hi
 variant02.owl,v2:Variant02_Pose12,rdfs:label,Variant02_Pose12,en
 variant02.owl,v2:Variant02_Pose12,rdfs:label,मुद्रा १२,hi
-variant03.owl,http://example.org/suryanamaskar/variant03,rdfs:label,Surya Namaskar Variant 03 Ontology,en
-variant03.owl,http://example.org/suryanamaskar/variant03,rdfs:label,सूर्य नमस्कार प्रकार ०३ ऑन्टोलॉजी,hi
+variant03.owl,https://purl.org/ai4s/yoga/sn-yo/variant03,rdfs:label,Surya Namaskar Variant 03 Ontology,en
+variant03.owl,https://purl.org/ai4s/yoga/sn-yo/variant03,rdfs:label,सूर्य नमस्कार प्रकार ०३ ऑन्टोलॉजी,hi
 variant03.owl,v3:Variant03_Pose01,rdfs:label,Variant03_Pose01,en
 variant03.owl,v3:Variant03_Pose01,rdfs:label,मुद्रा ०१,hi
 variant03.owl,v3:Variant03_Pose02,rdfs:label,Variant03_Pose02,en

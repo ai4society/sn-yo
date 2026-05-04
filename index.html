@@ -167,7 +167,7 @@
           <div class="glass-panel file-card" style="margin-bottom:0;">
             <h3>Ontology File</h3>
             <p>Main OWL ontology file for Surya Namaskar.</p>
-            <a class="btn" href="models/master.owl" download>Download OWL</a>
+            <a class="btn" href="https://purl.org/ai4s/yoga/sn-yo/ontology">Download OWL</a>
           </div>
           <div class="glass-panel file-card" style="margin-bottom:0;">
             <h3>pyLODE Documentation</h3>
@@ -200,11 +200,11 @@
         <div class="namespace-list" style="margin-bottom: 24px;">
           <p>Registered Namespaces</p>
           <ul>
-            <li><code>core:</code> https://ai4society.github.io/sn-yo/core#</li>
-            <li><code>base:</code> https://ai4society.github.io/sn-yo/base-sn#</li>
-            <li><code>v1:  </code> https://ai4society.github.io/sn-yo/variant01#</li>
-            <li><code>v2:  </code> https://ai4society.github.io/sn-yo/variant02#</li>
-            <li><code>v3:  </code> https://ai4society.github.io/sn-yo/variant03#</li>
+            <li><code>core:</code> https://purl.org/ai4s/yoga/sn-yo/core#</li>
+            <li><code>base:</code> https://purl.org/ai4s/yoga/sn-yo/base-sn#</li>
+            <li><code>v1:  </code> https://purl.org/ai4s/yoga/sn-yo/variant01#</li>
+            <li><code>v2:  </code> https://purl.org/ai4s/yoga/sn-yo/variant02#</li>
+            <li><code>v3:  </code> https://purl.org/ai4s/yoga/sn-yo/variant03#</li>
           </ul>
         </div>
 
@@ -281,11 +281,11 @@
             <div class="code-box">
               <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
-PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
-PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
-PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
-PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
+PREFIX core: &lt;https://purl.org/ai4s/yoga/sn-yo/core#&gt;
+PREFIX base: &lt;https://purl.org/ai4s/yoga/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://purl.org/ai4s/yoga/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://purl.org/ai4s/yoga/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://purl.org/ai4s/yoga/sn-yo/variant03#&gt;
 SELECT ?pose
 WHERE {
   ?pose rdf:type core:Pose ;
@@ -326,11 +326,11 @@ ORDER BY ?pose</code></pre>
             <div class="code-box">
               <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
-PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
-PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
-PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
-PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
+PREFIX core: &lt;https://purl.org/ai4s/yoga/sn-yo/core#&gt;
+PREFIX base: &lt;https://purl.org/ai4s/yoga/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://purl.org/ai4s/yoga/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://purl.org/ai4s/yoga/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://purl.org/ai4s/yoga/sn-yo/variant03#&gt;
 
 SELECT (COUNT(?pose) AS ?count)
 WHERE {
@@ -360,11 +360,11 @@ WHERE {
             <div class="code-box">
               <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
-PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
-PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
-PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
-PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
+PREFIX core: &lt;https://purl.org/ai4s/yoga/sn-yo/core#&gt;
+PREFIX base: &lt;https://purl.org/ai4s/yoga/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://purl.org/ai4s/yoga/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://purl.org/ai4s/yoga/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://purl.org/ai4s/yoga/sn-yo/variant03#&gt;
 SELECT ?pose
 WHERE {
   ?pose rdf:type core:Pose ;
@@ -398,11 +398,11 @@ ORDER BY ?pose</code></pre>
             <div class="code-box">
               <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
-PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
-PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
-PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
-PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
+PREFIX core: &lt;https://purl.org/ai4s/yoga/sn-yo/core#&gt;
+PREFIX base: &lt;https://purl.org/ai4s/yoga/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://purl.org/ai4s/yoga/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://purl.org/ai4s/yoga/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://purl.org/ai4s/yoga/sn-yo/variant03#&gt;
 SELECT ?pose ?repeatedPose
 WHERE {
   ?pose core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU ;
@@ -440,11 +440,11 @@ ORDER BY ?poseNum</code></pre>
             <div class="code-box">
               <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
-PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
-PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
-PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
-PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
+PREFIX core: &lt;https://purl.org/ai4s/yoga/sn-yo/core#&gt;
+PREFIX base: &lt;https://purl.org/ai4s/yoga/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://purl.org/ai4s/yoga/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://purl.org/ai4s/yoga/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://purl.org/ai4s/yoga/sn-yo/variant03#&gt;
 
 SELECT ?pose ?inversePose
 WHERE {
@@ -481,11 +481,11 @@ ORDER BY ?poseNum</code></pre>
             <div class="code-box">
               <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
-PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
-PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
-PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
-PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
+PREFIX core: &lt;https://purl.org/ai4s/yoga/sn-yo/core#&gt;
+PREFIX base: &lt;https://purl.org/ai4s/yoga/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://purl.org/ai4s/yoga/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://purl.org/ai4s/yoga/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://purl.org/ai4s/yoga/sn-yo/variant03#&gt;
 
 SELECT ?asana (COUNT(DISTINCT ?variant) AS ?varCount)
 WHERE {
@@ -526,11 +526,11 @@ ORDER BY DESC(?varCount) ?asana</code></pre>
             <div class="code-box">
               <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
-PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
-PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
-PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
-PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
+PREFIX core: &lt;https://purl.org/ai4s/yoga/sn-yo/core#&gt;
+PREFIX base: &lt;https://purl.org/ai4s/yoga/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://purl.org/ai4s/yoga/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://purl.org/ai4s/yoga/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://purl.org/ai4s/yoga/sn-yo/variant03#&gt;
 SELECT ?pose ?nextPose
 WHERE {
   ?pose core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU ;
@@ -570,11 +570,11 @@ ORDER BY ?pose</code></pre>
             <div class="code-box">
               <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
-PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
-PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
-PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
-PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
+PREFIX core: &lt;https://purl.org/ai4s/yoga/sn-yo/core#&gt;
+PREFIX base: &lt;https://purl.org/ai4s/yoga/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://purl.org/ai4s/yoga/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://purl.org/ai4s/yoga/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://purl.org/ai4s/yoga/sn-yo/variant03#&gt;
 
 SELECT ?pose ?asana ?error ?instruction
 WHERE {
@@ -688,11 +688,11 @@ ORDER BY ?pose ?error</code></pre>
             <div class="code-box">
               <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
-PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
-PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
-PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
-PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
+PREFIX core: &lt;https://purl.org/ai4s/yoga/sn-yo/core#&gt;
+PREFIX base: &lt;https://purl.org/ai4s/yoga/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://purl.org/ai4s/yoga/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://purl.org/ai4s/yoga/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://purl.org/ai4s/yoga/sn-yo/variant03#&gt;
 
 SELECT ?poseNumber ?pose ?asana ?breathing ?safetyNote
 WHERE {
@@ -819,11 +819,11 @@ ORDER BY ?poseNumber
     <div class="code-box">
       <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
-PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
-PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
-PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
-PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
+PREFIX core: &lt;https://purl.org/ai4s/yoga/sn-yo/core#&gt;
+PREFIX base: &lt;https://purl.org/ai4s/yoga/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://purl.org/ai4s/yoga/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://purl.org/ai4s/yoga/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://purl.org/ai4s/yoga/sn-yo/variant03#&gt;
 
 SELECT ?asana ?variant
        (GROUP_CONCAT(DISTINCT STR(?poseNumber); separator=", ") AS ?poseNumbers)
@@ -897,11 +897,11 @@ ORDER BY ?asana ?variant</code></pre>
     <div class="code-box">
       <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
-PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
-PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
-PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
-PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
+PREFIX core: &lt;https://purl.org/ai4s/yoga/sn-yo/core#&gt;
+PREFIX base: &lt;https://purl.org/ai4s/yoga/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://purl.org/ai4s/yoga/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://purl.org/ai4s/yoga/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://purl.org/ai4s/yoga/sn-yo/variant03#&gt;
 
 SELECT ?variant
        (COUNT(DISTINCT ?pose) AS ?poseCount)
@@ -973,11 +973,11 @@ ORDER BY ?variant</code></pre>
     <div class="code-box">
       <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
-PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
-PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
-PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
-PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
+PREFIX core: &lt;https://purl.org/ai4s/yoga/sn-yo/core#&gt;
+PREFIX base: &lt;https://purl.org/ai4s/yoga/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://purl.org/ai4s/yoga/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://purl.org/ai4s/yoga/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://purl.org/ai4s/yoga/sn-yo/variant03#&gt;
 
 SELECT ?bodyPart
        (COUNT(DISTINCT ?pose) AS ?poseCount)
@@ -1035,11 +1035,11 @@ ORDER BY DESC(?poseCount) ?bodyPart</code></pre>
     <div class="code-box">
       <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
-PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
-PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
-PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
-PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
+PREFIX core: &lt;https://purl.org/ai4s/yoga/sn-yo/core#&gt;
+PREFIX base: &lt;https://purl.org/ai4s/yoga/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://purl.org/ai4s/yoga/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://purl.org/ai4s/yoga/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://purl.org/ai4s/yoga/sn-yo/variant03#&gt;
 
 SELECT ?chakra
        (COUNT(DISTINCT ?pose) AS ?poseCount)
@@ -1114,11 +1114,11 @@ ORDER BY ?chakra</code></pre>
     <div class="code-box">
       <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
-PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
-PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
-PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
-PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
+PREFIX core: &lt;https://purl.org/ai4s/yoga/sn-yo/core#&gt;
+PREFIX base: &lt;https://purl.org/ai4s/yoga/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://purl.org/ai4s/yoga/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://purl.org/ai4s/yoga/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://purl.org/ai4s/yoga/sn-yo/variant03#&gt;
 
 SELECT ?pose ?poseNumber ?asana ?mantra
 WHERE {
@@ -1171,11 +1171,11 @@ ORDER BY ?poseNumber</code></pre>
     <div class="code-box">
       <pre><code>PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
 PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
-PREFIX core: &lt;https://ai4society.github.io/sn-yo/core#&gt;
-PREFIX base: &lt;https://ai4society.github.io/sn-yo/base-sn#&gt;
-PREFIX v1: &lt;https://ai4society.github.io/sn-yo/variant01#&gt;
-PREFIX v2: &lt;https://ai4society.github.io/sn-yo/variant02#&gt;
-PREFIX v3: &lt;https://ai4society.github.io/sn-yo/variant03#&gt;
+PREFIX core: &lt;https://purl.org/ai4s/yoga/sn-yo/core#&gt;
+PREFIX base: &lt;https://purl.org/ai4s/yoga/sn-yo/base-sn#&gt;
+PREFIX v1: &lt;https://purl.org/ai4s/yoga/sn-yo/variant01#&gt;
+PREFIX v2: &lt;https://purl.org/ai4s/yoga/sn-yo/variant02#&gt;
+PREFIX v3: &lt;https://purl.org/ai4s/yoga/sn-yo/variant03#&gt;
 
 SELECT DISTINCT ?variant ?asana
 WHERE {
@@ -1240,7 +1240,7 @@ ORDER BY ?variant ?asana</code></pre>
           <div class="visual-block" style="text-align: center;">
             <h3 class="visual-block-title" style="text-align: center;">Interactive Visualization</h3>
             <p class="visual-block-copy" style="text-align: center;">Dynamic web-based visualization of the ontology mapping. Click the image to expand the high-resolution view.</p>
-            <a href="https://service.tib.eu/webvowl/#iri=https://ai4society.github.io/sn-yo/models/master.owl" target="_blank" class="btn btn-sm visual-link" style="margin-bottom: 16px;">
+            <a href="https://service.tib.eu/webvowl/#iri=https://purl.org/ai4s/yoga/sn-yo/ontology" target="_blank" class="btn btn-sm visual-link" style="margin-bottom: 16px;">
               Open WebVOWL Tool ↗
             </a>
             <img src="images/sn-ontology-view.png" alt="Ontology Visualization" class="expandable-img visual-image" style="background: #ffffff; border-radius: var(--radius-sm); border: 1px solid #d8e2ee;">

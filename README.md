@@ -2,6 +2,7 @@
 
 [![SN-YO Website](https://img.shields.io/badge/Website-SN--YO-1f6f8b?style=for-the-badge)](https://ai4society.github.io/sn-yo/)
 [![SN-YO Repository](https://img.shields.io/badge/GitHub-ai4society%2Fsn--yo-24292f?style=for-the-badge&logo=github)](https://github.com/ai4society/sn-yo)
+[![SN-YO PURL](https://img.shields.io/badge/PURL-SN--YO-6f42c1?style=for-the-badge)](https://purl.org/ai4s/yoga/sn-yo/ontology)
 [![SN-YE Explorer](https://img.shields.io/badge/Explorer-SN--YE-2563eb?style=for-the-badge)](https://ai4society.github.io/sn-ye/)
 [![SN-YE Repository](https://img.shields.io/badge/GitHub-ai4society%2Fsn--ye-24292f?style=for-the-badge&logo=github)](https://github.com/ai4society/sn-ye)
 
