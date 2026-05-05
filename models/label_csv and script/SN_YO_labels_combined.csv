@@ -1220,3 +1220,188 @@ variant03.owl,v3:Variant03_Pose12,rdfs:label,Variant03_Pose12,en
 variant03.owl,v3:Variant03_Pose12,rdfs:label,मुद्रा १२,hi
 variant03.owl,v3:Variant03_SwamiVivekanandaKendra,rdfs:label,Variant03_SwamiVivekanandaKendra,en
 variant03.owl,v3:Variant03_SwamiVivekanandaKendra,rdfs:label,सूर्य नमस्कार (स्वामी विवेकानंद केंद्र),hi
+core.owl,core:Asana,rdfs:label,أسانا,ar
+core.owl,core:Asana,rdfs:label,体式,zh
+core.owl,core:Asana,rdfs:label,Asana,fr
+core.owl,core:Asana,rdfs:label,Асана,ru
+core.owl,core:Asana,rdfs:label,Asana,es
+core.owl,core:BreathingPattern,rdfs:label,نمط التنفس,ar
+core.owl,core:BreathingPattern,rdfs:label,呼吸模式,zh
+core.owl,core:BreathingPattern,rdfs:label,Schéma respiratoire,fr
+core.owl,core:BreathingPattern,rdfs:label,Дыхательный паттерн,ru
+core.owl,core:BreathingPattern,rdfs:label,Patrón de respiración,es
+core.owl,core:AdhoMukhaSvanasana,rdfs:label,أدهو موخا شفاناسانا,ar
+core.owl,core:AdhoMukhaSvanasana,rdfs:label,下犬式,zh
+core.owl,core:AdhoMukhaSvanasana,rdfs:label,Adho Mukha Svanasana,fr
+core.owl,core:AdhoMukhaSvanasana,rdfs:label,Адхо Мукха Шванасана,ru
+core.owl,core:AdhoMukhaSvanasana,rdfs:label,Adho Mukha Svanasana,es
+core.owl,core:Ardhachakrasana,rdfs:label,أردها تشاكراسانا,ar
+core.owl,core:Ardhachakrasana,rdfs:label,半轮式,zh
+core.owl,core:Ardhachakrasana,rdfs:label,Ardhachakrasana,fr
+core.owl,core:Ardhachakrasana,rdfs:label,Ардха Чакрасана,ru
+core.owl,core:Ardhachakrasana,rdfs:label,Ardhachakrasana,es
+core.owl,core:Ardhahalasana,rdfs:label,أردها هالاسانا,ar
+core.owl,core:Ardhahalasana,rdfs:label,半犁式,zh
+core.owl,core:Ardhahalasana,rdfs:label,Ardhahalasana,fr
+core.owl,core:Ardhahalasana,rdfs:label,Ардха Халасана,ru
+core.owl,core:Ardhahalasana,rdfs:label,Ardhahalasana,es
+core.owl,core:Ardhaustrasana,rdfs:label,أردها أوشتراسانا,ar
+core.owl,core:Ardhaustrasana,rdfs:label,半骆驼式,zh
+core.owl,core:Ardhaustrasana,rdfs:label,Ardhaustrasana,fr
+core.owl,core:Ardhaustrasana,rdfs:label,Ардха Уштрасана,ru
+core.owl,core:Ardhaustrasana,rdfs:label,Ardhaustrasana,es
+core.owl,core:AshtangaNamaskara,rdfs:label,أشتانغا ناماسكارا,ar
+core.owl,core:AshtangaNamaskara,rdfs:label,八体敬礼式,zh
+core.owl,core:AshtangaNamaskara,rdfs:label,Ashtanga Namaskara,fr
+core.owl,core:AshtangaNamaskara,rdfs:label,Аштанга Намаскара,ru
+core.owl,core:AshtangaNamaskara,rdfs:label,Ashtanga Namaskara,es
+core.owl,core:AshwaSanchalanasana,rdfs:label,أشوا سانشالاناسانا,ar
+core.owl,core:AshwaSanchalanasana,rdfs:label,骑马式,zh
+core.owl,core:AshwaSanchalanasana,rdfs:label,Ashwa Sanchalanasana,fr
+core.owl,core:AshwaSanchalanasana,rdfs:label,Ашва Санчаланасана,ru
+core.owl,core:AshwaSanchalanasana,rdfs:label,Ashwa Sanchalanasana,es
+core.owl,core:Bhujangasana,rdfs:label,بهوجانغاسانا,ar
+core.owl,core:Bhujangasana,rdfs:label,眼镜蛇式,zh
+core.owl,core:Bhujangasana,rdfs:label,Bhujangasana,fr
+core.owl,core:Bhujangasana,rdfs:label,Бхуджангасана,ru
+core.owl,core:Bhujangasana,rdfs:label,Bhujangasana,es
+core.owl,core:ChaturangaDandasana,rdfs:label,تشاتورانغا دانداسانا,ar
+core.owl,core:ChaturangaDandasana,rdfs:label,四柱支撑式,zh
+core.owl,core:ChaturangaDandasana,rdfs:label,Chaturanga Dandasana,fr
+core.owl,core:ChaturangaDandasana,rdfs:label,Чатуранга Дандасана,ru
+core.owl,core:ChaturangaDandasana,rdfs:label,Chaturanga Dandasana,es
+core.owl,core:DandaSamarpana,rdfs:label,داندا ساماربانا,ar
+core.owl,core:DandaSamarpana,rdfs:label,杖式献礼,zh
+core.owl,core:DandaSamarpana,rdfs:label,Danda Samarpana,fr
+core.owl,core:DandaSamarpana,rdfs:label,Данда Самарпана,ru
+core.owl,core:DandaSamarpana,rdfs:label,Danda Samarpana,es
+core.owl,core:Exhale,rdfs:label,زفير,ar
+core.owl,core:Exhale,rdfs:label,呼气,zh
+core.owl,core:Exhale,rdfs:label,Expirer,fr
+core.owl,core:Exhale,rdfs:label,Выдох,ru
+core.owl,core:Exhale,rdfs:label,Exhalar,es
+core.owl,core:HastaUtthanasana,rdfs:label,هاستا أوتاناسانا,ar
+core.owl,core:HastaUtthanasana,rdfs:label,展臂式,zh
+core.owl,core:HastaUtthanasana,rdfs:label,Hasta Utthanasana,fr
+core.owl,core:HastaUtthanasana,rdfs:label,Хаста Уттанасана,ru
+core.owl,core:HastaUtthanasana,rdfs:label,Hasta Utthanasana,es
+core.owl,core:Hold,rdfs:label,حبس النفس,ar
+core.owl,core:Hold,rdfs:label,屏息,zh
+core.owl,core:Hold,rdfs:label,Rétention,fr
+core.owl,core:Hold,rdfs:label,Задержка,ru
+core.owl,core:Hold,rdfs:label,Retener,es
+core.owl,core:Inhale,rdfs:label,شهيق,ar
+core.owl,core:Inhale,rdfs:label,吸气,zh
+core.owl,core:Inhale,rdfs:label,Inspirer,fr
+core.owl,core:Inhale,rdfs:label,Вдох,ru
+core.owl,core:Inhale,rdfs:label,Inhalar,es
+core.owl,core:Makarasana,rdfs:label,ماكاراسانا,ar
+core.owl,core:Makarasana,rdfs:label,鳄鱼式,zh
+core.owl,core:Makarasana,rdfs:label,Makarasana,fr
+core.owl,core:Makarasana,rdfs:label,Макарасана,ru
+core.owl,core:Makarasana,rdfs:label,Makarasana,es
+core.owl,core:Padahastasana,rdfs:label,باداهستاسانا,ar
+core.owl,core:Padahastasana,rdfs:label,手触脚式,zh
+core.owl,core:Padahastasana,rdfs:label,Padahastasana,fr
+core.owl,core:Padahastasana,rdfs:label,Падахастасана,ru
+core.owl,core:Padahastasana,rdfs:label,Padahastasana,es
+core.owl,core:Parvatasana,rdfs:label,بارفاتاسانا,ar
+core.owl,core:Parvatasana,rdfs:label,山式,zh
+core.owl,core:Parvatasana,rdfs:label,Parvatasana,fr
+core.owl,core:Parvatasana,rdfs:label,Парватасана,ru
+core.owl,core:Parvatasana,rdfs:label,Parvatasana,es
+core.owl,core:Pavanamuktasana,rdfs:label,بافاناموكتاسانا,ar
+core.owl,core:Pavanamuktasana,rdfs:label,排风式,zh
+core.owl,core:Pavanamuktasana,rdfs:label,Pavanamuktasana,fr
+core.owl,core:Pavanamuktasana,rdfs:label,Паванамуктасана,ru
+core.owl,core:Pavanamuktasana,rdfs:label,Pavanamuktasana,es
+core.owl,core:Phalakasana,rdfs:label,فالاكاسانا,ar
+core.owl,core:Phalakasana,rdfs:label,平板式,zh
+core.owl,core:Phalakasana,rdfs:label,Phalakasana,fr
+core.owl,core:Phalakasana,rdfs:label,Пхалакасана,ru
+core.owl,core:Phalakasana,rdfs:label,Phalakasana,es
+core.owl,core:Pranamasana,rdfs:label,براناماسانا,ar
+core.owl,core:Pranamasana,rdfs:label,祈祷式,zh
+core.owl,core:Pranamasana,rdfs:label,Pranamasana,fr
+core.owl,core:Pranamasana,rdfs:label,Пранамасана,ru
+core.owl,core:Pranamasana,rdfs:label,Pranamasana,es
+core.owl,core:Samasthiti,rdfs:label,ساماستهيتي,ar
+core.owl,core:Samasthiti,rdfs:label,等立式,zh
+core.owl,core:Samasthiti,rdfs:label,Samasthiti,fr
+core.owl,core:Samasthiti,rdfs:label,Самастхити,ru
+core.owl,core:Samasthiti,rdfs:label,Samasthiti,es
+core.owl,core:Setubandhasana,rdfs:label,سيتوباندهاسانا,ar
+core.owl,core:Setubandhasana,rdfs:label,桥式,zh
+core.owl,core:Setubandhasana,rdfs:label,Setubandhasana,fr
+core.owl,core:Setubandhasana,rdfs:label,Сетубандхасана,ru
+core.owl,core:Setubandhasana,rdfs:label,Setubandhasana,es
+core.owl,core:Shalabhasana,rdfs:label,شالابهاسانا,ar
+core.owl,core:Shalabhasana,rdfs:label,蝗虫式,zh
+core.owl,core:Shalabhasana,rdfs:label,Shalabhasana,fr
+core.owl,core:Shalabhasana,rdfs:label,Шалабхасана,ru
+core.owl,core:Shalabhasana,rdfs:label,Shalabhasana,es
+core.owl,core:Shashankasana,rdfs:label,شاشانكاسانا,ar
+core.owl,core:Shashankasana,rdfs:label,兔式,zh
+core.owl,core:Shashankasana,rdfs:label,Shashankasana,fr
+core.owl,core:Shashankasana,rdfs:label,Шашанкасана,ru
+core.owl,core:Shashankasana,rdfs:label,Shashankasana,es
+core.owl,core:ShashtangaNamaskara,rdfs:label,شاشتانغا ناماسكارا,ar
+core.owl,core:ShashtangaNamaskara,rdfs:label,六体敬礼式,zh
+core.owl,core:ShashtangaNamaskara,rdfs:label,Shashtanga Namaskara,fr
+core.owl,core:ShashtangaNamaskara,rdfs:label,Шаштанга Намаскара,ru
+core.owl,core:ShashtangaNamaskara,rdfs:label,Shashtanga Namaskara,es
+core.owl,core:Shavasana,rdfs:label,شافاسانا,ar
+core.owl,core:Shavasana,rdfs:label,摊尸式,zh
+core.owl,core:Shavasana,rdfs:label,Shavasana,fr
+core.owl,core:Shavasana,rdfs:label,Шавасана,ru
+core.owl,core:Shavasana,rdfs:label,Shavasana,es
+core.owl,core:Tadasana,rdfs:label,تاداسانا,ar
+core.owl,core:Tadasana,rdfs:label,山式,zh
+core.owl,core:Tadasana,rdfs:label,Tadasana,fr
+core.owl,core:Tadasana,rdfs:label,Тадасана,ru
+core.owl,core:Tadasana,rdfs:label,Tadasana,es
+core.owl,core:UrdhwaMukhaSvanasana,rdfs:label,أوردهفا موخا شفاناسانا,ar
+core.owl,core:UrdhwaMukhaSvanasana,rdfs:label,上犬式,zh
+core.owl,core:UrdhwaMukhaSvanasana,rdfs:label,Urdhwa Mukha Svanasana,fr
+core.owl,core:UrdhwaMukhaSvanasana,rdfs:label,Урдхва Мукха Шванасана,ru
+core.owl,core:UrdhwaMukhaSvanasana,rdfs:label,Urdhwa Mukha Svanasana,es
+core.owl,core:Ustrasana,rdfs:label,أوشتراسانا,ar
+core.owl,core:Ustrasana,rdfs:label,骆驼式,zh
+core.owl,core:Ustrasana,rdfs:label,Ustrasana,fr
+core.owl,core:Ustrasana,rdfs:label,Уштрасана,ru
+core.owl,core:Ustrasana,rdfs:label,Ustrasana,es
+core.owl,core:Utkatasana,rdfs:label,أوتكاتاسانا,ar
+core.owl,core:Utkatasana,rdfs:label,椅式,zh
+core.owl,core:Utkatasana,rdfs:label,Utkatasana,fr
+core.owl,core:Utkatasana,rdfs:label,Уткатасана,ru
+core.owl,core:Utkatasana,rdfs:label,Utkatasana,es
+core.owl,core:Uttanamandukasana,rdfs:label,أوتانا ماندوكاسانا,ar
+core.owl,core:Uttanamandukasana,rdfs:label,伸展蛙式,zh
+core.owl,core:Uttanamandukasana,rdfs:label,Uttanamandukasana,fr
+core.owl,core:Uttanamandukasana,rdfs:label,Уттана Мандукасана,ru
+core.owl,core:Uttanamandukasana,rdfs:label,Uttanamandukasana,es
+core.owl,core:Uttanapadasana,rdfs:label,أوتاناباداسانا,ar
+core.owl,core:Uttanapadasana,rdfs:label,抬腿式,zh
+core.owl,core:Uttanapadasana,rdfs:label,Uttanapadasana,fr
+core.owl,core:Uttanapadasana,rdfs:label,Уттанападасана,ru
+core.owl,core:Uttanapadasana,rdfs:label,Uttanapadasana,es
+core.owl,core:Uttanasana,rdfs:label,أوتاناسانا,ar
+core.owl,core:Uttanasana,rdfs:label,站立前屈式,zh
+core.owl,core:Uttanasana,rdfs:label,Uttanasana,fr
+core.owl,core:Uttanasana,rdfs:label,Уттанасана,ru
+core.owl,core:Uttanasana,rdfs:label,Uttanasana,es
+core.owl,core:Vajrasana,rdfs:label,فاجراسانا,ar
+core.owl,core:Vajrasana,rdfs:label,金刚坐,zh
+core.owl,core:Vajrasana,rdfs:label,Vajrasana,fr
+core.owl,core:Vajrasana,rdfs:label,Ваджрасана,ru
+core.owl,core:Vajrasana,rdfs:label,Vajrasana,es
+core.owl,core:Vakrasana,rdfs:label,فاكراسانا,ar
+core.owl,core:Vakrasana,rdfs:label,扭转式,zh
+core.owl,core:Vakrasana,rdfs:label,Vakrasana,fr
+core.owl,core:Vakrasana,rdfs:label,Вакрасана,ru
+core.owl,core:Vakrasana,rdfs:label,Vakrasana,es
+core.owl,core:Vrksasana,rdfs:label,فركشاسانا,ar
+core.owl,core:Vrksasana,rdfs:label,树式,zh
+core.owl,core:Vrksasana,rdfs:label,Vrksasana,fr
+core.owl,core:Vrksasana,rdfs:label,Врикшасана,ru
+core.owl,core:Vrksasana,rdfs:label,Vrksasana,es

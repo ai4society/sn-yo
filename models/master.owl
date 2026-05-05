@@ -319,6 +319,11 @@
 
     <owl:Class rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#Asana">
         <rdfs:label xml:lang="en">Asana</rdfs:label>
+        <rdfs:label xml:lang="ar">أسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">体式</rdfs:label>
+        <rdfs:label xml:lang="fr">Asana</rdfs:label>
+        <rdfs:label xml:lang="ru">Асана</rdfs:label>
+        <rdfs:label xml:lang="es">Asana</rdfs:label>
         <rdfs:label xml:lang="ks">آسن</rdfs:label>
         <rdfs:label xml:lang="sd">آسن</rdfs:label>
         <rdfs:label xml:lang="ur">آسن</rdfs:label>
@@ -358,6 +363,11 @@
 
     <owl:Class rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#BreathingPattern">
         <rdfs:label xml:lang="en">Breathing Pattern</rdfs:label>
+        <rdfs:label xml:lang="ar">نمط التنفس</rdfs:label>
+        <rdfs:label xml:lang="zh">呼吸模式</rdfs:label>
+        <rdfs:label xml:lang="fr">Schéma respiratoire</rdfs:label>
+        <rdfs:label xml:lang="ru">Дыхательный паттерн</rdfs:label>
+        <rdfs:label xml:lang="es">Patrón de respiración</rdfs:label>
         <rdfs:label xml:lang="ur">سانس لینے کا طریقہ</rdfs:label>
         <rdfs:label xml:lang="ks">سانس ہُند طریقہ</rdfs:label>
         <rdfs:label xml:lang="sd">ساهه کڻڻ جو طريقو</rdfs:label>
@@ -1427,6 +1437,11 @@
         <core:hasAlternateName>Adho mukha svanasana</core:hasAlternateName>
         <core:hasAlternateName>Adhomukha swanasana</core:hasAlternateName>
         <rdfs:label xml:lang="en">Adho Mukha Svanasana</rdfs:label>
+        <rdfs:label xml:lang="ar">أدهو موخا شفاناسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">下犬式</rdfs:label>
+        <rdfs:label xml:lang="fr">Adho Mukha Svanasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Адхо Мукха Шванасана</rdfs:label>
+        <rdfs:label xml:lang="es">Adho Mukha Svanasana</rdfs:label>
         <rdfs:label xml:lang="ks">ادھومکھ شواناسن</rdfs:label>
         <rdfs:label xml:lang="sd">ادھومکھ شواناسن</rdfs:label>
         <rdfs:label xml:lang="ur">ادھومکھ شواناسن</rdfs:label>
@@ -1470,6 +1485,11 @@
         <core:hasAlternateName>Half Wheel Pose</core:hasAlternateName>
         <core:hasCYPPage>23</core:hasCYPPage>
         <rdfs:label xml:lang="en">Ardhachakrasana</rdfs:label>
+        <rdfs:label xml:lang="ar">أردها تشاكراسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">半轮式</rdfs:label>
+        <rdfs:label xml:lang="fr">Ardhachakrasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Ардха Чакрасана</rdfs:label>
+        <rdfs:label xml:lang="es">Ardhachakrasana</rdfs:label>
         <rdfs:label xml:lang="ks">اردھ چکراسن</rdfs:label>
         <rdfs:label xml:lang="sd">اردھ چکراسن</rdfs:label>
         <rdfs:label xml:lang="ur">اردھ چکراسن</rdfs:label>
@@ -1503,6 +1523,11 @@
         <core:hasAlternateName>Half Plough Pose</core:hasAlternateName>
         <core:hasCYPPage>37</core:hasCYPPage>
         <rdfs:label xml:lang="en">Ardhahalasana</rdfs:label>
+        <rdfs:label xml:lang="ar">أردها هالاسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">半犁式</rdfs:label>
+        <rdfs:label xml:lang="fr">Ardhahalasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Ардха Халасана</rdfs:label>
+        <rdfs:label xml:lang="es">Ardhahalasana</rdfs:label>
         <rdfs:label xml:lang="ks">اردھ ہلاسن</rdfs:label>
         <rdfs:label xml:lang="sd">اردھ ہلاسن</rdfs:label>
         <rdfs:label xml:lang="ur">اردھ ہلاسن</rdfs:label>
@@ -1536,6 +1561,11 @@
         <core:hasAlternateName>Half Camel Pose</core:hasAlternateName>
         <core:hasCYPPage>27</core:hasCYPPage>
         <rdfs:label xml:lang="en">Ardhaustrasana</rdfs:label>
+        <rdfs:label xml:lang="ar">أردها أوشتراسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">半骆驼式</rdfs:label>
+        <rdfs:label xml:lang="fr">Ardhaustrasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Ардха Уштрасана</rdfs:label>
+        <rdfs:label xml:lang="es">Ardhaustrasana</rdfs:label>
         <rdfs:label xml:lang="ks">اردھ اشٹراسن</rdfs:label>
         <rdfs:label xml:lang="sd">اردھ اشٹراسن</rdfs:label>
         <rdfs:label xml:lang="ur">اردھ اشٹراسن</rdfs:label>
@@ -1580,6 +1610,11 @@
         <core:hasAlternateName>Salute with eight parts or points</core:hasAlternateName>
         <core:hasCYPPage>34</core:hasCYPPage>
         <rdfs:label xml:lang="en">Ashtanga Namaskara</rdfs:label>
+        <rdfs:label xml:lang="ar">أشتانغا ناماسكارا</rdfs:label>
+        <rdfs:label xml:lang="zh">八体敬礼式</rdfs:label>
+        <rdfs:label xml:lang="fr">Ashtanga Namaskara</rdfs:label>
+        <rdfs:label xml:lang="ru">Аштанга Намаскара</rdfs:label>
+        <rdfs:label xml:lang="es">Ashtanga Namaskara</rdfs:label>
         <rdfs:label xml:lang="ks">اشٹانگ نمسکار</rdfs:label>
         <rdfs:label xml:lang="sd">اشٹانگ نمسکار</rdfs:label>
         <rdfs:label xml:lang="ur">اشٹانگ نمسکار</rdfs:label>
@@ -1614,6 +1649,11 @@
         <core:hasAlternateName>Ashwasanchalanasana</core:hasAlternateName>
         <core:hasAlternateName>Equestrian pose</core:hasAlternateName>
         <rdfs:label xml:lang="en">Ashwa Sanchalanasana</rdfs:label>
+        <rdfs:label xml:lang="ar">أشوا سانشالاناسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">骑马式</rdfs:label>
+        <rdfs:label xml:lang="fr">Ashwa Sanchalanasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Ашва Санчаланасана</rdfs:label>
+        <rdfs:label xml:lang="es">Ashwa Sanchalanasana</rdfs:label>
         <rdfs:label xml:lang="ks">اشو سنچلناسن</rdfs:label>
         <rdfs:label xml:lang="sd">اشو سنچلناسن</rdfs:label>
         <rdfs:label xml:lang="ur">اشو سنچلناسن</rdfs:label>
@@ -1648,6 +1688,11 @@
         <core:hasAlternateName>Cobra pose</core:hasAlternateName>
         <core:hasCYPPage>33</core:hasCYPPage>
         <rdfs:label xml:lang="en">Bhujangasana</rdfs:label>
+        <rdfs:label xml:lang="ar">بهوجانغاسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">眼镜蛇式</rdfs:label>
+        <rdfs:label xml:lang="fr">Bhujangasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Бхуджангасана</rdfs:label>
+        <rdfs:label xml:lang="es">Bhujangasana</rdfs:label>
         <rdfs:label xml:lang="ks">بھجنگاسن</rdfs:label>
         <rdfs:label xml:lang="sd">بھجنگاسن</rdfs:label>
         <rdfs:label xml:lang="ur">بھجنگاسن</rdfs:label>
@@ -1681,6 +1726,11 @@
         <core:sameAsanaAs rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Phalakasana"/>
         <core:hasAlternateName>Chaturanga Dandasan</core:hasAlternateName>
         <rdfs:label xml:lang="en">Chaturanga Dandasana</rdfs:label>
+        <rdfs:label xml:lang="ar">تشاتورانغا دانداسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">四柱支撑式</rdfs:label>
+        <rdfs:label xml:lang="fr">Chaturanga Dandasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Чатуранга Дандасана</rdfs:label>
+        <rdfs:label xml:lang="es">Chaturanga Dandasana</rdfs:label>
         <rdfs:label xml:lang="ks">چترنگ دنڈاسن</rdfs:label>
         <rdfs:label xml:lang="sd">چترنگ دنڈاسن</rdfs:label>
         <rdfs:label xml:lang="ur">چترنگ دنڈاسن</rdfs:label>
@@ -1742,6 +1792,11 @@
     <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#DandaSamarpana">
         <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Asana"/>
         <rdfs:label xml:lang="en">Danda Samarpana</rdfs:label>
+        <rdfs:label xml:lang="ar">داندا ساماربانا</rdfs:label>
+        <rdfs:label xml:lang="zh">杖式献礼</rdfs:label>
+        <rdfs:label xml:lang="fr">Danda Samarpana</rdfs:label>
+        <rdfs:label xml:lang="ru">Данда Самарпана</rdfs:label>
+        <rdfs:label xml:lang="es">Danda Samarpana</rdfs:label>
         <rdfs:label xml:lang="ks">دنڈ سمرپن</rdfs:label>
         <rdfs:label xml:lang="sd">دنڈ سمرپن</rdfs:label>
         <rdfs:label xml:lang="ur">دنڈ سمرپن</rdfs:label>
@@ -1783,6 +1838,11 @@
     <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#Exhale">
         <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#BreathingPattern"/>
         <rdfs:label xml:lang="en">Exhale</rdfs:label>
+        <rdfs:label xml:lang="ar">زفير</rdfs:label>
+        <rdfs:label xml:lang="zh">呼气</rdfs:label>
+        <rdfs:label xml:lang="fr">Expirer</rdfs:label>
+        <rdfs:label xml:lang="ru">Выдох</rdfs:label>
+        <rdfs:label xml:lang="es">Exhalar</rdfs:label>
         <rdfs:label xml:lang="ks">سانس تراوو</rdfs:label>
         <rdfs:label xml:lang="ur">سانس چھوڑیں</rdfs:label>
         <rdfs:label xml:lang="sd">ساهه ڇڏيو</rdfs:label>
@@ -1838,6 +1898,11 @@
         <core:hasAlternateName>Raised arms pose</core:hasAlternateName>
         <core:hasCYPPage>23</core:hasCYPPage>
         <rdfs:label xml:lang="en">Hasta Utthanasana</rdfs:label>
+        <rdfs:label xml:lang="ar">هاستا أوتاناسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">展臂式</rdfs:label>
+        <rdfs:label xml:lang="fr">Hasta Utthanasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Хаста Уттанасана</rdfs:label>
+        <rdfs:label xml:lang="es">Hasta Utthanasana</rdfs:label>
         <rdfs:label xml:lang="ks">ہست اتّاناسن</rdfs:label>
         <rdfs:label xml:lang="sd">ہست اتّاناسن</rdfs:label>
         <rdfs:label xml:lang="ur">ہست اتّاناسن</rdfs:label>
@@ -1879,6 +1944,11 @@
     <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#Hold">
         <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#BreathingPattern"/>
         <rdfs:label xml:lang="en">Hold</rdfs:label>
+        <rdfs:label xml:lang="ar">حبس النفس</rdfs:label>
+        <rdfs:label xml:lang="zh">屏息</rdfs:label>
+        <rdfs:label xml:lang="fr">Rétention</rdfs:label>
+        <rdfs:label xml:lang="ru">Задержка</rdfs:label>
+        <rdfs:label xml:lang="es">Retener</rdfs:label>
         <rdfs:label xml:lang="ur">سانس روکیں</rdfs:label>
         <rdfs:label xml:lang="ks">سانس رکاوو</rdfs:label>
         <rdfs:label xml:lang="sd">ساهه روڪيو</rdfs:label>
@@ -1910,6 +1980,11 @@
     <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#Inhale">
         <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#BreathingPattern"/>
         <rdfs:label xml:lang="en">Inhale</rdfs:label>
+        <rdfs:label xml:lang="ar">شهيق</rdfs:label>
+        <rdfs:label xml:lang="zh">吸气</rdfs:label>
+        <rdfs:label xml:lang="fr">Inspirer</rdfs:label>
+        <rdfs:label xml:lang="ru">Вдох</rdfs:label>
+        <rdfs:label xml:lang="es">Inhalar</rdfs:label>
         <rdfs:label xml:lang="ur">سانس لیں</rdfs:label>
         <rdfs:label xml:lang="ks">سانس ہیو</rdfs:label>
         <rdfs:label xml:lang="sd">ساهه کڻو</rdfs:label>
@@ -1963,6 +2038,11 @@
         <core:hasAlternateName>Crocodile Pose</core:hasAlternateName>
         <core:hasCYPPage>32</core:hasCYPPage>
         <rdfs:label xml:lang="en">Makarasana</rdfs:label>
+        <rdfs:label xml:lang="ar">ماكاراسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">鳄鱼式</rdfs:label>
+        <rdfs:label xml:lang="fr">Makarasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Макарасана</rdfs:label>
+        <rdfs:label xml:lang="es">Makarasana</rdfs:label>
         <rdfs:label xml:lang="ks">مکراسن</rdfs:label>
         <rdfs:label xml:lang="sd">مکراسن</rdfs:label>
         <rdfs:label xml:lang="ur">مکراسن</rdfs:label>
@@ -2011,6 +2091,11 @@
         <core:hasAlternateName>Padahathasana</core:hasAlternateName>
         <core:hasCYPPage>22</core:hasCYPPage>
         <rdfs:label xml:lang="en">Padahastasana</rdfs:label>
+        <rdfs:label xml:lang="ar">باداهستاسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">手触脚式</rdfs:label>
+        <rdfs:label xml:lang="fr">Padahastasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Падахастасана</rdfs:label>
+        <rdfs:label xml:lang="es">Padahastasana</rdfs:label>
         <rdfs:label xml:lang="ks">پادہستاسن</rdfs:label>
         <rdfs:label xml:lang="sd">پادہستاسن</rdfs:label>
         <rdfs:label xml:lang="ur">پادہستاسن</rdfs:label>
@@ -2055,6 +2140,11 @@
         <core:hasAlternateName>Mountain pose</core:hasAlternateName>
         <core:hasAlternateName>Parvat-asana</core:hasAlternateName>
         <rdfs:label xml:lang="en">Parvatasana</rdfs:label>
+        <rdfs:label xml:lang="ar">بارفاتاسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">山式</rdfs:label>
+        <rdfs:label xml:lang="fr">Parvatasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Парватасана</rdfs:label>
+        <rdfs:label xml:lang="es">Parvatasana</rdfs:label>
         <rdfs:label xml:lang="ks">پروتاسن</rdfs:label>
         <rdfs:label xml:lang="sd">پروتاسن</rdfs:label>
         <rdfs:label xml:lang="ur">پروتاسن</rdfs:label>
@@ -2088,6 +2178,11 @@
         <core:hasAlternateName>Wind Releasing Pose</core:hasAlternateName>
         <core:hasCYPPage>38</core:hasCYPPage>
         <rdfs:label xml:lang="en">Pavanamuktasana</rdfs:label>
+        <rdfs:label xml:lang="ar">بافاناموكتاسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">排风式</rdfs:label>
+        <rdfs:label xml:lang="fr">Pavanamuktasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Паванамуктасана</rdfs:label>
+        <rdfs:label xml:lang="es">Pavanamuktasana</rdfs:label>
         <rdfs:label xml:lang="ks">پونمکتاسن</rdfs:label>
         <rdfs:label xml:lang="sd">پونمکتاسن</rdfs:label>
         <rdfs:label xml:lang="ur">پونمکتاسن</rdfs:label>
@@ -2121,6 +2216,11 @@
         <core:sameAsanaAs rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#ChaturangaDandasana"/>
         <core:hasAlternateName>Plank pose</core:hasAlternateName>
         <rdfs:label xml:lang="en">Phalakasana</rdfs:label>
+        <rdfs:label xml:lang="ar">فالاكاسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">平板式</rdfs:label>
+        <rdfs:label xml:lang="fr">Phalakasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Пхалакасана</rdfs:label>
+        <rdfs:label xml:lang="es">Phalakasana</rdfs:label>
         <rdfs:label xml:lang="ks">پھلکاسن</rdfs:label>
         <rdfs:label xml:lang="sd">پھلکاسن</rdfs:label>
         <rdfs:label xml:lang="ur">پھلکاسن</rdfs:label>
@@ -2155,6 +2255,11 @@
         <core:hasAlternateName>Prayer pose</core:hasAlternateName>
         <core:hasCYPPage>20</core:hasCYPPage>
         <rdfs:label xml:lang="en">Pranamasana</rdfs:label>
+        <rdfs:label xml:lang="ar">براناماسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">祈祷式</rdfs:label>
+        <rdfs:label xml:lang="fr">Pranamasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Пранамасана</rdfs:label>
+        <rdfs:label xml:lang="es">Pranamasana</rdfs:label>
         <rdfs:label xml:lang="ks">پرناماسن</rdfs:label>
         <rdfs:label xml:lang="sd">پرناماسن</rdfs:label>
         <rdfs:label xml:lang="ur">پرناماسن</rdfs:label>
@@ -2187,6 +2292,11 @@
         <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Asana"/>
         <core:hasCYPPage>20</core:hasCYPPage>
         <rdfs:label xml:lang="en">Samasthiti</rdfs:label>
+        <rdfs:label xml:lang="ar">ساماستهيتي</rdfs:label>
+        <rdfs:label xml:lang="zh">等立式</rdfs:label>
+        <rdfs:label xml:lang="fr">Samasthiti</rdfs:label>
+        <rdfs:label xml:lang="ru">Самастхити</rdfs:label>
+        <rdfs:label xml:lang="es">Samasthiti</rdfs:label>
         <rdfs:label xml:lang="ks">سمستھت</rdfs:label>
         <rdfs:label xml:lang="sd">سمستھت</rdfs:label>
         <rdfs:label xml:lang="ur">سمستھت</rdfs:label>
@@ -2220,6 +2330,11 @@
         <core:hasAlternateName>Bridge Pose</core:hasAlternateName>
         <core:hasCYPPage>35</core:hasCYPPage>
         <rdfs:label xml:lang="en">Setubandhasana</rdfs:label>
+        <rdfs:label xml:lang="ar">سيتوباندهاسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">桥式</rdfs:label>
+        <rdfs:label xml:lang="fr">Setubandhasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Сетубандхасана</rdfs:label>
+        <rdfs:label xml:lang="es">Setubandhasana</rdfs:label>
         <rdfs:label xml:lang="ks">سیتبندھاسن</rdfs:label>
         <rdfs:label xml:lang="sd">سیتبندھاسن</rdfs:label>
         <rdfs:label xml:lang="ur">سیتبندھاسن</rdfs:label>
@@ -2253,6 +2368,11 @@
         <core:hasAlternateName>Locust Pose</core:hasAlternateName>
         <core:hasCYPPage>34</core:hasCYPPage>
         <rdfs:label xml:lang="en">Shalabhasana</rdfs:label>
+        <rdfs:label xml:lang="ar">شالابهاسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">蝗虫式</rdfs:label>
+        <rdfs:label xml:lang="fr">Shalabhasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Шалабхасана</rdfs:label>
+        <rdfs:label xml:lang="es">Shalabhasana</rdfs:label>
         <rdfs:label xml:lang="ks">شلبھاسن</rdfs:label>
         <rdfs:label xml:lang="sd">شلبھاسن</rdfs:label>
         <rdfs:label xml:lang="ur">شلبھاسن</rdfs:label>
@@ -2285,6 +2405,11 @@
         <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Asana"/>
         <core:hasCYPPage>29</core:hasCYPPage>
         <rdfs:label xml:lang="en">Shashankasana</rdfs:label>
+        <rdfs:label xml:lang="ar">شاشانكاسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">兔式</rdfs:label>
+        <rdfs:label xml:lang="fr">Shashankasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Шашанкасана</rdfs:label>
+        <rdfs:label xml:lang="es">Shashankasana</rdfs:label>
         <rdfs:label xml:lang="ks">ششانکاسن</rdfs:label>
         <rdfs:label xml:lang="sd">ششانکاسن</rdfs:label>
         <rdfs:label xml:lang="ur">ششانکاسن</rdfs:label>
@@ -2317,6 +2442,11 @@
         <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Asana"/>
         <core:hasAlternateName>Shashtanga namaskara</core:hasAlternateName>
         <rdfs:label xml:lang="en">Shashtanga Namaskara</rdfs:label>
+        <rdfs:label xml:lang="ar">شاشتانغا ناماسكارا</rdfs:label>
+        <rdfs:label xml:lang="zh">六体敬礼式</rdfs:label>
+        <rdfs:label xml:lang="fr">Shashtanga Namaskara</rdfs:label>
+        <rdfs:label xml:lang="ru">Шаштанга Намаскара</rdfs:label>
+        <rdfs:label xml:lang="es">Shashtanga Namaskara</rdfs:label>
         <rdfs:label xml:lang="ks">ششٹانگ نمسکار</rdfs:label>
         <rdfs:label xml:lang="sd">ششٹانگ نمسکار</rdfs:label>
         <rdfs:label xml:lang="ur">ششٹانگ نمسکار</rdfs:label>
@@ -2350,6 +2480,11 @@
         <core:hasAlternateName>Corpse Pose</core:hasAlternateName>
         <core:hasCYPPage>39</core:hasCYPPage>
         <rdfs:label xml:lang="en">Shavasana</rdfs:label>
+        <rdfs:label xml:lang="ar">شافاسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">摊尸式</rdfs:label>
+        <rdfs:label xml:lang="fr">Shavasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Шавасана</rdfs:label>
+        <rdfs:label xml:lang="es">Shavasana</rdfs:label>
         <rdfs:label xml:lang="ks">شواسن</rdfs:label>
         <rdfs:label xml:lang="sd">شواسن</rdfs:label>
         <rdfs:label xml:lang="ur">شواسن</rdfs:label>
@@ -2402,6 +2537,11 @@
         <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Asana"/>
         <core:hasCYPPage>20</core:hasCYPPage>
         <rdfs:label xml:lang="en">Tadasana</rdfs:label>
+        <rdfs:label xml:lang="ar">تاداسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">山式</rdfs:label>
+        <rdfs:label xml:lang="fr">Tadasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Тадасана</rdfs:label>
+        <rdfs:label xml:lang="es">Tadasana</rdfs:label>
         <rdfs:label xml:lang="ks">تاڑاسن</rdfs:label>
         <rdfs:label xml:lang="sd">تاڑاسن</rdfs:label>
         <rdfs:label xml:lang="ur">تاڑاسن</rdfs:label>
@@ -2434,6 +2574,11 @@
         <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Asana"/>
         <core:hasCYPPage>33</core:hasCYPPage>
         <rdfs:label xml:lang="en">Urdhwa Mukha Svanasana</rdfs:label>
+        <rdfs:label xml:lang="ar">أوردهفا موخا شفاناسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">上犬式</rdfs:label>
+        <rdfs:label xml:lang="fr">Urdhwa Mukha Svanasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Урдхва Мукха Шванасана</rdfs:label>
+        <rdfs:label xml:lang="es">Urdhwa Mukha Svanasana</rdfs:label>
         <rdfs:label xml:lang="ks">اوردھومکھ شواناسن</rdfs:label>
         <rdfs:label xml:lang="sd">اوردھومکھ شواناسن</rdfs:label>
         <rdfs:label xml:lang="ur">اوردھومکھ شواناسن</rdfs:label>
@@ -2467,6 +2612,11 @@
         <core:hasAlternateName>Camel Pose</core:hasAlternateName>
         <core:hasCYPPage>28</core:hasCYPPage>
         <rdfs:label xml:lang="en">Ustrasana</rdfs:label>
+        <rdfs:label xml:lang="ar">أوشتراسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">骆驼式</rdfs:label>
+        <rdfs:label xml:lang="fr">Ustrasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Уштрасана</rdfs:label>
+        <rdfs:label xml:lang="es">Ustrasana</rdfs:label>
         <rdfs:label xml:lang="ks">اشٹراسن</rdfs:label>
         <rdfs:label xml:lang="sd">اشٹراسن</rdfs:label>
         <rdfs:label xml:lang="ur">اشٹراسن</rdfs:label>
@@ -2499,6 +2649,11 @@
         <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Asana"/>
         <core:hasAlternateName>Hip stretch pose</core:hasAlternateName>
         <rdfs:label xml:lang="en">Utkatasana</rdfs:label>
+        <rdfs:label xml:lang="ar">أوتكاتاسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">椅式</rdfs:label>
+        <rdfs:label xml:lang="fr">Utkatasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Уткатасана</rdfs:label>
+        <rdfs:label xml:lang="es">Utkatasana</rdfs:label>
         <rdfs:label xml:lang="ks">اتکٹاسن</rdfs:label>
         <rdfs:label xml:lang="sd">اتکٹاسن</rdfs:label>
         <rdfs:label xml:lang="ur">اتکٹاسن</rdfs:label>
@@ -2532,6 +2687,11 @@
         <core:hasAlternateName>Stretched-up Frog Pose</core:hasAlternateName>
         <core:hasCYPPage>30</core:hasCYPPage>
         <rdfs:label xml:lang="en">Uttanamandukasana</rdfs:label>
+        <rdfs:label xml:lang="ar">أوتانا ماندوكاسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">伸展蛙式</rdfs:label>
+        <rdfs:label xml:lang="fr">Uttanamandukasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Уттана Мандукасана</rdfs:label>
+        <rdfs:label xml:lang="es">Uttanamandukasana</rdfs:label>
         <rdfs:label xml:lang="ks">اتّان منڈوکاسن</rdfs:label>
         <rdfs:label xml:lang="sd">اتّان منڈوکاسن</rdfs:label>
         <rdfs:label xml:lang="ur">اتّان منڈوکاسن</rdfs:label>
@@ -2565,6 +2725,11 @@
         <core:hasAlternateName>Raised Feet Pose</core:hasAlternateName>
         <core:hasCYPPage>36</core:hasCYPPage>
         <rdfs:label xml:lang="en">Uttanapadasana</rdfs:label>
+        <rdfs:label xml:lang="ar">أوتاناباداسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">抬腿式</rdfs:label>
+        <rdfs:label xml:lang="fr">Uttanapadasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Уттанападасана</rdfs:label>
+        <rdfs:label xml:lang="es">Uttanapadasana</rdfs:label>
         <rdfs:label xml:lang="ks">اتّانپاداسن</rdfs:label>
         <rdfs:label xml:lang="sd">اتّانپاداسن</rdfs:label>
         <rdfs:label xml:lang="ur">اتّانپاداسن</rdfs:label>
@@ -2598,6 +2763,11 @@
         <core:sameAsanaAs rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Padahastasana"/>
         <core:hasCYPPage>22</core:hasCYPPage>
         <rdfs:label xml:lang="en">Uttanasana</rdfs:label>
+        <rdfs:label xml:lang="ar">أوتاناسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">站立前屈式</rdfs:label>
+        <rdfs:label xml:lang="fr">Uttanasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Уттанасана</rdfs:label>
+        <rdfs:label xml:lang="es">Uttanasana</rdfs:label>
         <rdfs:label xml:lang="ks">اتّاناسن</rdfs:label>
         <rdfs:label xml:lang="sd">اتّاناسن</rdfs:label>
         <rdfs:label xml:lang="ur">اتّاناسن</rdfs:label>
@@ -2631,6 +2801,11 @@
         <core:hasAlternateName>Thunderbolt Pose</core:hasAlternateName>
         <core:hasCYPPage>26</core:hasCYPPage>
         <rdfs:label xml:lang="en">Vajrasana</rdfs:label>
+        <rdfs:label xml:lang="ar">فاجراسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">金刚坐</rdfs:label>
+        <rdfs:label xml:lang="fr">Vajrasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Ваджрасана</rdfs:label>
+        <rdfs:label xml:lang="es">Vajrasana</rdfs:label>
         <rdfs:label xml:lang="ks">وجراسن</rdfs:label>
         <rdfs:label xml:lang="sd">وجراسن</rdfs:label>
         <rdfs:label xml:lang="ur">وجراسن</rdfs:label>
@@ -2664,6 +2839,11 @@
         <core:hasAlternateName>Spinal Twist Pose</core:hasAlternateName>
         <core:hasCYPPage>31</core:hasCYPPage>
         <rdfs:label xml:lang="en">Vakrasana</rdfs:label>
+        <rdfs:label xml:lang="ar">فاكراسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">扭转式</rdfs:label>
+        <rdfs:label xml:lang="fr">Vakrasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Вакрасана</rdfs:label>
+        <rdfs:label xml:lang="es">Vakrasana</rdfs:label>
         <rdfs:label xml:lang="ks">وکراسن</rdfs:label>
         <rdfs:label xml:lang="sd">وکراسن</rdfs:label>
         <rdfs:label xml:lang="ur">وکراسن</rdfs:label>
@@ -2697,6 +2877,11 @@
         <core:hasAlternateName>Tree Pose</core:hasAlternateName>
         <core:hasCYPPage>21</core:hasCYPPage>
         <rdfs:label xml:lang="en">Vrksasana</rdfs:label>
+        <rdfs:label xml:lang="ar">فركشاسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">树式</rdfs:label>
+        <rdfs:label xml:lang="fr">Vrksasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Врикшасана</rdfs:label>
+        <rdfs:label xml:lang="es">Vrksasana</rdfs:label>
         <rdfs:label xml:lang="ks">ورکشاسن</rdfs:label>
         <rdfs:label xml:lang="sd">ورکشاسن</rdfs:label>
         <rdfs:label xml:lang="ur">ورکشاسن</rdfs:label>

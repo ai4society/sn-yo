@@ -29,7 +29,7 @@ Use the PURL identifiers below when referring to SN-YO ontology resources from d
 - Models the base Surya Namaskar sequence and multiple traditional variants.
 - Captures pose transitions, repeated poses, inverse poses, laterality, support type, chakra, mantra, breathing pattern, and safety annotations.
 - Includes a correction layer for posture rules, constraints, common errors, and correction instructions.
-- Provides multilingual labels for asanas and breathing patterns across the 22 Indian scheduled languages.
+- Provides multilingual labels for asanas and breathing patterns across the six official United Nations languages and 22 Indian scheduled languages.
 - Publishes the ontology as OWL/RDF with supporting documentation and visual diagrams.
 
 ## Repository Structure
@@ -52,7 +52,7 @@ The companion [SN-YE explorer](https://ai4society.github.io/sn-ye/) provides pre
 
 ## Multilingual Labels
 
-SN-YO includes `rdfs:label` values for asanas and breathing-pattern entities in the 22 Indian scheduled languages listed in the Eighth Schedule of the Constitution of India. Language identifiers use web-standard BCP 47 / ISO 639 tags such as `hi`, `te`, `brx`, `doi`, `kok`, `sat`, and `mni`. The current tags are kept stable so website queries and language selectors continue to work consistently.
+SN-YO includes `rdfs:label` values for asanas and breathing-pattern entities in the six official United Nations languages (`ar`, `zh`, `en`, `fr`, `ru`, and `es`) and the 22 Indian scheduled languages listed in the Eighth Schedule of the Constitution of India, for 28 languages in total. Indian language identifiers use web-standard BCP 47 / ISO 639 tags such as `hi`, `te`, `brx`, `doi`, `kok`, `sat`, and `mni`. The current tags are kept stable so website queries and language selectors continue to work consistently.
 
 The source label table is `models/label_csv and script/SN_YO_labels_combined.csv`; these labels are materialized into `models/modules/core.owl` and the merged `models/master.owl`.
 
