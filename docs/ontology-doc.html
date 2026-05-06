@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+
 <html>
-  <head>
-    <title>SN-YO Ontology</title>
-    <style>
+<head>
+<title>SN-YO Ontology</title>
+<style>
         #pylode {
             position: fixed;
             top: 205px;
@@ -299,10 +300,10 @@ td {
     margin-top: 10px;
 }
 	</style>
-    <link href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhklEQVQ4jbWPzStEURjG3yQLirlGKUnKFO45Z+SjmXvnnmthQcpCoVhYmD/AwmJiI3OvZuZc2U3UlKU0/gAslMw9JgvhHxAr2fko7r0jHSsl+TgbTz2Lt5731/MASEiJW9ONml2QyX6rsGalmnT74v8BDf12hxJfpV8d1uwNKUBYszabdFv84L8B9X0rESVmmUup2fme0cVhJWaZHw4NWL1SewEAfDe6H3Dy6Ll456WEJsRZS630MwCAOI20ei5OBpxse5zcBZw8eS4uPpfIuDiCainIg9umBCU0GZzgLZ9Hn31OgoATL+CkLDGB5H1OKj4nFd/FBxUXJ0UZNb4edw/6nLyJXaj5FeCVyPLNIVmYK8TG1IwWb16L1gEACAFV90ftoT8bdOX0EeyY99gxBXZMgRz6qGb1KantAACI0UvE6F5XJqEjpsdURouI0Vt5gGOUkUNnPu7ObGIIMfNaGqDmjDRi9FZldF1lRgYzeqUyeoiY4ag5Iy3RgOYRM8+/M2bG8efsO4hGrpmJseyMAAAAAElFTkSuQmCC" rel="icon" sizes="16x16" type="image/png">
-    <link href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC40lEQVRYhe2UT0hUQRzHp6Iss1B3VZKIDbbdfW9mnoi4f3zzjkJQeOgS0SEIb1EWBGGlLLu460zQPQM1unUIIjA6rfpm6ZAhHjoIRVQUFUlEbG+euTsdXG1d3VL3bVD4g+9h+L35fT/8fvN7ADgY9aHY5fpIvK82HO9ysu66wxWOzbkjcekKx0a2ALYA/n2AGi3a6ArFezcidziecQygNhhrcUficjP6PwBqtGijKxy/thnVBePHywYoDsFhl53GV8SEcsTx4usCMLUewTVpc23BNvEzm6Neyf1+KcG2vwqwUjgrOJq2JmHftwmkVBRGTvncFodnbI7vChO/FRznCmHsNM7aHM9Yk7Df5iqsLMw9sMNOK2g+jS4IEz0UJv4iuJZb2RltWnB4UZqH6ioGAgAAGe5vtiZhtzDx7OoRadLmeM7m6IRjhnLMW2Vx1bA5GhAmnhIcz6/xNj4Ujsky8UspwfayjDPjsF2Y6L7N8Vzx/BfP+KPg6LbgSqd8DnfJW2CnbaLhfH5ephpqygJYvQU4Z3P82TLRsDDhUTnmrSq+Y3N0Mg+Xldy/zwEAnLMWZ3pHpNExmfLs/t0dOdVcbT0JeKxUwFP2VljjqiE47Jp53LTXNxhsUZjerTByXWX6VZWRs/4bIQ2ACv+UAomgDzLCISNZxAxZKMhIDjLy1JfsaK+I+eGBUBNk5E2x8RogX/PdcDZUqieWTSh5D6nOVKqfhoycUmlHFFIyu5RXqf7AcQDISCpv/tqbMBqK883RtmpISRoxQyJKPgGn3wNk5NEigDFa6hslqV/Kj+FdBQD0bshIDlKSLlVcoWQo36UhR80BAMB73lulMn0EMpJTqD6qJiOt3mho/8GbkT2BZNgDB/V+RI0fkOrT3kRIVQbaDizJm2hdNbINBxwk5xAj3yEjuV9rZ1iIkgxixkLBA83mz8uCjLwoGwAx0vOnFSy5mtR4VTaAQvVORMnwZgSpzkrV/QmdE2tKe46+MQAAAABJRU5ErkJggg==" rel="icon" sizes="32x32" type="image/png">
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-    <script id="schema.org" type="application/ld+json">
+<link href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhklEQVQ4jbWPzStEURjG3yQLirlGKUnKFO45Z+SjmXvnnmthQcpCoVhYmD/AwmJiI3OvZuZc2U3UlKU0/gAslMw9JgvhHxAr2fko7r0jHSsl+TgbTz2Lt5731/MASEiJW9ONml2QyX6rsGalmnT74v8BDf12hxJfpV8d1uwNKUBYszabdFv84L8B9X0rESVmmUup2fme0cVhJWaZHw4NWL1SewEAfDe6H3Dy6Ll456WEJsRZS630MwCAOI20ei5OBpxse5zcBZw8eS4uPpfIuDiCainIg9umBCU0GZzgLZ9Hn31OgoATL+CkLDGB5H1OKj4nFd/FBxUXJ0UZNb4edw/6nLyJXaj5FeCVyPLNIVmYK8TG1IwWb16L1gEACAFV90ftoT8bdOX0EeyY99gxBXZMgRz6qGb1KantAACI0UvE6F5XJqEjpsdURouI0Vt5gGOUkUNnPu7ObGIIMfNaGqDmjDRi9FZldF1lRgYzeqUyeoiY4ag5Iy3RgOYRM8+/M2bG8efsO4hGrpmJseyMAAAAAElFTkSuQmCC" rel="icon" sizes="16x16" type="image/png"/>
+<link href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC40lEQVRYhe2UT0hUQRzHp6Iss1B3VZKIDbbdfW9mnoi4f3zzjkJQeOgS0SEIb1EWBGGlLLu460zQPQM1unUIIjA6rfpm6ZAhHjoIRVQUFUlEbG+euTsdXG1d3VL3bVD4g+9h+L35fT/8fvN7ADgY9aHY5fpIvK82HO9ysu66wxWOzbkjcekKx0a2ALYA/n2AGi3a6ArFezcidziecQygNhhrcUficjP6PwBqtGijKxy/thnVBePHywYoDsFhl53GV8SEcsTx4usCMLUewTVpc23BNvEzm6Neyf1+KcG2vwqwUjgrOJq2JmHftwmkVBRGTvncFodnbI7vChO/FRznCmHsNM7aHM9Yk7Df5iqsLMw9sMNOK2g+jS4IEz0UJv4iuJZb2RltWnB4UZqH6ioGAgAAGe5vtiZhtzDx7OoRadLmeM7m6IRjhnLMW2Vx1bA5GhAmnhIcz6/xNj4Ujsky8UspwfayjDPjsF2Y6L7N8Vzx/BfP+KPg6LbgSqd8DnfJW2CnbaLhfH5ephpqygJYvQU4Z3P82TLRsDDhUTnmrSq+Y3N0Mg+Xldy/zwEAnLMWZ3pHpNExmfLs/t0dOdVcbT0JeKxUwFP2VljjqiE47Jp53LTXNxhsUZjerTByXWX6VZWRs/4bIQ2ACv+UAomgDzLCISNZxAxZKMhIDjLy1JfsaK+I+eGBUBNk5E2x8RogX/PdcDZUqieWTSh5D6nOVKqfhoycUmlHFFIyu5RXqf7AcQDISCpv/tqbMBqK883RtmpISRoxQyJKPgGn3wNk5NEigDFa6hslqV/Kj+FdBQD0bshIDlKSLlVcoWQo36UhR80BAMB73lulMn0EMpJTqD6qJiOt3mho/8GbkT2BZNgDB/V+RI0fkOrT3kRIVQbaDizJm2hdNbINBxwk5xAj3yEjuV9rZ1iIkgxixkLBA83mz8uCjLwoGwAx0vOnFSy5mtR4VTaAQvVORMnwZgSpzkrV/QmdE2tKe46+MQAAAABJRU5ErkJggg==" rel="icon" sizes="32x32" type="image/png"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<script id="schema.org" type="application/ld+json">
 [
   {
     "@id": "https://purl.org/ai4s/yoga/sn-yo/ontology",
@@ -322,36 +323,51 @@ td {
   }
 ]
 	</script>
-  </head>
-  <body>
-    <div id="content">
-      <div class="section" id="metadata">
-        <h1>SN-YO Ontology</h1>
-        <h2>Metadata</h2>
-        <dl>
-          <div>
-            <dt>
-              <strong>IRI</strong>
-            </dt>
-            <dd>
-              <code>https://purl.org/ai4s/yoga/sn-yo/ontology</code>
-            </dd>
-          </div>
-          <div>
-            <dt>
-              <a class="hover_property" href="http://purl.org/dc/terms/title" title="A name given to the resource. Defined in DCMI Metadata Terms">Title</a>
-            </dt>
-            <dd><p>SN-YO Ontology</p></dd>
-          </div>
-          <div>
-            <dt>
-              <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
-            </dt>
-            <dd><p>Ontology for modeling Surya Namaskar sequences and correction knowledge.</p></dd>
-          </div>
-        </dl>
-      </div>
-      <div class="section" id="webvowl">
+</head>
+<body>
+<div id="content">
+<div class="section" id="metadata">
+<h1>SN-YO Ontology</h1>
+<h2>Metadata</h2>
+<dl>
+<div>
+<dt>
+<strong>IRI</strong>
+</dt>
+<dd>
+<code>https://purl.org/ai4s/yoga/sn-yo/ontology</code>
+</dd>
+</div>
+<div>
+<dt>
+<a class="hover_property" href="http://purl.org/dc/terms/title" title="A name given to the resource. Defined in DCMI Metadata Terms">Title</a>
+</dt>
+<dd><p>SN-YO Ontology</p></dd>
+</div>
+<div>
+<dt>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</dt>
+<dd><p>Ontology for modeling Surya Namaskar sequences and correction knowledge.</p></dd>
+</div>
+<div>
+  <dt>
+    <strong>Authors</strong>
+  </dt>
+  <dd>
+    <p>
+      Mansi Dodiya, IIT (BHU), Varanasi<br>
+      Kishan Kumar, IIT (BHU), Varanasi<br>
+      Bharath Muppasani, University of South Carolina<br>
+      Biplav Srivastava, University of South Carolina<br>
+      Raghava Mutharaju, IIT Palakkad<br>
+      Hari Prabhat Gupta, IIT (BHU), Varanasi
+    </p>
+  </dd>
+</div>
+</dl>
+</div>
+<div class="section" id="webvowl">
         <h2>Interactive WebVOWL View</h2>
         <p>
             The ontology can also be explored interactively in WebVOWL.
@@ -369,1426 +385,1596 @@ td {
       </a>
       </p>
     </div>
-      <div class="section" id="classes">
-        <h2>Classes</h2>
-        <div class="property entity" id="Asana">
-<h3>Asana
-  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+<div class="section" id="classes">
+<h2>Classes</h2>
+<div class="property entity" id="Asana">
+<h3>Asana <sup class="sup-c" title="OWL/RDFS Class">c</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#Asana</code>
+</td>
+<tr>
+  <th>Labels</th>
+  <td>en: Asana, ar: أسانا, zh: 体式, fr: Asana, ru: Асана, es: Asana, ks: آسن, sd: آسن, ur: آسن, brx: आसन, doi: आसन, hi: आसन, kok: आसन, mai: आसन, mr: आसन, ne: आसन, sa: आसन, as: আসন, bn: আসন, pa: ਆਸਨ, gu: આસન, or: ଆସନ, ta: ஆசனம், te: ఆసనం, kn: ಆಸನ, ml: ആസനം, sat: ᱟᱥᱚᱱᱚ, mni: ꯑꯥꯁꯅ</td>
+</tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>A yoga posture identity represented independently of its occurrence in a Surya Namaskar sequence.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="https://w3id.org/profile/ontdoc/inDomainOf" title="Inverse of rdfs:domain. Defined in Ontology Documentation Profile">In Domain Of</a>
+</th>
+<td>
+<ul>
+<li>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#sameAsanaAs">same asana as</a>
+<sup class="sup-op" title="OWL Object Property">op</sup>
+</span>
+</li>
+<li>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#hasAlternateName">has alternate name</a>
+<sup class="sup-dp" title="OWL Datatype Property">dp</sup>
+</span>
+</li>
+<li>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#hasCYPPage">has CYP page</a>
+<sup class="sup-dp" title="OWL Datatype Property">dp</sup>
+</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="https://w3id.org/profile/ontdoc/inRangeOf" title="Inverse of rdfs:range. Defined in Ontology Documentation Profile">In Range Of</a>
+</th>
+<td>
+<ul>
+<li>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#hasAsana">has asana</a>
+<sup class="sup-op" title="OWL Object Property">op</sup>
+</span>
+</li>
+<li>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#sameAsanaAs">same asana as</a>
+<sup class="sup-op" title="OWL Object Property">op</sup>
+</span>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="BodyPart">
+<h3>Body Part <sup class="sup-c" title="OWL/RDFS Class">c</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#BodyPart</code>
+</td>
+</tr><tr><th>Labels</th><td><ul><li>hi: शरीर का अंग</li></ul></td></tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>A body part involved in performing a pose or referenced in correction knowledge.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="https://w3id.org/profile/ontdoc/inRangeOf" title="Inverse of rdfs:range. Defined in Ontology Documentation Profile">In Range Of</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#involvesBodyPart">involves body part</a>
+<sup class="sup-op" title="OWL Object Property">op</sup>
+</span>
+</td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="BreathingPattern">
+<h3>Breathing Pattern <sup class="sup-c" title="OWL/RDFS Class">c</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#BreathingPattern</code>
+</td>
+<tr>
+  <th>Labels</th>
+  <td>en: Breathing Pattern, ar: نمط التنفس, zh: 呼吸模式, fr: Schéma respiratoire, ru: Дыхательный паттерн, es: Patrón de respiración, ur: سانس لینے کا طریقہ, ks: سانس ہُند طریقہ, sd: ساهه کڻڻ جو طريقو, sa: श्वसन पद्धतिः, kok: श्वास घेवपाची पद्धत, mr: श्वास पद्धती, brx: श्वास पैटर्न, hi: श्वास पैटर्न, ne: श्वासप्रश्वासको ढाँचा, mai: साँस लेबाक तरीका, doi: साह लैने दा ढंग, as: শ্বাস-প্ৰশ্বাসৰ ধৰণ, bn: শ্বাসের ধরন, pa: ਸਾਹ ਲੈਣ ਦਾ ਢੰਗ, gu: શ્વાસની પદ્ધતિ, or: ଶ୍ୱାସ ପ୍ରକ୍ରିୟା, ta: சுவாச முறை, te: శ్వాస విధానం, kn: ಉಸಿರಾಟದ ವಿಧಾನ, ml: ശ്വാസരീതി, sat: ᱥᱣᱟᱥᱚ ᱯᱚᱤᱴᱚᱨᱱᱚ, mni: ꯁ꯭ꯋꯥꯁ ꯄꯩꯇꯔ꯭ꯅ</td>
+</tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>A breathing instruction associated with a pose, such as inhale, exhale, or hold.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="https://w3id.org/profile/ontdoc/inRangeOf" title="Inverse of rdfs:range. Defined in Ontology Documentation Profile">In Range Of</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#hasBreathingPattern">has breathing pattern</a>
+<sup class="sup-op" title="OWL Object Property">op</sup>
+</span>
+</td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="CorrectionInstruction">
+<h3>Correction Instruction <sup class="sup-c" title="OWL/RDFS Class">c</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#CorrectionInstruction</code>
+</td>
+</tr><tr><th>Labels</th><td><ul><li>hi: सुधार निर्देश</li></ul></td></tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>An instruction that explains how to correct a common pose execution error.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="https://w3id.org/profile/ontdoc/inDomainOf" title="Inverse of rdfs:domain. Defined in Ontology Documentation Profile">In Domain Of</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#correctionText">correction text</a>
+<sup class="sup-dp" title="OWL Datatype Property">dp</sup>
+</span>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="https://w3id.org/profile/ontdoc/inRangeOf" title="Inverse of rdfs:range. Defined in Ontology Documentation Profile">In Range Of</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#hasCorrection">has correction</a>
+<sup class="sup-op" title="OWL Object Property">op</sup>
+</span>
+</td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="Pose">
+<h3>Pose <sup class="sup-c" title="OWL/RDFS Class">c</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#Pose</code>
+</td>
+</tr><tr><th>Labels</th><td><ul><li>hi: क्रमिक मुद्रा</li></ul></td></tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>A sequence-specific occurrence of an asana within a Surya Namaskar variant.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="https://w3id.org/profile/ontdoc/inDomainOf" title="Inverse of rdfs:domain. Defined in Ontology Documentation Profile">In Domain Of</a>
+</th>
+<td>
+<ul>
+<li>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#belongsToVariant">belongs to variant</a>
+<sup class="sup-op" title="OWL Object Property">op</sup>
+</span>
+</li>
+<li>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#hasAsana">has asana</a>
+<sup class="sup-op" title="OWL Object Property">op</sup>
+</span>
+</li>
+<li>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#hasBreathingPattern">has breathing pattern</a>
+<sup class="sup-op" title="OWL Object Property">op</sup>
+</span>
+</li>
+<li>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#hasInversePose">has inverse pose</a>
+<sup class="sup-op" title="OWL Object Property">op</sup>
+</span>
+</li>
+<li>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#hasNextPose">has next pose</a>
+<sup class="sup-op" title="OWL Object Property">op</sup>
+</span>
+</li>
+<li>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#hasPossibleError">has possible error</a>
+<sup class="sup-op" title="OWL Object Property">op</sup>
+</span>
+</li>
+<li>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#hasPreviousPose">has previous pose</a>
+<sup class="sup-op" title="OWL Object Property">op</sup>
+</span>
+</li>
+<li>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#involvesBodyPart">involves body part</a>
+<sup class="sup-op" title="OWL Object Property">op</sup>
+</span>
+</li>
+<li>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#repeatsPose">repeats pose</a>
+<sup class="sup-op" title="OWL Object Property">op</sup>
+</span>
+</li>
+<li>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#hasChakra">has chakra</a>
+<sup class="sup-dp" title="OWL Datatype Property">dp</sup>
+</span>
+</li>
+<li>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#hasLaterality">has laterality</a>
+<sup class="sup-dp" title="OWL Datatype Property">dp</sup>
+</span>
+</li>
+<li>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#hasMantra">has mantra</a>
+<sup class="sup-dp" title="OWL Datatype Property">dp</sup>
+</span>
+</li>
+<li>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#hasSafetyNote">has safety note</a>
+<sup class="sup-dp" title="OWL Datatype Property">dp</sup>
+</span>
+</li>
+<li>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#hasSupportType">has support type</a>
+<sup class="sup-dp" title="OWL Datatype Property">dp</sup>
+</span>
+</li>
+<li>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#poseNumber">pose number</a>
+<sup class="sup-dp" title="OWL Datatype Property">dp</sup>
+</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="https://w3id.org/profile/ontdoc/inRangeOf" title="Inverse of rdfs:range. Defined in Ontology Documentation Profile">In Range Of</a>
+</th>
+<td>
+<ul>
+<li>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#hasInversePose">has inverse pose</a>
+<sup class="sup-op" title="OWL Object Property">op</sup>
+</span>
+</li>
+<li>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#hasNextPose">has next pose</a>
+<sup class="sup-op" title="OWL Object Property">op</sup>
+</span>
+</li>
+<li>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#hasPreviousPose">has previous pose</a>
+<sup class="sup-op" title="OWL Object Property">op</sup>
+</span>
+</li>
+<li>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#repeatsPose">repeats pose</a>
+<sup class="sup-op" title="OWL Object Property">op</sup>
+</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="https://w3id.org/profile/ontdoc/restriction" title="Convenience property for things that subclass owl:Restriction. Defined in Ontology Documentation Profile">Restriction</a>
+</th>
+<td>
+<ul>
+<li>
+<span>
+<span>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#belongsToVariant">belongs to variant</a>
+<sup class="sup-op" title="OWL Object Property">op</sup>
+</span>
+<span>
+<span class="cardinality">exactly</span>
+<span>1</span>
+</span><br/>
+</span>
+</span>
+</li>
+<li>
+<span>
+<span>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#hasAsana">has asana</a>
+<sup class="sup-op" title="OWL Object Property">op</sup>
+</span>
+<span>
+<span class="cardinality">exactly</span>
+<span>1</span>
+</span><br/>
+</span>
+</span>
+</li>
+<li>
+<span>
+<span>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#poseNumber">pose number</a>
+<sup class="sup-dp" title="OWL Datatype Property">dp</sup>
+</span>
+<span>
+<span class="cardinality">exactly</span>
+<span>1</span>
+</span><br/>
+</span>
+</span>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="PoseError">
+<h3>Pose Error <sup class="sup-c" title="OWL/RDFS Class">c</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#PoseError</code>
+</td>
+</tr><tr><th>Labels</th><td><ul><li>hi: मुद्रा त्रुटि</li></ul></td></tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>A common execution error that may occur while performing a pose.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="https://w3id.org/profile/ontdoc/inDomainOf" title="Inverse of rdfs:domain. Defined in Ontology Documentation Profile">In Domain Of</a>
+</th>
+<td>
+<ul>
+<li>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#hasCorrection">has correction</a>
+<sup class="sup-op" title="OWL Object Property">op</sup>
+</span>
+</li>
+<li>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#errorDescription">error description</a>
+<sup class="sup-dp" title="OWL Datatype Property">dp</sup>
+</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="https://w3id.org/profile/ontdoc/inRangeOf" title="Inverse of rdfs:range. Defined in Ontology Documentation Profile">In Range Of</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#hasPossibleError">has possible error</a>
+<sup class="sup-op" title="OWL Object Property">op</sup>
+</span>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="https://w3id.org/profile/ontdoc/restriction" title="Convenience property for things that subclass owl:Restriction. Defined in Ontology Documentation Profile">Restriction</a>
+</th>
+<td>
+<span>
+<span>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#hasCorrection">has correction</a>
+<sup class="sup-op" title="OWL Object Property">op</sup>
+</span>
+<span>
+<span class="cardinality">some</span>
+<span>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#CorrectionInstruction">Correction Instruction</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</span>
+</span><br/>
+</span>
+</span>
+</td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="Variant">
+<h3>Variant <sup class="sup-c" title="OWL/RDFS Class">c</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#Variant</code>
+</td>
+</tr><tr><th>Labels</th><td><ul><li>hi: संस्करण</li></ul></td></tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>A Surya Namaskar sequence or tradition represented as a variant in the ontology.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="https://w3id.org/profile/ontdoc/inRangeOf" title="Inverse of rdfs:range. Defined in Ontology Documentation Profile">In Range Of</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#belongsToVariant">belongs to variant</a>
+<sup class="sup-op" title="OWL Object Property">op</sup>
+</span>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="section" id="objectproperties">
+<h2>Object Properties</h2>
+<div class="property entity" id="belongstovariant">
+<h3>belongs to variant <sup class="sup-op" title="OWL Object Property">op</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#belongsToVariant</code>
+</td>
+</tr><tr><th>Labels</th><td><ul><li>hi: प्रकार से संबंधित</li></ul></td></tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>Relates a pose to the Surya Namaskar variant in which it occurs.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#Variant">Variant</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="hasasana">
+<h3>has asana <sup class="sup-op" title="OWL Object Property">op</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#hasAsana</code>
+</td>
+</tr><tr><th>Labels</th><td><ul><li>hi: आसन है</li></ul></td></tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>Relates a sequence-specific pose to the asana it represents.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#Asana">Asana</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="hasbreathingpattern">
+<h3>has breathing pattern <sup class="sup-op" title="OWL Object Property">op</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#hasBreathingPattern</code>
+</td>
+</tr><tr><th>Labels</th><td><ul><li>hi: श्वास पैटर्न है</li></ul></td></tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>Relates a pose to its associated breathing pattern.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#BreathingPattern">Breathing Pattern</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="hascorrection">
+<h3>has correction <sup class="sup-op" title="OWL Object Property">op</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#hasCorrection</code>
+</td>
+</tr><tr><th>Labels</th><td><ul><li>hi: सुधार है</li></ul></td></tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>Relates a pose error to the correction instruction that addresses it.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#PoseError">Pose Error</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#CorrectionInstruction">Correction Instruction</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="hasinversepose">
+<h3>has inverse pose <sup class="sup-op" title="OWL Object Property">op</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#hasInversePose</code>
+</td>
+</tr><tr><th>Labels</th><td><ul><li>hi: विपरीत मुद्रा है</li></ul></td></tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>Relates a pose to another pose that performs the corresponding inverse side or direction.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="hasnextpose">
+<h3>has next pose <sup class="sup-op" title="OWL Object Property">op</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#hasNextPose</code>
+</td>
+</tr><tr><th>Labels</th><td><ul><li>hi: अगली मुद्रा है</li></ul></td></tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>Relates a pose to the next pose in the Surya Namaskar sequence.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="haspossibleerror">
+<h3>has possible error <sup class="sup-op" title="OWL Object Property">op</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#hasPossibleError</code>
+</td>
+</tr><tr><th>Labels</th><td><ul><li>hi: संभावित त्रुटि है</li></ul></td></tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>Relates a pose to a possible execution error associated with it.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#PoseError">Pose Error</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="haspreviouspose">
+<h3>has previous pose <sup class="sup-op" title="OWL Object Property">op</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#hasPreviousPose</code>
+</td>
+</tr><tr><th>Labels</th><td><ul><li>hi: पिछली मुद्रा है</li></ul></td></tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>Relates a pose to the previous pose in the Surya Namaskar sequence.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="involvesbodypart">
+<h3>involves body part <sup class="sup-op" title="OWL Object Property">op</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#involvesBodyPart</code>
+</td>
+</tr><tr><th>Labels</th><td><ul><li>hi: शरीर का अंग शामिल करता है</li></ul></td></tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>Relates a pose to a body part involved in its execution.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#BodyPart">Body Part</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="repeatspose">
+<h3>repeats pose <sup class="sup-op" title="OWL Object Property">op</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#repeatsPose</code>
+</td>
+</tr><tr><th>Labels</th><td><ul><li>hi: मुद्रा को दोहराता है</li></ul></td></tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>Relates a pose to another pose that repeats the same asana in the sequence.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="sameasanaas">
+<h3>same asana as <sup class="sup-op" title="OWL Object Property">op</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#sameAsanaAs</code>
+</td>
+</tr><tr><th>Labels</th><td><ul><li>hi: समान आसन है</li></ul></td></tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>Relates one asana to another asana that is treated as equivalent or corresponding across variants.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#Asana">Asana</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#Asana">Asana</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="section" id="datatypeproperties">
+<h2>Datatype Properties</h2>
+<div class="property entity" id="correctiontext">
+<h3>correction text <sup class="sup-dp" title="OWL Datatype Property">dp</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#correctionText</code>
+</td>
+</tr><tr><th>Labels</th><td><ul><li>hi: सुधार पाठ</li></ul></td></tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>Provides the textual correction instruction for a correction instruction individual.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#CorrectionInstruction">Correction Instruction</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
+</th>
+<td>
+<a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>
+</td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="errordescription">
+<h3>error description <sup class="sup-dp" title="OWL Datatype Property">dp</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#errorDescription</code>
+</td>
+</tr><tr><th>Labels</th><td><ul><li>hi: त्रुटि विवरण</li></ul></td></tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>Provides a textual description of a pose execution error.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#PoseError">Pose Error</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
+</th>
+<td>
+<a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>
+</td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="hasalternatename">
+<h3>has alternate name <sup class="sup-dp" title="OWL Datatype Property">dp</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#hasAlternateName</code>
+</td>
+</tr><tr><th>Labels</th><td><ul><li>hi: वैकल्पिक नाम है</li></ul></td></tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>Provides an alternate name for an asana.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#Asana">Asana</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
+</th>
+<td>
+<a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>
+</td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="hasCYPpage">
+<h3>has CYP page <sup class="sup-dp" title="OWL Datatype Property">dp</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#hasCYPPage</code>
+</td>
+</tr><tr><th>Labels</th><td><ul><li>hi: सीवाईपी पृष्ठ संख्या</li></ul></td></tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>Records the page reference for an asana in the Common Yoga Protocol source.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#Asana">Asana</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
+</th>
+<td>
+<a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>
+</td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="haschakra">
+<h3>has chakra <sup class="sup-dp" title="OWL Datatype Property">dp</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#hasChakra</code>
+</td>
+</tr><tr><th>Labels</th><td><ul><li>hi: चक्र है</li></ul></td></tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>Records the chakra associated with a pose.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
+</th>
+<td>
+<a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>
+</td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="haslaterality">
+<h3>has laterality <sup class="sup-dp" title="OWL Datatype Property">dp</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#hasLaterality</code>
+</td>
+</tr><tr><th>Labels</th><td><ul><li>hi: पक्षीयता है</li></ul></td></tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>Records whether a pose is symmetric or associated with a left or right side.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
+</th>
+<td>
+<a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>
+</td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="hasmantra">
+<h3>has mantra <sup class="sup-dp" title="OWL Datatype Property">dp</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#hasMantra</code>
+</td>
+</tr><tr><th>Labels</th><td><ul><li>hi: मंत्र है</li></ul></td></tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>Records the mantra associated with a pose.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
+</th>
+<td>
+<a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>
+</td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="hassafetynote">
+<h3>has safety note <sup class="sup-dp" title="OWL Datatype Property">dp</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#hasSafetyNote</code>
+</td>
+</tr><tr><th>Labels</th><td><ul><li>hi: सुरक्षा टिप्पणी है</li></ul></td></tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>Provides a safety note or precaution associated with a pose.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
+</th>
+<td>
+<a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>
+</td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="hassupporttype">
+<h3>has support type <sup class="sup-dp" title="OWL Datatype Property">dp</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#hasSupportType</code>
+</td>
+</tr><tr><th>Labels</th><td><ul><li>hi: आधार प्रकार है</li></ul></td></tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>Records the body support pattern used in a pose.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
+</th>
+<td>
+<a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>
+</td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="posenumber">
+<h3>pose number <sup class="sup-dp" title="OWL Datatype Property">dp</sup></h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#poseNumber</code>
+</td>
+</tr><tr><th>Labels</th><td><ul><li>hi: मुद्रा संख्या</li></ul></td></tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>Records the numeric position of a pose within a Surya Namaskar sequence.</p></td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
+</th>
+<td>
+<span>
+<a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</span>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
+</th>
+<td>
+<a href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="section" id="annotationproperties">
+<h2>Annotation Properties</h2>
+<div class="property entity" id="description">
+<h3>description
+            <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
 </h3>
-<p><strong>Labels:</strong> Asana (en), أسانا (ar), 体式 (zh), Asana (fr), Асана (ru), Asana (es), आसन (hi), ఆసనం (te), আসন (bn), आसन (mr), ஆசனம் (ta), આસન (gu), آسن (ur), ಆಸನ (kn), ଆସନ (or), ആസനം (ml), ਆਸਨ (pa), আসন (as), आसन (mai), ᱟᱥᱚᱱᱚ (sat), ꯑꯥꯁꯅ (mni), आसन (brx), आसन (doi), آسن (ks), आसन (kok), आसन (ne), आसन (sa), آسن (sd)</p>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#Asana</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="https://w3id.org/profile/ontdoc/inDomainOf" title="Inverse of rdfs:domain. Defined in Ontology Documentation Profile">In Domain Of</a>
-              </th>
-              <td>
-                <ul>
-                  <li>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#sameAsanaAs">same asana as</a>
-                      <sup class="sup-op" title="OWL Object Property">op</sup>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#hasAlternateName">has alternate name</a>
-                      <sup class="sup-dp" title="OWL Datatype Property">dp</sup>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#hasCYPPage">has CYP page</a>
-                      <sup class="sup-dp" title="OWL Datatype Property">dp</sup>
-                    </span>
-                  </li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="https://w3id.org/profile/ontdoc/inRangeOf" title="Inverse of rdfs:range. Defined in Ontology Documentation Profile">In Range Of</a>
-              </th>
-              <td>
-                <ul>
-                  <li>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#hasAsana">has asana</a>
-                      <sup class="sup-op" title="OWL Object Property">op</sup>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#sameAsanaAs">same asana as</a>
-                      <sup class="sup-op" title="OWL Object Property">op</sup>
-                    </span>
-                  </li>
-                </ul>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="BodyPart">
-          <h3>Body Part
-            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#BodyPart</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="https://w3id.org/profile/ontdoc/inRangeOf" title="Inverse of rdfs:range. Defined in Ontology Documentation Profile">In Range Of</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#involvesBodyPart">involves body part</a>
-                  <sup class="sup-op" title="OWL Object Property">op</sup>
-                </span>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="BreathingPattern">
-         <h3>Breathing Pattern
-  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>http://purl.org/dc/elements/1.1/description</code>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>An annotation property used to provide a textual description of an ontology resource.</p></td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="title">
+<h3>title
+            <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
 </h3>
-<p><strong>Labels:</strong> Breathing Pattern (en), نمط التنفس (ar), 呼吸模式 (zh), Schéma respiratoire (fr), Дыхательный паттерн (ru), Patrón de respiración (es), श्वास पैटर्न (hi), శ్వాస విధానం (te), শ্বাসের ধরন (bn), श्वास पद्धती (mr), சுவாச முறை (ta), શ્વાસની પદ્ધતિ (gu), سانس لینے کا طریقہ (ur), ಉಸಿರಾಟದ ವಿಧಾನ (kn), ଶ୍ୱାସ ପ୍ରକ୍ରିୟା (or), ശ്വാസരീതി (ml), ਸਾਹ ਲੈਣ ਦਾ ਢੰਗ (pa), শ্বাস-প্ৰশ্বাসৰ ধৰণ (as), साँस लेबाक तरीका (mai), ᱥᱣᱟᱥᱚ ᱯᱚᱤᱴᱚᱨᱱᱚ (sat), ꯁ꯭ꯋꯥꯁ ꯄꯩꯇꯔ꯭ꯅ (mni), श्वास पैटर्न (brx), साह लैने दा ढंग (doi), سانس ہُند طریقہ (ks), श्वास घेवपाची पद्धत (kok), श्वासप्रश्वासको ढाँच (ne), श्वसन पद्धतिः (sa), ساهه کڻڻ جو طريقو (sd)</p>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#BreathingPattern</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="https://w3id.org/profile/ontdoc/inRangeOf" title="Inverse of rdfs:range. Defined in Ontology Documentation Profile">In Range Of</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#hasBreathingPattern">has breathing pattern</a>
-                  <sup class="sup-op" title="OWL Object Property">op</sup>
-                </span>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="CorrectionInstruction">
-          <h3>Correction Instruction
-            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#CorrectionInstruction</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="https://w3id.org/profile/ontdoc/inDomainOf" title="Inverse of rdfs:domain. Defined in Ontology Documentation Profile">In Domain Of</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#correctionText">correction text</a>
-                  <sup class="sup-dp" title="OWL Datatype Property">dp</sup>
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="https://w3id.org/profile/ontdoc/inRangeOf" title="Inverse of rdfs:range. Defined in Ontology Documentation Profile">In Range Of</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#hasCorrection">has correction</a>
-                  <sup class="sup-op" title="OWL Object Property">op</sup>
-                </span>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="Pose">
-          <h3>Pose
-            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#Pose</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="https://w3id.org/profile/ontdoc/inDomainOf" title="Inverse of rdfs:domain. Defined in Ontology Documentation Profile">In Domain Of</a>
-              </th>
-              <td>
-                <ul>
-                  <li>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#belongsToVariant">belongs to variant</a>
-                      <sup class="sup-op" title="OWL Object Property">op</sup>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#hasAsana">has asana</a>
-                      <sup class="sup-op" title="OWL Object Property">op</sup>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#hasBreathingPattern">has breathing pattern</a>
-                      <sup class="sup-op" title="OWL Object Property">op</sup>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#hasInversePose">has inverse pose</a>
-                      <sup class="sup-op" title="OWL Object Property">op</sup>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#hasNextPose">has next pose</a>
-                      <sup class="sup-op" title="OWL Object Property">op</sup>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#hasPossibleError">has possible error</a>
-                      <sup class="sup-op" title="OWL Object Property">op</sup>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#hasPreviousPose">has previous pose</a>
-                      <sup class="sup-op" title="OWL Object Property">op</sup>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#involvesBodyPart">involves body part</a>
-                      <sup class="sup-op" title="OWL Object Property">op</sup>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#repeatsPose">repeats pose</a>
-                      <sup class="sup-op" title="OWL Object Property">op</sup>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#hasChakra">has chakra</a>
-                      <sup class="sup-dp" title="OWL Datatype Property">dp</sup>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#hasLaterality">has laterality</a>
-                      <sup class="sup-dp" title="OWL Datatype Property">dp</sup>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#hasMantra">has mantra</a>
-                      <sup class="sup-dp" title="OWL Datatype Property">dp</sup>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#hasSafetyNote">has safety note</a>
-                      <sup class="sup-dp" title="OWL Datatype Property">dp</sup>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#hasSupportType">has support type</a>
-                      <sup class="sup-dp" title="OWL Datatype Property">dp</sup>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#poseNumber">pose number</a>
-                      <sup class="sup-dp" title="OWL Datatype Property">dp</sup>
-                    </span>
-                  </li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="https://w3id.org/profile/ontdoc/inRangeOf" title="Inverse of rdfs:range. Defined in Ontology Documentation Profile">In Range Of</a>
-              </th>
-              <td>
-                <ul>
-                  <li>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#hasInversePose">has inverse pose</a>
-                      <sup class="sup-op" title="OWL Object Property">op</sup>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#hasNextPose">has next pose</a>
-                      <sup class="sup-op" title="OWL Object Property">op</sup>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#hasPreviousPose">has previous pose</a>
-                      <sup class="sup-op" title="OWL Object Property">op</sup>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#repeatsPose">repeats pose</a>
-                      <sup class="sup-op" title="OWL Object Property">op</sup>
-                    </span>
-                  </li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="https://w3id.org/profile/ontdoc/restriction" title="Convenience property for things that subclass owl:Restriction. Defined in Ontology Documentation Profile">Restriction</a>
-              </th>
-              <td>
-                <span>
-                  <span>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#hasAsana">has asana</a>
-                      <sup class="sup-op" title="OWL Object Property">op</sup>
-                    </span>
-                    <span>
-                      <span class="cardinality">exactly</span>
-                      <span>1</span>
-                    </span><br>
-                  </span>
-                </span>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="PoseError">
-          <h3>Pose Error
-            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#PoseError</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="https://w3id.org/profile/ontdoc/inDomainOf" title="Inverse of rdfs:domain. Defined in Ontology Documentation Profile">In Domain Of</a>
-              </th>
-              <td>
-                <ul>
-                  <li>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#hasCorrection">has correction</a>
-                      <sup class="sup-op" title="OWL Object Property">op</sup>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#errorDescription">error description</a>
-                      <sup class="sup-dp" title="OWL Datatype Property">dp</sup>
-                    </span>
-                  </li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="https://w3id.org/profile/ontdoc/inRangeOf" title="Inverse of rdfs:range. Defined in Ontology Documentation Profile">In Range Of</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#hasPossibleError">has possible error</a>
-                  <sup class="sup-op" title="OWL Object Property">op</sup>
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="https://w3id.org/profile/ontdoc/restriction" title="Convenience property for things that subclass owl:Restriction. Defined in Ontology Documentation Profile">Restriction</a>
-              </th>
-              <td>
-                <span>
-                  <span>
-                    <span>
-                      <a href="https://purl.org/ai4s/yoga/sn-yo/core#hasCorrection">has correction</a>
-                      <sup class="sup-op" title="OWL Object Property">op</sup>
-                    </span>
-                    <span>
-                      <span class="cardinality">some</span>
-                      <span>
-                        <span>
-                          <a href="https://purl.org/ai4s/yoga/sn-yo/core#CorrectionInstruction">Correction Instruction</a>
-                          <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                        </span>
-                      </span>
-                    </span><br>
-                  </span>
-                </span>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="Variant">
-          <h3>Variant
-            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#Variant</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="https://w3id.org/profile/ontdoc/inRangeOf" title="Inverse of rdfs:range. Defined in Ontology Documentation Profile">In Range Of</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#belongsToVariant">belongs to variant</a>
-                  <sup class="sup-op" title="OWL Object Property">op</sup>
-                </span>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </div>
-      <div class="section" id="objectproperties">
-        <h2>Object Properties</h2>
-        <div class="property entity" id="belongstovariant">
-          <h3>belongs to variant
-            <sup class="sup-op" title="OWL Object Property">op</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#belongsToVariant</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#Variant">Variant</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="hasasana">
-          <h3>has asana
-            <sup class="sup-op" title="OWL Object Property">op</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#hasAsana</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#Asana">Asana</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="hasbreathingpattern">
-          <h3>has breathing pattern
-            <sup class="sup-op" title="OWL Object Property">op</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#hasBreathingPattern</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#BreathingPattern">Breathing Pattern</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="hascorrection">
-          <h3>has correction
-            <sup class="sup-op" title="OWL Object Property">op</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#hasCorrection</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#PoseError">Pose Error</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#CorrectionInstruction">Correction Instruction</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="hasinversepose">
-          <h3>has inverse pose
-            <sup class="sup-op" title="OWL Object Property">op</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#hasInversePose</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="hasnextpose">
-          <h3>has next pose
-            <sup class="sup-op" title="OWL Object Property">op</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#hasNextPose</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="haspossibleerror">
-          <h3>has possible error
-            <sup class="sup-op" title="OWL Object Property">op</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#hasPossibleError</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#PoseError">Pose Error</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="haspreviouspose">
-          <h3>has previous pose
-            <sup class="sup-op" title="OWL Object Property">op</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#hasPreviousPose</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="involvesbodypart">
-          <h3>involves body part
-            <sup class="sup-op" title="OWL Object Property">op</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#involvesBodyPart</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#BodyPart">Body Part</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="repeatspose">
-          <h3>repeats pose
-            <sup class="sup-op" title="OWL Object Property">op</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#repeatsPose</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="sameasanaas">
-          <h3>same asana as
-            <sup class="sup-op" title="OWL Object Property">op</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#sameAsanaAs</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#Asana">Asana</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#Asana">Asana</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </div>
-      <div class="section" id="datatypeproperties">
-        <h2>Datatype Properties</h2>
-        <div class="property entity" id="correctiontext">
-          <h3>correction text
-            <sup class="sup-dp" title="OWL Datatype Property">dp</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#correctionText</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#CorrectionInstruction">Correction Instruction</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
-              </th>
-              <td>
-                <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="errordescription">
-          <h3>error description
-            <sup class="sup-dp" title="OWL Datatype Property">dp</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#errorDescription</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#PoseError">Pose Error</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
-              </th>
-              <td>
-                <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="hasalternatename">
-          <h3>has alternate name
-            <sup class="sup-dp" title="OWL Datatype Property">dp</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#hasAlternateName</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#Asana">Asana</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
-              </th>
-              <td>
-                <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="hasCYPpage">
-          <h3>has CYP page
-            <sup class="sup-dp" title="OWL Datatype Property">dp</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#hasCYPPage</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#Asana">Asana</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
-              </th>
-              <td>
-                <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="haschakra">
-          <h3>has chakra
-            <sup class="sup-dp" title="OWL Datatype Property">dp</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#hasChakra</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
-              </th>
-              <td>
-                <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="haslaterality">
-          <h3>has laterality
-            <sup class="sup-dp" title="OWL Datatype Property">dp</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#hasLaterality</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
-              </th>
-              <td>
-                <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="hasmantra">
-          <h3>has mantra
-            <sup class="sup-dp" title="OWL Datatype Property">dp</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#hasMantra</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
-              </th>
-              <td>
-                <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="hassafetynote">
-          <h3>has safety note
-            <sup class="sup-dp" title="OWL Datatype Property">dp</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#hasSafetyNote</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
-              </th>
-              <td>
-                <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="hassupporttype">
-          <h3>has support type
-            <sup class="sup-dp" title="OWL Datatype Property">dp</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#hasSupportType</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
-              </th>
-              <td>
-                <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="posenumber">
-          <h3>pose number
-            <sup class="sup-dp" title="OWL Datatype Property">dp</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>https://purl.org/ai4s/yoga/sn-yo/core#poseNumber</code>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#domain" title="A domain of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Domain</a>
-              </th>
-              <td>
-                <span>
-                  <a href="https://purl.org/ai4s/yoga/sn-yo/core#Pose">Pose</a>
-                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>
-                <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#range" title="A range of the subject property. Defined in The RDF Schema vocabulary (RDFS)">Range</a>
-              </th>
-              <td>
-                <a href="http://www.w3.org/2001/XMLSchema#integer">xsd:integer</a>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </div>
-      <div class="section" id="annotationproperties">
-        <h2>Annotation Properties</h2>
-        <div class="property entity" id="description">
-          <h3>description
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>http://purl.org/dc/elements/1.1/title</code>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>An annotation property used to provide a title for an ontology resource.</p></td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="comment">
+<h3>comment
             <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>http://purl.org/dc/elements/1.1/description</code>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="title">
-          <h3>title
+</h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>http://www.w3.org/2000/01/rdf-schema#comment</code>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>An annotation property used to provide human-readable explanatory notes.</p></td>
+</tr>
+</table>
+</div>
+<div class="property entity" id="label">
+<h3>label
             <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>http://purl.org/dc/elements/1.1/title</code>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="comment">
-          <h3>comment
-            <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>http://www.w3.org/2000/01/rdf-schema#comment</code>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="property entity" id="label">
-          <h3>label
-            <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
-          </h3>
-          <table>
-            <tr>
-              <th>IRI</th>
-              <td>
-                <code>http://www.w3.org/2000/01/rdf-schema#label</code>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </div>
-      <div id="namespaces">
-        <h2>Namespaces</h2>
-        <dl>
-          <dt id="core">core</dt>
-          <dd>
-            <code>https://purl.org/ai4s/yoga/sn-yo/core#</code>
-          </dd>
-          <dt id="dc">dc</dt>
-          <dd>
-            <code>http://purl.org/dc/elements/1.1/</code>
-          </dd>
-          <dt id="ns1">ns1</dt>
-          <dd>
-            <code>https://purl.org/ai4s/yoga/sn-yo/ontology#</code>
-          </dd>
-          <dt id="owl">owl</dt>
-          <dd>
-            <code>http://www.w3.org/2002/07/owl#</code>
-          </dd>
-          <dt id="rdf">rdf</dt>
-          <dd>
-            <code>http://www.w3.org/1999/02/22-rdf-syntax-ns#</code>
-          </dd>
-          <dt id="rdfs">rdfs</dt>
-          <dd>
-            <code>http://www.w3.org/2000/01/rdf-schema#</code>
-          </dd>
-          <dt id="xsd">xsd</dt>
-          <dd>
-            <code>http://www.w3.org/2001/XMLSchema#</code>
-          </dd>
-        </dl>
-      </div>
-      <div id="legend">
-        <h2>Legend</h2>
-        <table class="entity">
-          <tr>
-            <td>
-              <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-            </td>
-            <td>Classes</td>
-          </tr>
-          <tr>
-            <td>
-              <sup class="sup-op" title="OWL Object Property">op</sup>
-            </td>
-            <td>Object Properties</td>
-          </tr>
-          <tr>
-            <td>
-              <sup class="sup-dp" title="OWL Datatype Property">dp</sup>
-            </td>
-            <td>Datatype Properties</td>
-          </tr>
-          <tr>
-            <td>
-              <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
-            </td>
-            <td>Annotation Properties</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-    <div id="pylode">
-      <p>made by 
+</h3>
+<table>
+<tr>
+<th>IRI</th>
+<td>
+<code>http://www.w3.org/2000/01/rdf-schema#label</code>
+</td>
+</tr>
+<tr>
+<th>
+<a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+</th>
+<td><p>An annotation property used to provide a human-readable name for an ontology resource.</p></td>
+</tr>
+</table>
+</div>
+</div>
+<div id="namespaces">
+<h2>Namespaces</h2>
+<dl>
+<dt id="core">core</dt>
+<dd>
+<code>https://purl.org/ai4s/yoga/sn-yo/core#</code>
+</dd>
+<dt id="dc">dc</dt>
+<dd>
+<code>http://purl.org/dc/elements/1.1/</code>
+</dd>
+<dt id="ns1">ns1</dt>
+<dd>
+<code>https://purl.org/ai4s/yoga/sn-yo/</code>
+</dd>
+<dt id="owl">owl</dt>
+<dd>
+<code>http://www.w3.org/2002/07/owl#</code>
+</dd>
+<dt id="rdf">rdf</dt>
+<dd>
+<code>http://www.w3.org/1999/02/22-rdf-syntax-ns#</code>
+</dd>
+<dt id="rdfs">rdfs</dt>
+<dd>
+<code>http://www.w3.org/2000/01/rdf-schema#</code>
+</dd>
+<dt id="xsd">xsd</dt>
+<dd>
+<code>http://www.w3.org/2001/XMLSchema#</code>
+</dd>
+</dl>
+</div>
+<div id="legend">
+<h2>Legend</h2>
+<table class="entity">
+<tr>
+<td>
+<sup class="sup-c" title="OWL/RDFS Class">c</sup>
+</td>
+<td>Classes</td>
+</tr>
+<tr>
+<td>
+<sup class="sup-op" title="OWL Object Property">op</sup>
+</td>
+<td>Object Properties</td>
+</tr>
+<tr>
+<td>
+<sup class="sup-dp" title="OWL Datatype Property">dp</sup>
+</td>
+<td>Datatype Properties</td>
+</tr>
+<tr>
+<td>
+<sup class="sup-ap" title="OWL Annotation Property">ap</sup>
+</td>
+<td>Annotation Properties</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="pylode">
+<p>made by 
         <a href="https://github.com/rdflib/pyLODE">
-          <span id="p">p</span>
-          <span id="y">y</span>
-          <span>LODE</span>
-        </a>
-        <a href="https://github.com/rdflib/pyLODE/release/3.4.3a" id="version">3.4.3a</a>
-        <span> with the </span>
-        <a href="https://linked.data.gov.au/def/ontpub" id="profile">OntPub</a>
-        <span>profile</span>
-      </p>
-    </div>
-    <div id="toc">
-      <h3>Table of Contents</h3>
-      <ul class="first">
-        <li>
-          <h4>
-            <a href="#metadata">Metadata</a>
-          </h4>
-        </li>
-        <li>
+<span id="p">p</span>
+<span id="y">y</span>
+<span>LODE</span>
+</a>
+<a href="https://github.com/rdflib/pyLODE/release/3.4.3a" id="version">3.4.3a</a>
+<span> with the </span>
+<a href="https://linked.data.gov.au/def/ontpub" id="profile">OntPub</a>
+<span>profile</span>
+</p>
+</div>
+<div id="toc">
+<h3>Table of Contents</h3>
+<ul class="first">
+<li>
+<h4>
+<a href="#metadata">Metadata</a>
+</h4>
+</li>
+<li>
           <h4>
             <a href="#webvowl">WebVOWL View</a>
           </h4>
         </li>
-        <li>
-          <h4>
-            <a href="#classes">Classes</a>
-          </h4>
-          <ul class="second">
-            <li>
-             <a href="#Asana">Asana</a>
-            </li>
-            <li>
-              <a href="#BodyPart">Body Part</a>
-            </li>
-            <li>
-              <a href="#BreathingPattern">Breathing Pattern</a>
-            </li>
-            <li>
-              <a href="#CorrectionInstruction">Correction Instruction</a>
-            </li>
-            <li>
-              <a href="#Pose">Pose</a>
-            </li>
-            <li>
-              <a href="#PoseError">Pose Error</a>
-            </li>
-            <li>
-              <a href="#Variant">Variant</a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <h4>
-            <a href="#objectproperties">Object Properties</a>
-          </h4>
-          <ul class="second">
-            <li>
-              <a href="#belongstovariant">belongs to variantप्</a>
-            </li>
-            <li>
-              <a href="#hasasana">has asana</a>
-            </li>
-            <li>
-              <a href="#hasbreathingpattern">has breathing pattern</a>
-            </li>
-            <li>
-              <a href="#hascorrection">has correction</a>
-            </li>
-            <li>
-              <a href="#hasinversepose">has inverse pose</a>
-            </li>
-            <li>
-              <a href="#hasnextpose">has next pose</a>
-            </li>
-            <li>
-              <a href="#haspossibleerror">has possible error</a>
-            </li>
-            <li>
-              <a href="#haspreviouspose">has previous pose</a>
-            </li>
-            <li>
-              <a href="#involvesbodypart">involves body part</a>
-            </li>
-            <li>
-              <a href="#repeatspose">repeats pose</a>
-            </li>
-            <li>
-              <a href="#sameasanaas">same asana as</a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <h4>
-            <a href="#datatypeproperties">Datatype Properties</a>
-          </h4>
-          <ul class="second">
-            <li>
-              <a href="#correctiontext">correction text</a>
-            </li>
-            <li>
-              <a href="#errordescription">error description</a>
-            </li>
-            <li>
-              <a href="#hasalternatename">has alternate name</a>
-            </li>
-            <li>
-              <a href="#hasCYPpage">has CYP page</a>
-            </li>
-            <li>
-              <a href="#haschakra">has chakra</a>
-            </li>
-            <li>
-              <a href="#haslaterality">has laterality</a>
-            </li>
-            <li>
-              <a href="#hasmantra">has mantra</a>
-            </li>
-            <li>
-              <a href="#hassafetynote">has safety note</a>
-            </li>
-            <li>
-              <a href="#hassupporttype">has support type</a>
-            </li>
-            <li>
-              <a href="#posenumber">pose number</a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <h4>
-            <a href="#annotationproperties">Annotation Properties</a>
-          </h4>
-          <ul class="second">
-            <li>
-              <a href="#description">description</a>
-            </li>
-            <li>
-              <a href="#title">title</a>
-            </li>
-            <li>
-              <a href="#comment">comment</a>
-            </li>
-            <li>
-              <a href="#label">label</a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <h4>
-            <a href="#namespaces">Namespaces</a>
-          </h4>
-          <ul class="second">
-            <li>
-              <a href="#core">core</a>
-            </li>
-            <li>
-              <a href="#dc">dc</a>
-            </li>
-            <li>
-              <a href="#ns1">ns1</a>
-            </li>
-            <li>
-              <a href="#owl">owl</a>
-            </li>
-            <li>
-              <a href="#rdf">rdf</a>
-            </li>
-            <li>
-              <a href="#rdfs">rdfs</a>
-            </li>
-            <li>
-              <a href="#xsd">xsd</a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <h4>
-            <a href="#legend">Legend</a>
-          </h4>
-          <ul class="second"></ul>
-        </li>
-      </ul>
-    </div>
-  </body>
+<li>
+<h4>
+<a href="#classes">Classes</a>
+</h4>
+<ul class="second">
+<li>
+<a href="#Asana">Asana</a>
+</li>
+<li>
+<a href="#BodyPart">Body Part</a>
+</li>
+<li>
+<a href="#BreathingPattern">Breathing Pattern</a>
+</li>
+<li>
+<a href="#CorrectionInstruction">Correction Instruction</a>
+</li>
+<li>
+<a href="#Pose">Pose</a>
+</li>
+<li>
+<a href="#PoseError">Pose Error</a>
+</li>
+<li>
+<a href="#Variant">Variant</a>
+</li>
+</ul>
+</li>
+<li>
+<h4>
+<a href="#objectproperties">Object Properties</a>
+</h4>
+<ul class="second">
+<li>
+<a href="#belongstovariant">belongs to variant</a>
+</li>
+<li>
+<a href="#hasasana">has asana</a>
+</li>
+<li>
+<a href="#hasbreathingpattern">has breathing pattern</a>
+</li>
+<li>
+<a href="#hascorrection">has correction</a>
+</li>
+<li>
+<a href="#hasinversepose">has inverse pose</a>
+</li>
+<li>
+<a href="#hasnextpose">has next pose</a>
+</li>
+<li>
+<a href="#haspossibleerror">has possible error</a>
+</li>
+<li>
+<a href="#haspreviouspose">has previous pose</a>
+</li>
+<li>
+<a href="#involvesbodypart">involves body part</a>
+</li>
+<li>
+<a href="#repeatspose">repeats pose</a>
+</li>
+<li>
+<a href="#sameasanaas">same asana as</a>
+</li>
+</ul>
+</li>
+<li>
+<h4>
+<a href="#datatypeproperties">Datatype Properties</a>
+</h4>
+<ul class="second">
+<li>
+<a href="#correctiontext">correction text</a>
+</li>
+<li>
+<a href="#errordescription">error description</a>
+</li>
+<li>
+<a href="#hasalternatename">has alternate name</a>
+</li>
+<li>
+<a href="#hasCYPpage">has CYP page</a>
+</li>
+<li>
+<a href="#haschakra">has chakra</a>
+</li>
+<li>
+<a href="#haslaterality">has laterality</a>
+</li>
+<li>
+<a href="#hasmantra">has mantra</a>
+</li>
+<li>
+<a href="#hassafetynote">has safety note</a>
+</li>
+<li>
+<a href="#hassupporttype">has support type</a>
+</li>
+<li>
+<a href="#posenumber">pose number</a>
+</li>
+</ul>
+</li>
+<li>
+<h4>
+<a href="#annotationproperties">Annotation Properties</a>
+</h4>
+<ul class="second">
+<li>
+<a href="#description">description</a>
+</li>
+<li>
+<a href="#title">title</a>
+</li>
+<li>
+<a href="#comment">comment</a>
+</li>
+<li>
+<a href="#label">label</a>
+</li>
+</ul>
+</li>
+<li>
+<h4>
+<a href="#namespaces">Namespaces</a>
+</h4>
+<ul class="second">
+<li>
+<a href="#core">core</a>
+</li>
+<li>
+<a href="#dc">dc</a>
+</li>
+<li>
+<a href="#ns1">ns1</a>
+</li>
+<li>
+<a href="#owl">owl</a>
+</li>
+<li>
+<a href="#rdf">rdf</a>
+</li>
+<li>
+<a href="#rdfs">rdfs</a>
+</li>
+<li>
+<a href="#xsd">xsd</a>
+</li>
+</ul>
+</li>
+<li>
+<h4>
+<a href="#legend">Legend</a>
+</h4>
+<ul class="second"></ul>
+</li>
+</ul>
+</div>
+</body>
 </html>
