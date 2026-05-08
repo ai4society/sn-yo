@@ -11,12 +11,12 @@
     <owl:Ontology rdf:about="https://purl.org/ai4s/yoga/sn-yo/ontology">
         <dc:description>Ontology for modeling Surya Namaskar sequences and correction knowledge.</dc:description>
         <dc:title>SN-YO Ontology</dc:title>
-        <dc:creator>Mansi Dodiya, IIT (BHU), Varanasi</dc:creator>
-        <dc:creator>Kishan Kumar, IIT (BHU), Varanasi</dc:creator>
-        <dc:creator>Bharath Muppasani, University of South Carolina</dc:creator>
-        <dc:creator>Biplav Srivastava, University of South Carolina</dc:creator>
-        <dc:creator>Raghava Mutharaju, IIT Palakkad</dc:creator>
-        <dc:creator>Hari Prabhat Gupta, IIT (BHU), Varanasi</dc:creator>
+        <dc:creator>Mansi Dodiya, IIT (BHU), Varanasi, India</dc:creator>
+        <dc:creator>Kishan Kumar, IIT (BHU), Varanasi, India</dc:creator>
+        <dc:creator>Bharath Muppasani, University of South Carolina, USA</dc:creator>
+        <dc:creator>Biplav Srivastava, University of South Carolina, USA</dc:creator>
+        <dc:creator>Raghava Mutharaju, Mehta Family School of Data Science and AI, IIT Palakkad, India</dc:creator>
+        <dc:creator>Hari Prabhat Gupta, IIT (BHU), Varanasi, India</dc:creator>
     </owl:Ontology>
     
 
