@@ -49,7 +49,23 @@
             followed at IIT BHU. This layer models pose errors and correction instructions.
           </p>
         </div>
-        <img src="images/sn-ontology-view.png" alt="Ontology Visualization" class="expandable-img hero-visual" style="background: #ffffff; width: 100%; border-radius: var(--radius-sm); border: 1px solid #d8e2ee; margin-top: 24px; cursor: pointer;">
+       <div style="
+    width: 100%;
+    height: 700px;
+    border: 1px solid #d8e2ee;
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+    background: #ffffff;
+">
+  <iframe
+    src="https://service.tib.eu/webvowl/#iri=https://purl.org/ai4s/yoga/sn-yo/ontology"
+    width="100%"
+    height="100%"
+    style="border: 0;"
+    loading="lazy"
+    title="SN-YO WebVOWL Visualization">
+  </iframe>
+</div>
       </section>
 
       <!-- ONTOLOGY OVERVIEW -->
@@ -423,7 +439,6 @@ ORDER BY ?poseNum</code></pre>
                   <tr><td>BaseSN_Pose01</td><td>BaseSN_Pose12</td></tr>
                   <tr><td>BaseSN_Pose02</td><td>BaseSN_Pose11</td></tr>
                   <tr><td>BaseSN_Pose03</td><td>BaseSN_Pose10</td></tr>
-                  <tr><td>BaseSN_Pose04</td><td>BaseSN_Pose09</td></tr>
                 </tbody>
               </table>
             </div>
@@ -505,7 +520,8 @@ ORDER BY DESC(?varCount) ?asana</code></pre>
                   <tr><td>Pranamasana</td><td>3</td></tr>
                   <tr><td>HastaUtthanasana</td><td>3</td></tr>
                   <tr><td>Padahastasana</td><td>3</td></tr>
-                  <tr><td>AshwaSanchalanasana</td><td>3</td></tr>
+                  <tr><td>AshwaSanchalanasana(left leg forward)</td><td>3</td></tr>
+                  <tr><td>AshwaSanchalanasana(right leg forward)</td><td>3</td></tr>
                   <tr><td>Bhujangasana</td><td>3</td></tr>
                   <tr><td>Parvatasana</td><td>3</td></tr>
                   <tr><td>ChaturangaDandasana</td><td>2</td></tr>
@@ -622,11 +638,11 @@ ORDER BY ?pose ?error</code></pre>
     <tr><td>BaseSN_Pose03</td><td>Padahastasana</td><td>WeightOnHeelsOnlyError</td><td>DistributeWeightEvenlyInstruction</td></tr>
 
     <!-- Pose 04 -->
-    <tr><td>BaseSN_Pose04</td><td>AshwaSanchalanasana</td><td>CollapsedChestError</td><td>LiftChestForwardUpwardInstruction</td></tr>
-    <tr><td>BaseSN_Pose04</td><td>AshwaSanchalanasana</td><td>CollapsedChestError</td><td>LiftChestInstruction</td></tr>
-    <tr><td>BaseSN_Pose04</td><td>AshwaSanchalanasana</td><td>CollapsedChestError</td><td>LiftChestForwardInstruction</td></tr>
-    <tr><td>BaseSN_Pose04</td><td>AshwaSanchalanasana</td><td>KneeBeyondAnkleError</td><td>AlignFrontKneeInstruction</td></tr>
-    <tr><td>BaseSN_Pose04</td><td>AshwaSanchalanasana</td><td>WeakBackLegError</td><td>ExtendBackLegInstruction</td></tr>
+    <tr><td>BaseSN_Pose04</td><td>AshwaSanchalanasana_RightLegForward</td><td>CollapsedChestError</td><td>LiftChestForwardUpwardInstruction</td></tr>
+    <tr><td>BaseSN_Pose04</td><td>AshwaSanchalanasana_RightLegForward</td><td>CollapsedChestError</td><td>LiftChestInstruction</td></tr>
+    <tr><td>BaseSN_Pose04</td><td>AshwaSanchalanasana_RightLegForward</td><td>CollapsedChestError</td><td>LiftChestForwardInstruction</td></tr>
+    <tr><td>BaseSN_Pose04</td><td>AshwaSanchalanasana_RightLegForward</td><td>KneeBeyondAnkleError</td><td>AlignFrontKneeInstruction</td></tr>
+    <tr><td>BaseSN_Pose04</td><td>AshwaSanchalanasana_RightLegForward</td><td>WeakBackLegError</td><td>ExtendBackLegInstruction</td></tr>
 
     <!-- Pose 05 -->
     <tr><td>BaseSN_Pose05</td><td>ChaturangaDandasana</td><td>ElbowsFlaredError</td><td>TuckElbowsInstruction</td></tr>
@@ -652,11 +668,11 @@ ORDER BY ?pose ?error</code></pre>
     <tr><td>BaseSN_Pose08</td><td>Parvatasana</td><td>WristOverloadError</td><td>DistributeWeightEvenlyInstruction</td></tr>
 
     <!-- Pose 09 -->
-    <tr><td>BaseSN_Pose09</td><td>AshwaSanchalanasana</td><td>CollapsedChestError</td><td>LiftChestForwardUpwardInstruction</td></tr>
-    <tr><td>BaseSN_Pose09</td><td>AshwaSanchalanasana</td><td>CollapsedChestError</td><td>LiftChestInstruction</td></tr>
-    <tr><td>BaseSN_Pose09</td><td>AshwaSanchalanasana</td><td>CollapsedChestError</td><td>LiftChestForwardInstruction</td></tr>
-    <tr><td>BaseSN_Pose09</td><td>AshwaSanchalanasana</td><td>KneeBeyondAnkleError</td><td>AlignFrontKneeInstruction</td></tr>
-    <tr><td>BaseSN_Pose09</td><td>AshwaSanchalanasana</td><td>WeakBackLegError</td><td>ExtendBackLegInstruction</td></tr>
+    <tr><td>BaseSN_Pose09</td><td>AshwaSanchalanasana_LeftLegForward</td><td>CollapsedChestError</td><td>LiftChestForwardUpwardInstruction</td></tr>
+    <tr><td>BaseSN_Pose09</td><td>AshwaSanchalanasana_LeftLegForward</td><td>CollapsedChestError</td><td>LiftChestInstruction</td></tr>
+    <tr><td>BaseSN_Pose09</td><td>AshwaSanchalanasana_LeftLegForward</td><td>CollapsedChestError</td><td>LiftChestForwardInstruction</td></tr>
+    <tr><td>BaseSN_Pose09</td><td>AshwaSanchalanasana_LeftLegForward</td><td>KneeBeyondAnkleError</td><td>AlignFrontKneeInstruction</td></tr>
+    <tr><td>BaseSN_Pose09</td><td>AshwaSanchalanasana_LeftLegForward</td><td>WeakBackLegError</td><td>ExtendBackLegInstruction</td></tr>
 
     <!-- Pose 10 -->
     <tr><td>BaseSN_Pose10</td><td>Padahastasana</td><td>ExcessiveKneeBendError</td><td>SoftenKneesInstruction</td></tr>
@@ -743,7 +759,7 @@ ORDER BY ?poseNumber
     <tr>
       <td>4</td>
       <td>BaseSN_Pose04</td>
-      <td>Ashwa Sanchalanasana</td>
+      <td>Ashwa Sanchalanasana(right leg forward)</td>
       <td>Inhale</td>
       <td>Keep the front knee aligned over the ankle and place the back knee gently on the floor.</td>
     </tr>
@@ -778,7 +794,7 @@ ORDER BY ?poseNumber
     <tr>
       <td>9</td>
       <td>BaseSN_Pose09</td>
-      <td>Ashwa Sanchalanasana</td>
+      <td>Ashwa Sanchalanasana(left leg forward)</td>
       <td>Inhale</td>
       <td>Step forward smoothly and ensure proper alignment of the front knee over the ankle.</td>
     </tr>
@@ -851,9 +867,12 @@ ORDER BY ?asana ?variant</code></pre>
           <tr><td>Adho Mukha Svanasana</td><td>Variant01_KrishnamacharyaVinyasa</td><td>9</td></tr>
           <tr><td>Ashtanga Namaskara</td><td>BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</td><td>6</td></tr>
           <tr><td>Ashtanga Namaskara</td><td>Variant02_BiharSchoolOfYoga</td><td>6</td></tr>
-          <tr><td>Ashwa Sanchalanasana</td><td>BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</td><td>9, 4</td></tr>
-          <tr><td>Ashwa Sanchalanasana</td><td>Variant02_BiharSchoolOfYoga</td><td>4, 9</td></tr>
-          <tr><td>Ashwa Sanchalanasana</td><td>Variant03_SwamiVivekanandaKendra</td><td>3, 10</td></tr>
+          <tr><td>Ashwa Sanchalanasana(right leg forward)</td><td>BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</td><td>4</td></tr>
+          <tr><td>Ashwa Sanchalanasana(right leg forward)</td><td>Variant02_BiharSchoolOfYoga</td><td>4</td></tr>
+          <tr><td>Ashwa Sanchalanasana(right leg forward)</td><td>Variant03_SwamiVivekanandaKendra</td><td>3</td></tr>
+          <tr><td>Ashwa Sanchalanasana(left leg forward)</td><td>BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</td><td>9</td></tr>
+          <tr><td>Ashwa Sanchalanasana(left leg forward)</td><td>Variant02_BiharSchoolOfYoga</td><td>9</td></tr>
+          <tr><td>Ashwa Sanchalanasana(left leg forward)</td><td>Variant03_SwamiVivekanandaKendra</td><td>10</td></tr>
           <tr><td>Bhujangasana</td><td>BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</td><td>7</td></tr>
           <tr><td>Bhujangasana</td><td>Variant02_BiharSchoolOfYoga</td><td>7</td></tr>
           <tr><td>Bhujangasana</td><td>Variant03_SwamiVivekanandaKendra</td><td>7</td></tr>
@@ -935,8 +954,8 @@ ORDER BY ?variant</code></pre>
           <tr>
             <td>BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</td>
             <td>12</td>
-            <td>8</td>
-            <td>Padahastasana, Bhujangasana, Pranamasana, AshwaSanchalanasana, Parvatasana, ChaturangaDandasana, HastaUtthanasana, AshtangaNamaskara</td>
+            <td>9</td>
+            <td>Padahastasana, Bhujangasana, Pranamasana, AshwaSanchalanasana(right leg forward), AshwaSanchalanasana(left leg forward), Parvatasana, ChaturangaDandasana, HastaUtthanasana, AshtangaNamaskara</td>
           </tr>
           <tr>
             <td>Variant01_KrishnamacharyaVinyasa</td>
@@ -947,14 +966,14 @@ ORDER BY ?variant</code></pre>
           <tr>
             <td>Variant02_BiharSchoolOfYoga</td>
             <td>12</td>
-            <td>7</td>
-            <td>Parvatasana, AshwaSanchalanasana, Pranamasana, AshtangaNamaskara, HastaUtthanasana, Padahastasana, Bhujangasana</td>
+            <td>8</td>
+            <td>Parvatasana, AshwaSanchalanasana(right leg forward), AshwaSanchalanasana(left leg forward), Pranamasana, AshtangaNamaskara, HastaUtthanasana, Padahastasana, Bhujangasana</td>
           </tr>
           <tr>
             <td>Variant03_SwamiVivekanandaKendra</td>
             <td>12</td>
-            <td>9</td>
-            <td>Pranamasana, Phalakasana, Bhujangasana, AshwaSanchalanasana, ShashtangaNamaskara, Padahastasana, Shashankasana, HastaUtthanasana, Parvatasana</td>
+            <td>10</td>
+            <td>Pranamasana, Phalakasana, Bhujangasana, AshwaSanchalanasana(right leg forward), AshwaSanchalanasana(left leg forward), ShashtangaNamaskara, Padahastasana, Shashankasana, HastaUtthanasana, Parvatasana</td>
           </tr>
         </tbody>
       </table>
@@ -1146,12 +1165,12 @@ ORDER BY ?poseNumber</code></pre>
           <tr><td>BaseSN_Pose01</td><td>1</td><td>Pranamasana</td><td>Om Hraam/Om Mitraya Namah</td></tr>
           <tr><td>BaseSN_Pose02</td><td>2</td><td>HastaUtthanasana</td><td>Om Hreem/Om Ravaye Namah</td></tr>
           <tr><td>BaseSN_Pose03</td><td>3</td><td>Padahastasana</td><td>Om Hroom/Om Suryaya Namah</td></tr>
-          <tr><td>BaseSN_Pose04</td><td>4</td><td>AshwaSanchalanasana</td><td>Om Hraim/Om Bhanave Namah</td></tr>
+          <tr><td>BaseSN_Pose04</td><td>4</td><td>AshwaSanchalanasana(right leg forward)</td><td>Om Hraim/Om Bhanave Namah</td></tr>
           <tr><td>BaseSN_Pose05</td><td>5</td><td>ChaturangaDandasana</td><td>Om Hraum/Om Khagaya Namah</td></tr>
           <tr><td>BaseSN_Pose06</td><td>6</td><td>AshtangaNamaskara</td><td>Om Hrah/Om Pushne Namah</td></tr>
           <tr><td>BaseSN_Pose07</td><td>7</td><td>Bhujangasana</td><td>Om Hraam/Om Hiranyagarbhaya Namah</td></tr>
           <tr><td>BaseSN_Pose08</td><td>8</td><td>Parvatasana</td><td>Om Hreem/Om Marichaye Namah</td></tr>
-          <tr><td>BaseSN_Pose09</td><td>9</td><td>AshwaSanchalanasana</td><td>Om Hroom/Om Adityaya Namah</td></tr>
+          <tr><td>BaseSN_Pose09</td><td>9</td><td>AshwaSanchalanasana(left leg forward)</td><td>Om Hroom/Om Adityaya Namah</td></tr>
           <tr><td>BaseSN_Pose10</td><td>10</td><td>Padahastasana</td><td>Om Hraim/Om Savitre Namah</td></tr>
           <tr><td>BaseSN_Pose11</td><td>11</td><td>HastaUtthanasana</td><td>Om Hraum/Om Arkaya Namah</td></tr>
           <tr><td>BaseSN_Pose12</td><td>12</td><td>Pranamasana</td><td>Om Hrah/Om Bhaskaraya Namah</td></tr>
