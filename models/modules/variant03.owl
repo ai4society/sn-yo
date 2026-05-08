@@ -1,320 +1,211 @@
-<?xml version="1.0"?>
-<rdf:RDF xmlns="https://purl.org/ai4s/yoga/sn-yo/variant03#"
-     xml:base="https://purl.org/ai4s/yoga/sn-yo/variant03"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:core="https://purl.org/ai4s/yoga/sn-yo/core#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03">
-        <owl:imports rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core"/>
-        <dc:description>Variant 03 ontology containing Swami Vivekananda Kendra variant individual, pose occurrences, and sequence relations.</dc:description>
-        <dc:title>Surya Namaskar Variant 03 Ontology</dc:title>
-        <rdfs:label xml:lang="en">Surya Namaskar Variant 03 Ontology</rdfs:label>
-        <rdfs:label xml:lang="hi">सूर्य नमस्कार प्रकार ०३ ऑन्टोलॉजी</rdfs:label>
-    </owl:Ontology>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- https://purl.org/ai4s/yoga/sn-yo/core#belongsToVariant -->
-
-    <owl:AnnotationProperty rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#belongsToVariant"/>
-    
-
-
-    <!-- https://purl.org/ai4s/yoga/sn-yo/core#hasAsana -->
-
-    <owl:AnnotationProperty rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#hasAsana"/>
-    
-
-
-    <!-- https://purl.org/ai4s/yoga/sn-yo/core#hasInversePose -->
-
-    <owl:AnnotationProperty rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#hasInversePose"/>
-    
-
-
-    <!-- https://purl.org/ai4s/yoga/sn-yo/core#hasLaterality -->
-
-    <owl:AnnotationProperty rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#hasLaterality"/>
-    
-
-
-    <!-- https://purl.org/ai4s/yoga/sn-yo/core#hasNextPose -->
-
-    <owl:AnnotationProperty rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#hasNextPose"/>
-    
-
-
-    <!-- https://purl.org/ai4s/yoga/sn-yo/core#hasPreviousPose -->
-
-    <owl:AnnotationProperty rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#hasPreviousPose"/>
-    
-
-
-    <!-- https://purl.org/ai4s/yoga/sn-yo/core#hasSupportType -->
-
-    <owl:AnnotationProperty rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#hasSupportType"/>
-    
-
-
-    <!-- https://purl.org/ai4s/yoga/sn-yo/core#poseNumber -->
-
-    <owl:AnnotationProperty rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#poseNumber"/>
-    
-
-
-    <!-- https://purl.org/ai4s/yoga/sn-yo/core#repeatsPose -->
-
-    <owl:AnnotationProperty rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#repeatsPose"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose01 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose01">
-        <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
-        <rdfs:label xml:lang="en">Variant03_Pose01</rdfs:label>
-        <rdfs:label xml:lang="hi">मुद्रा ०१</rdfs:label>
-        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra"/>
-        <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#HastaUtthanasana"/>
-        <core:hasLaterality>Symmetric</core:hasLaterality>
-        <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose02"/>
-        <core:hasSupportType>StandingTwoFeet</core:hasSupportType>
-        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</core:poseNumber>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose02 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose02">
-        <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
-        <rdfs:label xml:lang="en">Variant03_Pose02</rdfs:label>
-        <rdfs:label xml:lang="hi">मुद्रा ०२</rdfs:label>
-        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra"/>
-        <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Padahastasana"/>
-        <core:hasLaterality>Symmetric</core:hasLaterality>
-        <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose03"/>
-        <core:hasPreviousPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose01"/>
-        <core:hasSupportType>StandingBentTwoFeet</core:hasSupportType>
-        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</core:poseNumber>
-        <core:repeatsPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose11"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose03 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose03">
-        <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
-        <rdfs:label xml:lang="en">Variant03_Pose03</rdfs:label>
-        <rdfs:label xml:lang="hi">मुद्रा ०३</rdfs:label>
-        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra"/>
-        <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#AshwaSanchalanasana"/>
-        <core:hasInversePose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose10"/>
-        <core:hasLaterality>Right</core:hasLaterality>
-        <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose04"/>
-        <core:hasPreviousPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose02"/>
-        <core:hasSupportType>OneLegForward</core:hasSupportType>
-        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</core:poseNumber>
-        <core:repeatsPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose10"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose04 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose04">
-        <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
-        <rdfs:label xml:lang="en">Variant03_Pose04</rdfs:label>
-        <rdfs:label xml:lang="hi">मुद्रा ०४</rdfs:label>
-        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra"/>
-        <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Phalakasana"/>
-        <core:hasLaterality>Symmetric</core:hasLaterality>
-        <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose05"/>
-        <core:hasPreviousPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose03"/>
-        <core:hasSupportType>HandsAndFeet</core:hasSupportType>
-        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</core:poseNumber>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose05 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose05">
-        <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
-        <rdfs:label xml:lang="en">Variant03_Pose05</rdfs:label>
-        <rdfs:label xml:lang="hi">मुद्रा ०५</rdfs:label>
-        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra"/>
-        <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Shashankasana"/>
-        <core:hasLaterality>Symmetric</core:hasLaterality>
-        <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose06"/>
-        <core:hasPreviousPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose04"/>
-        <core:hasSupportType>Kneeling</core:hasSupportType>
-        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</core:poseNumber>
-        <core:repeatsPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose09"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose06 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose06">
-        <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
-        <rdfs:label xml:lang="en">Variant03_Pose06</rdfs:label>
-        <rdfs:label xml:lang="hi">मुद्रा ०६</rdfs:label>
-        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra"/>
-        <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#ShashtangaNamaskara"/>
-        <core:hasLaterality>Symmetric</core:hasLaterality>
-        <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose07"/>
-        <core:hasPreviousPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose05"/>
-        <core:hasSupportType>SixPointSupport</core:hasSupportType>
-        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</core:poseNumber>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose07 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose07">
-        <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
-        <rdfs:label xml:lang="en">Variant03_Pose07</rdfs:label>
-        <rdfs:label xml:lang="hi">मुद्रा ०७</rdfs:label>
-        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra"/>
-        <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Bhujangasana"/>
-        <core:hasLaterality>Symmetric</core:hasLaterality>
-        <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose08"/>
-        <core:hasPreviousPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose06"/>
-        <core:hasSupportType>Prone</core:hasSupportType>
-        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</core:poseNumber>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose08 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose08">
-        <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
-        <rdfs:label xml:lang="en">Variant03_Pose08</rdfs:label>
-        <rdfs:label xml:lang="hi">मुद्रा ०८</rdfs:label>
-        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra"/>
-        <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Parvatasana"/>
-        <core:hasLaterality>Symmetric</core:hasLaterality>
-        <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose09"/>
-        <core:hasPreviousPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose07"/>
-        <core:hasSupportType>HandsAndFeet</core:hasSupportType>
-        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</core:poseNumber>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose09 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose09">
-        <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
-        <rdfs:label xml:lang="en">Variant03_Pose09</rdfs:label>
-        <rdfs:label xml:lang="hi">मुद्रा ०९</rdfs:label>
-        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra"/>
-        <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Shashankasana"/>
-        <core:hasLaterality>Symmetric</core:hasLaterality>
-        <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose10"/>
-        <core:hasPreviousPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose08"/>
-        <core:hasSupportType>Kneeling</core:hasSupportType>
-        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</core:poseNumber>
-        <core:repeatsPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose05"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose10 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose10">
-        <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
-        <rdfs:label xml:lang="en">Variant03_Pose10</rdfs:label>
-        <rdfs:label xml:lang="hi">मुद्रा १०</rdfs:label>
-        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra"/>
-        <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#AshwaSanchalanasana"/>
-        <core:hasInversePose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose03"/>
-        <core:hasLaterality>Left</core:hasLaterality>
-        <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose11"/>
-        <core:hasPreviousPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose09"/>
-        <core:hasSupportType>OneLegForward</core:hasSupportType>
-        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</core:poseNumber>
-        <core:repeatsPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose03"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose11 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose11">
-        <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
-        <rdfs:label xml:lang="en">Variant03_Pose11</rdfs:label>
-        <rdfs:label xml:lang="hi">मुद्रा ११</rdfs:label>
-        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra"/>
-        <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Padahastasana"/>
-        <core:hasLaterality>Symmetric</core:hasLaterality>
-        <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose12"/>
-        <core:hasPreviousPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose10"/>
-        <core:hasSupportType>StandingBentTwoFeet</core:hasSupportType>
-        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</core:poseNumber>
-        <core:repeatsPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose02"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose12 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose12">
-        <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
-        <rdfs:label xml:lang="en">Variant03_Pose12</rdfs:label>
-        <rdfs:label xml:lang="hi">मुद्रा १२</rdfs:label>
-        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra"/>
-        <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pranamasana"/>
-        <core:hasLaterality>Symmetric</core:hasLaterality>
-        <core:hasPreviousPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose11"/>
-        <core:hasSupportType>StandingTwoFeet</core:hasSupportType>
-        <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</core:poseNumber>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra -->
-
-    <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra">
-        <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Variant"/>
-        <rdfs:comment>12 pose Swami Vivekananda Kendra Surya Namaskar.</rdfs:comment>
-        <rdfs:label xml:lang="en">Variant03_SwamiVivekanandaKendra</rdfs:label>
-        <rdfs:label xml:lang="hi">सूर्य नमस्कार (स्वामी विवेकानंद केंद्र)</rdfs:label>
-    </owl:NamedIndividual>
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:core="https://purl.org/ai4s/yoga/sn-yo/core#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#poseNumber">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose05">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
+    <rdfs:label xml:lang="en">Variant03_Pose05</rdfs:label>
+    <rdfs:label xml:lang="hi">मुद्रा ०५</rdfs:label>
+    <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra"/>
+    <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Shashankasana"/>
+    <core:hasLaterality>Symmetric</core:hasLaterality>
+    <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose06"/>
+    <core:hasPreviousPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose04"/>
+    <core:hasSupportType>Kneeling</core:hasSupportType>
+    <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</core:poseNumber>
+    <core:repeatsPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose09"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose12">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
+    <rdfs:label xml:lang="en">Variant03_Pose12</rdfs:label>
+    <rdfs:label xml:lang="hi">मुद्रा १२</rdfs:label>
+    <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra"/>
+    <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pranamasana"/>
+    <core:hasLaterality>Symmetric</core:hasLaterality>
+    <core:hasPreviousPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose11"/>
+    <core:hasSupportType>StandingTwoFeet</core:hasSupportType>
+    <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</core:poseNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose02">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
+    <rdfs:label xml:lang="en">Variant03_Pose02</rdfs:label>
+    <rdfs:label xml:lang="hi">मुद्रा ०२</rdfs:label>
+    <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra"/>
+    <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Padahastasana"/>
+    <core:hasLaterality>Symmetric</core:hasLaterality>
+    <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose03"/>
+    <core:hasPreviousPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose01"/>
+    <core:hasSupportType>StandingBentTwoFeet</core:hasSupportType>
+    <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</core:poseNumber>
+    <core:repeatsPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose08">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
+    <rdfs:label xml:lang="en">Variant03_Pose08</rdfs:label>
+    <rdfs:label xml:lang="hi">मुद्रा ०८</rdfs:label>
+    <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra"/>
+    <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Parvatasana"/>
+    <core:hasLaterality>Symmetric</core:hasLaterality>
+    <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose09"/>
+    <core:hasPreviousPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose07"/>
+    <core:hasSupportType>HandsAndFeet</core:hasSupportType>
+    <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</core:poseNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Variant"/>
+    <rdfs:comment>12 pose Swami Vivekananda Kendra Surya Namaskar.</rdfs:comment>
+    <rdfs:label xml:lang="en">Variant03_SwamiVivekanandaKendra</rdfs:label>
+    <rdfs:label xml:lang="hi">सूर्य नमस्कार (स्वामी विवेकानंद केंद्र)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose10">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
+    <rdfs:label xml:lang="en">Variant03_Pose10</rdfs:label>
+    <rdfs:label xml:lang="hi">मुद्रा १०</rdfs:label>
+    <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra"/>
+    <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#AshwaSanchalanasana_RightLegForward"/>
+    <core:hasInversePose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose03"/>
+    <core:hasLaterality>Left</core:hasLaterality>
+    <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose11"/>
+    <core:hasPreviousPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose09"/>
+    <core:hasSupportType>OneLegForward</core:hasSupportType>
+    <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</core:poseNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose04">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
+    <rdfs:label xml:lang="en">Variant03_Pose04</rdfs:label>
+    <rdfs:label xml:lang="hi">मुद्रा ०४</rdfs:label>
+    <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra"/>
+    <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Phalakasana"/>
+    <core:hasLaterality>Symmetric</core:hasLaterality>
+    <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose05"/>
+    <core:hasPreviousPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose03"/>
+    <core:hasSupportType>HandsAndFeet</core:hasSupportType>
+    <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</core:poseNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose03">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
+    <rdfs:label xml:lang="en">Variant03_Pose03</rdfs:label>
+    <rdfs:label xml:lang="hi">मुद्रा ०३</rdfs:label>
+    <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra"/>
+    <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#AshwaSanchalanasana_LeftLegForward"/>
+    <core:hasInversePose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose10"/>
+    <core:hasLaterality>Right</core:hasLaterality>
+    <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose04"/>
+    <core:hasPreviousPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose02"/>
+    <core:hasSupportType>OneLegForward</core:hasSupportType>
+    <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</core:poseNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose09">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
+    <rdfs:label xml:lang="en">Variant03_Pose09</rdfs:label>
+    <rdfs:label xml:lang="hi">मुद्रा ०९</rdfs:label>
+    <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra"/>
+    <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Shashankasana"/>
+    <core:hasLaterality>Symmetric</core:hasLaterality>
+    <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose10"/>
+    <core:hasPreviousPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose08"/>
+    <core:hasSupportType>Kneeling</core:hasSupportType>
+    <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</core:poseNumber>
+    <core:repeatsPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose05"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core"/>
+    <dc:description>Variant 03 ontology containing Swami Vivekananda Kendra variant individual, pose occurrences, and sequence relations.</dc:description>
+    <dc:title>Surya Namaskar Variant 03 Ontology</dc:title>
+    <rdfs:label xml:lang="en">Surya Namaskar Variant 03 Ontology</rdfs:label>
+    <rdfs:label xml:lang="hi">सूर्य नमस्कार प्रकार ०३ ऑन्टोलॉजी</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose01">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
+    <rdfs:label xml:lang="en">Variant03_Pose01</rdfs:label>
+    <rdfs:label xml:lang="hi">मुद्रा ०१</rdfs:label>
+    <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra"/>
+    <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#HastaUtthanasana"/>
+    <core:hasLaterality>Symmetric</core:hasLaterality>
+    <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose02"/>
+    <core:hasSupportType>StandingTwoFeet</core:hasSupportType>
+    <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</core:poseNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose06">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
+    <rdfs:label xml:lang="en">Variant03_Pose06</rdfs:label>
+    <rdfs:label xml:lang="hi">मुद्रा ०६</rdfs:label>
+    <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra"/>
+    <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#ShashtangaNamaskara"/>
+    <core:hasLaterality>Symmetric</core:hasLaterality>
+    <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose07"/>
+    <core:hasPreviousPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose05"/>
+    <core:hasSupportType>SixPointSupport</core:hasSupportType>
+    <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</core:poseNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose07">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
+    <rdfs:label xml:lang="en">Variant03_Pose07</rdfs:label>
+    <rdfs:label xml:lang="hi">मुद्रा ०७</rdfs:label>
+    <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra"/>
+    <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Bhujangasana"/>
+    <core:hasLaterality>Symmetric</core:hasLaterality>
+    <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose08"/>
+    <core:hasPreviousPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose06"/>
+    <core:hasSupportType>Prone</core:hasSupportType>
+    <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</core:poseNumber>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose11">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
+    <rdfs:label xml:lang="en">Variant03_Pose11</rdfs:label>
+    <rdfs:label xml:lang="hi">मुद्रा ११</rdfs:label>
+    <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_SwamiVivekanandaKendra"/>
+    <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Padahastasana"/>
+    <core:hasLaterality>Symmetric</core:hasLaterality>
+    <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose12"/>
+    <core:hasPreviousPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose10"/>
+    <core:hasSupportType>StandingBentTwoFeet</core:hasSupportType>
+    <core:poseNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</core:poseNumber>
+    <core:repeatsPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03#Variant03_Pose02"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#belongsToVariant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#repeatsPose">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#hasSupportType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#hasInversePose">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#hasNextPose">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#hasAsana">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#hasPreviousPose">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#hasLaterality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
 </rdf:RDF>
-
-
-
-<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
-
