@@ -687,14 +687,53 @@
     
 
 
-    <!-- https://purl.org/ai4s/yoga/sn-yo/core#AshwaSanchalanasana -->
+    <!-- https://purl.org/ai4s/yoga/sn-yo/core#AshwaSanchalanasana_LeftLegForward -->
 
-    <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#AshwaSanchalanasana">
+    <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#AshwaSanchalanasana_LeftLegForward">
         <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Asana"/>
         <hasAlternateName>Ashwa Sanchalan-asana</hasAlternateName>
         <hasAlternateName>Ashwasanchalanasana</hasAlternateName>
         <hasAlternateName>Equestrian pose</hasAlternateName>
-        <rdfs:label xml:lang="en">Ashwa Sanchalanasana</rdfs:label>
+        <rdfs:label xml:lang="en">Ashwa Sanchalanasana (left leg forward)</rdfs:label>
+        <rdfs:label xml:lang="ar">أشوا سانشالاناسانا</rdfs:label>
+        <rdfs:label xml:lang="zh">骑马式</rdfs:label>
+        <rdfs:label xml:lang="fr">Ashwa Sanchalanasana</rdfs:label>
+        <rdfs:label xml:lang="ru">Ашва Санчаланасана</rdfs:label>
+        <rdfs:label xml:lang="es">Ashwa Sanchalanasana</rdfs:label>
+        <rdfs:label xml:lang="ks">اشو سنچلناسن</rdfs:label>
+        <rdfs:label xml:lang="sd">اشو سنچلناسن</rdfs:label>
+        <rdfs:label xml:lang="ur">اشو سنچلناسن</rdfs:label>
+        <rdfs:label xml:lang="brx">अश्व संचलनासन</rdfs:label>
+        <rdfs:label xml:lang="doi">अश्व संचलनासन</rdfs:label>
+        <rdfs:label xml:lang="hi">अश्व संचलनासन</rdfs:label>
+        <rdfs:label xml:lang="kok">अश्व संचलनासन</rdfs:label>
+        <rdfs:label xml:lang="mai">अश्व संचलनासन</rdfs:label>
+        <rdfs:label xml:lang="mr">अश्व संचलनासन</rdfs:label>
+        <rdfs:label xml:lang="ne">अश्व संचलनासन</rdfs:label>
+        <rdfs:label xml:lang="sa">अश्व संचलनासन</rdfs:label>
+        <rdfs:label xml:lang="bn">অশ্ব সঞ্চলনাসন</rdfs:label>
+        <rdfs:label xml:lang="as">অশ্ৱ সঞ্চলনাসন</rdfs:label>
+        <rdfs:label xml:lang="pa">ਅਸ਼੍ਵ ਸੰਚਲਨਾਸਨ</rdfs:label>
+        <rdfs:label xml:lang="gu">અશ્વ સંચલનાસન</rdfs:label>
+        <rdfs:label xml:lang="or">ଅଶ୍ୱ ସଞ୍ଚଲନାସନ</rdfs:label>
+        <rdfs:label xml:lang="ta">அஷ்வ ஸஞ்சலனாசனம்</rdfs:label>
+        <rdfs:label xml:lang="te">అశ్వ సంచలనాసనం</rdfs:label>
+        <rdfs:label xml:lang="kn">ಅಶ್ವ ಸಂಚಲನಾಸನ</rdfs:label>
+        <rdfs:label xml:lang="ml">അശ്വ സഞ്ചലനാസനം</rdfs:label>
+        <rdfs:label xml:lang="sat">ᱚᱥᱣᱚ ᱥᱚᱝᱪᱚᱞᱚᱱᱟᱥᱚᱱᱚ</rdfs:label>
+        <rdfs:label xml:lang="mni">ꯑꯁ꯭ꯋ ꯁꯪꯆꯂꯅꯥꯁꯅ</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.org/ai4s/yoga/sn-yo/core#AshwaSanchalanasana_RightLegForward -->
+
+    <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/core#AshwaSanchalanasana_RightLegForward">
+        <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Asana"/>
+        <hasAlternateName>Ashwa Sanchalan-asana</hasAlternateName>
+        <hasAlternateName>Ashwasanchalanasana</hasAlternateName>
+        <hasAlternateName>Equestrian pose</hasAlternateName>
+        <rdfs:label xml:lang="en">Ashwa Sanchalanasana (right leg forward)</rdfs:label>
         <rdfs:label xml:lang="ar">أشوا سانشالاناسانا</rdfs:label>
         <rdfs:label xml:lang="zh">骑马式</rdfs:label>
         <rdfs:label xml:lang="fr">Ashwa Sanchalanasana</rdfs:label>
