@@ -19,7 +19,7 @@
     <dc:description>Ontology for modeling Surya Namaskar sequences, variants, breathing patterns, contextual attributes, and correction knowledge.</dc:description>
 
     <owl:versionIRI rdf:resource="https://purl.org/ai4s/yoga/sn-yo/ontology"/>
-    <owl:versionInfo>1.0</owl:versionInfo>
+    <owl:versionInfo>2.0</owl:versionInfo>
     <mod:status>published</mod:status>
 
     <vann:preferredNamespacePrefix>snyo</vann:preferredNamespacePrefix>
