@@ -8,7 +8,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:core="https://purl.org/ai4s/yoga/sn-yo/core#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="https://purl.org/ai4s/yoga/sn-yo/ontology/v01">
+    <owl:Ontology rdf:about="https://purl.org/ai4s/yoga/sn-yo/ontology/v01"/>
         <dc:description>Ontology for modeling Surya Namaskar sequences and correction knowledge.</dc:description>
         <dc:title>SN-YO Ontology</dc:title>
         <dc:creator>Mansi Dodiya, IIT (BHU), Varanasi, India</dc:creator>
