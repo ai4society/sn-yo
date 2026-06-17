@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://purl.org/ai4s/yoga/sn-yo/ontology#"
-     xml:base="https://purl.org/ai4s/yoga/sn-yo/ontology"
+     xml:base="https://purl.org/ai4s/yoga/sn-yo/ontology/v01"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
