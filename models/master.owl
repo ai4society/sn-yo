@@ -28,7 +28,7 @@
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-05</dcterms:created>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-05</dcterms:issued>
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-17</dcterms:modified>
-    <dcterms:publisher>AI4Society</dcterms:publisher>
+    <dcterms:publisher>SN-YO Project</dcterms:publisher>
     <dcterms:bibliographicCitation>SN-YO: An Ontology for Modeling Surya Namaskar as a Sequence-Based Yoga Practice.</dcterms:bibliographicCitation>
     <dcterms:source>Common Yoga Protocol, documented Surya Namaskar literature, and feedback from yoga instructors and practitioners.</dcterms:source>
     <dcterms:license rdf:resource="https://opensource.org/licenses/MIT"/>
