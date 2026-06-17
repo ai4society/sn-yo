@@ -12,11 +12,6 @@
      xmlns:cc="http://creativecommons.org/ns#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
 <owl:Ontology rdf:about="https://purl.org/ai4s/yoga/sn-yo/ontology">
-    <!-- <owl:imports rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core"/> -->
-    <!-- <owl:imports rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn"/> -->
-    <!-- <owl:imports rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant01"/> -->
-    <!-- <owl:imports rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant02"/> -->
-    <!-- <owl:imports rdf:resource="https://purl.org/ai4s/yoga/sn-yo/variant03"/> -->
 
     <dc:title>SN-YO Ontology</dc:title>
     <dc:description>Ontology for modeling Surya Namaskar sequences, variants, breathing patterns, contextual attributes, and correction knowledge.</dc:description>
