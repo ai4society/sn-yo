@@ -227,7 +227,7 @@
         <div class="glass-panel variant-panel" style="padding: 24px;">
           <h3 style="margin-top: 0;">Variants Represented</h3>
           <div class="variant-tags">
-            <span class="tag">BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</span>
+            <span class="tag">BaseSN_SivanandaYogaVedantaCentre</span>
             <span class="tag">Variant01_KrishnamacharyaVinyasa</span>
             <span class="tag">Variant02_BiharSchoolOfYoga</span>
             <span class="tag">Variant03_SwamiVivekanandaKendra</span>
@@ -305,7 +305,7 @@ PREFIX v3: &lt;https://purl.org/ai4s/yoga/sn-yo/variant03#&gt;
 SELECT ?pose
 WHERE {
   ?pose rdf:type core:Pose ;
-        core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU .
+        core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre .
 }
 ORDER BY ?pose</code></pre>
             </div>
@@ -351,7 +351,7 @@ PREFIX v3: &lt;https://purl.org/ai4s/yoga/sn-yo/variant03#&gt;
 SELECT (COUNT(?pose) AS ?count)
 WHERE {
   ?pose rdf:type core:Pose ;
-        core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU .
+        core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre .
 }</code></pre>
             </div>
             <div class="data-box">
@@ -384,7 +384,7 @@ PREFIX v3: &lt;https://purl.org/ai4s/yoga/sn-yo/variant03#&gt;
 SELECT ?pose
 WHERE {
   ?pose rdf:type core:Pose ;
-        core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU ;
+        core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre ;
         core:hasSupportType "StandingTwoFeet" .
 }
 ORDER BY ?pose</code></pre>
@@ -421,7 +421,7 @@ PREFIX v2: &lt;https://purl.org/ai4s/yoga/sn-yo/variant02#&gt;
 PREFIX v3: &lt;https://purl.org/ai4s/yoga/sn-yo/variant03#&gt;
 SELECT ?pose ?repeatedPose
 WHERE {
-  ?pose core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU ;
+  ?pose core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre ;
         core:repeatsPose ?repeatedPose ;
         core:poseNumber ?poseNum .
 
@@ -463,7 +463,7 @@ PREFIX v3: &lt;https://purl.org/ai4s/yoga/sn-yo/variant03#&gt;
 
 SELECT ?pose ?inversePose
 WHERE {
-?pose core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU ;
+?pose core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre ;
 core:hasInversePose ?inversePose ;
 core:poseNumber ?poseNum .
 
@@ -549,7 +549,7 @@ PREFIX v2: &lt;https://purl.org/ai4s/yoga/sn-yo/variant02#&gt;
 PREFIX v3: &lt;https://purl.org/ai4s/yoga/sn-yo/variant03#&gt;
 SELECT ?pose ?nextPose
 WHERE {
-  ?pose core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU ;
+  ?pose core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre ;
         core:hasNextPose ?nextPose .
 }
 ORDER BY ?pose</code></pre>
@@ -594,7 +594,7 @@ PREFIX v3: &lt;https://purl.org/ai4s/yoga/sn-yo/variant03#&gt;
 
 SELECT ?pose ?asana ?error ?instruction
 WHERE {
-  ?pose core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU ;
+  ?pose core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre ;
         core:hasAsana ?asana ;
         core:hasPossibleError ?error .
 
@@ -713,7 +713,7 @@ PREFIX v3: &lt;https://purl.org/ai4s/yoga/sn-yo/variant03#&gt;
 SELECT ?poseNumber ?pose ?asana ?breathing ?safetyNote
 WHERE {
   ?pose rdf:type core:Pose ;
-        core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU ;
+        core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre ;
         core:poseNumber ?poseNumber ;
         core:hasAsana ?asana ;
         core:hasBreathingPattern ?breathing ;
@@ -865,31 +865,31 @@ ORDER BY ?asana ?variant</code></pre>
         </thead>
         <tbody>
           <tr><td>Adho Mukha Svanasana</td><td>Variant01_KrishnamacharyaVinyasa</td><td>9</td></tr>
-          <tr><td>Ashtanga Namaskara</td><td>BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</td><td>6</td></tr>
+          <tr><td>Ashtanga Namaskara</td><td>BaseSN_SivanandaYogaVedantaCentre</td><td>6</td></tr>
           <tr><td>Ashtanga Namaskara</td><td>Variant02_BiharSchoolOfYoga</td><td>6</td></tr>
-          <tr><td>Ashwa Sanchalanasana(right leg forward)</td><td>BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</td><td>4</td></tr>
+          <tr><td>Ashwa Sanchalanasana(right leg forward)</td><td>BaseSN_SivanandaYogaVedantaCentre</td><td>4</td></tr>
           <tr><td>Ashwa Sanchalanasana(right leg forward)</td><td>Variant02_BiharSchoolOfYoga</td><td>4</td></tr>
           <tr><td>Ashwa Sanchalanasana(right leg forward)</td><td>Variant03_SwamiVivekanandaKendra</td><td>3</td></tr>
-          <tr><td>Ashwa Sanchalanasana(left leg forward)</td><td>BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</td><td>9</td></tr>
+          <tr><td>Ashwa Sanchalanasana(left leg forward)</td><td>BaseSN_SivanandaYogaVedantaCentre</td><td>9</td></tr>
           <tr><td>Ashwa Sanchalanasana(left leg forward)</td><td>Variant02_BiharSchoolOfYoga</td><td>9</td></tr>
           <tr><td>Ashwa Sanchalanasana(left leg forward)</td><td>Variant03_SwamiVivekanandaKendra</td><td>10</td></tr>
-          <tr><td>Bhujangasana</td><td>BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</td><td>7</td></tr>
+          <tr><td>Bhujangasana</td><td>BaseSN_SivanandaYogaVedantaCentre</td><td>7</td></tr>
           <tr><td>Bhujangasana</td><td>Variant02_BiharSchoolOfYoga</td><td>7</td></tr>
           <tr><td>Bhujangasana</td><td>Variant03_SwamiVivekanandaKendra</td><td>7</td></tr>
-          <tr><td>Chaturanga Dandasana</td><td>BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</td><td>5</td></tr>
+          <tr><td>Chaturanga Dandasana</td><td>BaseSN_SivanandaYogaVedantaCentre</td><td>5</td></tr>
           <tr><td>Chaturanga Dandasana</td><td>Variant01_KrishnamacharyaVinyasa</td><td>5, 7</td></tr>
           <tr><td>Danda Samarpana</td><td>Variant01_KrishnamacharyaVinyasa</td><td>6</td></tr>
-          <tr><td>Hasta Utthanasana</td><td>BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</td><td>2, 11</td></tr>
+          <tr><td>Hasta Utthanasana</td><td>BaseSN_SivanandaYogaVedantaCentre</td><td>2, 11</td></tr>
           <tr><td>Hasta Utthanasana</td><td>Variant02_BiharSchoolOfYoga</td><td>2, 11</td></tr>
           <tr><td>Hasta Utthanasana</td><td>Variant03_SwamiVivekanandaKendra</td><td>1</td></tr>
-          <tr><td>Padahastasana</td><td>BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</td><td>10, 3</td></tr>
+          <tr><td>Padahastasana</td><td>BaseSN_SivanandaYogaVedantaCentre</td><td>10, 3</td></tr>
           <tr><td>Padahastasana</td><td>Variant02_BiharSchoolOfYoga</td><td>10, 3</td></tr>
           <tr><td>Padahastasana</td><td>Variant03_SwamiVivekanandaKendra</td><td>2, 11</td></tr>
-          <tr><td>Parvatasana</td><td>BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</td><td>8</td></tr>
+          <tr><td>Parvatasana</td><td>BaseSN_SivanandaYogaVedantaCentre</td><td>8</td></tr>
           <tr><td>Parvatasana</td><td>Variant02_BiharSchoolOfYoga</td><td>8, 5</td></tr>
           <tr><td>Parvatasana</td><td>Variant03_SwamiVivekanandaKendra</td><td>8</td></tr>
           <tr><td>Phalakasana</td><td>Variant03_SwamiVivekanandaKendra</td><td>4</td></tr>
-          <tr><td>Pranamasana</td><td>BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</td><td>1, 12</td></tr>
+          <tr><td>Pranamasana</td><td>BaseSN_SivanandaYogaVedantaCentre</td><td>1, 12</td></tr>
           <tr><td>Pranamasana</td><td>Variant02_BiharSchoolOfYoga</td><td>1, 12</td></tr>
           <tr><td>Pranamasana</td><td>Variant03_SwamiVivekanandaKendra</td><td>12</td></tr>
           <tr><td>Samasthiti</td><td>Variant01_KrishnamacharyaVinyasa</td><td>1, 13</td></tr>
@@ -952,7 +952,7 @@ ORDER BY ?variant</code></pre>
         </thead>
         <tbody>
           <tr>
-            <td>BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</td>
+            <td>BaseSN_SivanandaYogaVedantaCentre</td>
             <td>12</td>
             <td>9</td>
             <td>Padahastasana, Bhujangasana, Pranamasana, AshwaSanchalanasana(right leg forward), AshwaSanchalanasana(left leg forward), Parvatasana, ChaturangaDandasana, HastaUtthanasana, AshtangaNamaskara</td>
@@ -1003,7 +1003,7 @@ SELECT ?bodyPart
        (GROUP_CONCAT(DISTINCT STR(?pose); separator=", ") AS ?poses)
 WHERE {
   ?pose rdf:type core:Pose ;
-        core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU ;
+        core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre ;
         core:involvesBodyPart ?bodyPart .
 }
 GROUP BY ?bodyPart
@@ -1066,7 +1066,7 @@ SELECT ?chakra
        (GROUP_CONCAT(DISTINCT STR(?asana); separator=", ") AS ?asanas)
 WHERE {
   ?pose rdf:type core:Pose ;
-        core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU ;
+        core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre ;
         core:hasChakra ?chakra ;
         core:hasAsana ?asana .
 }
@@ -1142,7 +1142,7 @@ PREFIX v3: &lt;https://purl.org/ai4s/yoga/sn-yo/variant03#&gt;
 SELECT ?pose ?poseNumber ?asana ?mantra
 WHERE {
   ?pose rdf:type core:Pose ;
-        core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU ;
+        core:belongsToVariant base:BaseSN_SivanandaYogaVedantaCentre ;
         core:poseNumber ?poseNumber ;
         core:hasAsana ?asana ;
         core:hasMantra ?mantra .
