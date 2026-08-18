@@ -12,7 +12,6 @@
      xmlns:cc="http://creativecommons.org/ns#"
      xmlns:mod="https://w3id.org/mod#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-
 <owl:Ontology rdf:about="https://purl.org/ai4s/yoga/sn-yo/ontology">
     <owl:imports rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core"/>
 
@@ -29,14 +28,21 @@
     <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-05</dcterms:created>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-05</dcterms:issued>
     <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-17</dcterms:modified>
-
     <dcterms:publisher>SN-YO Project</dcterms:publisher>
-
     <dcterms:bibliographicCitation>SN-YO: An Ontology for Modeling Surya Namaskar as a Sequence-Based Yoga Practice.</dcterms:bibliographicCitation>
-
     <dcterms:source>Common Yoga Protocol, documented Surya Namaskar literature, and feedback from yoga instructors and practitioners.</dcterms:source>
-
     <dcterms:license rdf:resource="https://opensource.org/licenses/MIT"/>
+
+    <dc:creator>Mansi Dodiya, IIT (BHU), Varanasi, India</dc:creator>
+    <dc:creator>Kishan Kumar, IIT (BHU), Varanasi, India</dc:creator>
+    <dc:creator>Bharath Muppasani, University of South Carolina, USA</dc:creator>
+    <dc:creator>Biplav Srivastava, University of South Carolina, USA</dc:creator>
+    <dc:creator>Raghava Mutharaju, Mehta Family School of Data Science and AI, IIT Palakkad, India</dc:creator>
+    <dc:creator>Hari Prabhat Gupta, IIT (BHU), Varanasi, India</dc:creator>
+
+    <rdfs:seeAlso rdf:resource="https://ai4society.github.io/sn-yo/"/>
+    <rdfs:seeAlso rdf:resource="https://github.com/ai4society/sn-yo"/>
+    <rdfs:seeAlso rdf:resource="https://ai4society.github.io/sn-yo/docs/ontology-doc.html"/>
 </owl:Ontology>
     
 
@@ -603,7 +609,7 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_Pose01">
         <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
-        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre"/>
+        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU"/>
         <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pranamasana"/>
         <core:hasBreathingPattern rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Exhale"/>
         <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_Pose02"/>
@@ -634,7 +640,7 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_Pose02">
         <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
-        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre"/>
+        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU"/>
         <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#HastaUtthanasana"/>
         <core:hasBreathingPattern rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Inhale"/>
         <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_Pose03"/>
@@ -666,7 +672,7 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_Pose03">
         <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
-        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre"/>
+        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU"/>
         <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Padahastasana"/>
         <core:hasBreathingPattern rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Exhale"/>
         <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_Pose04"/>
@@ -697,7 +703,7 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_Pose04">
         <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
-        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre"/>
+        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU"/>
         <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#AshwaSanchalanasana_RightLegForward"/>
         <core:hasBreathingPattern rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Inhale"/>
         <core:hasInversePose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_Pose09"/>
@@ -728,7 +734,7 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_Pose05">
         <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
-        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre"/>
+        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU"/>
         <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#ChaturangaDandasana"/>
         <core:hasBreathingPattern rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Hold"/>
         <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_Pose06"/>
@@ -758,7 +764,7 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_Pose06">
         <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
-        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre"/>
+        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU"/>
         <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#AshtangaNamaskara"/>
         <core:hasBreathingPattern rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Exhale"/>
         <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_Pose07"/>
@@ -788,7 +794,7 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_Pose07">
         <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
-        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre"/>
+        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU"/>
         <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Bhujangasana"/>
         <core:hasBreathingPattern rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Inhale"/>
         <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_Pose08"/>
@@ -817,7 +823,7 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_Pose08">
         <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
-        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre"/>
+        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU"/>
         <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Parvatasana"/>
         <core:hasBreathingPattern rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Exhale"/>
         <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_Pose09"/>
@@ -847,7 +853,7 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_Pose09">
         <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
-        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre"/>
+        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU"/>
         <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#AshwaSanchalanasana_LeftLegForward"/>
         <core:hasBreathingPattern rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Inhale"/>
         <core:hasInversePose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_Pose04"/>
@@ -878,7 +884,7 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_Pose10">
         <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
-        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre"/>
+        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU"/>
         <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Padahastasana"/>
         <core:hasBreathingPattern rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Exhale"/>
         <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_Pose11"/>
@@ -906,7 +912,7 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_Pose11">
         <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
-        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre"/>
+        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU"/>
         <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#HastaUtthanasana"/>
         <core:hasBreathingPattern rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Inhale"/>
         <core:hasNextPose rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_Pose12"/>
@@ -934,7 +940,7 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_Pose12">
         <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pose"/>
-        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre"/>
+        <core:belongsToVariant rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU"/>
         <core:hasAsana rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Pranamasana"/>
         <core:hasBreathingPattern rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Exhale"/>
         <core:hasPossibleError rdf:resource="https://purl.org/ai4s/yoga/sn-yo/base-sn#CollapsedPostureError"/>
@@ -957,12 +963,12 @@
     
 
 
-    <!-- https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre -->
+    <!-- https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU -->
 
-    <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre">
+    <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU">
         <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Variant"/>
-        <rdfs:comment>Base 12 pose Surya Namaskar sequence, based on the Sivananda Yoga Vedanta Centre tradition.</rdfs:comment>
-        <rdfs:label xml:lang="en">BaseSN_SivanandaYogaVedantaCentre</rdfs:label>
+        <rdfs:comment>Base 12 pose Surya Namaskar sequence used at IIT BHU, based on the Sivananda Yoga Vedanta Centre tradition.</rdfs:comment>
+        <rdfs:label xml:lang="en">BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</rdfs:label>
         <rdfs:label xml:lang="hi">सूर्य नमस्कार (शिवानंद योग वेदांत केंद्र)</rdfs:label>
     </owl:NamedIndividual>
     
