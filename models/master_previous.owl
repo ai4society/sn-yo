@@ -8,15 +8,9 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:core="https://purl.org/ai4s/yoga/sn-yo/core#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="https://purl.org/ai4s/yoga/sn-yo/ontology/v01"/>
+    <owl:Ontology rdf:about="https://purl.org/ai4s/yoga/sn-yo/ontology/v01">
         <dc:description>Ontology for modeling Surya Namaskar sequences and correction knowledge.</dc:description>
         <dc:title>SN-YO Ontology</dc:title>
-        <dc:creator>Mansi Dodiya, IIT (BHU), Varanasi, India</dc:creator>
-        <dc:creator>Kishan Kumar, IIT (BHU), Varanasi, India</dc:creator>
-        <dc:creator>Bharath Muppasani, University of South Carolina, USA</dc:creator>
-        <dc:creator>Biplav Srivastava, University of South Carolina, USA</dc:creator>
-        <dc:creator>Raghava Mutharaju, Mehta Family School of Data Science and AI, IIT Palakkad, India</dc:creator>
-        <dc:creator>Hari Prabhat Gupta, IIT (BHU), Varanasi, India</dc:creator>
     </owl:Ontology>
     
 
@@ -941,7 +935,7 @@
 
     <owl:NamedIndividual rdf:about="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU">
         <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Variant"/>
-        <rdfs:comment>Base 12 pose Surya Namaskar sequence used at IIT BHU, based on the Sivananda Yoga Vedanta Centre tradition.</rdfs:comment>
+        <rdfs:comment>Base 12 pose Surya Namaskar sequence based on the Sivananda Yoga Vedanta Centre tradition.</rdfs:comment>
         <rdfs:label xml:lang="en">BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</rdfs:label>
         <rdfs:label xml:lang="hi">सूर्य नमस्कार (शिवानंद योग वेदांत केंद्र)</rdfs:label>
     </owl:NamedIndividual>
