@@ -482,7 +482,7 @@
   <rdf:Description rdf:about="https://purl.org/ai4s/yoga/sn-yo/base-sn#BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="https://purl.org/ai4s/yoga/sn-yo/core#Variant"/>
-    <rdfs:comment>Base 12 pose Surya Namaskar sequence used at IIT BHU, based on the Sivananda Yoga Vedanta Centre tradition.</rdfs:comment>
+    <rdfs:comment>Base 12 pose Surya Namaskar sequence based on the Sivananda Yoga Vedanta Centre tradition.</rdfs:comment>
     <rdfs:label xml:lang="en">BaseSN_SivanandaYogaVedantaCentre_UsedatIITBHU</rdfs:label>
     <rdfs:label xml:lang="hi">सूर्य नमस्कार (शिवानंद योग वेदांत केंद्र)</rdfs:label>
   </rdf:Description>
