@@ -32,17 +32,6 @@
     <dcterms:bibliographicCitation>SN-YO: An Ontology for Modeling Surya Namaskar as a Sequence-Based Yoga Practice.</dcterms:bibliographicCitation>
     <dcterms:source>Common Yoga Protocol, documented Surya Namaskar literature, and feedback from yoga instructors and practitioners.</dcterms:source>
     <dcterms:license rdf:resource="https://opensource.org/licenses/MIT"/>
-
-    <dc:creator>Mansi Dodiya, IIT (BHU), Varanasi, India</dc:creator>
-    <dc:creator>Kishan Kumar, IIT (BHU), Varanasi, India</dc:creator>
-    <dc:creator>Bharath Muppasani, University of South Carolina, USA</dc:creator>
-    <dc:creator>Biplav Srivastava, University of South Carolina, USA</dc:creator>
-    <dc:creator>Raghava Mutharaju, Mehta Family School of Data Science and AI, IIT Palakkad, India</dc:creator>
-    <dc:creator>Hari Prabhat Gupta, IIT (BHU), Varanasi, India</dc:creator>
-
-    <rdfs:seeAlso rdf:resource="https://ai4society.github.io/sn-yo/"/>
-    <rdfs:seeAlso rdf:resource="https://github.com/ai4society/sn-yo"/>
-    <rdfs:seeAlso rdf:resource="https://ai4society.github.io/sn-yo/docs/ontology-doc.html"/>
 </owl:Ontology>
     
 
