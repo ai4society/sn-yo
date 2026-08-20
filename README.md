@@ -1,5 +1,7 @@
 # SN-YO: Surya Namaskar Yoga Ontology
 
+> **Note:** This is a temporary repository prepared for anonymous review. Some URLs have been anonymized and may therefore not work in this version. After acceptance, the regular repository with the complete working URLs will be provided.
+
 SN-YO is a Semantic Web ontology for representing Surya Namaskar
 (Sun Salutation) yoga knowledge. It models asanas, pose occurrences,
 sequence variants, breathing patterns, mantras, chakras, body-part
